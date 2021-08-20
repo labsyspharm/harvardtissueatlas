@@ -1,0 +1,13 @@
+{% assign graphicId = '/graphics/' | append: include.content %}
+{% assign graphic = site.graphics | where: 'id', graphicId | first %}
+
+<figure>
+    <img srcset="{{ site.imgbaseurl }}{{ graphic.image }}?w=768 768w,
+        {{ site.imgbaseurl }}{{ graphic.image }}?w=1050 1050w"
+     sizes="(max-width: 768px) 100vw,
+            1050px"
+     src="{{ site.imgbaseurl }}{{ graphic.image }}?w=1050"
+     alt="{{ graphic.title }}"
+     {% if graphic.bordered %}class="graphic__bordered-img"{% endif %}>
+    <figcaption><span class="graphic__title">{{ graphic.title }}</span> {{ graphic.content | markdownify }}</figcaption>
+</figure>

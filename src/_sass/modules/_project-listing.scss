@@ -1,0 +1,77 @@
+.project-listing {
+    padding-bottom:2em;
+    margin-bottom:2em;
+    border-bottom:2px solid $color_dark-blue;
+
+    &:last-child {
+        border-bottom:none;
+    }
+}
+.project-listing__heading {
+    @extend %heading-style-2;
+    margin:0 0 .1em;
+    color:$color_blue;
+    line-height:1.3;
+
+    @include breakpoint(desktop) {
+        @include font-size(25px); 
+    }
+}
+.project-listing__title {
+    color: $color_dark-blue;
+    text-transform: none;
+    margin-top:0;
+    margin-bottom:1.1em;
+    line-height:1.3;
+    @include breakpoint(desktop) {
+        @include font-size(25px); 
+    }
+}
+.project-listing__secondary-heading {
+    text-transform:uppercase;
+    color:$color_dark-blue;
+    font-weight:700;
+}
+.project-listing__status {
+    margin-bottom:1.4em;
+}
+.project-listing__abstract {
+    margin-bottom:1.4em;
+}
+
+// Images -----------------------------------------------------------
+
+.project-listing__thumb {
+    margin-right:40px;
+    display:inline-block;
+    text-align:center;
+
+    &:last-child {
+        margin-right:0;
+    }
+}
+.project-listing__thumb-label {
+    display:block;
+    text-transform:uppercase;
+    margin:.2em 0 1em;
+    @include font-size(14px);
+    
+    @include breakpoint(desktop) {
+        @include font-size(16px);
+    }
+}
+
+// Related Links ----------------------------------------------------
+
+.project-listing__related-links {
+    margin-top:.5em;
+}
+.project-listing__related-links-list {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.project-listing__related-links-item {
+    padding:0;
+    margin:0 0 .5em;
+}

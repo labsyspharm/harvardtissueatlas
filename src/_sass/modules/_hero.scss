@@ -1,0 +1,95 @@
+section.hero {
+    position:relative;
+    padding:0;
+}
+// .hero__container {
+
+// }
+
+.hero__image {
+    width:100%;
+    padding-top: $header_height_mobile;
+    min-height: 280px;
+    box-sizing:content-box;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    transition:all 0.2s $ease-out-quad;
+    @include background-image($heroImage, 768, 480, 'crop', 25);
+    
+    @include breakpoint(mobile-h) {
+        min-height: 340px;
+    }
+    @include breakpoint(tablet-v) {
+        @include background-image($heroImage, 1200, 520, 'crop', 25);
+        min-height: 400px;
+    }
+    @include breakpoint(desktop) {
+        padding-top: $header_height_tablet;
+    }
+    @include breakpoint(desktop-l) {
+        @include background-image($heroImage, 1800, 540, 'crop', 25);
+    }
+    @include breakpoint(desktop-xxl) {
+        @include background-image($heroImage, 1920, 740, 'crop', 25);
+        padding-top: $header_height_desktop;
+        min-height: 530px;
+    }
+}
+
+.hero__text-container {
+    @extend %container;
+    padding:30px 0;
+    width:100%;
+
+    @include breakpoint(mobile-h) {
+        padding:40px 0;
+    }
+    @include breakpoint(tablet-v) {
+        padding:60px 0;
+    }
+    @include breakpoint(desktop-l) {
+        padding:100px 0;
+    }
+}
+.hero__text {
+    background-color:rgba(196,18,48,0.8);
+    max-width:520px;
+    padding:16px 16px;
+    margin:0;
+    box-sizing:border-box;
+
+    @include breakpoint(desktop) {
+        max-width:550px;
+        padding:30px 36px;
+    }
+    @include breakpoint(desktop-xxl) {
+        max-width:590px;
+    }
+
+    a {
+        color:$color_white;
+
+        &:hover {
+            color:$color_light-blue;
+        }
+
+        &:after {
+            @include font-size(24px);
+            color:$color_white;
+            left:5px;
+        }
+        &:hover:after {
+            left: 20px;
+        }
+    }
+}
+.hero__text h1 {
+    position:relative;
+    @extend %heading-style-callout;
+    
+    color:$color-white;
+    text-align:left;
+    margin:0;
+}

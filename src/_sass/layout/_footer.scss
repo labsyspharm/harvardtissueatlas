@@ -1,0 +1,62 @@
+//-------------------------------------------------------------------
+// Site Footer
+//-------------------------------------------------------------------
+.site-footer {
+    background:$color_dark-gray;
+}
+.site-footer__main {
+    @extend %container-wide;
+    @extend %text-style-3;
+    color: $color_white;
+    padding-top:58px;
+    padding-bottom:2px;
+}
+.site-footer__logo-list {
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+
+    @include breakpoint(desktop-l) {
+        text-align:left;
+    }
+}
+.site-footer__logo-item {
+    margin-bottom:55px;
+    margin-left:30px;
+    margin-right:30px;
+    padding:0;
+    text-align:center;
+    display:block;
+    transition:margin 0.2s $ease-out-quad;
+
+    img {
+        max-width:100%;
+    }
+
+    @include breakpoint(tablet-v) {
+        display:inline-block;
+    }
+    @include breakpoint(desktop-l) {
+        margin-left:0;
+        margin-right:30px;
+
+        &:last-child {
+            margin-right:0;
+        }
+    }
+    @include breakpoint("min-width:1300px") {
+        margin-right:50px;
+
+        &:last-child {
+            margin-right:0;
+        }
+    }
+    @include breakpoint(desktop-xl) {
+        margin-right:70px;
+
+        &:last-child {
+            margin-right:0;
+        }
+    }
+}

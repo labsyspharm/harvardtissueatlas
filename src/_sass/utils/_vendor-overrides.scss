@@ -1,0 +1,189 @@
+// ------------------------------------------------------------------
+// SLICK CAROUSEL variable overrides
+// See '_menu-slider.scss' for additional customizations
+// ------------------------------------------------------------------
+
+// Slick icon entity codes outputs the following
+// "\2190" outputs ascii character "←"
+// "\2192" outputs ascii character "→"
+// "\2022" outputs ascii character "•"
+
+/* $slick-font-path: "/wp-content/themes/crs/fonts/";
+$slick-font-family: "fontello";
+$slick-loader-path: "/wp-content/themes/crs/img/";     // filename: ajax-loader.gif
+$slick-arrow-color: $color_red;
+$slick-dot-color: $color_red;
+$slick-dot-color-active: $color_red;
+$slick-prev-character: "\e800";
+$slick-next-character: "\e801";
+$slick-dot-character: "\e80d";
+$slick-dot-size: 18px;
+$slick-opacity-default: 1;
+$slick-opacity-on-hover: 1;
+$slick-opacity-not-active: 1; */
+
+//-------------------------------------------------------------------
+// Lity CSS Overrides
+//-------------------------------------------------------------------
+/*
+.lity {
+    background:rgba(255,255,255,0.9) !important;
+    // background:rgba(0,0,0,0.65) !important;
+}
+button.lity-close {
+    // position:relative;
+    text-shadow:none !important;
+    font-size:0 !important;
+
+    &::after {
+        @extend %icon-font;
+        @include font-size(18px);
+        left:0;
+        top:20%;
+        position:absolute;
+        content:"\E804";
+        color:$color_white;
+    }
+
+    &:visited,
+    &:hover,
+    &:active {
+        text-shadow:none !important;
+        font-size:0 !important;
+
+        &:after {
+            color:$color_light-blue;
+        }
+    }
+}
+.lity-iframe div.lity-container,
+.lity-youtube div.lity-container,
+.lity-vimeo div.lity-container,
+.lity-facebookvideo div.lity-container,
+.lity-googlemaps div.lity-container {
+    width: 90%;
+    max-width:none;
+
+    @include breakpoint(desktop) {
+        max-width: 80%;
+    }
+}
+.lity-iframe-container iframe {
+    box-shadow:none !important;
+}
+.lity-content{
+    &:after {
+        box-shadow:none !important;
+    }
+}
+
+// Disable scroll behind overlay.
+.lity-active,
+.lity-active body {
+    overflow: hidden;
+}
+*/
+
+
+//-------------------------------------------------------------------
+// Slick CSS Overrides
+//-------------------------------------------------------------------
+/* .slick-slider {
+    // Arrows
+    .slick-prev,
+    .slick-next {
+        height: 30px;
+        width: 20px;
+        &:hover, &:focus {
+            &:before {
+                opacity: 1;
+            }
+        }
+        &.slick-disabled:before {
+            opacity: 0.2;
+        }
+        &:before {
+            font-size: 26px;
+            opacity: 0.8;
+
+            @include breakpoint(tablet-v) {
+                font-size: 46px;
+            }
+        }
+
+        @include breakpoint(tablet-v) {
+            height: 50px;
+            width: 35px;
+        }
+    }
+
+    .slick-prev {
+        left: -15px;
+        [dir="rtl"] & {
+            right: -15px;
+        }
+
+        @include breakpoint(tablet-v) {
+            left: -25px;
+            [dir="rtl"] & {
+                right: -25px;
+            }
+        }
+    }
+
+    .slick-next {
+        right: -15px;
+        [dir="rtl"] & {
+            left: -15px;
+        }
+
+        @include breakpoint(tablet-v) {
+            right: -25px;
+            [dir="rtl"] & {
+                left: -25px;
+            }
+        }
+    }
+
+    // Dots
+    .slick-dots {
+        bottom:10px;
+
+        li {
+            margin:0 2px;
+
+            &.slick-active {
+                button:before {
+                    content:"\e80e";
+                }
+            }
+
+            @include breakpoint(tablet-v) {
+                margin:0 4px;
+            }
+            @include breakpoint(desktop) {
+                margin:0 6px;
+            }
+        }
+
+        @include breakpoint(tablet-v) {
+            bottom:15px;
+        }
+        @include breakpoint(desktop) {
+            bottom:20px;
+        }
+    } 
+
+    &.slick-dotted {
+        margin-bottom:0 !important;
+    }
+} */
+
+
+// ------------------------------------------------------------------
+// SCROLL REVEAL - Not an override, per se, but some styling to be
+// applied before js executes
+// ------------------------------------------------------------------
+[class*="js-reveal"] { 
+    visibility: hidden; 
+}

@@ -1,0 +1,17 @@
+<div class="person">
+    <div class="person__photo">
+        <img src="{{ site.imgbaseurl }}{{ include.content.photo }}?w=260&h=260&fit=crop" alt="{{ include.content.name }} - photo">
+    </div>
+    <div class="person__info">
+        <h3 class="person__name">{{ include.content.name }}</h3>
+        <ul class="person__position-list">
+            {% for position in include.content.positions %}
+                <li class="person__position-item">{{ position }}</li>
+            {% endfor %}
+        </ul>
+        <div class="person__bio">
+            {{ include.content.content | markdownify }}
+        </div>
+    </div>
+
+</div>

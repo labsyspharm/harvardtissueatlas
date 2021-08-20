@@ -1,0 +1,28 @@
+---
+layout: secondary
+---
+
+{%- if page.heading -%}
+    <div class="summary__head">
+        <div class="summary__head-wrap">
+            <div class="summary__heading">{{ page.heading }}</div>
+            {%- if page.sub_heading -%}
+                <div class="summary__sub-heading">{{ page.sub_heading }}</div>
+            {%- endif -%}
+        </div>
+    </div>
+{%- endif -%}
+
+<div class="summary__content">
+
+    {{ content }}
+
+</div>
+
+{%- if page.collection == 'projects' -%}
+
+    {% include pagination.html %}
+
+{%- endif -%}
+
+

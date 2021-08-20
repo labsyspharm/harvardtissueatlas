@@ -1,0 +1,16 @@
+# Node
+node_modules
+npm-debug.log
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Misc
+.DS_Store
+Desktop.ini
+Thumbs.db
+.Trashes
+.idea

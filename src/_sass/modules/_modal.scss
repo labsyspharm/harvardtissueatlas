@@ -1,0 +1,28 @@
+.modal {
+    background: $color_white;
+    padding:20px;
+    text-align:center;
+    overflow-y: auto;
+
+    img {
+        max-width:100%;
+        max-height:70vh;
+    }
+    figure {
+        margin:auto;
+        width:auto;
+        display: table;
+    }
+    figcaption {
+        @include font-size(14px);
+        text-align:left;
+        width:auto;
+        display: table-caption;
+        caption-side:bottom;
+
+        margin-top:.5em;
+        @include breakpoint(desktop) {
+            @include font-size(16px);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" rel="stylesheet">
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+    {% seo %}
+</head>
+
+<body class="{{ page.body_class }}" data-page-module="{{ page.page_module }}">
+
+    {% include header.html %}
+
+    <div class="page-content-wrap">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+
+                {{ content }}
+
+            </main>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+    <script src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
+</body>
+</html>

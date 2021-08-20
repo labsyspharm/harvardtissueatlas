@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+    color:$color_black;
+}
+
+body {
+    @extend %text-style-2;
+}
+
+h1 {
+    @extend %heading-style-1;
+    color: $color_dark-blue;
+}
+h2 {
+    @extend %heading-style-2;
+    color: $color_blue;
+}
+h3 {
+    @extend %heading-style-3;
+    color: $color_blue;
+}
+
+a {
+    color:$color_blue;
+    transition:color 0.2s $ease-out-quad, border-color 0.2s $ease-out-quad;
+
+    &:hover {
+        text-decoration:none;
+    }
+}
+
+ul {
+    padding-inline-start:0;
+}
+
+// section {
+//     padding-top:40px;
+//     padding-bottom:40px;
+// }
+
+p {
+    // &:first-of-type {
+        margin-top:0;
+    // }
+    &:last-of-type {
+        margin-bottom:0;
+    }
+}
+
+*:focus {
+    outline:0;
+}

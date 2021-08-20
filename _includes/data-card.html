@@ -1,0 +1,31 @@
+<div class="data-card">
+    <div class="data-card__image">
+        <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
+    </div>
+    <div class="data-card__content">
+        <p>{{ include.content.title }}</p>
+        <ul class="data-card__links">
+            {%- if include.content.minerva_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.minerva_link }}">
+                        <img src="{{ '/assets/img/icon-minerva.svg' | relative_url }}" alt="Minerva">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.info_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.info_link }}">
+                        <img src="{{ '/assets/img/icon-info.svg' | relative_url }}" alt="Info">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.show_page_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.url | relative_url }}">
+                        <img src="{{ '/assets/img/icon-info.svg' | relative_url }}" alt="Info">
+                    </a>
+                </li>
+            {%- endif -%}
+        </ul>
+    </div>
+</div>

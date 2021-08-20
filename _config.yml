@@ -1,0 +1,67 @@
+repository: jegra.github.io/harvardtissueatlas
+baseurl: '/harvardtissueatlas'
+imgbaseurl: 'https://harvardtissueatlas-dev.imgix.net/'
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - src/js
+  - README.md
+  - package.json
+  - webpack.dev.js
+  - webpack.prod.js
+  - yarn.lock
+permalink: pretty
+title: 'Harvard Tissue Atlas'
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+  datasets:
+    output: true
+  projects:
+    output: true
+  publications: 
+    output: true
+  people:
+    output: false
+  graphics:
+    output: false
+
+defaults:
+  - scope:
+      path: ''
+      type: datasets
+    values:
+      section_id: data
+      layout: summary
+      heading: Data
+      sub_heading: Data Summary
+      wide_container: true
+  - scope:
+      path: ''
+      type: projects
+    values:
+      section_id: projects
+      layout: summary
+      heading: Projects
+      sub_heading: Project Summary
+      summary_link_label: Project Summary
+      wide_container: true
+  - scope:
+      path: ''
+      type: publications
+    values:
+      section_id: publications
+      layout: summary
+      heading: Publications
+      sub_heading: Publication Summary
+      wide_container: true
+
+sass:
+  sass_dir: src/_sass
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-seo-tag

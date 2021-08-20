@@ -1,0 +1,166 @@
+
+// Utility placeholder (%) definitions
+
+// Use to apply clearfix behavior to a parent element containing
+// floats (keeps them properly contained)
+//
+// Usage:
+// .container-with-floated-children {
+//      @extend %clearfix;
+// }
+
+%clearfix {
+    *zoom: 1;
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// Use to remove the 'standard' body link treatment
+// %clear-body-link {
+//     border-bottom:none;
+
+//     &:hover {
+//         border-bottom:none;
+//         font-weight:400;
+//         color:inherit;
+//     }
+// }
+
+// Use to apply the common side margins used on blocks that 
+// contain images and text
+//
+// Usage:
+// .container-for-block {
+//      @extend %container;
+// }
+
+%container {
+    margin-left: $margin_mobile;
+    margin-right: $margin_mobile;
+
+    @include breakpoint(tablet-v) {
+        margin-left: $margin_tablet;
+        margin-right: $margin_tablet;
+    }
+
+    @include breakpoint(desktop) {
+        margin-left: $margin_desktop;
+        margin-right: $margin_desktop;
+    }
+
+    @include breakpoint("min-width:#{$max-screen-width}") {
+        max-width:$max-content-width;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+%container-narrow {
+    margin-left: $margin_mobile;
+    margin-right: $margin_mobile;
+
+    @include breakpoint(tablet-v) {
+        margin-left: $margin_tablet;
+        margin-right: $margin_tablet;
+    }
+
+    @include breakpoint(desktop) {
+        margin-left: $margin_desktop;
+        margin-right: $margin_desktop;
+    }
+
+    @include breakpoint("min-width:#{$max-narrow-screen-width}") {
+        max-width:$max-narrow-content-width;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+%container-wide {
+    margin-left: $margin_mobile;
+    margin-right: $margin_mobile;
+
+    @include breakpoint(tablet-v) {
+        margin-left: $margin_tablet;
+        margin-right: $margin_tablet;
+    }
+
+    @include breakpoint(desktop) {
+        margin-left: $margin_desktop;
+        margin-right: $margin_desktop;
+    }
+
+    @include breakpoint("min-width:#{$max-wide-screen-width}") {
+        max-width:$max-wide-content-width;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+
+// Use to apply the common side margins used on blocks that 
+// contain images and text, which has no max width
+//
+// Usage:
+// .container-for-block {
+//      @extend %container-nomax;
+// }
+
+%container-nomax {
+    margin-left: $margin_mobile;
+    margin-right: $margin_mobile;
+
+    @include breakpoint(tablet-v) {
+        margin-left: $margin_tablet;
+        margin-right: $margin_tablet;
+    }
+
+    @include breakpoint(desktop) {
+        margin-left: $margin_desktop;
+        margin-right: $margin_desktop;
+    }
+}
+
+
+// For items where we need to reserve enough horizontal space to
+// accomodate a bolded typeface on rollover (avoids pixel shift
+// on neighboring items).  This is to be used in conjunction
+// with the fixTextHoverShift() function, where targeted
+// item also needs to be assigned.
+%hover-fix {
+    display:inline-block;
+
+    &:after {
+        display: block;
+        content: attr(data-title);
+        font-weight: 500;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+}
+
+// For items who contain a nested link (eg. WP menu items)
+%hover-fix-nested-link {
+    > a {
+        display:inline-block;
+        
+        &:after {
+            display: block;
+            content: attr(data-title);
+            font-weight: 500;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+        }
+    }
+}
+
+
+
+// (See _buttons.scss for button placeholders)

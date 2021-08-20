@@ -1,0 +1,8 @@
+---
+---
+
+// Perform any site variable re-assignments here for use in
+// our Sass partials
+$imgbaseurl: '{{ site.imgbaseurl }}';
+
+@import "main";

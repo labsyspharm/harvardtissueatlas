@@ -1,0 +1,13 @@
+groups:
+  - key: lausanne
+    name: Ludwig Center at Lausanne
+  - key: mit
+    name: Ludwig Center at MIT
+  - key: chicago
+    name: Ludwig Center at the University of Chicago
+  - key: harvard
+    name: Ludwig Center at Harvard
+  - key: principals
+    name: Principal Investigators
+  - key: collaborators
+    name: Collaborators

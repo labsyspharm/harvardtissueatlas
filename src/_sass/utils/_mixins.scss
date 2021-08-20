@@ -1,0 +1,75 @@
+
+// For injecting breakpoint specifications into definitions.  Can supply
+// one of the preset sizes, or pass a query rule as the parameter.
+//
+// Usage:
+// @include breakpoint(mobile-v) { background: red; }
+//   - or -
+// @include breakpoint("min-width:600px") { color: blue; }
+
+@mixin breakpoint($break) {
+    @if $break == "mobile-v" {
+        @media (min-width: 320px) { @content; }
+    } @else if $break == "mobile-h" {
+        @media (min-width: 480px) { @content; }
+    } @else if $break == "tablet-v" {
+        @media (min-width: 768px) { @content; }
+    } @else if $break == "laptop" {
+        @media (min-width: 900px) { @content; }
+    } @else if $break == "desktop" {
+        @media (min-width: 1024px) { @content; }
+    } @else if $break == "desktop-l" {
+        @media (min-width: 1200px) { @content; }
+    } @else if $break == "desktop-xl" {
+        @media (min-width: 1440px) { @content; }
+    } @else if $break == "desktop-xxl" {
+        @media (min-width: 1800px) { @content; }
+    } @else if $break == "touch" {
+        @media (hover:none) { @content; }
+    } @else {
+        @media ($break) { @content; }
+    }
+}
+
+
+
+// For adding font sizes using 'rem' units.  Value should be supplied
+// in 'px' format, and the rem value will be calculated, with a px
+// fallback included.
+//
+//  Usage:
+//  @include font-size(12px)
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+
+// For setting up a flex-based grid.  
+
+@mixin flex-grid($numColumns, $gutterWidth: 30px) {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+
+    > * {
+        flex-grow:0;
+        flex-shrink:1;
+        flex-basis: calc((100% - #{($gutterWidth * ($numColumns - 1) + .1)}) / #{$numColumns});
+        // margin-right:$gutterWidth;
+        margin-left:0 !important;
+
+        &:nth-child(1n) {
+            // Clear out our previous right margin settings
+            margin-right:$gutterWidth;
+        }
+        &:nth-child(#{$numColumns}n+#{$numColumns}) {
+            margin-right:0;
+        }
+    }
+}
+
+@mixin background-image($file, $width, $height: null, $mode: crop, $quality: 75 ) {
+    background-image:url('#{$imgbaseurl}#{$file}?w=#{$width}&h=#{$height}&fit=#{$mode}&q=#{$quality}');
+}

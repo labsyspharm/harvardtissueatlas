@@ -1,0 +1,59 @@
+<nav id="site-navigation-mobile" class="nav-bar-mobile">
+        <div class="mobile-nav-close">
+            <a href="#" class="site-header__menu-icon-close-link"></a>
+        </div>
+        <div class="nav-bar-mobile__inner-wrap">
+
+        <ul class="nav-bar-mobile__list">
+            {% assign menu = site.data.menus.main %}
+            {% for item in menu %}
+                <li class="menu-header nav-bar-mobile__item">
+                    <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar-mobile__link" target="{{ item.target }}">{{item.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <div class="nav-bar-mobile__branding-wrap">
+            <a href="https://hms.harvard.edu/" target="_blank" class="nav-bar-mobile__branding">
+                <img srcset="{{ '/assets/img/logo-hms_white.png' | relative_url }}, 
+                             {{ '/assets/img/logo-hms_white@2x.png' | relative_url }} 2x"
+                     src="{{ '/assets/img/logo-hms_white.png' | relative_url }}" 
+                     alt="Harvard Medical School">
+            </a>
+        </div>
+    </div>
+</nav>
+
+<header class="site-header js-scroll-offset">
+    <div class="site-header__inner container-wide">
+        
+        <a href="{{ '/' | relative_url }}" class="site-header__branding site-header__branding--primary site-header__branding--mobile">Harvard Tissue Atlas</a>
+        <a href="https://hms.harvard.edu/" target="_blank" class="site-header__branding site-header__branding--secondary">Harvard Medical School</a>
+
+        <!-- MAIN NAV: MOBILE -->
+        <div class="site-header__menu-icon site-header__mobile-nav">
+            <a href="#" class="site-header__menu-icon-link"></a>
+        </div>
+        
+        <div class="nav-container">
+            <!-- MAIN NAV: DESKTOP -->
+            <nav id="site-navigation" class="nav-bar">
+
+                <!-- <div class="nav-bar__heading">Harvard Tissue Atlas</div> -->
+                <a href="{{ '/' | relative_url }}" class="site-header__branding site-header__branding--primary">Harvard Tissue Atlas</a>
+
+                <ul class="nav-bar__list">
+                    {% assign menu = site.data.menus.main %}
+                    {% for item in menu %}
+                        <li class="menu-header nav-bar__item">
+                            <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar__link" target="{{ item.target }}">{{item.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </nav>
+        </div>
+        <!-- #site-navigation -->
+
+    </div>
+</header>

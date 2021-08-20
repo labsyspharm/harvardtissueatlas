@@ -1,0 +1,27 @@
+table {
+    border:1px solid $color_black;
+}
+tbody {
+    border-top:1px solid $color_black; 
+}
+th, td {
+    padding:4px 8px;
+    border-right:1px solid $color_black; 
+    line-height:1.3;
+}
+tr:nth-child(odd) {
+    background:$color_light-gray;
+}
+thead tr {
+    background:$color_white !important;
+}
+thead th {
+    white-space: pre;
+}
+
+// Use an additional wrapper for our tables to allow for horizontal scrolling
+.table-wrapper {
+    @include breakpoint("max-width:1439px") {
+        overflow-x: scroll;
+    }
+}

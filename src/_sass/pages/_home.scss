@@ -1,0 +1,41 @@
+//-------------------------------------------------------------------
+// Home Main Content
+//-------------------------------------------------------------------
+
+
+
+// Featured Data Cards ----------------------------------------------
+
+.featured-data {
+    margin-top:40px;
+    margin-bottom:40px;
+
+    @include breakpoint(tablet-v) {
+        margin-top:70px;
+        margin-bottom:70px;
+    }
+}
+.featured-data__heading {
+    @extend %heading-style-1;
+    color: $color_dark-blue;
+    margin:0 0 1em;
+}
+
+
+.featured-data__items {
+    margin:30px auto 60px;
+
+    @include breakpoint("min-width:600px") {
+        @include flex-grid(2);
+        max-width:620px;
+        margin:30px auto;
+    }
+    @include breakpoint("min-width:880px") {
+        @include flex-grid(3);
+        max-width:945px;
+    }
+    @include breakpoint("min-width:1350px") {
+        @include flex-grid(4);
+        max-width:1280px;
+    }
+}

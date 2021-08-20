@@ -1,0 +1,25 @@
+{% if page.collection == 'projects' %}
+    {% assign sorted = site.projects | where: 'show_page_link', true | 'sort: 'project_number' %}
+{% endif %}
+{% assign found = false %}
+{% for item in sorted %}
+    {% if found %}
+        {% assign nextPage = item %}
+        {% break %}
+    {% elsif item.id == page.id %}
+        {% assign found = true %}
+    {% else %}
+        {% assign prevPage = item %}
+    {% endif %}
+{% endfor %}
+
+<div class="pagination">
+    <ul class="pagination__list">
+        {% if prevPage %}
+            <li class="pagination__item"><a href="{{ prevPage.url | relative_url }}" class="button">Previous</a></li>
+        {% endif %}
+        {% if nextPage %}
+            <li class="pagination__item"><a href="{{ nextPage.url | relative_url }}" class="arrow-button">Next</a></li>
+        {% endif %}
+    </ul>
+</div>

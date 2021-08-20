@@ -1,0 +1,22 @@
+---
+layout: secondary
+---
+
+<section class="projects">
+    <div class="projects__inner">
+        <h1 class="projects__heading">{{ page.title }}</h1>
+        <div class="projects__items">
+            {% assign sorted = site.projects | sort: 'project_number' %}
+            {% assign counter = 0 %}
+            {% for project in sorted %}
+
+                {% assign counter = counter | plus: 1 %}
+                {% include project-listing.html content=project counter=counter %}
+                
+            {% endfor %}
+        </div>
+    </div>
+
+    {{ content }}
+
+</section>

@@ -1,0 +1,22 @@
+---
+layout: secondary
+---
+
+<section class="datasets">
+    <div class="datasets__inner">
+        <h1 class="datasets__heading">Data</h1>
+        <div class="datasets__items">
+            {% assign sorted = site.datasets | sort: 'date' | reverse %}
+            {% for dataset in sorted %}
+
+                {% include data-card.html content=dataset %}
+                
+            {% endfor %}
+        </div>
+    </div>
+
+    
+    
+</section>
+
+{{ content }}

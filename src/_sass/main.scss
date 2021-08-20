@@ -1,0 +1,76 @@
+// ----------------------------------------------------------------------------
+// Utils - Mixins, functions, variable assignments, etc.
+// ----------------------------------------------------------------------------
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/placeholders";
+
+
+// ----------------------------------------------------------------------------
+// Vendor Imports - Roll in any third-party SASS source
+// ----------------------------------------------------------------------------
+// Apply any vendor 'default' overrides FIRST
+@import "utils/vendor-overrides";
+
+// Then pull in our scss...
+// @import "../../node_modules/slick-carousel/slick/slick.scss";
+// @import "../../node_modules/lity/dist/lity";
+
+
+// ----------------------------------------------------------------------------
+// Base - Normalize, font setup, helpers, and base styling
+// ----------------------------------------------------------------------------
+@import "base/normalize";       // via HTML5 Boilerplate
+@import "base/boilerplate";     // via HTML5 Boilerplate
+@import "base/elements";
+@import "base/fonts";
+@import "base/typography";
+@import "base/helpers";
+
+
+// ----------------------------------------------------------------------------
+// Forms and Buttons
+// ----------------------------------------------------------------------------
+@import "forms-buttons/base";
+@import "forms-buttons/buttons";
+
+
+// ----------------------------------------------------------------------------
+// Layout - Modules with a larger/standardized page placement
+// ----------------------------------------------------------------------------
+@import "layout/header";
+@import "layout/footer";
+@import "layout/secondary";
+@import "layout/summary";
+
+
+// ----------------------------------------------------------------------------
+// Modules - Self-contained, reusable blocks
+// ----------------------------------------------------------------------------
+@import "modules/nav-bar";
+@import "modules/hero";
+@import "modules/data-card";
+@import "modules/project-listing";
+@import "modules/pub-listing";
+@import "modules/modal";
+@import "modules/person";
+@import "modules/pagination";
+@import "modules/graphic";
+@import "modules/tables";
+
+
+// ----------------------------------------------------------------------------
+// Pages - Page-specific styling (if needed)
+// ----------------------------------------------------------------------------
+@import "pages/home";
+@import "pages/data";
+@import "pages/projects";
+@import "pages/people";
+
+
+// ----------------------------------------------------------------------------
+// Base - Print
+// ----------------------------------------------------------------------------
+// NOTE: this should be loaded last, if used.
+@import "base/print";           // via HTML5 Boilerplate

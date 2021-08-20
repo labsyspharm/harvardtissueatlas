@@ -1,0 +1,49 @@
+//-------------------------------------------------------------------
+// Template for summary (detail) pages for Data, Projects, and Pubs
+//-------------------------------------------------------------------
+
+.summary__head {
+    margin-bottom:1.4em;
+    padding-bottom:1.7em;
+    border-bottom:1px solid $color_dark-gray;
+}
+.summary__head-wrap {
+    max-width:$max-content-width;
+    margin:auto;
+}
+.summary__heading {
+    @extend %heading-style-1;
+    color:$color_dark-blue;
+    margin-bottom:.5em;
+}
+.summary__sub-heading {
+    @extend %heading-style-2;
+    color:$color_dark-gray;
+}
+
+.summary__content {
+    h1 {
+        @extend %heading-style-2;
+        color: $color_blue;
+        text-transform:none;
+        line-height:1.2;
+    }
+    h2 {
+        @extend %heading-style-3;
+        text-transform:none;
+        margin-bottom:.1em;
+    }
+    h3 {
+        @extend %heading-style-4;
+        text-transform:none;
+        margin-bottom:.1em;
+    }
+
+    figure {
+        @include breakpoint(desktop) {
+            max-width:41%;
+            float:right;
+            margin-left:50px;
+        }
+    }
+}

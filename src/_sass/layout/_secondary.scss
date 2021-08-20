@@ -1,0 +1,49 @@
+//-------------------------------------------------------------------
+// Template for secondary pages site-wide
+//-------------------------------------------------------------------
+
+.secondary {
+}
+
+.secondary__hero {
+    height:140px;
+    background-size:cover;
+    background-position: center;
+    @include background-image($heroImage, 768, 140, 'crop', 25);
+    
+    @include breakpoint(tablet-v) {
+        @include background-image($heroImage, 1024, 140, 'crop', 25);
+    }
+    @include breakpoint(desktop) {
+        height:200px;
+        @include background-image($heroImage, 1200, 200, 'crop', 25);
+    }
+    @include breakpoint(desktop-l) {
+        @include background-image($heroImage, 1800, 200, 'crop', 25);
+    }
+    @include breakpoint(desktop-xxl) {
+        height:295px;
+        @include background-image($heroImage, 1920, 295, 'crop', 25);
+    }
+}
+
+.secondary__content-wrap {
+    @extend %clearfix;
+    margin-top:40px;
+    margin-bottom:60px;
+
+    @include breakpoint(desktop) {
+        margin-top:60px;
+        margin-bottom:100px;
+    }
+    @include breakpoint(desktop-xxl) {
+        margin-top:70px;
+        margin-bottom:120px;
+    }
+}
+.secondary__content-wrap--standard {
+    @extend %container;
+}
+.secondary__content-wrap--wide {
+    @extend %container-wide;
+}

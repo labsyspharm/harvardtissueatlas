@@ -1,0 +1,28 @@
+{
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.8.1",
+    "eslint-loader": "^4.0.2",
+    "source-map-loader": "^1.1.0",
+    "terser-webpack-plugin": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-hoverintent": "^1.10.1",
+    "jquery.easing": "^1.4.1",
+    "lity": "^2.4.1",
+    "picturefill": "^3.0.3"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js & bundle exec jekyll serve",
+    "build": "webpack --config webpack.prod.js && JEKYLL_ENV=production bundle exec jekyll build"
+  }
+}

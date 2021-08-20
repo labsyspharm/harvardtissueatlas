@@ -1,0 +1,30 @@
+main:
+  - name: "About"
+    section_id: about
+    url: "/about"
+    target: "_self"
+  - name: "Funding"
+    section_id: funding
+    url: "/funding"
+    target: "_self"
+  - name: "People"
+    section_id: people
+    url: "/people"
+    target: "_self"
+  - name: "Publications"
+    section_id: publications
+    url: "/publications"
+    target: "_self"
+  - name: "Methods"
+    section_id: methods
+    url: "https://www.cycif.org/"
+    target: "_blank"
+  - name: "Data"
+    section_id: data
+    url: "/data"
+    target: "_self"
+  - name: "Software"
+    section_id: software
+    url: "/software"
+    target: "_self"
+

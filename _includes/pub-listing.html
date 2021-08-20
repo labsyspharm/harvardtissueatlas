@@ -1,0 +1,61 @@
+<div class="pub-listing {% if include.content.image == nil -%}pub-listing--no-img{%- endif -%}">
+    {%- if include.content.image -%}
+        <div class="pub-listing__photo">
+            <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=258&h=174&fit=crop" alt="{{ include.content.title }}">
+        </div>
+    {%- endif -%}
+    <div class="pub-listing__info">
+        <h3 class="pub-listing__title">{{ include.content.title }}</h3>
+        <div class="pub-listing__contributors">
+            {{ include.content.contributors }}
+        </div>
+        <div class="pub-listing__publication">
+            {{ include.content.publication }} <a href="{{ include.content.publication_link }}" target="_blank" class="pub-listing__publication-link">{{ include.content.publication_link }}</a>
+        </div>
+        <ul class="pub-listing__links">
+            {%- if include.content.minerva_link -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.minerva_link }}" target="_blank">
+                        <img src="{{ '/assets/img/icon-minerva.svg' | relative_url }}" alt="Minerva">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.show_page_link -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.url | relative_url }}">
+                        <img src="{{ '/assets/img/icon-info.svg' | relative_url }}" alt="Info">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.rxiv_link -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.rxiv_link }}" target="_blank">
+                        Rxiv
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.pdf_link -%}
+                <li class="pub-listing__link">
+                    {% comment %}
+                        Check to see if the pdf link starts with a protocol (http/https). If so,
+                        use it directly.  If not, build a path to the specified file.
+                    {% endcomment %}
+                    {% assign protocol = include.content.pdf_link | slice: 0, 4 %}
+                    
+                    {% if protocol == 'http' %}
+                        {% assign pdfLink = include.content.pdf_link %}
+                    {% else %}
+                        {% assign pdfLink = include.content.pdf_link | relative_url %}
+                    {% endif %}
+
+                    <a href="{{ pdfLink }}" class="no-button-style" target="_blank">
+                        <img src="{{ '/assets/img/icon-pdf.svg' | relative_url }}" alt="PDF">
+                    </a>
+                </li>
+            {%- endif -%}
+            
+        </ul>
+        
+    </div>
+
+</div>

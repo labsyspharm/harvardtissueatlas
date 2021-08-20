@@ -1,0 +1,61 @@
+<div class="project-listing">
+    <div class="project-listing__heading">Project {{ include.content.project_number }}</div>
+    <h2 class="project-listing__title">{{ include.content.title }}</h2>
+    {%- if include.content.status -%}
+        <div class="project-listing__status">
+            <div class="project-listing__secondary-heading">Status:</div>
+            {{ include.content.status | markdownify }}
+        </div>
+    {%- endif -%}
+    {%- if include.content.abstract -%}
+        <div class="project-listing__abstract">
+            <div class="project-listing__secondary-heading">Abstract:</div>
+            {{ include.content.abstract | markdownify }}
+        </div>
+    {%- endif -%}
+    {%- if include.content.graphics -%}
+        <div class="project-listins__thumbs">
+            {% assign imgCounter = 0 %}
+            {%- for item in include.content.graphics -%}
+
+                {% assign imgCounter = imgCounter | plus: 1 %}
+                {% assign imgId = 'img' | append: include.counter | append: imgCounter %}
+
+                <div class="project-listing__thumb">
+                    <a href="#{{ imgId }}" data-lity>
+
+                        {% include graphic-thumb.html content=item %}
+                        
+                        <span class="project-listing__thumb-label">Click to Enlarge</span>
+                    </a>
+                    <div id="{{ imgId }}" class="lity-hide modal">
+                            
+                        {% include graphic.html content=item %}
+                        
+                    </div>
+                </div>
+                
+            {%- endfor -%}
+        </div>
+    {%- endif -%}
+
+    {%- if include.content.related_links or include.content.show_page_link -%}
+        <div class="project-listing__related-links">
+            <div class="project-listing__secondary-heading">Related Links:</div>
+            <ul class="project-listing__related-links-list">
+                {%- if include.content.show_page_link -%}
+                    <li class="project-listing__related-links-item">
+                        <a href="{{ include.content.url | relative_url }}">
+                            {{ include.content.summary_link_label }}
+                        </a>
+                    </li>
+                {%- endif -%}   
+                {%- for link in include.content.related_links -%}
+                    <li class="project-listing__related-links-item">
+                        {{ link | markdownify }}
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    {%- endif -%}
+</div>

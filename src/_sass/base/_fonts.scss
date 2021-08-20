@@ -1,0 +1,37 @@
+//-------------------------------------------------------------------
+// Custom Font Loading (eg. fontello)
+//-------------------------------------------------------------------
+
+//-------------------------------------------------------------------
+// FONTELLO
+//-------------------------------------------------------------------
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/fontello.eot?36672587');
+    src: url('../fonts/fontello/fontello.eot?36672587#iefix') format('embedded-opentype'),
+         url('../fonts/fontello/fontello.woff2?36672587') format('woff2'),
+         url('../fonts/fontello/fontello.woff?36672587') format('woff'),
+         url('../fonts/fontello/fontello.ttf?36672587') format('truetype'),
+         url('../fonts/fontello/fontello.svg?36672587#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+      font-family: 'fontello';
+      font-style: normal;
+      font-weight: normal;
+  }
+  .icon-social-twitter:before {
+      content:'\F099';
+  }
+  .icon-social-linkedin:before {
+      // content:'\F30C';  // Alt style
+      content:'\F0E1';
+  }
+  .icon-social-email:before {
+      content:'\F0E0';
+  }
+  .icon-social-youtube:before {
+      content:'\F16A';
+  }
