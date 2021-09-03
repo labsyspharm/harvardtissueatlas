@@ -1,12 +1,4 @@
 main:
-  - name: "About"
-    section_id: about
-    url: "/about"
-    target: "_self"
-  - name: "Funding"
-    section_id: funding
-    url: "/funding"
-    target: "_self"
   - name: "People"
     section_id: people
     url: "/people"
@@ -14,6 +6,10 @@ main:
   - name: "Publications"
     section_id: publications
     url: "/publications"
+    target: "_self"
+  - name: "Projects"
+    section_id: projects
+    url: "/projects"
     target: "_self"
   - name: "Methods"
     section_id: methods

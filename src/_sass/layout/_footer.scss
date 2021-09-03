@@ -4,6 +4,23 @@
 .site-footer {
     background:$color_dark-gray;
 }
+.site-footer__about,
+.site-footer__funding {
+    @extend %text-style-1;
+    color:$color_white;
+    padding:30px 0;
+}
+.site-footer__about {
+    // background:lighten($color_dark-gray, 20%);    
+    background:$color_blue;    
+}
+.site-footer__funding {
+    // background:lighten($color_dark-gray, 10%);    
+    background:darken($color_blue, 10%);    
+}
+.site-footer__content-container {
+    @extend %container-wide;
+}
 .site-footer__main {
     @extend %container-wide;
     @extend %text-style-3;

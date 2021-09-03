@@ -4,6 +4,7 @@
         </div>
         <div class="nav-bar-mobile__inner-wrap">
 
+        <!-- MAIN NAV: MOBILE -->
         <ul class="nav-bar-mobile__list">
             {% assign menu = site.data.menus.main %}
             {% for item in menu %}
@@ -30,7 +31,6 @@
         <a href="{{ '/' | relative_url }}" class="site-header__branding site-header__branding--primary site-header__branding--mobile">Harvard Tissue Atlas</a>
         <a href="https://hms.harvard.edu/" target="_blank" class="site-header__branding site-header__branding--secondary">Harvard Medical School</a>
 
-        <!-- MAIN NAV: MOBILE -->
         <div class="site-header__menu-icon site-header__mobile-nav">
             <a href="#" class="site-header__menu-icon-link"></a>
         </div>
@@ -39,7 +39,6 @@
             <!-- MAIN NAV: DESKTOP -->
             <nav id="site-navigation" class="nav-bar">
 
-                <!-- <div class="nav-bar__heading">Harvard Tissue Atlas</div> -->
                 <a href="{{ '/' | relative_url }}" class="site-header__branding site-header__branding--primary">Harvard Tissue Atlas</a>
 
                 <ul class="nav-bar__list">
@@ -53,7 +52,6 @@
 
             </nav>
         </div>
-        <!-- #site-navigation -->
 
     </div>
 </header>

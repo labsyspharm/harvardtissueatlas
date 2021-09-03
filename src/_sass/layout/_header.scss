@@ -40,7 +40,7 @@
     transition:width 0.2s $ease-out-quad, height 0.2s $ease-out-quad, margin 0.2s $ease-out-quad;
 }
 
-// MODIFIER - Identify secondary-level branding
+// MODIFIER - Identify primary-level branding
 .site-header__branding--primary {
     width:185px;
     height:65px;
@@ -59,7 +59,7 @@
         margin-top:80px;
     }
 }
-// MODIFIER - Indentiry primary-level branding
+// MODIFIER - Indentify secondary-level branding
 .site-header__branding--secondary {
     margin-top:30px;
     width:180px;
