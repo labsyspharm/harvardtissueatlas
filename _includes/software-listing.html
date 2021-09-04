@@ -1,0 +1,42 @@
+<div class="pub-listing {% if include.content.image == nil -%}pub-listing--no-img{%- endif -%}">
+    {%- if include.content.image -%}
+        <div class="pub-listing__photo">
+            <img src="{{ include.content.image }}?w=258&h=174&fit=crop" alt="{{ include.content.title }}">
+        </div>
+    {%- endif -%}
+    <div class="pub-listing__info">
+        <h3 class="pub-listing__title">{{ include.content.title }}</h3>
+        <div class="pub-listing__contributors">
+            {{ include.content.description }}
+        </div>
+        <div class="pub-listing__publication">
+            {{ include.content.publication }} <a href="{{ include.content.publication_link }}" target="_blank" class="pub-listing__publication-link">{{ include.content.publication_link }}</a>
+        </div>
+        <ul class="pub-listing__links">
+            {%- if include.content.publication -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.publication }}" target="_blank">
+                        Publication
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.['source code'] -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.['source code'] }}" target="_blank">
+                        Code
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.documentation -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.documentation }}" target="_blank">
+                        Project site
+                    </a>
+                </li>
+            {%- endif -%}
+            
+        </ul>
+        
+    </div>
+
+</div>
