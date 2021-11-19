@@ -102,6 +102,32 @@ For any pages that render out body content (eg. project summary pages), a few no
     {% include graphic.html content='my-graphic-entry' %}
     ```
     This will display the graphic -- with its associated title and caption information -- inline in the page on mobile, and will 'float' the content to the right on desktop displays.
+- **Video** - Vimeo video support is available via the 'vimeo' include file.  Usage is as follows:
+    ```
+    {% include vimeo.html id="158396727" autoplay=true muted=true time="1m" %}
+    ```
+
+    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 1 minute mark.  Note that some values can be overridden by the embed settings assigned on Vimeo's video configuration page (namely, `title`, `byline`, `color`, and `portrait`). 
+
+    Availabe parameters include:
+
+    | Parameter  | Supported Values | Default Value | Description
+    |:--------------|:------------|:------|:----------------------|
+    | `autoplay`    | true, false | false | Automatically start playback of the video.<br>**Note:** May require `muted` to be set to `true`, depending on browser and device.
+    | `byline`      | true, false | false | Show the author of the video (byline).†
+    | `color`       | [hex value] | "00adef" (Vimeo blue) | Color of the video controls.†‡
+    | `controls`    | true, false | true  | Hide all elements in the player (play bar, sharing buttons, etc) for a chromeless experience.‡
+    | `loop`        | true, false | false | Play the video again when it reaches the end, infinitely.
+    | `muted`       | true, false | false | Mute the audio on load (can be re-enabled by user, if controls are displayed).
+    | `playsinline` | true, false | true  | Play video inline on mobile devices instead of automatically going into fullscreen mode.
+    | `portrait`    | true, false | false | Show the author’s profile image (portrait).†
+    | `speed`       | true, false | false | Show speed controls in the player.‡
+    | `time`        | Time in minutes and/or seconds (for example, time="1m2s") | "0m" (Start of video) | Used to automatically begin playback at a specific point in time.
+    | `texttrack`   | A lowercase language code and optionally the locale and type of text track. (examples: "en", "en-US", "en.captions", "en.subtitles") | false | Displays a given cc/subtitle track by default in the player (provided the cc/subtitle track is available). 
+    | `title`       | true, false | false | Show the video's title.†
+
+    † Value specified in the video's embed settings on site may override this.  
+    ‡ Requires a **Plus** account or higher.
 
 ## Publishing Notes ##
 

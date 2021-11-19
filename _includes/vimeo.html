@@ -1,0 +1,88 @@
+
+{% comment %}
+
+  Full parameter list: https://vimeo.zendesk.com/hc/en-us/articles/360001494447-Using-Player-Parameters
+
+  NOTE: The following parameters require a Plus account or higher:
+  - color
+  - controls
+
+
+{% endcomment %}
+
+{%- if include.playsinline != nil and include.playsinline == false %}
+    {% assign playsinline = '0' %}
+{% else %}
+    {% assign playsinline = '1' %}
+{% endif -%}
+
+{%- if include.autoplay != nil and include.autoplay == true %}
+    {% assign autoplay = '1' %}
+{% else %}
+    {% assign autoplay = '0' %}
+{% endif -%}
+
+{%- if include.byline != nil and include.byline == true %}
+    {% assign byline = '1' %}
+{% else %}
+    {% assign byline = '0' %}
+{% endif -%}
+
+{%- if include.color != nil %}
+    {% assign color = include.color %}
+{% else %}
+    {% assign color = '00adef' %}
+{% endif -%}
+
+{%- if include.controls != nil and include.controls == false %}
+    {% assign controls = '0' %}
+{% else %}
+    {% assign controls = '1' %}
+{% endif -%}
+
+{%- if include.loop != nil and include.loop == true %}
+    {% assign loop = '1' %}
+{% else %}
+    {% assign loop = '0' %}
+{% endif -%}
+
+{%- if include.muted != nil and include.muted == true %}
+    {% assign muted = '1' %}
+{% else %}
+    {% assign muted = '0' %}
+{% endif -%}
+
+{%- if include.portrait != nil and include.portrait == true %}
+    {% assign portrait = '1' %}
+{% else %}
+    {% assign portrait = '0' %}
+{% endif -%}
+
+{%- if include.speed != nil and include.speed == true %}
+    {% assign speed = '1' %}
+{% else %}
+    {% assign speed = '0' %}
+{% endif -%}
+
+{%- if include.time != nil %}
+    {% assign time = include.time %}
+{% else %}
+    {% assign time = '0m' %}
+{% endif -%}
+
+{%- if include.texttrack != nil %}
+    {% assign texttrack = include.texttrack %}
+{% else %}
+    {% assign texttrack = '0' %}
+{% endif -%}
+
+{%- if include.title != nil and include.title == true %}
+    {% assign title = '1' %}
+{% else %}
+    {% assign title = '0' %}
+{% endif -%}
+
+
+<div class="video-wrapper">
+  <iframe src="https://player.vimeo.com/video/{{ include.id }}?playsinline={{ playsinline }}&autoplay={{ autoplay }}&byline={{ byline }}&color={{ color }}&controls={{ controls }}&loop={{ loop }}&muted={{ muted }}&portrait={{ portrait }}&speed={{ speed }}&texttrack={{ texttrack }}&title={{ title }}#t={{ time }}" allowfullscreen></iframe>
+</div>
