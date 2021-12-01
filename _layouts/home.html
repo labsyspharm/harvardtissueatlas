@@ -8,7 +8,7 @@ layout: default
             <div class="hero__text-container">
                 <div class="hero__text">
                     
-                    <h1>{{ content }}</h1>
+                    <h1>{{ page['hero text'] }}</h1>
 
                 </div>
             </div>
@@ -16,10 +16,18 @@ layout: default
     </div>
 </section>
 
-<section class="featured-cards">
-    <div class="featured-cards__inner container-wide">
-        <h2 class="featured-cards__heading">Featured Atlas/Data</h2>
-        <div class="featured-cards__items">
+<div class="secondary">
+    <div class="secondary__content-wrap {% if page.wide_container %}secondary__content-wrap--wide{% else %}secondary__content-wrap--standard{% endif %}">
+        
+        {{ content }}
+
+    </div>
+</div>
+
+<section class="featured-data">
+    <div class="featured-data__inner container-wide">
+        <h2 class="featured-data__heading">Featured Atlas/Data</h2>
+        <div class="featured-data__items">
             {% assign sorted = site.datasets | where: 'featured', true | sort: 'date' | reverse %}
             {% for dataset in sorted %}
 
