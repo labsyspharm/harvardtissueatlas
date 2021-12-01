@@ -24,6 +24,8 @@ collections:
     output: true
   publications: 
     output: true
+  software:
+    output: true
   people:
     output: false
   graphics:
