@@ -1,11 +1,11 @@
 groups:
+  - key: principals
+    name: Principal Investigators
   - key: staff
     name: Staff
   - key: student
     name: Students and Postdoctoral Fellows
-  - key: alumni
-    name: Alumni
-  - key: principals
-    name: Principal Investigators
   - key: collaborators
     name: Collaborators
+  - key: alumni
+    name: Alumni
