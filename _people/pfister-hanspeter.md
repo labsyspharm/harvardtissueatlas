@@ -6,5 +6,7 @@ positions:
 
 photo: people/pfister-hanspeter.jpg
 
-group: collaborators
+group: principals
+
+weight: 4
 ---

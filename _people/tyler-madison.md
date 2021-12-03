@@ -1,7 +1,7 @@
 ---
 name: Madison Tyler, MS
 positions:
-  -CyCIF Scientist, Laboratory of Systems Pharmacology
+  - CyCIF Scientist, Laboratory of Systems Pharmacology
 
 photo: people/tyler-madison.jpg
 

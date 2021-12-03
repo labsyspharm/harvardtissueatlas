@@ -1,9 +1,9 @@
 ---
 name: Benjamin Izar, MD, PhD
 positions:
-  - Assistant Professor at Columbia University
+  - Assistant Professor, Columbia University
 
-photo: people/izar-ben.jpg
+photo: people/izar-ben.jpeg
 
 group: collaborators
 ---

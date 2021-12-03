@@ -3,8 +3,8 @@ groups:
     name: Principal Investigators
   - key: staff
     name: Staff
-  - key: student
-    name: Students and Postdoctoral Fellows
+  - key: fellows
+    name: Fellows and Students
   - key: collaborators
     name: Collaborators
   - key: alumni
