@@ -15,16 +15,25 @@ main:
     section_id: publications
     url: "/publications"
     target: "_self"
-  - name: "Methods"
-    section_id: methods
-    url: "https://www.cycif.org/"
-    target: "_blank"
+  - name: "Projects"
+    section_id: projects
+    url: "/projects"
+    target: "_self"
+  - name: "Methods & Software"
+    section_id: methods-software
+    url: "/software"
+    target: "_self"
   - name: "Data"
     section_id: data
     url: "/data"
     target: "_self"
-  - name: "Software"
-    section_id: software
-    url: "/software"
-    target: "_self"
+  - name: "Talks & Tutorials"
+    section_id: talks-tutorials
+    url: "/talks-tutorials"
+  - name: "FAQ"
+    section_id: faq
+    url: "/faq"
+  - name: "Funding"
+    section_id: funding
+    url: "/funding"
 
