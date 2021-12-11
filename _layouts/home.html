@@ -27,6 +27,9 @@ layout: default
 <section class="featured-data">
     <div class="featured-data__inner container-wide">
         <h2 class="featured-data__heading">Featured Atlas/Data</h2>
+        <div>
+            <img src="{{ site.baseurl }}/images/graphics/cards.png" alt="" class="img-fluid">
+        </div>
         <div class="featured-data__items">
             {% assign sorted = site.datasets | where: 'featured', true | sort: 'date' | reverse %}
             {% for dataset in sorted %}
