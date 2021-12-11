@@ -1,0 +1,50 @@
+---
+layout: secondary
+---
+
+<section class="funding">
+    <div class="funding__inner">
+        <h1 class="funding__heading">{{ page.title }}</h1>
+
+        {{ content }}
+
+        <div class="publications__group">
+
+            {% assign funding = site.funding | sort: 'date' %}
+            {% for grant in funding %}
+
+            <div class="row mb-5">
+                <!-- <div class="d-none col-2 d-md-flex align-items-center justify-content-center">
+                    {% if grant['project-image'] %}
+                    <img src="{{ site.baseurl }}/assets/img/{{ grant['project-image'] }}" alt="" class="img-fluid">
+                    {% else %}
+                    <h3 class="m-0 text-center">{{ grant['short-name'] }}</h3>
+                    {% endif %}
+                </div> -->
+                <div class="col">
+                    <h2>
+                        {{ grant['name'] }}
+                    </h2>
+                    <p><strong>{{ grant['summary'] | markdownify }}</strong></p>
+                    <details>
+                        <summary class="arrow-button">Learn more</summary>
+                        <p>
+                            {{ grant['description'] | markdownify }}
+                        </p>
+                    </details>
+                </div>
+                <div class="col-md-3">
+                    <h5 class='m-0 mb-4'>
+                        Funded By:
+                    </h5>
+                    <p class="mb-2">{{ grant['grant'] }}</p>
+                    <img src="{{ site.baseurl }}/images/{{ grant['grant-image'] }}" alt="" class="img-fluid"
+                        style="max-height: 32px">
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

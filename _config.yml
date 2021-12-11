@@ -30,6 +30,8 @@ collections:
     output: false
   graphics:
     output: false
+  funding:
+    output: false
 
 defaults:
   - scope:
