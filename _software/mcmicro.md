@@ -8,7 +8,7 @@ image: https://mcmicro.org/assets/images/mcmicro-logo.svg
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: 
+publication: https://doi.org/10.1038/s41592-021-01308-y
 # link to github repo
 source code: https://github.com/labsyspharm/mcmicro
 # link to micro-site
