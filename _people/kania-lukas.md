@@ -1,9 +1,9 @@
 ---
-name: Lukas Kunia
+name: Lukas Kania, BS
 positions:
-  - Research Assistant, Laboratory of Systems Pharmacology
+  - Computational Scientist, Dana Farber Breast Tumor Immunology Laboratory
 
-photo: people/kunia-lukas.jpg
+photo: people/kania-lukas.jpg
 
-group: staff
+group: student
 ---
