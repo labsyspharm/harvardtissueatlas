@@ -1,7 +1,7 @@
 ---
 title: 'Stitching and registering highly multiplexed whole slide images of tissues and tumors using ASHLAR software.'
 contributors: 'Muhlich, J., Chen, Y.-A., Russell, R., & Sorger, P.K. (2021).'
-publication: Manuscript submitted
+publication: 'Manuscript submitted'
 publication_link:
 
 image: publications/stitching-and-registering-highly-multiplexed-whole-slide-images-of-tissues-and-tumors-using-ASHLAR-software.PNG

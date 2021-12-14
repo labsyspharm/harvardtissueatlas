@@ -1,9 +1,3 @@
 groups:
-  - key: lausanne
-    name: Ludwig Center at Lausanne
-  - key: mit
-    name: Ludwig Center at MIT
   - key: harvard
-    name: Harvard Center
-  - key: atlas
-    name: Atlas Technologies
+    name: Harvard Tissue Atlas Publications

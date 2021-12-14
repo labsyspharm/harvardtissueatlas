@@ -4,7 +4,7 @@ contributors: 'Hoffer, J., Rashid, R., Muhlich, J.L., Chen, Y.-A., Russell, D.P.
 publication: Journal of Open Source Software, 5(54), 2579
 publication_link: https://doi.org/10.21105/joss.02579
 
-image: publications/Minerva-a-light-weight-narrative-image-browser-for-multiplexed-tissue-images.PNG
+image: publications/minerva-a-light-weight-narrative-image-browser-for-multiplexed-tissue-images.PNG
 
 group: harvard
 

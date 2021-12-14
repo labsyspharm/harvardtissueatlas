@@ -4,7 +4,7 @@ contributors: 'Maliga, Z., Nirmal, A.J., Ericson, N.G., Boswell, S.A., U’Ren, 
 publication: 'Manuscript submitted'
 publication_link: https://doi.org/10.1101/2021.03.18.431004
 
-image: publications/Micro-region-transcriptomics-of-fixed-human-tissue-using-pick-seq.PNG
+image: publications/micro-region-transcriptomics-of-fixed-human-tissue-using-pick-seq.PNG
 
 group: harvard
 
