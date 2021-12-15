@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/MITI.PNG
 
-group: harvard
+group: rxiv
 
 date: 2021-08-21
 

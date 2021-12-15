@@ -1,12 +1,12 @@
 ---
 title: 'Online narrative guides for illuminating tissue atlas data and digital pathology images.'
-contributors: 'Rumana, R., Chen, Y.-A., Hoffer, J. Muhlich, J.L., Lin, J.-R., Krueger, R., Pfister, H., Mitchell, R., Santagata, S., & Sorger, P. K. (2020).'
-publication: Manuscript submitted
+contributors: 'Rumana, R., Chen, Y.-A., Hoffer, J., Muhlich, J.L., Lin, J.-R., Krueger, R., Pfister, H., Mitchell, R., Santagata, S., & Sorger, P. K. (2020).'
+publication: Manuscript Submitted
 publication_link:
 
 image: publications/online-narrative-guides-for-illuminating-tissue-atlas-data-and-digital-pathology-images.PNG
 
-group: harvard
+group: rxiv
 
 date: 2020-03-30
 

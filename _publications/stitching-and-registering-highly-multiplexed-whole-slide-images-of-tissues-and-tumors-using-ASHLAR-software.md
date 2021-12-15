@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/stitching-and-registering-highly-multiplexed-whole-slide-images-of-tissues-and-tumors-using-ASHLAR-software.PNG
 
-group: harvard
+group: rxiv
 
 date: 2021-04-21
 minerva_link:
