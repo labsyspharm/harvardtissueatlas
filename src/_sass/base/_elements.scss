@@ -50,3 +50,24 @@ p {
 *:focus {
     outline:0;
 }
+
+details {
+    position:relative;
+    margin:1em 0;
+
+    &[open] {
+        padding-bottom:2.5em;
+
+        summary {
+            position: absolute;
+            bottom:.3em;
+
+            &:after {
+                content:"–";
+            }
+        }
+    }
+}
+summary {
+    @extend .expand-button;
+}

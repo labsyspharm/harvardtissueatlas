@@ -102,6 +102,14 @@ For any pages that render out body content (eg. project summary pages), a few no
     {% include graphic.html content='my-graphic-entry' %}
     ```
     This will display the graphic -- with its associated title and caption information -- inline in the page on mobile, and will 'float' the content to the right on desktop displays.
+- **Expand/Collapse** - Expand/collapse functionality can be added to blocks of content by making use of the `<details>` and `<summary>` HTML elements. Note that a custom value can be assigned to the expanded state of the summary button via a `data-collapse-label` attribute:
+    ```
+    <details>
+        <summary data-collapse-label="I'm done">Expand</summary>
+        ...
+    </details>
+    ```
+    By default (if no value is provided), the label on the expanded button will be 'Collapse'.
 - **Video** - Vimeo video support is available via the 'vimeo' include file.  Usage is as follows:
     ```
     {% include vimeo.html id="158396727" autoplay=true muted=true time="1m" %}
