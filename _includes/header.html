@@ -8,8 +8,25 @@
         <ul class="nav-bar-mobile__list">
             {% assign menu = site.data.menus.main %}
             {% for item in menu %}
-                <li class="menu-header nav-bar-mobile__item">
-                    <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar-mobile__link" target="{{ item.target }}">{{item.name }}</a>
+                <li class="menu-header nav-bar-mobile__item {% if item.children %}has-subnav{% endif %}">
+                    {% if item.url != '' and item.url != '#' %}
+                        <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar-mobile__link" target="{{ item.target }}">{{item.name }}</a>
+                    {% else %}
+                        <span class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar-mobile__link">{{item.name }}</span>
+                    {% endif %}
+                    {% if item.children %}
+                        <div class="nav-bar__panel-outer">
+                            <div class="nav-bar__panel">
+                                <ul class="nav-bar__panel-inner">
+                                    {% for subitem in item.children %}
+                                        <li class="subnav-bar-mobile__item">
+                                            <a href="{{ subitem.url | relative_url }}" target="{{ subitem.target }}">{{subitem.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>
@@ -44,8 +61,27 @@
                 <ul class="nav-bar__list">
                     {% assign menu = site.data.menus.main %}
                     {% for item in menu %}
-                        <li class="menu-header nav-bar__item">
-                            <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar__link" target="{{ item.target }}">{{item.name }}</a>
+                        <li class="menu-header nav-bar__item {% if item.children %}has-subnav{% endif %}">
+                            {% if item.url != '' and item.url != '#' %}
+                                <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar__link" target="{{ item.target }}">{{item.name }}</a>
+                            {% else %}
+                                <span class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar__link">{{item.name }}</span>
+                            {% endif %}
+                            {% if item.children %}
+                                <div class="nav-bar__panel-outer">
+                                    <div class="nav-bar__panel">
+
+                                        <ul class="nav-bar__panel-inner">
+                                            {% for subitem in item.children %}
+                                                <li class="subnav-bar__item">
+                                                    <a href="{{ subitem.url | relative_url }}" class="nav-bar__sub-link" target="{{ subitem.target }}">{{subitem.name }}</a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            {% endif %}
                         </li>
                     {% endfor %}
                 </ul>

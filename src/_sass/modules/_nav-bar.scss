@@ -58,7 +58,7 @@
 
 
 .nav-bar__item {
-    @extend %hover-fix-nested-link;
+    // @extend %hover-fix-nested-link;
     display:inline-block;
     margin-right:15px;
     transition:margin 0.2s $ease-out-quad;
@@ -83,8 +83,8 @@
     padding-top:2px;
     padding-bottom:7px;
     letter-spacing:.037em;
-    cursor:pointer;
     position:relative;
+    cursor: default;
 
     &::before {
         content:"";
@@ -97,21 +97,24 @@
         transition:width 0.2s $ease-out-quad;
     }
     
-    &:hover {
-        &::before {
-            width:100%;
-            left:0;
-        }
-    }
-
     &.active {
         &::before {
             width:100%;
             border-bottom:3px solid $color_light-blue;
         }
     }
-    
 }
+a.nav-bar__link {
+    cursor:pointer;
+
+    &:hover {
+        &::before {
+            width:100%;
+            left:0;
+        }
+    }
+}
+
 .util-nav-bar .nav-bar__link,
 .util-nav-bar__link {
     @extend %nav-item-style-2;
@@ -142,7 +145,7 @@
 .nav-bar__panel-outer {
     position:absolute;
     left:-20px;
-    top:46px;
+    top:37px;
     min-width:calc(100% + 32px);
     height:0;   // keep 'hidden' but active in the dom til hover occurs
     overflow:hidden;
@@ -157,7 +160,7 @@ li.nav-bar__item {
     // &.panel-shift,
     &:last-child {
         .nav-bar__panel-outer {
-            left:calc(40px - 100%);
+            // left:calc(40px - 100%);
         }
     }
     &.no-panel-shift {
@@ -169,7 +172,7 @@ li.nav-bar__item {
 .nav-bar__panel {
     position:relative;
     width:calc(100% - 40px);
-    padding:0 20px 20px;
+    padding:5px 20px 20px;
     background: rgba(255, 255, 255, 0.86);  // CRS
     box-shadow:
         0 5px 5px rgba(0,0,0,0.05),
@@ -181,6 +184,8 @@ li.nav-bar__item {
 
     & ul {
         list-style:none;
+        margin: 0;
+        padding: 0;
     }
     &.is-active {
         opacity:1;
@@ -194,9 +199,11 @@ li.nav-bar__item {
 
     & a {
         color:$color_dark-blue; 
+        text-decoration:none;
 
         &:hover {
-            text-decoration:none;
+            // text-decoration:underline;
+            color:$color_blue;
         }
     }
 
@@ -204,9 +211,9 @@ li.nav-bar__item {
     @include breakpoint(desktop) {
         @include font-size(14px);
     }
-    @include breakpoint(desktop-l) {
-        @include font-size(16px);
-    }
+    // @include breakpoint(desktop-l) {
+    //     @include font-size(16px);
+    // }
 }
 /*
 .nav-bar__panel-inner ul,
@@ -287,6 +294,7 @@ li.nav-bar__item {
 .nav-bar-mobile__link {
     display:block;
     @extend %nav-item-style-2;
+    @include font-size(22px);
     color:$color_white;
 }
 .mobile-subnav__link {
@@ -303,6 +311,7 @@ li.nav-bar__item {
         position:relative;
         height:auto;
         top:0;
+        margin-bottom:1em;
     }
     .nav-bar__panel {
         opacity:1;
