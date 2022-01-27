@@ -4,7 +4,7 @@ contributors: 'Liu, D., Lin, J.-R., Robitschek, E.J., Kasumova, G.G., Heyde, A.,
 publication: Nature Medicine, 27, 985–992.
 publication_link: https://doi.org/10.1038/s41591-021-01331-8
 
-image: publication/evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder.PNG
+image: publications/evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder.PNG
 
 group: harvard
 
