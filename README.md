@@ -19,7 +19,27 @@ The site makes use of the [imgix](https://www.imgix.com/) image processing servi
 ## Data Files
 
 The site currently makes use of three data files (contained in the *_data* directory), which can be edited as needed as the site grows over time:
-- **menus.yml** - This contains the structure for the main site navigation. Note the use of the *section_id* value.  This is used to trigger menu highlighting for sub-pages within a given section.
+- **menus.yml** - This contains the structure for the main site navigation. Note the use of the *section_id* value.  This is used to trigger menu highlighting for sub-pages within a given section. Also note the use of the *children* attribute, which is used to specify submenus for a given top-level section. If a top-level menu item is not actually a link, but rather just a container label, simply provide an empty string for the url value. For example, here, the 'About' section is simply a top-level label/container for the 'Projects' and 'People' pages below it:
+    ```yaml
+    main:
+    - name: "About"
+        section_id: about
+        url: ""
+        target: ""
+        children:
+        - name: "Projects"
+            url: "/projects"
+            target: "_self"
+        - name: "People"
+            section_id: people
+            url: "/people"
+            target: "_self"
+    - name: "Publications"
+        section_id: publications
+        url: "/publications"
+        target: "_self"
+    ...
+    ```
 - **people.yml** - The *people* entries are organized on the People landing page according to group.  The groups are specified in the ***people.yml*** file, and the *key* value is assigned to the entries in the *people* collection to form their group associations.
 - **publications.yml** - The *publications* entries are grouped by their associated *groups* on the Publications landing page. The groups are specified in the ***publications.yml*** file, and the *key* value is assigned to the entries in the *publications* collection to form their group associations.
 

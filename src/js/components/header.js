@@ -86,7 +86,7 @@ function initDesktopMenu() {
                 // Hide the dark overlay (sits underneath the dropdown)
                 // overlay.hideOverlay($header);
             },
-            timeout: 200
+            timeout: 100
         });
     });
 }
