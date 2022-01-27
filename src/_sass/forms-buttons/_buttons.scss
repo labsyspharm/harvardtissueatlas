@@ -51,3 +51,33 @@
         }
     }
 }
+
+.expand-button {
+    text-transform:uppercase;
+    color: $color_blue;
+    position:relative;
+    cursor:pointer;
+
+    &::-webkit-details-marker,
+    &::marker {
+        display:none;
+    }
+    &:after {
+        content:"+";
+        color:white;
+        display:inline-flex;
+        justify-content:center;
+        align-items:center;
+        font-size:2rem;
+        line-height:0;
+        font-weight:bold;
+        width:30px;
+        height:30px;
+        background:$color_blue;
+        position:relative;
+        margin-left:.3em;
+        border-radius:50%;
+        top:.15em;
+    }
+
+}
