@@ -11,7 +11,7 @@ description: |
     differential spatial testing. The Python-based implementation efficiently
     deals with large datasets of millions of cells.
 # thumbnail image, can be a logo too
-image: https://scimap.xyz/assets/scimap_logo.png
+image: software/scimap-logo.png
 
 # link to the publication
 # maybe link to the entry on the publication page?

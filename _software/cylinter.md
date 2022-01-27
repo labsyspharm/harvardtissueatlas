@@ -10,7 +10,7 @@ description: |
     configurable Python Class object. Module results are cached to allow for
     dynamic restarts.
 # thumbnail image, can be a logo too
-image: https://labsyspharm.github.io/cylinter/assets/images/cylinter-logo.svg?raw=true
+image: software/cylinter-logo.svg
 
 # link to the publication
 # maybe link to the entry on the publication page?

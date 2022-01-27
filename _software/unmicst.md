@@ -17,7 +17,7 @@ description: |
     Parsing (PSP)Net are coming very soon!
 
 # thumbnail image, can be a logo too
-image: https://github.com/HMS-IDAC/UnMicst/blob/master/images/unmicstbannerv2.png?raw=true
+image: software/unmicst-logo.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
