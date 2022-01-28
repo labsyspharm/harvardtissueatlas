@@ -8,38 +8,31 @@ layout: secondary
 
         {{ content }}
 
-        <div class="publications__group">
+        <div>
 
             {% assign funding = site.funding | sort: 'date' %}
             {% for grant in funding %}
 
             <div class="row mb-5">
-                <!-- <div class="d-none col-2 d-md-flex align-items-center justify-content-center">
-                    {% if grant['project-image'] %}
-                    <img src="{{ site.baseurl }}/assets/img/{{ grant['project-image'] }}" alt="" class="img-fluid">
-                    {% else %}
-                    <h3 class="m-0 text-center">{{ grant['short-name'] }}</h3>
-                    {% endif %}
-                </div> -->
                 <div class="col">
-                    <h2>
+                    <h2 class="my-1">
                         {{ grant['name'] }}
                     </h2>
                     <p><strong>{{ grant['summary'] | markdownify }}</strong></p>
                     <details>
-                        <summary class="arrow-button">Learn more</summary>
+                        <summary>Learn more</summary>
                         <p>
                             {{ grant['description'] | markdownify }}
                         </p>
                     </details>
                 </div>
                 <div class="col-md-3">
-                    <h5 class='m-0 mb-4'>
+                    <h4 class="my-1">
                         Funded By:
-                    </h5>
+                    </h4>
                     <p class="mb-2">{{ grant['grant'] }}</p>
-                    <img src="{{ site.baseurl }}/images/{{ grant['grant-image'] }}" alt="" class="img-fluid"
-                        style="max-height: 32px">
+                    <img src="{{ site.baseurl }}/images/{{ grant['grant-image'] }}" alt=""
+                        style="max-height: 32px; max-width: 100%;">
                 </div>
             </div>
 
