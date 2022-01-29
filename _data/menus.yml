@@ -11,25 +11,30 @@ main:
         section_id: people
         url: "/people"
         target: "_self"
+      - name: "Funding"
+        section_id: funding
+        url: "/funding"
+        target: "_self"
+      - name: "FAQ"
+        section_id: faq
+        url: "/faq"
+        target: "_self"
   - name: "Publications"
     section_id: publications
     url: "/publications"
     target: "_self"
-  - name: "Methods"
+  - name: "Methods & Software"
     section_id: methods
-    url: "https://www.cycif.org/"
-    target: "_blank"
+    url: "/software"
   - name: "Data"
     section_id: data
     url: "/data"
     target: "_self"
-  - name: "Talks & Tutorials"
-    section_id: talks-tutorials
-    url: "/talks-tutorials"
-  - name: "FAQ"
-    section_id: faq
-    url: "/faq"
-  - name: "Funding"
-    section_id: funding
-    url: "/funding"
-
+  - name: "Learn"
+    section_id: learn
+    url: ""
+    children:
+      - name: "Talks"
+        url: "/talks"
+      - name: "Tutorials"
+        url: "/tutorials"
