@@ -150,6 +150,7 @@ a.nav-bar__link {
     height:0;   // keep 'hidden' but active in the dom til hover occurs
     overflow:hidden;
     transition:transform 0.5s $ease-in-out-quart, opacity 0.5s $ease-in-out-quart;
+    box-sizing:content-box;
 
     &.is-active {
         height:auto;
