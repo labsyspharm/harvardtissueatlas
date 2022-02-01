@@ -5,5 +5,5 @@ positions:
 
 photo: people/jacobson-connor.jpg
 
-group: staff
+group: alumni
 ---
