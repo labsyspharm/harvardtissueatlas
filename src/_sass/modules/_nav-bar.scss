@@ -209,7 +209,7 @@ li.nav-bar__item {
 
 
     @include breakpoint(desktop) {
-        @include font-size(14px);
+        @include font-size(16px);
     }
     // @include breakpoint(desktop-l) {
     //     @include font-size(16px);
