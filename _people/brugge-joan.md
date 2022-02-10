@@ -6,5 +6,7 @@ positions:
 
 photo: people/brugge-joan.jpg
 
-group: collaborators
+group: principals
+
+weight: 5
 ---

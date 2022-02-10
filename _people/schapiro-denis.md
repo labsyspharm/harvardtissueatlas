@@ -5,5 +5,7 @@ positions:
 
 photo: people/schapiro-denis.jpg
 
-group: alumni
+group: principals
+
+weight: 7
 ---

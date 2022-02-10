@@ -5,5 +5,7 @@ positions:
 
 photo: people/izar-ben.jpeg
 
-group: collaborators
+group: principals
+
+weight: 6
 ---
