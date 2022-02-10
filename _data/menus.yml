@@ -38,3 +38,5 @@ main:
         url: "/talks"
       - name: "Tutorials"
         url: "/tutorials"
+      - name: "Webinars"
+        url: "/webinars"
