@@ -5,7 +5,5 @@ groups:
     name: Staff
   - key: fellows
     name: Fellows and Students
-  - key: collaborators
-    name: Collaborators
   - key: alumni
     name: Alumni
