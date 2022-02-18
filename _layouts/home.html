@@ -56,3 +56,16 @@ layout: default
         </div>
     </div>
 </section>
+
+<section class="featured-cards">
+    <div class="featured-cards__inner container-wide">
+        <h2 class="featured-cards__heading">News &amp; Updates</h2>
+        <div class="featured-cards__items">
+            {% for item in site.data.news.featured %}
+
+                {% include news-card.html content=item %}
+                
+            {% endfor %}
+        </div>
+    </div>
+</section>
