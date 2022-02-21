@@ -6,23 +6,23 @@
 
 // Featured Data Cards ----------------------------------------------
 
-.featured-data {
+.featured-cards {
     margin-top:40px;
-    margin-bottom:40px;
+    margin-bottom:60px;
 
     @include breakpoint(tablet-v) {
         margin-top:70px;
-        margin-bottom:70px;
+        margin-bottom:90px;
     }
 }
-.featured-data__heading {
+.featured-cards__heading {
     @extend %heading-style-1;
     color: $color_dark-blue;
     margin:0 0 1em;
 }
 
 
-.featured-data__items {
+.featured-cards__items {
     margin:30px auto 60px;
 
     @include breakpoint("min-width:600px") {
@@ -37,5 +37,14 @@
     @include breakpoint("min-width:1350px") {
         @include flex-grid(4);
         max-width:1280px;
+    }
+}
+
+.featured-cards__cta {
+    @include breakpoint(tablet-v) {
+        margin-top:-40px;
+    }
+    @include breakpoint(desktop) {
+        margin-top:-70px;
     }
 }

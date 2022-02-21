@@ -1,0 +1,39 @@
+<div class="news-card news-card--type-{{ include.content.type }}">
+    <div class="news-card__image">
+        <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=259&h=176&fit=crop" alt="Thumbnail image for news item">
+    </div>
+    <div class="news-card__content">
+        <div class="news-card__title">{{ include.content.title }}</div>
+        {%- assign meta = "" -%}
+        {%- if include.content.author -%}
+            {%- assign meta = include.content.author -%}
+        {%- endif -%}
+        {%- if include.content.year -%}
+            {%- assign meta = meta | append: " " | append: include.content.year | append: "." -%}
+        {%- endif -%}
+        {%- if include.content.publication -%}
+            {%- assign meta = meta | append: " <em>" | append: include.content.publication | append: "</em>" -%}
+        {%- endif -%}
+        {%- if meta -%}
+            <div class="news-card__meta">{{ meta }}</div>
+        {%- endif -%}
+
+        <a href="{{ include.content.link }}" target="{{ include.content.target }}" class="arrow-button news-card__link"></a>
+
+    </div>
+
+    <div class="news-card__footer">
+        {%- case include.content.type %}
+            {% when 'tools' %}
+            Tools &amp; Data
+            {% when 'publication' %}
+            Publication
+            {% when 'method' %}
+            Method
+            {% when 'software' %}
+            Software
+            {% else %}
+            News
+        {% endcase -%}
+    </div>
+</div>
