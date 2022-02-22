@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1007/978-3-030-59722-1_1
 
 image: publications/channel-embedding-for-informative-protein-identification-from-highly-multiplexed-images.PNG
 
-group: harvard
+group: methods
 
 date: 2020-12-07
 

@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s43018-020-00148-7
 
 image: publications/targeting-immunosuppressive-macrophages-overcomes-PARP-inhibitor-resistance-in-BRCA1-associated-triple-negative-breast-cancer.PNG
 
-group: harvard
+group: featured
 
 date: 2021-01-01
 

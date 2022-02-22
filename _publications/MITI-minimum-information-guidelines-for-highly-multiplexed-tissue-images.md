@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/MITI.PNG
 
-group: rxiv
+group: methods
 
 date: 2021-08-21
 

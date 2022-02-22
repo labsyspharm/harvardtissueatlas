@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer.PNG
 
-group: rxiv
+group: methods
 
 date: 2021-05-17
 

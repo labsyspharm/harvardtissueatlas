@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.cell.2020.11.009
 
 image: publications/obesity-shapes-metabolism-in-the-tumor-microenvironment-to-suppress-anti-tumor-immunity.PNG
 
-group: harvard
+group: profiling
 
 date: 2020-12-23
 

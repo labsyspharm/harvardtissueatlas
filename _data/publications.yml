@@ -1,5 +1,7 @@
 groups:
-  - key: harvard
-    name: Harvard Tissue Atlas Publications
-  - key: rxiv
-    name: In Progress
+  - key: featured
+    name: Featured Publications
+  - key: methods
+    name: Methods and software
+  - key: profiling
+    name: Profiling and Atlasing

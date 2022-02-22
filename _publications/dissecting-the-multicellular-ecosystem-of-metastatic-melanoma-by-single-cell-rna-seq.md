@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1126/science.aad0501
 
 image: publications/Ludwig_10-Tirosh-et-al-2016-Science.jpg
 
-group: harvard
+group: profiling
 
 date: 2016-01-01
 

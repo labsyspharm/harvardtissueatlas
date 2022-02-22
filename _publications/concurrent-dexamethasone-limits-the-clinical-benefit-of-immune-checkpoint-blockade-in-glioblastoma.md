@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1158/1078-0432.CCR-20-2291
 
 image: publications/concurrent-dexamethasone-limits-the-clinical-benefit-of-immune-checkpoint-blockade-in-glioblastoma.PNG
 
-group: harvard
+group: profiling
 
 date: 2021-01-01
 

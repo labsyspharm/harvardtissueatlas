@@ -5,7 +5,7 @@ publication: Nature Methods, 2021
 publication_link: https://doi.org/10.1038/s41592-021-01308-y
 
 image: publications/mcmicro.PNG
-group: harvard
+group: featured
 
 date: 2021-11-25
 

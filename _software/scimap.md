@@ -15,12 +15,12 @@ image: software/scimap-logo.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: 
+publication:
 # link to github repo
 source code: https://github.com/labsyspharm/scimap
 # link to micro-site
 documentation: https://scimap.xyz/
 
 # for sorting purpose
-date: 2002-01-01
+date: 2017-01-01
 ---

@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.21105/joss.02579
 
 image: publications/minerva-a-light-weight-narrative-image-browser-for-multiplexed-tissue-images.PNG
 
-group: harvard
+group: methods
 
 date: 2020-10-15
 

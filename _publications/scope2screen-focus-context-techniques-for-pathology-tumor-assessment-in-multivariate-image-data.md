@@ -6,7 +6,7 @@ publication_link: https://vcg.seas.harvard.edu/publications/scope2screen
 
 image: publications/scope2screen-focus-context-techniques-for-pathology-tumor-assessment-in-multivariate-image-data.PNG
 
-group: harvard
+group: methods
 
 date: 2021-10-04
 

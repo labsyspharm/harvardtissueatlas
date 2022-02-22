@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer.PNG
 
-group: rxiv
+group: featured
 
 date: 2021-04-02
 

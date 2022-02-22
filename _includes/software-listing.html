@@ -1,4 +1,4 @@
-<div class="software-listing">    
+<div class="software-listing">
     <div class="software-listing__photo">
         {% if include.content.image %}
             {% assign imgUrl = include.content.image %}
@@ -34,9 +34,16 @@
                     </a>
                 </li>
             {%- endif -%}
-            
+            {%- if include.content.video -%}
+                <li class="software-listing__link">
+                    <a href="{{ include.content.video }}" target="_blank">
+                        Video
+                    </a>
+                </li>
+            {%- endif -%}
+
         </ul>
-        
+
     </div>
 
 </div>

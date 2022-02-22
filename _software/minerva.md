@@ -8,12 +8,14 @@ image: software/minerva.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: 
+publication:
 # link to github repo
 source code: https://github.com/labsyspharm/minerva-story
 # link to micro-site
 documentation: https://github.com/labsyspharm/minerva-story/wiki
+# link to minerva video
+video: https://vimeo.com/439974633
 
 # for sorting purpose
-date: 1999-01-01
+date: 2021-01-01
 ---

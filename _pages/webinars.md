@@ -28,7 +28,7 @@ Specimens, reagents, projects, and experiments are tracked internally using cust
 
 Inconsistent data annotation is a major barrier to collaboration, data reuse and research reproducibility. To address this problem, the LSP in collaboration with the Human Tumor Atlas Network, developed MITI reporting guidelines to provide clinical, biospecimen, and experimental metadata standards for most multiplexed imaging technologies.
 
-Antibody validation and antibody panel design
+### Antibody validation and antibody panel design
 
 Meaningful data from tissue imaging relies on having high-quality antibodies and carefully designed antibody panels. The LSP extensively validates antibodies, rates antibody performance, and custom builds antibody panels for each project to answer clinically-relevant questions.  
 
@@ -36,7 +36,7 @@ Meaningful data from tissue imaging relies on having high-quality antibodies and
 
 Tissue-based cyclic immunofluorescence, or t-CyCIF, is the multiplex imaging method developed within the LSP that can be used to measure the distribution of dozens of proteins in intact tissue specimens. This iterative process collects repeated immunofluorescent images from the same sample using different fluorescent-tagged antibodies in each cycle and then assembles these images into a high-dimensional representation of the tissue.  
 
-High resolution and 3D imaging
+### High resolution and 3D imaging
 
 HTA contributes to the collective understanding of physiology and pathology across many scales. Imaging at higher resolution can highlight striking subcellular features, such as the arrangement of organelles, that can be used to characterize diseases. On the other end of the scale, thick tissues can be imaged in 3D by optical or serial sectioning to better describe the intricate ways cells interact in their native tissue context.
 

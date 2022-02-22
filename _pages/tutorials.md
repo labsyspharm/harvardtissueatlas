@@ -16,7 +16,7 @@ CyCIF is a robust and inexpensive method for highly multiplexed immunofluorescen
 
 CyCIF (Tissue-based cyclic immunofluorescence) uses formalin-fixed, paraffin-embedded (FFPE) tumor and tissue specimens mounted on glass slides. These are the most widely used specimens for histopathological diagnosis of cancer and other diseases. t-CyCIF generates multiplexed images of FFPE samples using an iterative process (a cycle) in which conventional low-plex fluorescence images are repeatedly collected from the same sample and then assembled into a high dimensional representation. Several variants are possible using direct and indirect immunofluorescence.
 
-### Metastatic melanoma t-CycIF with 25 markers
+### Highly Multiplexed Immunofluorescence Imaging of Human Tissues and Tumors Using t-CyCIF and Conventional Optical Microscopes
 {% include vimeo.html id="269904895" autoplay=false muted=false time="0m" %}
 
 ## Minerva Author and Story

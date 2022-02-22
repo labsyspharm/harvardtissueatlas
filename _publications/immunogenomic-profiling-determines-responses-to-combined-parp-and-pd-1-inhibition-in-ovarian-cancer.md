@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s41467-020-15315-8
 
 image: publications/Ludwig_5-Farkkilla-et-al-2019-Nat-Comm.jpg
 
-group: harvard
+group: profiling
 
 date: 2020-01-01
 

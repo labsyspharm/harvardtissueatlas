@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/online-narrative-guides-for-illuminating-tissue-atlas-data-and-digital-pathology-images.PNG
 
-group: rxiv
+group: methods
 
 date: 2020-03-30
 

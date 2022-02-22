@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s41597-019-0332-y
 
 image: publications/Ludwig_14-Rashid-et-al-2019-Sci-Data-6.jpg
 
-group: harvard
+group: methods
 
 date: 2019-01-01
 
