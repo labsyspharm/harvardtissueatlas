@@ -14,7 +14,7 @@ source code: https://github.com/labsyspharm/mcmicro
 # link to micro-site
 documentation: https://mcmicro.org
 # link to mcmicro video
-video: https://www.youtube.com/watch?v=fnxBvgJQmtY
+video: https://vimeo.com/679368905
 
 # for sorting purpose
 date: 2022-01-01
