@@ -18,7 +18,7 @@ The site makes use of the [imgix](https://www.imgix.com/) image processing servi
 
 ## Data Files
 
-The site currently makes use of three data files (contained in the *_data* directory), which can be edited as needed as the site grows over time:
+The site currently makes use of four data files (contained in the *_data* directory), which can be edited as needed as the site grows over time:
 - **menus.yml** - This contains the structure for the main site navigation. Note the use of the *section_id* value.  This is used to trigger menu highlighting for sub-pages within a given section. Also note the use of the *children* attribute, which is used to specify submenus for a given top-level section. If a top-level menu item is not actually a link, but rather just a container label, simply provide an empty string for the url value. For example, here, the 'About' section is simply a top-level label/container for the 'Projects' and 'People' pages below it:
     ```yaml
     main:
