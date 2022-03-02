@@ -1,6 +1,6 @@
 ---
 title: Primary Squamous Cell Carcinoma of the Lung
-image: datasets/primary-squamous-cell-carcinoma-of-the-lung.jpg
+image: data-cards/primary-squamous-cell-carcinoma-of-the-lung.jpg
 
 date: 2020-11-09
 

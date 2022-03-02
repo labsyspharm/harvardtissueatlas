@@ -1,6 +1,6 @@
 ---
 title: Combination Therapy in Ovarian Cancer
-image: datasets/combination-therapy-in-ovarian-cancer.jpg
+image: data-cards/combination-therapy-in-ovarian-cancer.jpg
 
 date: 2020-11-17
 

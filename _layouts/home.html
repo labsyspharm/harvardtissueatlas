@@ -28,7 +28,7 @@ layout: default
     <div class="featured-cards__inner container-wide">
         <h2 class="featured-cards__heading">Featured Atlas/Data</h2>
         <div class="featured-cards__items">
-            {% assign sorted = site.datasets | where: 'featured', true | sort: 'date' | reverse %}
+            {% assign sorted = site.data-cards | where: 'featured', true | sort: 'date' | reverse %}
             {% for dataset in sorted %}
 
                 {% include data-card.html content=dataset %}

@@ -18,7 +18,7 @@ collections:
   pages:
     output: true
     permalink: /:path
-  datasets:
+  data-cards:
     output: true
   projects:
     output: true
@@ -36,7 +36,7 @@ collections:
 defaults:
   - scope:
       path: ''
-      type: datasets
+      type: data-cards
     values:
       section_id: data
       layout: summary

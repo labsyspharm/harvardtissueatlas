@@ -6,7 +6,7 @@ This project contains the source files for the Harvard Tissue Atlas website.  Th
 
 The site (as currently stands) is comprised of 6 Collections:
 - **pages** - These provide the content for the top-level pages of the website.  Pages are gathered within the collection for organizational purposes, so that the source files are not left 'loose' at the root of the site.
-- **datasets** - These entries provide the source content for the items in the *Data* section of the website, as well as the *Featured Data* module on the homepage.
+- **data-cards** - These entries provide the source content for the items in the *Data* section of the website, as well as the *Featured Data* module on the homepage.
 - **projects** - These provide the content for the *Projects* section of the website.
 - **publications** - These provide the content for the *Publications* section of the website. At a minimum, entries should contain front matter that can be used to populate the publication list on the Publications landing page.  They can also contain body content, which can then be displayed as a standalone summary page for the publication.
 - **people** - These entries provide the source content for the items in the *People* section of the website.  No standalone pages are build for these items, but body content is displayed within the People landing page list.
@@ -65,9 +65,9 @@ Below is information about the front matter options for each of the site's colle
 - **layout** - Specifies the template for the page (generally should not need to change)
 - **wide_container** (boolean) - If used, specifies whether to render the content in a wider content container.
 
-### datasets ###
+### data-cards ###
 - **title** - The title of the dataset entry
-- **image** - Path to the image used for the dataset card.  Images should be placed in the *images/datasets* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'datasets/my-image.jpg').  Sizing will be automatically applied.
+- **image** - Path to the image used for the dataset card.  Images should be placed in the *images/data-cards* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'data-cards/my-image.jpg').  Sizing will be automatically applied.
 - **date** - Date representing when the dataset was posted.  Can be adjusted as needed to move the entry higher or lower in its display order (newer items are listed first in the dataset lists)
 - **featured** (boolean) - If *true*, will display this entry on the homepage
 - **minerva_link** - Link to the associated Minerva page

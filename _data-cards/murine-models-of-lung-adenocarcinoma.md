@@ -1,6 +1,6 @@
 ---
 title: Murine Models of Lung Adenocarcinoma
-image: datasets/murine-models-of-lung-adenocarcinoma.jpg
+image: data-cards/murine-models-of-lung-adenocarcinoma.jpg
 
 date: 2020-11-16
 

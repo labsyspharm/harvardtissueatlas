@@ -1,6 +1,6 @@
 ---
 title: Lung Adenocarcinoma Metastasis to Lymph Node
-image: datasets/lung-adenocarcinoma-metastasis-to-lymph-node.jpg
+image: data-cards/lung-adenocarcinoma-metastasis-to-lymph-node.jpg
 
 date: 2020-11-10
 
