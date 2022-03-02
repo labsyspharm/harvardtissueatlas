@@ -1,0 +1,65 @@
+featured:
+  - title: "Systematic measurement of combination-drug landscapes to predict in vivo treatment outcomes for tuberculosis"
+    author: "Larkins-Ford et al."
+    year: 2021 
+    publication: "Cell Systems"
+    type: tools  # [tools|publication|method|software]
+    image: "news/systemic-measurement-of-combination-drug.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "Targeting immunosuppressive macrophages overcomes PARP inhibitor resistance in BRCA1-associated triple-negative breast cancer"
+    author: "Mehta et al."
+    year: 2021 
+    publication: "Nature Cancer"
+    type: publication  # [tools|publication|method|software]
+    image: "news/targeting-immunosuppressive-macrophages.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "SYLARAS: A Platform for the Statistical Analysis and Visual Display of Systemic Immuno-profiling Data and Its Application to Glioblastoma"
+    author: "Baker et al."
+    year: 2020
+    publication: "Cell Systems"
+    type: method  # [tools|publication|method|software]
+    image: "news/sylaras-platform-for-statistical-analysis.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "A Switch in p53 Dynamics Marks Cells That Escape from DSB-Induced Cell Cycle Arrest"
+    author: "Tsabar et al."
+    year: 2020
+    publication: "Cell Reports"
+    type: publication  # [tools|publication|method|software]
+    image: "news/switch-in-p53-dynamics-marks-cells-that-escape.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "MCMICRO: A multiple-choice microscopy pipeline"
+    author: ""
+    year:  
+    publication: ""
+    type: software  # [tools|publication|method|software]
+    image: "news/mcmicro.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "Metabolic perturbations sensitize triple-negative breast cancers to apoptosis induced by BH3 mimetics"
+    author: "Daniels et al."
+    year: 2021
+    publication: "Science Signaling"
+    type: publication  # [tools|publication|method|software]
+    image: "news/metabolic-perturbations-sensitize-triple-negative-breast-cancers.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "Prophages encode phage-defense systems with cognate self-immunity"
+    author: "Owen*, Wenner*, et al."
+    year: 2021
+    publication: "Cell Host & Microbe"
+    type: publication  # [tools|publication|method|software]
+    image: "news/prophages-encode-phage-defense-systems.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
+  - title: "Machine learning identifies candidates for drug repurposing in Alzheimer's disease"
+    author: "Rodriguez, et al."
+    year:  2021
+    publication: "Nature Communications"
+    type: publication  # [tools|publication|method|software]
+    image: "news/machine-learning-identifies-candidates-for-drug-repurposing.jpg"
+    link: "#"
+    target: "_blank"  # [_self|_blank]
