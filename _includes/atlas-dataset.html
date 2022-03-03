@@ -1,0 +1,78 @@
+<section id="{{ include.sectionId }}">
+    <h1 style="text-transform: initial;">
+        {{ include.pubData.publication.title | markdownify }}
+    </h1>
+    <p>
+        {{ include.pubData.publication.authors }}
+    </p>
+    <p>
+        <em>{{ include.pubData.publication.journal | markdownify}}</em>
+    </p>
+    <p>
+        {{ include.pubData.publication.description | markdownify}}
+    </p>
+
+    {% for link_hash in include.pubData.publication.links %}
+        {% for link in link_hash %}
+        <a class="m-1" href="{{ link[1] }}" {% if link[1] contains 'http' %} target="_blank" {% endif %}>{{ link[0] }}</a> 
+        {% endfor %}
+        {% if forloop.last == false %} | {% endif %}
+    {% endfor %}
+
+    <h2>Available images</h2>
+
+    <section class="data-cards">
+        <div class="data-cards__inner">
+            <div class="data-cards__items">
+                
+                {% assign cards = site.data-cards %}
+
+                {% for img in include.pubData['stitched mosaic images'] %}
+                    {% for link_hash in img.links %}
+                        {% for link in link_hash %}
+                            {% for card in cards %}
+                                {% assign target = include.sectionId | append: '/' | append: link[1] | append: '/' %}
+                                {% if card.url contains target %}
+                                    {% include data-card.html content=card %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endfor %}
+                {% endfor %}
+                
+            </div>
+        </div>
+    </section>
+
+    <div>
+        {% for group in include.pubData['group object'] %}
+
+        <h3>{{ group[0] | markdownify }}</h3>
+        
+        <section class="data-cards">
+            <div class="data-cards__inner">
+                <div class="data-cards__items">
+                    
+                    {% assign cards = site.data-cards %}
+    
+                    {% for img in group[1] %}
+                        {% for link_hash in img.links %}
+                            {% for link in link_hash %}
+                                {% for card in cards %}
+                                    {% assign target = include.sectionId | append: '/' | append: link[1] | append: '/' %}
+                                    {% if card.url contains target %}
+                                        {% include data-card.html content=card %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endfor %}
+                    
+                </div>
+            </div>
+        </section>
+        
+        {% endfor %}
+    </div>
+    
+</section>
