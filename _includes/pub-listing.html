@@ -23,6 +23,13 @@
                     </a>
                 </li>
             {%- endif -%}
+            {%- if include.content.dataset_link -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.dataset_link | relative_url }}" target="_self">
+                        Atlas Dataset
+                    </a>
+                </li>
+            {%- endif -%}
             {%- if include.content.show_page_link -%}
                 <li class="pub-listing__link">
                     <a href="{{ include.content.url | relative_url }}">

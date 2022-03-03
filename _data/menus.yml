@@ -28,8 +28,15 @@ main:
     url: "/software"
   - name: "Data"
     section_id: data
-    url: "/data"
-    target: "_self"
+    url: ""
+    target: ""
+    children:
+      - name: "Atlas Datasets"
+        url: "/atlas-datasets"
+        target: "_self"
+      - name: "All Data"
+        url: "/data"
+        target: "_self"
   - name: "Learn"
     section_id: learn
     url: ""
