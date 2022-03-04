@@ -1,26 +1,5 @@
-<section id="{{ include.sectionId }}">
-    <h1 style="text-transform: initial;">
-        {{ include.pubData.publication.title | markdownify }}
-    </h1>
-    <p>
-        {{ include.pubData.publication.authors }}
-    </p>
-    <p>
-        <em>{{ include.pubData.publication.journal | markdownify}}</em>
-    </p>
-    <p>
-        {{ include.pubData.publication.description | markdownify}}
-    </p>
-
-    {% for link_hash in include.pubData.publication.links %}
-        {% for link in link_hash %}
-        <a class="m-1" href="{{ link[1] }}" {% if link[1] contains 'http' %} target="_blank" {% endif %}>{{ link[0] }}</a> 
-        {% endfor %}
-        {% if forloop.last == false %} | {% endif %}
-    {% endfor %}
-
-    <h2>Available images</h2>
-
+<section id="{{ include.sectionId }}-cards">
+    
     <section class="data-cards">
         <div class="data-cards__inner">
             <div class="data-cards__items">

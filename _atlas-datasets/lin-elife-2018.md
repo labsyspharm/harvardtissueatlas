@@ -42,7 +42,14 @@ data:
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
 
-{% include atlas-dataset.html
+{% include atlas-dataset-info.html
+    sectionId=sectionId
+    pubData=page.data
+    thumbnailDir=sectionId %}
+
+## Available images
+
+{% include atlas-dataset-cards.html
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
