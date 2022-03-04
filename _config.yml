@@ -47,6 +47,11 @@ defaults:
       wide_container: true
   - scope:
       path: ''
+      type: atlas-datasets
+    values:
+      wide_container: true
+  - scope:
+      path: ''
       type: projects
     values:
       section_id: projects
