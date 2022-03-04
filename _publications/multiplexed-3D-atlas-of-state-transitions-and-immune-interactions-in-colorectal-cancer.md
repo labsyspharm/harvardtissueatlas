@@ -11,6 +11,7 @@ group: featured
 date: 2021-04-02
 
 minerva_link:
+dataset_link: /atlas-datasets/lin-wang-coy-2021/
 rxiv_link: https://doi.org/10.1101/2021.03.31.437984
 pdf_link:
 show_page_link: false
