@@ -24,8 +24,8 @@ main:
     url: "/publications"
     target: "_self"
   - name: "Methods & Software"
-    section_id: methods
-    url: "/software"
+    section_id: methods-software
+    url: "/methods-software"
   - name: "Data"
     section_id: data
     url: ""

@@ -10,7 +10,7 @@
     <div class="software-listing__info">
         <h3 class="software-listing__title">{{ include.content.title }}</h3>
         <div class="software-listing__contributors">
-            {{ include.content.description }}
+            {{ include.content.description | markdownify }}
         </div>
         <ul class="software-listing__links">
             {%- if include.content.publication -%}
