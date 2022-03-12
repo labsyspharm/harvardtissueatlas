@@ -1,0 +1,30 @@
+.subnav {
+    margin:1em 0;
+}
+.subnav__list {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.subnav__item {
+    display:inline-block;
+    margin:0;
+    padding:0;
+
+    a {
+        text-transform: uppercase;
+        color:$color_dark-blue;
+    }
+
+    &:after {
+        content:"|";
+        display:inline-block;
+        margin:0 .5em 0 .7em;
+    }
+
+    &:last-child {
+        &:after {
+            display:none;
+        }
+    }
+} 

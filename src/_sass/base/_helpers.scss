@@ -75,7 +75,17 @@
         top:(-$header_height_desktop - 20px);
     }
 }
+[id] {
+    scroll-margin-top: $header_height_mobile;
+    @include breakpoint(desktop) {
+        scroll-margin-top: $header_height_tablet;
+    }
+    @include breakpoint(desktop-xxl) {
+        scroll-margin-top: $header_height_desktop;
+    }
+  }
 
+  
 /*
  * Containers
  */
@@ -89,3 +99,4 @@
 .container-wide {
     @extend %container-wide;
 }
+
