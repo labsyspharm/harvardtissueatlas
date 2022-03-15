@@ -8,7 +8,7 @@ data:
     authors: 'Ajit J. Nirmal, Zoltan Maliga, Tuulia Vallius, Brian Quattrochi, Alyce A. Chen, Connor A. Jacobson, Roxanne J. Pelletier, Clarence Yapp, Raquel Arias-Camison, Yu-An Chen, Christine G. Lian, George F. Murphy, Sandro Santagata, Peter K. Sorger'
     journal: 'Manuscript Submitted'
     description: Cutaneous melanoma is a highly immunogenic malignancy, surgically curable at early stages, but life- threatening when metastatic. Here we integrate high-plex imaging, 3D high-resolution microscopy, and spatially-resolved micro-region transcriptomics to study immune evasion and immunoediting in primary melanoma. We find that recurrent cellular neighborhoods involving tumor, immune, and stromal cells change significantly along a progression axis involving precursor states, melanoma in situ, and invasive tumor. Hallmarks of immunosuppression are already detectable in precursor regions. When tumors become locally invasive, a consolidated and spatially restricted suppressive environment forms along the tumor-stromal boundary. This environment is established by cytokine gradients that promote expression of MHC-II and IDO1, and by PD1-PDL1 mediated cell contacts involving macrophages, dendritic cells, and T cells. A few millimeters away, cytotoxic T cells synapse with melanoma cells in fields of tumor regression. Thus, invasion and immunoediting can co-exist within a few millimeters of each other in a single specimen.
-    links: 
+    links:
       - bioRxiv: https://doi.org/10.1101/2021.05.23.445310
 ---
 
@@ -38,14 +38,15 @@ environments are found.
 * [__Data Explorations__: MINERVA Stories summarizing key findings and
   data](#data-explorations)
 * [__Data Overviews__: MINERVA Stories showing individual H&E and CyCIF
-  images](#data-overviews) 
+  images](#data-overviews)
 * [__Primary Data Access__: List of available data files](#primary-data-access)
 * [__About MINERVA__: Using MINERVA for in-browser data access](#about-minerva)
 
 
 ### Data Explorations
+**""*Data Explorations*” are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints. Both written and audio narration are supported, as well as free exploration. These will be linked to individual figure panels in the final manuscript.
 
-{% 
+{%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'nirmal-maliga-vallius-2021/'"
     | where_exp: "item", "item.hide != true"
@@ -66,12 +67,12 @@ environments are found.
 
 ## Data overviews
 
-**NOTE! These Data Overviews provide access to minimally processed
+**These "*Data Overviews*" provide access to minimally processed
 Level 2 images with no annotation or quality control. Click any of the
 following thumbnail images for an interactive view of the
 full-resolution images.**
 
-{% 
+{%
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'nirmal-maliga-vallius-2021/'"
     | where_exp: "item", "item.hide != true"
@@ -158,13 +159,3 @@ is also anonymous. Users interested in the tool are welcome to explore the
 description of [digital
 docents](https://www.biorxiv.org/content/10.1101/2020.03.27.001834v2) in
 general.
-
-We provide two types of MINERVA stories with this paper:
-
-1. “*Data Explorations*” are like museum guides and exploit the digital docents
-   in MINERVA to guide readers through the complexities of a large image dataset
-   via a series of narrated stories and waypoints. Both written and audio
-   narration are supported, as well as free exploration. These will be linked to
-   individual figure panels in the final manuscript.
-1. “*Data Overviews*” provide access to minimally processed Level 2 images with
-   annotation and interpretation kept to a bare minimum.

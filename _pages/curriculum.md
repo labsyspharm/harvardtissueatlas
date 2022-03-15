@@ -91,9 +91,8 @@ Please come back for an episode on Scope2Screen! In the meantime, check out the 
 [See Scope2Screen resources on the Software page](./software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 [Find open source code for Scope2Screen on GitHub](https://github.com/labsyspharm/scope2screen){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
-
 ### Integrating Spatial Transcriptomics with Imaging
 
 Spatial transcriptomics uses spatially-resolved mRNA readouts to assign cell phenotypes to histological sections. Combining spatial transcriptomics with multiplex tissue imaging reveals hidden relationships between single cell genomics and histological presentations in the tissue.
 
-*VIDEO HERE*
+{% include vimeo.html id="685612269" autoplay=false muted=false time="0m" %}
