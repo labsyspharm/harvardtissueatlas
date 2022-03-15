@@ -41,9 +41,9 @@ main:
     section_id: learn
     url: ""
     children:
+      - name: "Curriculum"
+        url: "/curriculum"
       - name: "Talks"
         url: "/talks"
       - name: "Tutorials"
         url: "/tutorials"
-      - name: "Webinars"
-        url: "/webinars"

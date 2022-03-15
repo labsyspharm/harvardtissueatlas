@@ -1,8 +1,8 @@
 ---
-title: Webinars
-permalink: /webinars
+title: Curriculum
+permalink: /curriculum
 
-section_id: webinars
+section_id: curriculum
 layout: secondary
 ---
 
