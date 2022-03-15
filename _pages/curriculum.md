@@ -82,7 +82,7 @@ Science succeeds as a collaborative process. In the adjacent fields of multiplex
 
 #### MINERVA
 
-*MINERVA VIDEO HERE*
+{% include vimeo.html id="685606030" autoplay=false muted=false time="0m" %}
 
 #### Scope2Screen
 
