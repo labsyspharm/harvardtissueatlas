@@ -16,6 +16,8 @@ The HTA has therefore created a multi-episode series to introduce the major comp
 
 Welcome to the multiplexed tissue imaging technology series! This webinar series will provide unique insight into the active multiplex tissue imaging pipeline used to create the HTA. The goal of these talks is to introduce members of the scientific community to our pipelines in the hope of inspiring collaboration, method sharing, and innovation.  
 
+{% include vimeo.html id="687999091" autoplay=false muted=false time="0m" %}
+
 ### Overview of Multiplex Tissue Imaging
 
 HTA is a molecular and physical map of human tissues and tumors. Multiplex imaging is the key method for developing these maps - it captures spatially resolved genomic, proteomic, and metabolic data at a single-cell level while preserving tissue architecture and context.  
@@ -56,7 +58,7 @@ HTA contributes to the collective understanding of physiology and pathology acro
 
 Tissue imaging projects at the LSP are multi-disciplinary and encourage cross-institutional partnerships. To enable this collaboration, we use OMERO for large image file management, viewing, analysis and online collaboration.  
 
-*OMERO VIDEO HERE*
+{% include vimeo.html id="688017487" autoplay=false muted=false time="0m" %}
 
 ### MCMICRO: Multiple-Choice Microscopy Pipeline
 
