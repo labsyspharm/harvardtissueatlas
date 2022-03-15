@@ -20,7 +20,6 @@ description: |
 
     **Funding**: Research on precancers and primary melanoma is supported by the [NCI Human Tumor Atlas Network](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/human-tumor-atlas) (Grant U2C-CA233262). [HTAN](https://doi.org/10.1016/j.cell.2020.03.053) aims to generate, publicly-accessible data on the spatial, genetic and epigenetic features of common human cancers and precancers. Research on advanced and metastatic melanomas are supported by the [NCI Cancer Systems Biology Program](https://csbconsortium.org/) (Grant U54-CA225088). Additional support is provided by the Ludwig Center at [Harvard Medical School](https://ludwigcenter.hms.harvard.edu/).
 
-
 title: Funding - PATCH
 link: patch
 short-name: PATCH
