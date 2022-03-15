@@ -44,7 +44,7 @@ environments are found.
 
 
 ### Data Explorations
-**""*Data Explorations*” are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints. Both written and audio narration are supported, as well as free exploration. These will be linked to individual figure panels in the final manuscript.
+** "*Data Explorations*" are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints. Both written and audio narration are supported, as well as free exploration. These will be linked to individual figure panels in the final manuscript.**
 
 {%
     assign stories = site.data-cards
@@ -67,10 +67,7 @@ environments are found.
 
 ## Data overviews
 
-**These "*Data Overviews*" provide access to minimally processed
-Level 2 images with no annotation or quality control. Click any of the
-following thumbnail images for an interactive view of the
-full-resolution images.**
+**These "*Data Overviews*" provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
 
 {%
     assign overviews = site.data-cards
