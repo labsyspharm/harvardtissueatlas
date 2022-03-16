@@ -98,4 +98,6 @@ Please come back for an episode on Scope2Screen! In the meantime, check out the 
 Spatial transcriptomics uses spatially-resolved mRNA readouts to assign cell phenotypes to histological sections. Combining spatial transcriptomics with multiplex tissue imaging reveals hidden relationships between single cell genomics and histological presentations in the tissue.
 
 {% include vimeo.html id="685612269" autoplay=false muted=false time="0m" %}
+<br>
+<br>
 {% include vimeo.html id="688890308" autoplay=false muted=false time="0m" %}
