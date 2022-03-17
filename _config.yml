@@ -1,5 +1,5 @@
-repository: jegra.github.io/harvardtissueatlas
-imgbaseurl: 'https://harvardtissueatlas-dev-yc.imgix.net/'
+repository: labsyspharm/harvardtissueatlas
+imgbaseurl: 'https://tissue-atlas-org.imgix.net/'
 exclude:
   - Gemfile
   - Gemfile.lock
