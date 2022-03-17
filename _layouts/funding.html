@@ -31,7 +31,7 @@ layout: secondary
                         Funded By:
                     </h4>
                     <p class="mb-2">{{ grant['grant'] }}</p>
-                    <img src="{{ site.baseurl }}/images/{{ grant['grant-image'] }}" alt=""
+                    <img src="{{ '/images/' | append: grant['grant-image'] | relative_url }}" alt=""
                         style="max-height: 32px; max-width: 100%;">
                 </div>
             </div>
