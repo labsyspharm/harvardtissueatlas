@@ -1,5 +1,5 @@
 ---
-date: 0002-01-01
+date: 0003-01-01
 name: The Bill and Melinda Gates Foundation
 summary: Funding from the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) aims to understand and ultimately eradicate TB.
 project-image:

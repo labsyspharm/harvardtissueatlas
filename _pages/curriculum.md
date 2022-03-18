@@ -39,8 +39,6 @@ Please come back for an episode on MITI! In the meantime, please check out the f
 
 Meaningful data from tissue imaging relies on having high-quality antibodies and carefully designed antibody panels. The LSP extensively validates antibodies, rates antibody performance, and custom builds antibody panels for each project to answer clinically-relevant questions.  
 
-*VIDEO HERE*
-
 ### t-CyCIF method
 
 Tissue-based cyclic immunofluorescence, or t-CyCIF, is the multiplex imaging method developed within the LSP that can be used to measure the distribution of dozens of proteins in intact tissue specimens. This iterative process collects repeated immunofluorescent images from the same sample using different fluorescent-tagged antibodies in each cycle and then assembles these images into a high-dimensional representation of the tissue.  
@@ -66,7 +64,7 @@ Reproducible analysis of large multichannel images poses a substantial computati
 
 Please come back later for an episode on MCMICRO. For more information in the meantime, please check out the resources below:
 
-[See MCMICRO resources on the Software page](./software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+[See MCMICRO resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 [Check out MCMICRO's website](https://mcmicro.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
 ### SCIMAP: Spatial Single-cell Analysis Toolkit
@@ -75,7 +73,7 @@ t-CyCIF enables detailed molecular analysis of single cells by preserving spatia
 
 Please come back later for an episode on SCIMAP. For more information in the meantime, please check out resources below:
 
-[See SCIMAP resources on the Software page](./software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+[See SCIMAP resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 [Head to SCIMAP website](https://scimap.xyz/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
 ### Data Visualization and Sharing – MINERVA and Scope2Screen
@@ -90,14 +88,16 @@ Science succeeds as a collaborative process. In the adjacent fields of multiplex
 
 Please come back for an episode on Scope2Screen! In the meantime, check out the resources below:
 
-[See Scope2Screen resources on the Software page](./software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+[See Scope2Screen resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 [Find open source code for Scope2Screen on GitHub](https://github.com/labsyspharm/scope2screen){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
 ### Integrating Spatial Transcriptomics with Imaging
 
 Spatial transcriptomics uses spatially-resolved mRNA readouts to assign cell phenotypes to histological sections. Combining spatial transcriptomics with multiplex tissue imaging reveals hidden relationships between single cell genomics and histological presentations in the tissue.
 
+#### Integrating Spatial Transcriptomics with Imaging
 {% include vimeo.html id="685612269" autoplay=false muted=false time="0m" %}
-<br>
-<br>
+
+#### Building Spatial Landscapes with Multiplex Imaging and Transcriptomics
+
 {% include vimeo.html id="688890308" autoplay=false muted=false time="0m" %}
