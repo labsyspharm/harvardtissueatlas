@@ -1,0 +1,54 @@
+---
+layout: secondary
+---
+
+<section class="atlases">
+    <div class="atlases__inner">
+        <h1 class="atlases__heading">{{ page.title }}</h1>
+
+        {{ content }}
+
+        <div>
+
+            {% assign atlases = site.atlases | sort: 'date' %}
+            {% for atlas in atlases %}
+
+            <div class="row mb-5">
+                <div class="col">
+                    <h2 class="atlases__name">
+                        {{ atlas['name'] }}
+                    </h2>
+                    <div class="atlases__summary">
+                        {{ atlas['summary'] | markdownify }}
+                    </div>
+
+                    {%- if atlas['dataset'] -%}
+                        <div class="atlases__link">
+                            <a href="{{ '/atlas-datasets/' | append: atlas['dataset'] | relative_url }}" target="_self">
+                                Atlas Dataset
+                            </a>
+                        </div>
+                    {%- endif -%}
+
+                    <details>
+                        <summary>Learn more</summary>
+                        
+                        {{ atlas['description'] | markdownify }}
+
+                    </details>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="my-1">
+                        Funded By:
+                    </h4>
+                    <p class="mb-2">{{ atlas['grant'] }}</p>
+                    <img src="{{ '/images/' | append: grant['grant-image'] | relative_url }}" alt=""
+                        style="max-height: 32px; max-width: 100%;">
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

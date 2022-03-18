@@ -15,16 +15,14 @@ layout: secondary
 
             <div class="row mb-5">
                 <div class="col">
-                    <h2 class="my-1">
+                    <h2 class="funding__name">
                         {{ grant['name'] }}
                     </h2>
-                    <p><strong>{{ grant['summary'] | markdownify }}</strong></p>
-                    <details>
-                        <summary>Learn more</summary>
-                        <p>
-                            {{ grant['description'] | markdownify }}
-                        </p>
-                    </details>
+                    <div class="funding__summary">
+                        {{ grant['summary'] | markdownify }}
+                    </div>
+
+                    {{ grant['description'] | markdownify }}
                 </div>
                 <div class="col-md-3">
                     <h4 class="my-1">

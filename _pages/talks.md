@@ -2,7 +2,7 @@
 title: Talks
 permalink: /talks
 
-section_id: talks
+section_id: learn
 layout: secondary
 ---
 

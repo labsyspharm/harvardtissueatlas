@@ -2,7 +2,7 @@
 title: Curriculum
 permalink: /curriculum
 
-section_id: curriculum
+section_id: learn
 layout: secondary
 ---
 
