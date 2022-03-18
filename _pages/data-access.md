@@ -9,9 +9,6 @@ layout: secondary
 # Access to HTA Data
 The HTA is committed to ensuring access to spatial profiling data according to emerging FAIR standards (for Findability, Access, Interoperability, and Reproducibility). However, few well-recognized public standards and repositories exist, and so access to different types of data remains a work in progress.
 
-## Individual Projects and Datasets
-Many HTA projects have not yet been gathered together into larger Atlases. Access to data from these projects can be found under the “Data” tab, typically organized by the manuscript in which they were first described. Ongoing projects are typically associated with additional software resources that are available to project participants only (by invitation). These resources involve identity and data management via [Sage Synapse](https://www.synapse.org/), and cloud-deployed instance of the [OME OMERO](https://www.openmicroscopy.org/) database, and access to the HTA deployment of [MCMICRO](https://mcmicro.org/). Note that all of these resources are either open source or generally available, making it straightforward for others to similar resources.
-
 ## HTA Data Types and Standards
 HTA data currently comprises: (i) high-plex whole slide image data collected using [cyclic immunofluorescence (CyCIF)](https://elifesciences.org/articles/31657) and similar methods (ii) spatial feature tables computed from high-plex image data describing marker intensity and morphological features at a single cell level (iii) dissociative mRNA-Seq data (iv) transcriptional profiles obtained using micro-region transcript profiling methods such as [GeoMX](https://pubmed.ncbi.nlm.nih.gov/32394392/) and [Pick-Seq](https://www.biorxiv.org/content/10.1101/2021.03.18.431004v1). We will add additional data types in the future.
 
