@@ -4,8 +4,8 @@ main:
     url: ""
     target: ""
     children:
-      - name: "Projects"
-        url: "/projects"
+      - name: "Atlases"
+        url: "/atlases"
         target: "_self"
       - name: "People"
         section_id: people

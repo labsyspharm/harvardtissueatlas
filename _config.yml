@@ -21,8 +21,8 @@ collections:
     output: false
   atlas-datasets:
     output: true
-  projects:
-    output: true
+  atlases:
+    output: false
   publications: 
     output: true
   software:
@@ -48,16 +48,6 @@ defaults:
       path: ''
       type: atlas-datasets
     values:
-      wide_container: true
-  - scope:
-      path: ''
-      type: projects
-    values:
-      section_id: projects
-      layout: summary
-      heading: Projects
-      sub_heading: Project Summary
-      summary_link_label: Project Summary
       wide_container: true
   - scope:
       path: ''

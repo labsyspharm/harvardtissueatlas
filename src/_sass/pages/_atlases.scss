@@ -1,0 +1,32 @@
+.atlases__name {
+    margin-top: .15em;
+    margin-bottom: .65em;
+}
+.atlases__summary {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.atlases__link {
+    display:inline-block;
+    line-height:1;
+
+    a {
+        padding:0 6px;
+        background:$color_blue;
+        height:32px;
+        min-width:32px;
+        box-sizing:border-box;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        transition:all 0.2s $ease-out-quad;
+        color:$color_white;
+        font-style: italic;
+        text-decoration: none;
+
+        &:hover {
+            background:$color_dark-blue;
+        }
+    }
+
+}

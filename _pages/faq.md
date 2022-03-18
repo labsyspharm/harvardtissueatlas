@@ -2,7 +2,7 @@
 title: FAQ
 permalink: /faq
 
-section_id: faq
+section_id: about
 layout: secondary
 ---
 
