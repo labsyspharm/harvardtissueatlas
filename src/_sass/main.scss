@@ -53,6 +53,7 @@
 @import "modules/data-card";
 @import "modules/project-listing";
 @import "modules/pub-listing";
+@import "modules/software-listing";
 @import "modules/modal";
 @import "modules/person";
 @import "modules/pagination";
@@ -60,6 +61,8 @@
 @import "modules/tables";
 @import "modules/video";
 @import "modules/news-card";
+@import "modules/image";
+@import "modules/subnav";
 
 
 // ----------------------------------------------------------------------------
@@ -67,8 +70,9 @@
 // ----------------------------------------------------------------------------
 @import "pages/home";
 @import "pages/data";
-@import "pages/projects";
+@import "pages/atlases";
 @import "pages/people";
+@import "pages/funding";
 
 
 // ----------------------------------------------------------------------------

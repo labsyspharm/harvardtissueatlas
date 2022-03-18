@@ -1,0 +1,57 @@
+<section id="{{ include.sectionId }}-cards">
+    
+    <section class="data-cards">
+        <div class="data-cards__inner">
+            <div class="data-cards__items">
+                
+                {% assign cards = site.data-cards %}
+
+                {% for img in include.pubData['stitched mosaic images'] %}
+                    {% for link_hash in img.links %}
+                        {% for link in link_hash %}
+                            {% for card in cards %}
+                                {% assign target = include.sectionId | append: '/' | append: link[1] | append: '/' %}
+                                {% if card.url contains target %}
+                                    {% include data-card.html content=card %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endfor %}
+                {% endfor %}
+                
+            </div>
+        </div>
+    </section>
+
+    <div>
+        {% for group in include.pubData['group object'] %}
+
+        <h3>{{ group[0] | markdownify }}</h3>
+        
+        <section class="data-cards">
+            <div class="data-cards__inner">
+                <div class="data-cards__items">
+                    
+                    {% assign cards = site.data-cards %}
+    
+                    {% for img in group[1] %}
+                        {% for link_hash in img.links %}
+                            {% for link in link_hash %}
+                                {% for card in cards %}
+                                    {% assign target = include.sectionId | append: '/' | append: link[1] | append: '/' %}
+                                    {% if card.url contains target %}
+                                        {% include data-card.html content=card %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endfor %}
+                    
+                </div>
+            </div>
+        </section>
+        
+        {% endfor %}
+    </div>
+    
+</section>

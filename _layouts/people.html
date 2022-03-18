@@ -16,6 +16,18 @@ layout: secondary
                 {% endfor %}
             </div>
         {% endfor %}
+        {% for list_hash in site.data.people-name-lists %}
+            <div class="people__location">
+                <h2 class="people__location-name">{{ list_hash[0] | replace: "_", " " }}</h2>
+                <div class="row">
+                    {% for row  in list_hash[1] %}
+                    <div class="col-12 col-sm-6">
+                        <h3 class="mt-0 mb-3">{{ row.name }}, {{ row.degree }}</h3>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
     </div>
 
     {{ content }}

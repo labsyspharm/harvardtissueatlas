@@ -1,0 +1,41 @@
+---
+layout: secondary
+---
+
+<section class="funding">
+    <div class="funding__inner">
+        <h1 class="funding__heading">{{ page.title }}</h1>
+
+        {{ content }}
+
+        <div>
+
+            {% assign funding = site.funding | sort: 'date' %}
+            {% for grant in funding %}
+
+            <div class="row mb-5">
+                <div class="col">
+                    <h2 class="funding__name">
+                        {{ grant['name'] }}
+                    </h2>
+                    <div class="funding__summary">
+                        {{ grant['summary'] | markdownify }}
+                    </div>
+
+                    {{ grant['description'] | markdownify }}
+                </div>
+                <div class="col-md-3">
+                    <h4 class="my-1">
+                        Funded By:
+                    </h4>
+                    <p class="mb-2">{{ grant['grant'] }}</p>
+                    <img src="{{ '/images/' | append: grant['grant-image'] | relative_url }}" alt=""
+                        style="max-height: 32px; max-width: 100%;">
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+
+</section>

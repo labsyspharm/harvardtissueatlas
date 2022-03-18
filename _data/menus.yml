@@ -4,27 +4,46 @@ main:
     url: ""
     target: ""
     children:
-      - name: "Projects"
-        url: "/projects"
+      - name: "Atlases"
+        url: "/atlases"
         target: "_self"
       - name: "People"
         section_id: people
         url: "/people"
         target: "_self"
+      - name: "Funding"
+        section_id: funding
+        url: "/funding"
+        target: "_self"
+      - name: "FAQ"
+        section_id: faq
+        url: "/faq"
+        target: "_self"
   - name: "Publications"
     section_id: publications
     url: "/publications"
     target: "_self"
-  - name: "Methods"
-    section_id: methods
-    url: "https://www.cycif.org/"
-    target: "_blank"
+  - name: "Methods & Software"
+    section_id: methods-software
+    url: "/methods-software"
   - name: "Data"
     section_id: data
-    url: "/data"
-    target: "_self"
-  - name: "Software"
-    section_id: software
-    url: "/software"
-    target: "_self"
-
+    url: ""
+    target: ""
+    children:
+      - name: "Atlas Datasets"
+        url: "/atlas-datasets"
+        target: "_self"
+      - name: "All Data"
+        url: "/data"
+        target: "_self"
+  - name: "Learn"
+    section_id: learn
+    url: ""
+    children:
+      - name: "Curriculum"
+        url: "/curriculum"
+      - name: "Talks"
+        url: "/talks"
+      - name: "Tutorials"
+        url: "/tutorials"

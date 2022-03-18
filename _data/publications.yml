@@ -1,9 +1,7 @@
 groups:
-  - key: lausanne
-    name: Ludwig Center at Lausanne
-  - key: mit
-    name: Ludwig Center at MIT
-  - key: harvard
-    name: Harvard Center
-  - key: atlas
-    name: Atlas Technologies
+  - key: featured
+    name: Featured Publications
+  - key: methods
+    name: Methods and software
+  - key: profiling
+    name: Profiling and Atlasing

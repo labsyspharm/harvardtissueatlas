@@ -1,6 +1,5 @@
-repository: jegra.github.io/harvardtissueatlas
-baseurl: '/harvardtissueatlas'
-imgbaseurl: 'https://harvardtissueatlas-dev.imgix.net/'
+repository: labsyspharm/harvardtissueatlas
+imgbaseurl: 'https://tissue-atlas-org.imgix.net/'
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -18,10 +17,12 @@ collections:
   pages:
     output: true
     permalink: /:path
-  datasets:
+  data-cards:
+    output: false
+  atlas-datasets:
     output: true
-  projects:
-    output: true
+  atlases:
+    output: false
   publications: 
     output: true
   software:
@@ -30,11 +31,13 @@ collections:
     output: false
   graphics:
     output: false
+  funding:
+    output: false
 
 defaults:
   - scope:
       path: ''
-      type: datasets
+      type: data-cards
     values:
       section_id: data
       layout: summary
@@ -43,13 +46,8 @@ defaults:
       wide_container: true
   - scope:
       path: ''
-      type: projects
+      type: atlas-datasets
     values:
-      section_id: projects
-      layout: summary
-      heading: Projects
-      sub_heading: Project Summary
-      summary_link_label: Project Summary
       wide_container: true
   - scope:
       path: ''
