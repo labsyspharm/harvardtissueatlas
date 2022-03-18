@@ -37,6 +37,9 @@ main:
       - name: "All Data"
         url: "/data"
         target: "_self"
+      - name: "Data Access"
+        url: "/data-access"
+        target: "_self"
   - name: "Learn"
     section_id: learn
     url: ""
