@@ -6,9 +6,9 @@ publication_link:
 
 image: publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer.PNG
 
-group: methods
+group: featured
 
-date: 2021-05-17
+date: 2020-05-17
 
 minerva_link:
 rxiv_link: https://doi.org/10.1101/2021.05.16.443704
