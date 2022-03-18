@@ -5,7 +5,6 @@ permalink: /data-access
 section_id: data-access
 layout: secondary
 ---
-
 # Access to HTA Data
 The HTA is committed to ensuring access to spatial profiling data according to emerging FAIR standards (for Findability, Access, Interoperability, and Reproducibility). However, few well-recognized public standards and repositories exist, and so access to different types of data remains a work in progress.
 
