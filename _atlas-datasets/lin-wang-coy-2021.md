@@ -1,6 +1,7 @@
 ---
 layout: secondary
 title: Data
+section_id: data
 
 data:
   publication:
@@ -11,6 +12,8 @@ data:
     links: 
       - bioRxiv: https://doi.org/10.1101/2021.03.31.437984
 ---
+
+{% include_relative TEMP-note-text.md %}
 
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
