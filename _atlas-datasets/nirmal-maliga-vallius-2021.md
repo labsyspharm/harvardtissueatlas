@@ -22,7 +22,6 @@ data:
 
 
 # HTA MEL Atlas 1
-
 The HTA MEL Atlas 1 dataset contains images and other data being used for
 construction of an atlas of human melanoma under the auspices of the
 [Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid
