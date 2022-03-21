@@ -1,6 +1,7 @@
 ---
 layout: secondary
 title: Data
+section_id: data
 redirect_from: 
   - /featured-paper/du-lin-rashid-2019/figures/
   - /featured-paper/du-and-lin-2019/figures/
@@ -41,6 +42,8 @@ data:
       links: 
         - CyCIF lung-2 image: osd-LUNG_2
 ---
+
+{% include_relative TEMP-note-text.md %}
 
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}

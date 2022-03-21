@@ -1,6 +1,7 @@
 ---
 layout: secondary
 title: Data
+section_id: data
 
 data:
   publication:
@@ -38,6 +39,8 @@ data:
       links: 
         - GBM mosaic: osd-figure11
 ---
+
+{% include_relative TEMP-note-text.md %}
 
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}

@@ -1,6 +1,7 @@
 ---
 layout: secondary
 title: Data
+section_id: data
 
 data:
   publication:
@@ -12,6 +13,8 @@ data:
       - bioRxiv: https://doi.org/10.1101/2021.05.23.445310
 ---
 
+{% include_relative TEMP-note-text.md %}
+
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
 
@@ -22,6 +25,7 @@ data:
 
 
 # HTA MEL Atlas 1
+
 The HTA MEL Atlas 1 dataset contains images and other data being used for
 construction of an atlas of human melanoma under the auspices of the
 [Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid
