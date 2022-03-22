@@ -2,7 +2,7 @@
 title: Data Access
 permalink: /data-access
 
-section_id: data-access
+section_id: data
 layout: secondary
 ---
 # Access to HTA Data
