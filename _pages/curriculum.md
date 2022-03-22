@@ -67,6 +67,10 @@ Please come back later for an episode on MCMICRO. For more information in the me
 [See MCMICRO resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 [Check out MCMICRO's website](https://mcmicro.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 
+#### Segmentation
+
+{% include vimeo.html id="690989936" autoplay=false muted=false time="0m" %}
+
 ### SCIMAP: Spatial Single-cell Analysis Toolkit
 
 t-CyCIF enables detailed molecular analysis of single cells by preserving spatial context between imaging cycles. SCIMAP is a Python-based toolkit to perform single-cell analysis on t-CyCIF images. With a wide range of capabilities, including pre-processing, phenotyping, clustering and spatial analysis, SCIMAP efficiently deals with large datasets of millions of cells.
