@@ -2,6 +2,7 @@
 date: 0003-01-01
 name: Tuberculosis Granuloma Atlas
 summary: The Tuberculosis Granuloma Atlas aims to transform our understanding of TB granulomas by using spatially resolved profiling methods that reveal bacterial, lung and immune cell organization, states, and communication within granulomas of different types.
+dataset: tuberculosis-granuloma
 project-image:
 grant: Bill and Melinda Gates Foundation grant INV-027106
 grant-image: funding/gates.svg
@@ -11,8 +12,8 @@ description: |
     The Atlas is expected to launch in Summer 2022 and is part of a sustained effort by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) to understand and ultimately eradicate TB (Funded by Grant INV-027106).
 
     **Principal Investigators**:
-    *Bree Aldridge, PhD. Associate Professor, Molecular Biology and Microbiology, Tufts University School of Medicine
-    *Peter Sorger, PhD. Professor of Systems Biology, Harvard Medical School
+    * Bree Aldridge, PhD. Associate Professor, Molecular Biology and Microbiology, Tufts University School of Medicine
+    * Peter Sorger, PhD. Professor of Systems Biology, Harvard Medical School
 
 title: Funding - Gates Foundation
 link: gates
