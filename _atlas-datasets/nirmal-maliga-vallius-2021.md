@@ -38,7 +38,6 @@ where tumor, normal, and immune cells compete and were diverse immunosuppressive
 environments are found.
 
 ## Contents
-* [__About MINERVA__: Using MINERVA for in-browser data access](#about-minerva)
 * [__Data Explorations__: MINERVA Stories summarizing key findings and
   data](#data-explorations)
 * [__Data Overviews__: MINERVA Stories showing individual H&E and CyCIF
@@ -46,19 +45,11 @@ environments are found.
 * [__Primary Data Access__: List of available data files](#primary-data-access)
 
 
-## About MINERVA
-### Exploring the primary image data in Nirmal et al.
+## Data Explorations
+**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
 
 The images in Nirmal et al. (2021) comprise a ~2.3 TB dataset with some images as
-large as 1 gigapixel.  We provide access to this information without restriction
-(as required by the NCI Moonshot effort) but it is not in a convenient form for
-reviewers or general users to explore. The open source MINERVA software was
-designed for the [Human Tumor Atlas Network
-(HTAN)](https://humantumoratlas.org/) by the Laboratory of Systems Pharmacology
-to address this problem.
-
-MINERVA enables intuitive real-time exploration of very large (gigapixel)
-high-plex images in the cloud using a web browser. With MINERVA, users can pan
+large as 1 gigapixel. With MINERVA, users can pan
 around and magnify areas of an image and switch between channels. MINERVA does
 not require the installation of any software and is therefore secure; browsing
 is also anonymous. Users interested in the tool are welcome to explore the
@@ -68,8 +59,6 @@ description of [digital
 docents](https://www.biorxiv.org/content/10.1101/2020.03.27.001834v2) in
 general.
 
-### Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
 
 {%
     assign stories = site.data-cards
@@ -88,7 +77,6 @@ general.
         </div>
     </div>
 </section>
-
 
 ## Data overviews
 
