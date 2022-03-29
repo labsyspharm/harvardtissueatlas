@@ -3,7 +3,7 @@
 The full dataset is available through Amazon Web Services S3 using a "requester
 pays" model. AWS charges $0.10/GB for downloading all or part of the data.  The
 person downloading the data must have an AWS account and must email
-XXXXX@hms.harvard.edu with the AWS account’s **AWS account ID** and
+jeremy_muhlich@hms.harvard.edu with the AWS account’s **AWS account ID** and
 **canonical user ID** which may be found as detailed here:
 https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers.
 We must receive **both** the  account ID and canonical user ID in order to grant
