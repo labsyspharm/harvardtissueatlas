@@ -39,6 +39,8 @@ Please come back for an episode on MITI! In the meantime, please check out the f
 
 Meaningful data from tissue imaging relies on having high-quality antibodies and carefully designed antibody panels. The LSP extensively validates antibodies, rates antibody performance, and custom builds antibody panels for each project to answer clinically-relevant questions.  
 
+{% include vimeo.html id="694165748" autoplay=false muted=false time="0m" %}
+
 ### t-CyCIF method
 
 Tissue-based cyclic immunofluorescence, or t-CyCIF, is the multiplex imaging method developed within the LSP that can be used to measure the distribution of dozens of proteins in intact tissue specimens. This iterative process collects repeated immunofluorescent images from the same sample using different fluorescent-tagged antibodies in each cycle and then assembles these images into a high-dimensional representation of the tissue.  
