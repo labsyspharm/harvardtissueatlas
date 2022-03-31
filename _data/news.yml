@@ -1,65 +1,33 @@
 featured:
-  - title: "Systematic measurement of combination-drug landscapes to predict in vivo treatment outcomes for tuberculosis"
-    author: "Larkins-Ford et al."
-    year: 2021 
-    publication: "Cell Systems"
-    type: tools  # [tools|publication|method|software]
-    image: "news/systemic-measurement-of-combination-drug.jpg"
-    link: "#"
-    target: "_blank"  # [_self|_blank]
-  - title: "Targeting immunosuppressive macrophages overcomes PARP inhibitor resistance in BRCA1-associated triple-negative breast cancer"
-    author: "Mehta et al."
-    year: 2021 
-    publication: "Nature Cancer"
-    type: publication  # [tools|publication|method|software]
-    image: "news/targeting-immunosuppressive-macrophages.jpg"
-    link: "#"
-    target: "_blank"  # [_self|_blank]
-  - title: "SYLARAS: A Platform for the Statistical Analysis and Visual Display of Systemic Immuno-profiling Data and Its Application to Glioblastoma"
-    author: "Baker et al."
-    year: 2020
-    publication: "Cell Systems"
-    type: method  # [tools|publication|method|software]
-    image: "news/sylaras-platform-for-statistical-analysis.jpg"
-    link: "#"
-    target: "_blank"  # [_self|_blank]
-  - title: "A Switch in p53 Dynamics Marks Cells That Escape from DSB-Induced Cell Cycle Arrest"
-    author: "Tsabar et al."
-    year: 2020
-    publication: "Cell Reports"
-    type: publication  # [tools|publication|method|software]
-    image: "news/switch-in-p53-dynamics-marks-cells-that-escape.jpg"
-    link: "#"
-    target: "_blank"  # [_self|_blank]
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
     author: ""
-    year:  
+    year:
     publication: ""
     type: software  # [tools|publication|method|software]
     image: "news/mcmicro.jpg"
-    link: "#"
+    link: "https://www.tissue-atlas.org/methods-software"
     target: "_blank"  # [_self|_blank]
-  - title: "Metabolic perturbations sensitize triple-negative breast cancers to apoptosis induced by BH3 mimetics"
-    author: "Daniels et al."
+  - title: "Targeting immunosuppressive macrophages overcomes PARP inhibitor resistance in BRCA1-associated triple-negative breast cancer"
+    author: "Mehta et al."
     year: 2021
-    publication: "Science Signaling"
+    publication: "Nature Cancer"
     type: publication  # [tools|publication|method|software]
-    image: "news/metabolic-perturbations-sensitize-triple-negative-breast-cancers.jpg"
-    link: "#"
+    image: "news/targeting-immunosuppressive-macrophages.jpg"
+    link: "https://doi.org/10.1038/s43018-020-00148-7"
     target: "_blank"  # [_self|_blank]
-  - title: "Prophages encode phage-defense systems with cognate self-immunity"
-    author: "Owen*, Wenner*, et al."
-    year: 2021
-    publication: "Cell Host & Microbe"
-    type: publication  # [tools|publication|method|software]
-    image: "news/prophages-encode-phage-defense-systems.jpg"
-    link: "#"
+  - title: "Minerva"
+    author: ""
+    year:
+    publication: ""
+    type: software  # [tools|publication|method|software]
+    image: "software/minerva.png"
+    link: "https://github.com/labsyspharm/minerva-story/wiki"
     target: "_blank"  # [_self|_blank]
-  - title: "Machine learning identifies candidates for drug repurposing in Alzheimer's disease"
-    author: "Rodriguez, et al."
-    year:  2021
-    publication: "Nature Communications"
+  - title: "Temporal and spatial topography of cell proliferation in cancer"
+    author: "Gaglia et al."
+    year: 2022
+    publication: "Nature Cell Biology"
     type: publication  # [tools|publication|method|software]
-    image: "news/machine-learning-identifies-candidates-for-drug-repurposing.jpg"
-    link: "#"
+    image: "publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer.PNG"
+    link: "https://doi.org/10.1038/s41556-022-00860-9"
     target: "_blank"  # [_self|_blank]
