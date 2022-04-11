@@ -1,6 +1,6 @@
 ---
-title: Data
-permalink: /data
+title: Data Explorations
+permalink: /data-explorations
 
 section_id: data
 layout: data

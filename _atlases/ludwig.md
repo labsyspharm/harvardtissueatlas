@@ -1,8 +1,7 @@
 ---
 date: 0001-01-01
 name: 'Ludwig Tumor Atlas: A Focus on Drug Resistance'
-summary: The Ludwig Tumor Atlas is a collaborative project involving US and European research laboratories that are part of Ludwig Cancer Research Centers and Branches and involves several types of solid cancer. Research at HMS is performed under the auspices of the [Ludwig Center at Harvard Medical School](https://ludwigcenter.hms.harvard.edu/). The overall aim of the Atlas is to investigate the molecular basis of intrinsic and acquired resistance to anti-cancer drugs and to develop disease management strategies and therapies that overcome or avoid such resistance.
-dataset:
+summary: The Ludwig Tumor Atlas is a collaborative project involving US and European research laboratories that are part of Ludwig Cancer Research Centers and Branches and involves several types of solid cancer. Research at HMS is performed under the auspices of the [Ludwig Center at Harvard Medical School](https://ludwigcenter.hms.harvard.edu/). The overall aim of the Atlas is to investigate the molecular basis of intrinsic and acquired resistance to anti-cancer drugs and to develop disease management strategies and therapies that overcome or avoid such resistance. The Atlas can be view at [Ludwig Tumor Atlas](https://www.ludwigtumoratlas.org/).
 project-image: funding/ludwig.png
 grant: Ludwig Center at Harvard Medical School and the Ludwig Cancer Research Foundation
 grant-image: funding/ludwig.png
