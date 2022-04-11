@@ -46,7 +46,7 @@ The site currently makes use of four data files (contained in the *_data* direct
     ```yaml
     - title: "Systematic measurement of combination-drug landscapes to predict in vivo treatment outcomes for tuberculosis"
       author: "Larkins-Ford et al."
-      year: 2021 
+      year: 2021
       publication: "Cell Systems"
       type: tools  # Options: [tools|publication|method|software]
       image: "news/systemic-measurement-of-combination-drug.jpg"
@@ -141,9 +141,9 @@ For any pages that render out body content (eg. project summary pages), a few no
     {% include vimeo.html id="158396727" autoplay=true muted=true time="1m" %}
     ```
 
-    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 1 minute mark.  Note that some values can be overridden by the embed settings assigned on Vimeo's video configuration page (namely, `title`, `byline`, `color`, and `portrait`). 
+    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 1 minute mark.  Note that some values can be overridden by the embed settings assigned on Vimeo's video configuration page (namely, `title`, `byline`, `color`, and `portrait`).
 
-    Availabe parameters include:
+    Available parameters include:
 
     | Parameter  | Supported Values | Default Value | Description
     |:--------------|:------------|:------|:----------------------|
@@ -157,7 +157,7 @@ For any pages that render out body content (eg. project summary pages), a few no
     | `portrait`    | true, false | false | Show the author’s profile image (portrait).†
     | `speed`       | true, false | false | Show speed controls in the player.‡
     | `time`        | Time in minutes and/or seconds (for example, time="1m2s") | "0m" (Start of video) | Used to automatically begin playback at a specific point in time.
-    | `texttrack`   | A lowercase language code and optionally the locale and type of text track. (examples: "en", "en-US", "en.captions", "en.subtitles") | false | Displays a given cc/subtitle track by default in the player (provided the cc/subtitle track is available). 
+    | `texttrack`   | A lowercase language code and optionally the locale and type of text track. (examples: "en", "en-US", "en.captions", "en.subtitles") | false | Displays a given cc/subtitle track by default in the player (provided the cc/subtitle track is available).
     | `title`       | true, false | false | Show the video's title.†
 
     † Value specified in the video's embed settings on site may override this.  

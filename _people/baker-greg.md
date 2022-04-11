@@ -1,7 +1,7 @@
 ---
 name: Gregory Baker, PhD
 positions:
-  - Postdoctoral Fellow, Labooratory in Systems Pharmacology
+  - Postdoctoral Fellow, Laboratory in Systems Pharmacology
 
 photo: people/baker-greg.jpg
 
