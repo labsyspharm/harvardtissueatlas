@@ -1,6 +1,7 @@
 ---
 title: MEL07-1-1 - overview - Nirmal, Maliga, Vallius, Sorger et al., 2021
 image: https://labsyspharm.github.io/HTA-MELATLAS-1/images/thumbnail-MEL07-1-1-overview.jpg
+atlas: tuberculosis-granuloma
 date: '2011-01-23'
 minerva_link: https://labsyspharm.github.io/HTA-MELATLAS-1/stories/MEL07-1-1-overview.html
 info_link: null
