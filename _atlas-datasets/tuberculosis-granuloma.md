@@ -32,7 +32,7 @@ The Atlas is expected to launch in Summer 2022 and is part of a sustained effort
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'nirmal-maliga-vallius-2021/'"
+    | where_exp: "item", "item.atlas == 'tuberculosis-granuloma'"
     | where_exp: "item", "item.hide != true"
 %}
 
