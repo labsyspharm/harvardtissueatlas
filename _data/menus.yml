@@ -1,8 +1,8 @@
 main:
   - name: "About"
     section_id: about
-    url: ""
-    target: ""
+    url: "/about"
+    target: "_self"
     children:
       - name: "Atlases"
         url: "/atlases"
@@ -15,9 +15,9 @@ main:
         section_id: funding
         url: "/funding"
         target: "_self"
-      - name: "FAQ"
-        section_id: faq
-        url: "/faq"
+      - name: "Join Us"
+        section_id: join-us
+        url: "/join-us"
         target: "_self"
   - name: "Publications"
     section_id: publications
@@ -28,8 +28,8 @@ main:
     url: "/methods-software"
   - name: "Data"
     section_id: data
-    url: ""
-    target: ""
+    url: "/data-overview"
+    target: "_self"
     children:
       - name: "Atlas Datasets"
         url: "/atlas-datasets"
@@ -37,12 +37,13 @@ main:
       - name: "Data Explorations"
         url: "/data-explorations"
         target: "_self"
-      - name: "Data Access"
-        url: "/data-access"
+      - name: "Data standards"
+        url: "/data-standards"
         target: "_self"
   - name: "Learn"
     section_id: learn
-    url: ""
+    url: "/learn"
+    target: "_self"
     children:
       - name: "Curriculum"
         url: "/curriculum"
