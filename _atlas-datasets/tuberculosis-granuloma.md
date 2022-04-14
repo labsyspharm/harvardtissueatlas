@@ -16,9 +16,9 @@ section_id: data
 
 # Tuberculosis Granuloma Atlas
 
-The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, sites of chronic lung inflammation shaped by the biology *Mycobacterium tuberculosis* (*Mtb*) and host immune responses. Within a granuloma, Mtb growth is often limited, but this provides a niche from which bacteria can subsequently disseminate. The project also aims to build capacity for digital pathology in low and middle income countries (LIMC) including the eventual deployment of Atlas viewers and analysis modules on cell phones.  As part of the Atlas, LSP investigators are assembling a cloud-based *Tuberculosis Data Resource* that will consolidate a rich collection of imaging and genomic data on TB granulomas and make the data publicly available.
+Globally, tuberculosis (TB) is the leading cause of death from an infectious disease. There has been important progress in reducing TB deaths over the past two decades, but current treatments remain inadequate. Within *Mycobacterium tuberculosis* (*Mtb*)-infected lungs, granulomas form at sites of chronic lung inflammation. Mtb growth is limited within these granulomas, but they provide a niche from which bacteria can survive and then spread. Much remains unknown about the specific molecular mechanisms that contribute to the progression of tuberculosis from latent to active infection.
 
-The Atlas is expected to launch in Summer 2022 and is part of a sustained effort by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) to understand and ultimately eradicate TB (Funded by Grant INV-027106).
+The Tuberculosis Granuloma Atlas aims to improve the understanding of granuloma biology and facilitate further advances in TB treatment. This effort starts with the creation of a *Tuberculosis Data Resource* that allows investigators funded by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/)(BMGF) to share and jointly analyze data about tuberculosis. This Tuberculosis Data Resource will include clinical imaging data (e.g., PET, MRI), highly multiplexed tissue images, and spatial or single-cell transcriptomics. Integrating data across these diverse modalities requires a means to share the primary data itself and specialized software tools for data analysis; the Tuberculosis Data Resource is developing and deploying these tools. In addition, we are building capacity for digital pathology in low- and middle-income countries to enable equitable data sharing with the communities most heavily impacted by TB.
 
 ## Contents
 * [__Data Explorations__: MINERVA Stories summarizing key findings and
@@ -27,8 +27,13 @@ The Atlas is expected to launch in Summer 2022 and is part of a sustained effort
   images](#data-overviews)
 * [__Primary Data Access__: List of available data files](#primary-data-access)
 
+# Imaging TB Granulomas
+These [MINERVA](https://github.com/labsyspharm/minerva-story/wiki)-based data explorations show clinical histology staining side-by-side with a highly multiplexed image of a TB granuloma collected using cyclic immunofluorescence (CyCIF). It is possible to follow the story in the MINERVA visualization or freely pan and zoom across the large (gigapixel) high-plex image dataset.
+
 ## Data Explorations
 **Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
+
+{{Collection of all the relevant Minerva stories}}
 
 {%
     assign stories = site.data-cards
@@ -70,12 +75,8 @@ The Atlas is expected to launch in Summer 2022 and is part of a sustained effort
     </div>
 </section>
 
-## Primary Data Access
-### About the data files
+## About the technology
 
-<details>
-    <summary>Download the primary data</summary>
-<div markdown="1">
-{% include_relative nirmal-maliga-vallius-2021-file-list.md %}
-</div>
-</details>
+The Harvard Tissue Atlas group is taking a unified approach to developing the experimental and software tools needed to annotate, store, analyze, share, and publish diverse data types. You can learn more about the methods used to develop the TB Data Resource and TB Granulomas Atlas under the [METHODS AND SOFTWARE](/methods-software) tab.
+
+A primary goal of our BMGF-funded project is to develop a set of informational and educational tools that help participating labs and the broader scientific community understand and use the technologies that are being developed through the atlas projects. These resources can be found under the [LEARN](/learn) tab of this website.
