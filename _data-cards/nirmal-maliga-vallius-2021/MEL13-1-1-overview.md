@@ -1,6 +1,7 @@
 ---
 title: MEL13-1-1 - overview - Nirmal, Maliga, Vallius, Sorger et al., 2021
 image: https://labsyspharm.github.io/HTA-MELATLAS-1/images/thumbnail-MEL13-1-1-overview.jpg
+atlas: tuberculosis-granuloma
 date: '2011-02-06'
 minerva_link: https://labsyspharm.github.io/HTA-MELATLAS-1/stories/MEL13-1-1-overview.html
 info_link: null

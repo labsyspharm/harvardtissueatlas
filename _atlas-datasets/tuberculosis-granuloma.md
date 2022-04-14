@@ -37,7 +37,7 @@ These [MINERVA](https://github.com/labsyspharm/minerva-story/wiki)-based data ex
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'nirmal-maliga-vallius-2021/'"
+    | where_exp: "item", "item.atlas == 'tuberculosis-granuloma'"
     | where_exp: "item", "item.hide != true"
 %}
 
