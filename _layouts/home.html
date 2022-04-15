@@ -7,7 +7,7 @@ layout: default
         <div class="hero__image">
             <div class="hero__text-container">
                 <div class="hero__text">
-                    
+
                     <h1>{{ page['hero text'] }}</h1>
 
                 </div>
@@ -18,7 +18,7 @@ layout: default
 
 <div class="secondary">
     <div class="secondary__content-wrap {% if page.wide_container %}secondary__content-wrap--wide{% else %}secondary__content-wrap--standard{% endif %}">
-        
+
         {{ content }}
 
     </div>
@@ -32,11 +32,11 @@ layout: default
             {% for dataset in sorted %}
 
                 {% include data-card.html content=dataset %}
-                
+
             {% endfor %}
         </div>
         <div class="featured-cards__cta">
-            <a href="{{ 'data' | relative_url }}" class="arrow-button">View all data</a>
+            <a href="{{ 'data-explorations' | relative_url }}" class="arrow-button">View all data</a>
         </div>
     </div>
 </section>
@@ -48,7 +48,7 @@ layout: default
             {% for item in site.data.news.featured %}
 
                 {% include news-card.html content=item %}
-                
+
             {% endfor %}
         </div>
     </div>
