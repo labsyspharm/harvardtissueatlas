@@ -41,14 +41,14 @@ A key goal of the HTA is to provide access to primary data consistent with [FAIR
 
 All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/), but we are still working to secure and deploy the resources needed to release datasets associated with other funding mechanisms.  
 
-## REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA
+### REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA
 For available datasets, we are using a “requester pays” model for downloading very large image datasets. This is because the primary cost associated with creation and maintenance of a dataset on a commercial cloud service involves data download, not data ingress and storage. In a requester pays model, a user seeking access to a dataset pays the cost of data egress directly to the cloud provider, making access both secure and anonymous. We continue to explore ways to make data access free, or at least cheaper.
 
-### Request a download
+#### Request a download
 
 Downloading a single dataset will cost around $200, although intra-cloud transfer (within the AWS us-east-1 region) is much cheaper. For users who wish to perform processing within AWS to avoid transfer charges, please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
 
-1. The person downloading the data must have an AWS account and must email tissue-atlas@hms.harvard.edu with the AWS account’s AWS account ID and canonical user ID which may be found as detailed here: https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers. *We must receive both the account ID and canonical user ID in order to grant access to the S3 bucket containing the full dataset.*
+1. The person downloading the data must have an AWS account and must email tissue-atlas@hms.harvard.edu with the AWS account’s AWS account ID and canonical user ID which may be found as detailed here: [https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers](https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers). *We must receive both the account ID and canonical user ID in order to grant access to the S3 bucket containing the full dataset.*
 
 2. After access is granted the images and metadata will be available in the bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://www.biorxiv.org/content/10.1101/2021.05.23.445310v2)).
 

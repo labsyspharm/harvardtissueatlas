@@ -8,11 +8,11 @@ image: software/ashlar-logo.svg
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication:
+publication: https://doi.org/10.1101/2021.04.20.440625
 # link to github repo
 source code: https://github.com/labsyspharm/ashlar
 # link to micro-site
-documentation:
+documentation: https://labsyspharm.github.io/ashlar/
 
 # for sorting purpose
 date: 2020-01-01
