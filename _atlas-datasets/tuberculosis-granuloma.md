@@ -50,7 +50,7 @@ These [MINERVA](https://github.com/labsyspharm/minerva-story/wiki)-based data ex
 </section>
 
 
-## About the technology
+## About the Technology
 
 The Harvard Tissue Atlas group is taking a unified approach to developing the experimental and software tools needed to annotate, store, analyze, share, and publish diverse data types. You can learn more about the methods used to develop the TB Data Resource and TB Granulomas Atlas under the [METHODS AND SOFTWARE](/methods-software) tab.
 

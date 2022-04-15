@@ -17,11 +17,11 @@ Primary whole-slide images can be very large (up to 1 TB in size) and the full d
 Below we describe how data can be viewed online via MINERVA, and our plans for future access to primary full-resolution images.
 
 ## Contents
-  * [__VIEWING DATA ONLINE WITH MINERVA__: MINERVA software overview](#minerva-viewer)
+  * [__VIEWING DATA ONLINE WITH MINERVA__: MINERVA software overview](#viewing-data-online-with-minerva)
   * [__DATA EXPLORATIONS__: Narrated dataset overviews](#data-explorations)
   * [__DATA OVERVIEWS__: Online viewing of unprocessed image data](#data-overviews)
-  * [__PUBLIC ACCESS TO PRIMARY DATA__: Our approach to data sharing](#public-data-access)
-  * [__REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA__: Instructions for requesting primary data download](#requester-pays-access)
+  * [__PUBLIC ACCESS TO PRIMARY DATA__: Our approach to data sharing](#public-access-to-primary-data)
+  * [__REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA__: Instructions for requesting primary data download](#requester-pays-access-to-primary-image-data)
 
 ## VIEWING DATA ONLINE WITH MINERVA
 
