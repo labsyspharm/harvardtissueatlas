@@ -17,6 +17,6 @@ The Harvard Tissue Atlas (HTA) gathers together multiple research projects into 
 
 As of Spring 2022, tissue atlases remain a work in progress and only incorporate one or two datasets and underlying publications. The atlases will become more comprehensive over time.
 
-Read more about our vision of the ways the Harvard Tissue Atlas will move spatial biology forward in the [ABOUT](/about) section. The best way to learn about the methods being used to build these atlases is via our webinar-based curriculum at the [LEARN](/curriculum) tab, by browsing our [PUBLICATIONS](/publications), by reading about our [DATA STANDARDS](/data-standards), or by accessing [ATLAS DATASETS](https://www.tissue-atlas.org/atlas-datasets). You can view the full collection of data on the [DATA EXPLORATIONS](/data-explorations) page.
+Read more about how the Harvard Tissue Atlas will move spatial biology forward in the [ABOUT](/about) section. The best way to learn about the methods being used to build these atlases is via our webinar-based curriculum at the [LEARN](/curriculum) tab, by browsing our [PUBLICATIONS](/publications), by reading about our [DATA STANDARDS](/data-standards), or by accessing [ATLAS DATASETS](https://www.tissue-atlas.org/atlas-datasets). You can view the full collection of data on the [DATA EXPLORATIONS](/data-explorations) page.
 
 Visit the [JOIN US](/join-us) page to learn more about available positions within the HTA, and collaboration opportunities.
