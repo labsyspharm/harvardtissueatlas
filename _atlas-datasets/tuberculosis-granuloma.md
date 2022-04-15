@@ -18,7 +18,7 @@ section_id: data
 
 Globally, tuberculosis (TB) is the leading cause of death from an infectious disease. There has been important progress in reducing TB deaths over the past two decades, but current treatments remain inadequate. Within *Mycobacterium tuberculosis* (*Mtb*)-infected lungs, granulomas form at sites of chronic lung inflammation. Mtb growth is limited within these granulomas, but they provide a niche from which bacteria can survive and then spread. Much remains unknown about the specific molecular mechanisms that contribute to the progression of tuberculosis from latent to active infection.
 
-The Tuberculosis Granuloma Atlas aims to improve the understanding of granuloma biology and facilitate further advances in TB treatment. This effort starts with the creation of a *Tuberculosis Data Resource* that allows investigators funded by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/)(BMGF) to share and jointly analyze data about tuberculosis. This Tuberculosis Data Resource will include clinical imaging data (e.g., PET, MRI), highly multiplexed tissue images, and spatial or single-cell transcriptomics. Integrating data across these diverse modalities requires a means to share the primary data itself and specialized software tools for data analysis; the Tuberculosis Data Resource is developing and deploying these tools. In addition, we are building capacity for digital pathology in low- and middle-income countries to enable equitable data sharing with the communities most heavily impacted by TB.
+The Tuberculosis Granuloma Atlas aims to improve the understanding of granuloma biology and facilitate further advances in TB treatment. This effort starts with the creation of a *Tuberculosis Data Resource* that allows investigators funded by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) (BMGF) to share and jointly analyze data about tuberculosis. This Tuberculosis Data Resource will include clinical imaging data (e.g., PET, MRI), highly multiplexed tissue images, and spatial or single-cell transcriptomics. Integrating data across these diverse modalities requires a means to share the primary data itself and specialized software tools for data analysis; the Tuberculosis Data Resource is developing and deploying these tools. In addition, we are building capacity for digital pathology in low- and middle-income countries to enable equitable data sharing with the communities most heavily impacted by TB.
 
 
 # Imaging TB Granulomas
@@ -27,7 +27,7 @@ The Tuberculosis Granuloma Atlas aims to improve the understanding of granuloma 
 These [MINERVA](https://github.com/labsyspharm/minerva-story/wiki)-based data explorations show clinical histology staining side-by-side with a highly multiplexed image of a TB granuloma collected using cyclic immunofluorescence (CyCIF). It is possible to follow the story in the MINERVA visualization or freely pan and zoom across the large (gigapixel) high-plex image dataset.
 
 ## Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
+**Data Explorations are like museum guides and use the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
 
 {{Collection of all the relevant Minerva stories}}
 
