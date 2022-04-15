@@ -16,12 +16,17 @@ Primary whole-slide images can be very large (up to 1 TB in size) and the full d
 
 Below we describe how data can be viewed online via MINERVA, and our plans for future access to primary full-resolution images.
 
-## Contents
+## Page Contents
+  * [__DATA PIPELINE__: Graphical representation of HTA data from sample collection to data access](#data-pipeline)
   * [__VIEWING DATA ONLINE WITH MINERVA__: MINERVA software overview](#viewing-data-online-with-minerva)
   * [__DATA EXPLORATIONS__: Narrated dataset overviews](#data-explorations)
   * [__DATA OVERVIEWS__: Online viewing of unprocessed image data](#data-overviews)
   * [__PUBLIC ACCESS TO PRIMARY DATA__: Our approach to data sharing](#public-access-to-primary-data)
   * [__REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA__: Instructions for requesting primary data download](#requester-pays-access-to-primary-image-data)
+
+## DATA PIPELINE
+
+{% include graphic.html content='hta-software-overview' %}
 
 ## VIEWING DATA ONLINE WITH MINERVA
 
@@ -30,6 +35,24 @@ Below we describe how data can be viewed online via MINERVA, and our plans for f
 ## DATA EXPLORATIONS
 
 [Data Explorations](https://www.tissue-atlas.org/data-explorations) are MINERVA stories that present high-level overviews of large datasets and make extensive use of narration and waypoints. They are intended to guide users through the complexities of a large dataset and analysis. We aim to develop at least one exploration per HTA publication or Atlas dataset.  
+
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'tuberculosis-granulomas-2022/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+<section class="data-cards">
+    <div class="data-cards__inner">
+        <div class="data-cards__items">
+            {% for s in stories %}
+            {% unless s.url contains '-overview' %}
+            {% include data-card.html content=s %}
+            {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
 
 ## DATA OVERVIEWS  
 
