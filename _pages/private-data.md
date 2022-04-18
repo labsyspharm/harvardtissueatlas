@@ -19,4 +19,4 @@ The links below provide access to the Synapse-based private projects that are be
 | BRACA 1/2 Atlas | Coming Summer 2022 |[https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961)|
 | Ludwig Tumor Atlas  |[https://www.ludwigtumoratlas.org/](https://www.ludwigtumoratlas.org/) |[https://www.synapse.org/#!Team:3429409](https://www.synapse.org/#!Team:3429409) |
 | Melanoma Pre-Cancer and Progression Atlas| [https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/](https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/) | [https://www.synapse.org/#!Team:3436622](https://www.synapse.org/#!Team:3436622)
-| Tuberculosis Granuloma Atlas | [https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/](https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/)| Coming Spring 2022|
+| Tuberculosis Granuloma Atlas | [https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/](https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/)| [https://www.synapse.org/#!Team:3443962](https://www.synapse.org/#!Team:3443962)|
