@@ -10,7 +10,7 @@ layout: secondary
 
 ## OPPORTUNITIES FOR STUDENTS, FELLOWS AND POSTDOCS
 
-HTA research involves a collaboration of multiple laboratories in the US and Europe, led by leaders in cancer biology, infectious disease, machine learning/AI, and computational biology. **We welcome applications from students, postdocs, and medical fellows interested in joining our labs** - *contact us at HiTS@harvard.edu for more information*. Alumni from the program have gone on to exciting careers as assistant professors in European and US universities and in the biotech and pharma industries.  
+HTA research involves a collaboration of multiple laboratories in the US and Europe, led by leaders in cancer biology, infectious disease, machine learning/AI, and computational biology. **We welcome applications from students, postdocs, and medical fellows interested in joining our labs** - *view open positions at [labsyspharm.org](https://labsyspharm.org/about/opportunities/) or contact us at HiTS@harvard.edu for more information*. Alumni from the program have gone on to exciting careers as assistant professors in European and US universities and in the biotech and pharma industries.  
 
 ## COLLABORATIONS WITH INDUSTRY
 
