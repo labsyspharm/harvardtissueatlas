@@ -16,6 +16,9 @@ Ben Izar, MD, PhD, Medical Oncologist at Dana-Farber Cancer Institute, talks abo
 
 {% include vimeo.html id="692410439" autoplay=false muted=false time="0m" %}
 
+## Developing a Cloud Data Resource to Accelerate TB Research
+{% include vimeo.html id="701262344" autoplay=false muted=false time="0m" %}
+
 ## Tissue Atlas Industry Showcases
 ### HMS Tissue Atlas Program Industry Showcase, May 17, 2019
 {% include vimeo.html id="338923783" autoplay=false muted=false time="0m" %}
