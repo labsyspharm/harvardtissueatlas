@@ -5,7 +5,7 @@ featured:
     publication: "Harvard News"
     type: publication  # [tools|publication|method|software]
     image: "news/under-our-skin.JPG"
-    link: "https://hms.harvard.edu/news/getting-under-our-skin"
+    link: "https://hms.harvard.edu/news/data-deep-dive"
     target: "_blank"  # [_self|_blank]
   - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
     author: "Nirmal, et al."
