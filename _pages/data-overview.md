@@ -28,6 +28,7 @@ Below we describe how data can be viewed online via MINERVA, and our plans for f
 
 {% include graphic.html content='hta-software-overview' %}
 
+
 ## VIEWING DATA ONLINE WITH MINERVA
 
 [MINERVA](https://github.com/labsyspharm/minerva-story/wiki) is a suite of software tools for visualizing, annotating and sharing large, multi-dimensional images in a browser using [digital docents](https://www.nature.com/articles/s41551-021-00789-8) and narration without the need to download the data. MINERVA enables interactive viewing and efficient annotation of data and can also display other types of data visualization. MINERVA does not require the installation of any software and is therefore secure; browsing is also anonymous. Nearly all HTA data are available as one of two types of MINERVA-based visualization.
