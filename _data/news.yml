@@ -4,7 +4,7 @@ featured:
     year: 2022, April 20
     publication: "Harvard News"
     type: publication  # [tools|publication|method|software]
-    image: "news/under-our-skin.JPG"
+    image: "news/targeting-immunosuppressive-macrophages.jpg"
     link: "https://hms.harvard.edu/news/data-deep-dive"
     target: "_blank"  # [_self|_blank]
   - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
@@ -46,4 +46,12 @@ featured:
     type: software  # [tools|publication|method|software]
     image: "software/minerva.png"
     link: "https://github.com/labsyspharm/minerva-story/wiki"
+    target: "_blank"  # [_self|_blank]
+  - title: "ASHLAR"
+    author: ""
+    year:
+    publication: ""
+    type: software  # [tools|publication|method|software]
+    image: "software/ashlar-exemplar.png"
+    link: "https://labsyspharm.github.io/ashlar/"
     target: "_blank"  # [_self|_blank]
