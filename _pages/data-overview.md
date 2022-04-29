@@ -8,13 +8,9 @@ layout: secondary
 
 # Data Overview
 
-The HTA is committed to ensuring access to spatial profiling data according to emerging FAIR standards (for Findability, Access, Interoperability, and Reproducibility). Few public standards and repositories exist for multiplex data, so the HTA is involved in multiple projects to help fill this need. This includes creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through a requester pays model.
+The HTA is committed to ensuring access to spatial profiling data according to emerging FAIR (for Findability, Access, Interoperability, and Reproducibility) standards. Few public standards and repositories exist for multiplex data, so the HTA is involved in multiple projects to help fill this need. This includes creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through a requester pays model.
 
-As of Spring 2022, most HTA data are still organized by the initial publication in which they were described. We expect substantial improvements in data access and organization into multi-functional datasets over the next year.  
-
-Primary whole-slide images can be very large (up to 1 TB in size) and the full dataset from a manuscript or atlas usually contains many such images. Data this large is challenging to distribute without an established public resource, and the images cannot be visualized using conventional image software on computers and cell phones. MINERVA is designed to meet the need for image viewing _without_ data download.  
-
-Below we describe how data can be viewed online via MINERVA, and our plans for future access to primary full-resolution images.
+Below we describe our software pipeline, how data can be viewed online via MINERVA, and our plans for future access to primary full-resolution images.
 
 ## Page Contents
   * [__DATA PIPELINE__: Graphical representation of HTA data from sample collection to data access](#data-pipeline)
@@ -32,13 +28,12 @@ Data within the Harvard Tissue Atlas (HTA) arise from collaborations between HTA
 First, tissue samples from collaborators (Role 2) are onboarded into the LSP by a clinical research coordinator (Role 3) and data curator (Role 4). These de-identified samples are cataloged into internal LSP databases (Experiment Tracker and Reagent Tracker) and combined with a detailed plan for how the sample will be stained. The experimental team (Roles 5 and 6) then stains and images the whole slide, resulting in up to 1,000 high-magnification image tiles per slide.
 
 A computational biologist (Role 7) extracts data from these image tiles with [MCMICRO](https://mcmicro.org/), a microscopy software pipeline developed by the LSP. The MCMICRO modules use algorithms to combine the tiles into a single high-plex mosaic image, segment the mosaic image (to isolate single cells), and extract image data (like single-cell intensity and cell morphology), which is recorded in a Spatial Cell Feature Table. Close collaboration with the project owner and pathologist (Roles 2 and 8) is required to assess the resulting data quality at various stages of analysis. [*Watch this video to learn more about MCMICRO.*](https://www.tissue-atlas.org/curriculum#mcmicro-multiple-choice-microscopy-pipeline)
-The un-analyzed primary data is deposited onto online databases that allow the project team to dynamically view the data and collaborate on analyses. A data manager (Role 9) oversees access to these private data portals on [Sage Synapse](https://www.synapse.org/). Consolidating data in one place facilitates subsequent collaboration and analysis. [*Watch this video to learn more about Synapse, OMERO, and the related tools.*]( https://www.tissue-atlas.org/curriculum#omero)
+The un-analyzed primary data is deposited onto online databases that allow the project team to dynamically view the data and collaborate on analyses. A data manager (Role 9) oversees access to these private data portals on [Sage Synapse](https://www.synapse.org/). Consolidating data in one place facilitates subsequent collaboration and analysis. [*Watch this video to learn more about Synapse, OMERO, and related tools.*]( https://www.tissue-atlas.org/curriculum#omero)
 
 At this point, the scientific discovery process begins. New biological insights require both human inspection of the images and quantitative analysis of the single-cell data. This is highly collaborative (Roles 1, 2, 7, and 8) and is where the greatest innovation occurs! [*View two video examples of how multiplexed data come together for biological insights.*]( https://www.tissue-atlas.org/curriculum#integrating-spatial-transcriptomics-with-imaging)
 
 A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](https://github.com/labsyspharm/minerva-story/wiki), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
 After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems to allow requester-pays download.
-
 
 
 ## VIEWING DATA ONLINE WITH MINERVA
@@ -69,7 +64,7 @@ After publication, HTA data are deposited into existing public repositories or m
 
 ## DATA OVERVIEWS  
 
-Data Overviews are MINERVA stories for a single, minimally-processed ([Level 2 or 3](/data-standards)) whole slide image with no annotation or analysis. Data Overviews provide online viewing access to largely unprocessed image data; [MCMICRO](https://mcmicro.org/) will soon generate data overviews automatically as a component of the pipeline.
+Data Overviews are MINERVA stories for a single, minimally-processed ([Level 2 or 3](/data-standards#data-levels)) whole slide image with no annotation or analysis. Data Overviews provide online viewing access to largely unprocessed image data; [MCMICRO](https://mcmicro.org/) will soon generate data overviews automatically as a component of the pipeline.
 
 ## PUBLIC ACCESS TO PRIMARY DATA
 
