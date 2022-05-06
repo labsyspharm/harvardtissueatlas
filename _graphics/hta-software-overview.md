@@ -1,5 +1,5 @@
 ---
 title: HTA Software and Data Pipeline
-image: graphics/hta-software-overview-v13.png
-bordered: true
+image: hta-software-outline-v14.png
+bordered: false
 ---
