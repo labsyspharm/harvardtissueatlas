@@ -23,5 +23,5 @@ The multiplexed single-cell spatially resolved data are shared in folders within
 | MultiLine GR metrics                      | GR Metrics for the Multicell Line pCyCIF dataset                                                  |
 | Spatial Correlation Whole Tissue Analysis | Figures: 2(D)                                                                                     |
 | Time Inference Comparison                 |                                                                                                   |
-| functions                                 | codes used for the ccD-CMD analysis, plus other helper functions                                  |
-| README                                    | Datafile descriptions and usage notes                                                             |
+| Functions                                 | Codes used for the ccD-CMD analysis, plus other helper functions                                  |
+| README                                    | Data file descriptions and usage notes                                                             |
