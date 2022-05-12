@@ -8,9 +8,9 @@ layout: secondary
 
 # Data Overview
 
-The HTA is committed to ensuring access to spatial profiling data according to emerging FAIR (for Findability, Access, Interoperability, and Reproducibility) standards. Few public standards and repositories exist for multiplex data, so the HTA is involved in multiple projects to help fill this need. This includes creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through a requester pays model.
+ The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through a requester pays model.
 
-Below we describe our software pipeline, how data can be viewed online via MINERVA, and our plans for future access to primary full-resolution images.
+Below we describe our software pipeline, how data can be viewed online via MINERVA, and how to access primary full-resolution images.
 
 ## Page Contents
   * [__DATA PIPELINE__: Graphical representation of HTA data from sample collection to data access](#data-pipeline)
@@ -40,11 +40,11 @@ After publication, HTA data are deposited into existing public repositories or m
 
 ## VIEWING DATA ONLINE WITH MINERVA
 
-[MINERVA](https://github.com/labsyspharm/minerva-story/wiki) is a suite of software tools for visualizing, annotating and sharing large, multi-dimensional images in a browser using [digital docents](https://www.nature.com/articles/s41551-021-00789-8) and narration without the need to download the data. MINERVA enables interactive viewing and efficient annotation of data and can also display other types of data visualization. MINERVA does not require the installation of any software and is therefore secure; browsing is also anonymous. Nearly all HTA data are available as one of two types of MINERVA-based visualization.
+[MINERVA](https://github.com/labsyspharm/minerva-story/wiki) is a suite of software tools for visualizing, annotating and sharing large, multi-dimensional images in a browser using [digital docents](https://www.nature.com/articles/s41551-021-00789-8) and narration without the need to download the data. MINERVA enables interactive viewing and efficient data annotation. It can also display other types of data visualization. MINERVA does not require the installation of any software and browsing is anonymous. Nearly all HTA data are available as one of two types of MINERVA-based visualization, described below.
 
 ## DATA EXPLORATIONS
 
-[Data Explorations](https://www.tissue-atlas.org/data-explorations) are MINERVA stories that present high-level overviews of large datasets and make extensive use of narration and waypoints. They are intended to guide users through the complexities of a large dataset and analysis. We aim to develop at least one exploration per HTA publication or Atlas dataset.  
+[Data Explorations](https://www.tissue-atlas.org/data-explorations) are MINERVA stories that guide users through the complexities of a large dataset and analysis by making extensive use of narration and waypoints. We aim to develop at least one exploration per HTA publication or Atlas dataset.  
 
 {%
     assign stories = site.data-cards
@@ -70,16 +70,16 @@ Data Overviews are MINERVA stories for a single, minimally-processed ([Level 2 o
 
 ## PUBLIC ACCESS TO PRIMARY DATA
 
-A key goal of the HTA is to provide access to primary data consistent with [FAIR](https://www.go-fair.org/fair-principles/) principles. This remains a work in progress as we develop and implement repositories and standards for our diverse data types, so not all data sets are currently available for download.  
+A key goal of the HTA is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). This remains a work in progress as we develop and implement repositories and standards for our diverse data types. As a result, not all data sets are currently available for download at this time.
 
-All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/), but we are still working to secure and deploy the resources needed to release datasets associated with other funding mechanisms.  
+All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to secure and deploy the resources needed to release datasets associated with other funding mechanisms.  
 
 ### REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA
 For available datasets, we are using a “requester pays” model for downloading very large image datasets. This is because the primary cost associated with creation and maintenance of a dataset on a commercial cloud service involves data download, not data ingress and storage. In a requester pays model, a user seeking access to a dataset pays the cost of data egress directly to the cloud provider, making access both secure and anonymous. We continue to explore ways to make data access free, or at least cheaper.
 
 #### Request a download
 
-Downloading a single dataset will cost around $200, although intra-cloud transfer (within the AWS us-east-1 region) is much cheaper. For users who wish to perform processing within AWS to avoid transfer charges, please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
+Downloading a single dataset will cost around $200, although intra-cloud transfer is much cheaper. For users who wish to perform processing within AWS to avoid transfer charges, please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
 
 1. The person downloading the data must have an AWS account and must email tissue-atlas@hms.harvard.edu with the AWS account’s AWS account ID and canonical user ID which may be found as detailed here: [https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers](https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers). *We must receive both the account ID and canonical user ID in order to grant access to the S3 bucket containing the full dataset.*
 
