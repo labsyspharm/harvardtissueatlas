@@ -3,7 +3,7 @@ featured:
     author: "Caruso, C."
     year: 2022, April 20
     publication: "Harvard News"
-    type: publication  # [tools|publication|method|software]
+    type: news  # [tools|publication|method|software]
     image: "news/targeting-immunosuppressive-macrophages.jpg"
     link: "https://hms.harvard.edu/news/data-deep-dive"
     target: "_blank"  # [_self|_blank]
@@ -19,7 +19,7 @@ featured:
     author: "Caruso, C."
     year: 2022, April 14
     publication: "Harvard News"
-    type: publication  # [tools|publication|method|software]
+    type: news  # [tools|publication|method|software]
     image: "news/under-our-skin.JPG"
     link: "https://hms.harvard.edu/news/getting-under-our-skin"
     target: "_blank"  # [_self|_blank]

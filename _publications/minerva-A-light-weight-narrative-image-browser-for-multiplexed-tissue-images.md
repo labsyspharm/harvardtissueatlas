@@ -11,7 +11,7 @@ group: methods
 date: 2020-10-15
 
 minerva_link:
-rxiv_link:
+rxiv_link: 
 pdf_link:
 show_page_link: false
 ---

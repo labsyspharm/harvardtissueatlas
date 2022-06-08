@@ -11,7 +11,7 @@ group: methods
 date: 2020-01-01
 
 minerva_link:
-rxiv_link:
+rxiv_link: https://doi.org/10.1101/722918
 pdf_link:
 show_page_link: false
 ---
