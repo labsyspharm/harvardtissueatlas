@@ -22,7 +22,7 @@ Below we describe our software pipeline, how data can be viewed online via MINER
 
 ## DATA PIPELINE
 
-<center><img src="{{ site.baseurl }}/images/graphics/hta-software-outline-v14.png" style="width:70%;margin:20px 20px"></center>
+<center><img src="{{ site.baseurl }}/images/graphics/hta-software-overview-v23.png" style="width:70%;margin:20px 20px"></center>
 
 **This graphic depicts the flow of data into the Harvard Tissue Atlas (HTA).** Data arise from collaborations between HTA members (green) and additional collaborators (yellow). Before depositing data into the atlases, the data goes through sequential databases, experimental methods, and interoperable software. *Different roles within the workflow are numbered for clarity – note that a single person might hold multiple roles.*
 
