@@ -5,13 +5,14 @@ contributors: 'Wu, H.-J., Temko, D., Maliga, M., Moreira. A., Sei, E., Conterno 
 publication: Forthcoming in Cell Genomics
 publication_link:
 
-image: 
+image:
 
 group: profiling
 
 date: 2022-06-01
 
 minerva_link:
+dataset_link: /atlas-datasets/wu-temko-maliga-2022/
 rxiv_link:
 pdf_link:
 show_page_link: false
