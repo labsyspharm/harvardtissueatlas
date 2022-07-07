@@ -2,14 +2,14 @@
 layout: secondary
 title: Data
 section_id: data
-redirect_from: 
+redirect_from:
   - /featured-paper/du-lin-rashid-2019/figures/
   - /featured-paper/du-and-lin-2019/figures/
 
 data:
   publication:
     title: Qualifying antibodies for image-based immune profiling and multiplexed tissue imaging
-    authors: Du Z*, Lin JR*, Rashid R*, Maliga Z, Wang S, Aster J, Izar B, Sorger PK, Santagata S. (*co-1st author)
+    authors: Du Z, Lin JR, Rashid R, Maliga Z, Wang S, Aster J, Izar B, Sorger PK, Santagata S. (*co-1st author)
     journal: "Nat Protoc. 2019 Oct; 14(10): 2900-2930. PMID: 31534232."
     links:
       - Raw Data: https://www.synapse.org/#!Synapse:syn17865732/wiki/592782
@@ -22,7 +22,7 @@ data:
       links:
         - CyCIF tonsil image : osd-TONSIL_1
     - title: IHC Tonsil Sections
-      description: 
+      description:
       thumbnail file name: TONSIL_IHC.jpg
       links:
         - IHC tonsil sections: osd-TONSIL_IHC
@@ -34,12 +34,12 @@ data:
     - title: 'LUNG-1-LN: Lung adenocarcinoma metastasis to lymph node'
       description: Representative t-CyCIF image of a lung adenocarcinoma metastasis to a lymph node stitched together using ASHLAR software from 80 fields using a 40X/0.6NA objective.
       thumbnail file name: LUNG_1.jpg
-      links: 
+      links:
         - CyCIF lung-1 image: osd-LUNG_1
     - title: 'LUNG-2-BR: Lung squamous cell carcinoma metastasis to brain'
       description: Representative t-CyCIF image of a lung squamous cell carcinoma metastasis to the brain stitched together using ASHLAR software from 187 fields using a 40X/0.6NA objective.
       thumbnail file name: LUNG_2.jpg
-      links: 
+      links:
         - CyCIF lung-2 image: osd-LUNG_2
 ---
 
