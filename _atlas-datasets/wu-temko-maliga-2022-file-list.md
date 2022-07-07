@@ -1,4 +1,6 @@
 ### Download the primary data
+**File Types**
+
 Each folder corresponds to a patient sample (N). The following files are available for each patient and are located on [Synapse (synID syn32529019)](https://www.synapse.org/#!Synapse:syn32529019/wiki/618223) or on Amazon Web Services (AWS).
 
 Files available through AWS S3 are made available using a “requester pays” model. The person downloading the data must have an AWS account, and AWS will charge the user's account $0.10/GB for downloading all or part of the data. Images and metadata are available in the bucket at the following location: s3://wu-temko-maliga-2022
@@ -125,38 +127,38 @@ Files available through AWS S3 are made available using a “requester pays” m
 <br>
 **raw/**
 
-|Patient | Number of Files | Folder size|
-|------- |-----------------|------------|
-|P132115 | 13              | 78.9 GB    |
-|P132630 | 13              | 86.8 GB    |
-|P132666 | 13              | 109.3 GB   |
-|P133537 | 13              | 77.1 GB    |
-|P136690 | 13              | 48.2 GB    |
-|P137591 | 13              | 81.5 GB    |
-|P137753 | 13              | 125.3 GB   |
-|P137757 | 9               | 75.6 GB    |
-|P137905 | 13              | 115.7 GB   |
-|P137941 | 13              | 106.1 GB   |
-|P137974 | 13              | 118.9 GB   |
-|P138007 | 13              | 112.5 GB   |
+|Patient | Number of Files | Folder size| Location|
+|------- |-----------------|------------|---------|
+|P132115 | 13              | 78.9 GB    | AWS     |
+|P132630 | 13              | 86.8 GB    | AWS     |
+|P132666 | 13              | 109.3 GB   | AWS     |
+|P133537 | 13              | 77.1 GB    | AWS     |
+|P136690 | 13              | 48.2 GB    | AWS     |
+|P137591 | 13              | 81.5 GB    | AWS     |
+|P137753 | 13              | 125.3 GB   | AWS     |
+|P137757 | 9               | 75.6 GB    | AWS     |
+|P137905 | 13              | 115.7 GB   | AWS     |
+|P137941 | 13              | 106.1 GB   | AWS     |
+|P137974 | 13              | 118.9 GB   | AWS     |
+|P138007 | 13              | 112.5 GB   | AWS     |
 
 <br>
 **segmentation/**
 
-|Patient | Number of Files | Folder size|
-|------- |-----------------|------------|
-|P132115 | 12              | 35.3 GB    |
-|P132630 | 12              | 38.8 GB    |
-|P132666 | 12              | 48.9 GB    |
-|P133537 | 12              | 34.5 GB    |
-|P136690 | 12              | 21.6 GB    |
-|P137591 | 12              | 36.5 GB    |
-|P137753 | 12              | 56.1 GB    |
-|P137757 | 12              | 48.9 GB    |
-|P137905 | 12              | 51.8 GB    |
-|P137941 | 12              | 47.5 GB    |
-|P137974 | 12              | 53.2 GB    |
-|P138007 | 12              | 50.3 GB    |
+|Patient | Number of Files | Folder size| Location|
+|------- |-----------------|------------|---------|
+|P132115 | 12              | 35.3 GB    | AWS     |
+|P132630 | 12              | 38.8 GB    | AWS     |
+|P132666 | 12              | 48.9 GB    | AWS     |
+|P133537 | 12              | 34.5 GB    | AWS     |
+|P136690 | 12              | 21.6 GB    | AWS     |
+|P137591 | 12              | 36.5 GB    | AWS     |
+|P137753 | 12              | 56.1 GB    | AWS     |
+|P137757 | 12              | 48.9 GB    | AWS     |
+|P137905 | 12              | 51.8 GB    | AWS     |
+|P137941 | 12              | 47.5 GB    | AWS     |
+|P137974 | 12              | 53.2 GB    | AWS     |
+|P138007 | 12              | 50.3 GB    | AWS     |
 
 
 ### About Accessing AWS Data
