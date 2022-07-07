@@ -123,91 +123,40 @@ Files available through AWS S3 are made available using a “requester pays” m
 |P138007 | P138007_ROI.csv | syn32566789 | 2.1 KB   |
 
 <br>
-**raw**
+**raw/**
 
-|Patient | File Name | Location| File size|
-|------- | --------- |---------|----------|
-|P132115 | Scan_20190128_163651_01x4x00589.rcpnl | AWS | 6.1 GB
-|P132115 │ Scan_20190129_143925_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190130_143008_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190131_135256_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190204_140652_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190205_144037_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190206_150042_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190207_135438_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190208_125223_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190211_140040_01x4x00589.rcpnl | AWS | 6.1 GB
-P132115 │ Scan_20190212_123858_01x4x00589.rcpnl | AWS | 6.1 GB
-P132630 | Scan_20190128_123249_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190129_123756_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190130_123659_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190131_105810_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190204_104801_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190205_120543_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190206_120522_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190207_110400_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190208_105934_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190211_113917_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190212_110025_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190213_104950_01x4x00648.rcpnl | AWS | 6.7 GB
-P132630 | Scan_20190214_104246_01x4x00648.rcpnl | AWS | 6.7 GB
-P132666	| Scan_20190205_145436_01x4x00816.rcpnl	| AWS	| 8.4 GB
-P132666	| Scan_20190206_152040_01x4x00816.rcpnl |	AWS	| 8.4 GB
-P132666	| Scan_20190207_141038_01x4x00816.rcpnl	| AWS	| 8.4 GB
-P132666	| Scan_20190208_130634_01x4x00816.rcpnl	| AWS	| 8.4 GB
-P132666	| Scan_20190211_141451_01x4x00816.rcpnl	| AWS	| 8.4 GB
-P132666	| Scan_20190212_125322_01x4x00816.rcpnl	| AWS	| 8.4 GB
-P132666	| Scan_20190213_134218_01x4x00816.rcpnl	| AWS	| 8.4 GB
-P132666	| Scan_20190214_124628_01x4x00816.rcpnl	| AWS |	8.4 GB
-P133537 |
-P136690 |
-P137591 |
-P137753 |
-P137757 |
-P137905 |
-P137941 |
-P137974 |
-P138007 |
+|Patient | Number of Files | Folder size|
+|------- |-----------------|------------|
+|P132115 | 13              | 78.9 GB    |
+|P132630 | 13              | 86.8 GB    |
+|P132666 | 13              | 109.3 GB   |
+|P133537 | 13              | 77.1 GB    |
+|P136690 | 13              | 48.2 GB    |
+|P137591 | 13              | 81.5 GB    |
+|P137753 | 13              | 125.3 GB   |
+|P137757 | 9               | 75.6 GB    |
+|P137905 | 13              | 115.7 GB   |
+|P137941 | 13              | 106.1 GB   |
+|P137974 | 13              | 118.9 GB   |
+|P138007 | 13              | 112.5 GB   |
 
 <br>
-**segmentation**
+**segmentation/**
 
-|Patient | File Name | Location| File size|
-|------- | --------- |---------|----------|
-P132115 │ cellMask.tif | AWS | 2.9 GB |
-P132115 │ cellOutlines.tif | AWS | 2.9 GB |
-P132115 │ cellRingMask.tif | 2.9 GB |
-P132115 │ cellRingOutlines.tif | AWS | 2.9 GB |
-P132115 │ cytoMask.tif | AWS | 2.9 GB |
-P132115 │ cytoOutlines.tif | AWS | 2.9 GB |
-P132115 │ cytoRingMask.tif | AWS | 2.9 GB |
-P132115 │ cytoRingOutlines.tif | AWS | 2.9 GB |
-P132115 │ nucleiMask.tif | AWS | 2.9 GB |
-P132115 │ nucleiOutlines.tif | AWS | 2.9 GB |
-P132115 │ nucleiRingMask.tif | AWS | 2.9 GB |
-P132115 │ nucleiRingOutlines.tif | AWS | 2.9 GB |
-P132630 | cellMask.tif | AWS | 3.2 GB
-P132630 │ cellOutlines.tif | AWS | 3.2 GB
-P132630 │ cellRingMask.tif | 3.2 GB
-P132630 │ cellRingOutlines.tif | AWS | 3.2 GB
-P132630 │ cytoMask.tif | AWS | 3.2 GB
-P132630 │ cytoOutlines.tif | AWS | 3.2 GB
-P132630 │ cytoRingMask.tif | AWS | 3.2 GB
-P132630 │ cytoRingOutlines.tif | AWS | 3.2 GB
-P132630 │ nucleiMask.tif | AWS | 3.2 GB
-P132630 │ nucleiOutlines.tif | AWS | 3.2 GB
-P132630 │ nucleiRingMask.tif | AWS | 3.2 GB
-P132630 │ nucleiRingOutlines.tif | AWS | 3.2 GB
-P132666 |
-P133537 |
-P136690 |
-P137591 |
-P137753 |
-P137757 |
-P137905 |
-P137941 |
-P137974 |
-P138007 |
+|Patient | Number of Files | Folder size|
+|------- |-----------------|------------|
+|P132115 | 12              | 35.3 GB    |
+|P132630 | 12              | 38.8 GB    |
+|P132666 | 12              | 48.9 GB    |
+|P133537 | 12              | 34.5 GB    |
+|P136690 | 12              | 21.6 GB    |
+|P137591 | 12              | 36.5 GB    |
+|P137753 | 12              | 56.1 GB    |
+|P137757 | 12              | 48.9 GB    |
+|P137905 | 12              | 51.8 GB    |
+|P137941 | 12              | 47.5 GB    |
+|P137974 | 12              | 53.2 GB    |
+|P138007 | 12              | 50.3 GB    |
 
 
 ### About Accessing AWS Data
