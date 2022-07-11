@@ -18,30 +18,8 @@ data:
     thumbnailDir=sectionId %}
 
 ### Contents
-* [Data Explorations](#data-explorations)
 * [Data Overviews](#data-overviews)
 * [Data Access](#data-access)
-
-## Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
-
-{%
-    assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'wu-temko-maliga-2022/'"
-    | where_exp: "item", "item.hide != true"
-%}
-
-<section class="data-cards">
-    <div class="data-cards__inner">
-        <div class="data-cards__items">
-            {% for s in stories %}
-            {% unless s.url contains '-overview' %}
-            {% include data-card.html content=s %}
-            {% endunless %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
 
 ## Data overviews
 
