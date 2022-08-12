@@ -1,4 +1,12 @@
 featured:
+  - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
+    author: "Wu, et al."
+    year: 2022
+    publication: "Cell Genomics"
+    type: publication  # [tools|publication|method|software]
+    image: "publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg"
+    link: "https://doi.org/10.1016/j.xgen.2022.100165"
+    target: "_blank"  # [_self|_blank]
   - title: "Data Deep Dive"
     author: "Caruso, C."
     year: 2022, April 20
