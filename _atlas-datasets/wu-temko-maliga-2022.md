@@ -1,7 +1,8 @@
 ---
-published: false
+published: true
 layout: secondary
 title: Data
+section_id: data
 
 data:
   publication:
