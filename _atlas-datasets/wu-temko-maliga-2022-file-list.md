@@ -3,7 +3,7 @@
 
 Each folder corresponds to a patient sample (N). The following files are available for each patient and are located on [Synapse (synID syn32529019)](https://www.synapse.org/#!Synapse:syn32529019/wiki/618223) or on Amazon Web Services (AWS).
 
-Files available through AWS S3 are made available using a “requester pays” model. The person downloading the data must have an AWS account, and AWS will charge the user's account $0.10/GB for downloading all or part of the data. Images and metadata are available in the bucket at the following location: s3://wu-temko-maliga-2022
+Free account registration is required to download files from Synapse. Files available through AWS S3 are made available using a “requester pays” model. The person downloading the data must have an AWS account, and AWS will charge the user's account $0.10/GB for downloading all or part of the data. Images and metadata are available in the bucket at the following location: s3://wu-temko-maliga-2022
 
 |File Type     | Description                                                                        | Location|
 |--------      | ------------ ----------------------------------------------------------------------|---------|
