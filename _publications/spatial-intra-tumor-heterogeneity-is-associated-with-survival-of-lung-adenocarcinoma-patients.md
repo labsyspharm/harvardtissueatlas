@@ -7,7 +7,7 @@ publication_link: https://doi.org/10.1016/j.xgen.2022.100165
 
 image: publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg
 
-group: profiling
+#group: profiling
 
 date: 2022-06-01
 
