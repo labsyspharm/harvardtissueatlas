@@ -14,7 +14,7 @@
             {% else %}
                 {% assign isActive = false %}
             {% endif %}
-            <li class="subnav__item"><a href="{{ item.url }}" class="subnav__link {% if isActive %}active{% endif %}">{{ item.name }}</a></li>
+            <li class="subnav__item"><a href="{{ item.url | relative_url }}" class="subnav__link {% if isActive %}active{% endif %}">{{ item.name }}</a></li>
         {% endfor %}
         </ul>
     </nav>
