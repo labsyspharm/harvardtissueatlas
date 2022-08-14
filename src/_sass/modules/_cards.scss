@@ -1,0 +1,113 @@
+
+// Data Card Collection ----------------------------------------------
+
+.cards {
+  // padding-top:100px;
+  // padding-bottom:100px;
+  margin-left: -#{$margin_mobile};
+  margin-right: -#{$margin_mobile};
+  margin-top:1.8em;
+  margin-bottom:2.2em;
+
+  @include breakpoint(tablet-v) {
+      margin-left: -#{$margin_tablet};
+      margin-right: -#{$margin_tablet};
+  }
+
+  @include breakpoint(desktop) {
+      margin-left: -#{$margin_desktop};
+      margin-right: -#{$margin_desktop};
+  }
+}
+.cards--extra-margins {
+  margin-top:40px;
+  margin-bottom:45px;
+
+  @include breakpoint(desktop) {
+    margin-top:85px;
+    margin-bottom:90px;
+  }
+}
+.cards__backing {
+  background:#e6eef6;
+  overflow: auto; // prevent margin collapse
+}
+.cards__heading {
+  @extend %heading-style-1;
+  color: $color_dark-blue;
+  margin:0 0 .5em;
+}
+.cards__content-wrap {
+  @extend %container-wide;
+}
+
+.secondary__content-wrap--standard {
+  .cards {
+      @include breakpoint("min-width:#{$max-screen-width}") {
+          margin-left: calc((100vw - #{$max-content-width}) / 2 * -1);
+          margin-right: calc((100vw - #{$max-content-width}) / 2 * -1);
+      }
+  }
+  .cards__heading {
+    @extend %container;
+  }
+  .cards__cta-wrap {
+    @extend %container;
+  }
+}
+.secondary__content-wrap--wide {
+  .cards {
+      @include breakpoint("min-width:#{$max-wide-screen-width}") {
+          margin-left: calc((100vw - #{$max-wide-content-width}) / 2 * -1);
+          margin-right: calc((100vw - #{$max-wide-content-width}) / 2 * -1);
+      }
+  }
+  .cards__heading {
+    @extend %container-wide;
+  }
+  .cards__cta-wrap {
+    @extend %container-wide;
+  }
+}
+
+.cards__items {
+  margin:0 auto;
+  padding-top:.3em;
+
+  @include breakpoint("min-width:600px") {
+      @include flex-grid(2);
+      max-width:620px;
+      // margin:30px auto;
+  }
+  @include breakpoint("min-width:880px") {
+      @include flex-grid(3);
+      max-width:945px;
+  }
+  @include breakpoint("min-width:1350px") {
+      @include flex-grid(4);
+      max-width:1280px;
+  }
+}
+
+.cards__cta-wrap {
+  margin-top:25px;
+  margin-bottom:25px;
+  
+  @include breakpoint(tablet-v) {
+    margin-top:0;
+  }
+  // @include breakpoint(desktop) {
+  //     margin-bottom:50px;
+  // }
+
+  .arrow-button {
+    display:inline-block;
+    background: $color_white;
+    margin-right:22px;
+    margin-bottom:1em;
+
+    &:hover {
+      background: $color_dark-blue;
+    }
+  }
+}

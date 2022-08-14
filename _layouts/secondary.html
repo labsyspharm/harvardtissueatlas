@@ -4,6 +4,14 @@ layout: default
 
 <div class="secondary">
     <div class="secondary__hero"></div>
+
+    {% assign menu = site.data.menus.main %}
+    {% assign menuSection = menu | where: "section_id", page.section_id | first %}
+
+    {% if menuSection.children %}
+        {% include secondary-subnav.html name=menuSection.name links=menuSection.children %}
+    {% endif %}
+
     <div class="secondary__content-wrap {% if page.wide_container %}secondary__content-wrap--wide{% else %}secondary__content-wrap--standard{% endif %}">
         
         {{ content }}

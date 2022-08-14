@@ -81,3 +81,33 @@
     }
 
 }
+
+//-------------------------------------------------------------------
+// Links
+//-------------------------------------------------------------------
+
+.back-link {
+    @include font-size(16px);
+    color: $color_dark-gray;
+    text-decoration:none;
+
+    &:before {
+        content:"";
+        font-family:fontello;
+        display:inline-flex;
+        justify-content: center;
+        align-items:center;
+        font-size:12px;
+        width:16px;
+        height:16px;
+        color:$color_white;
+        background:$color_blue;
+        border-radius:8px;
+        margin-right: 5px;
+        position:relative;
+        top:-1px;
+    }
+    &:hover {
+        color: $color_blue;
+    }
+}

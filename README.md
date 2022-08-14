@@ -16,6 +16,13 @@ The site (as currently stands) is comprised of 6 Collections:
 
 The site makes use of the [imgix](https://www.imgix.com/) image processing service.  This means that in most cases, the author can upload non-sized images, and the sizing will be managed automatically for them.  The exception to this is if an image is specified directly in the body content of a page, without the use of a *graphic* entry.  In those cases, care should be taken to ensure the image is optimized for web delivery.
 
+Note that the imgix service *can* also be used for images specified in the body of an entry by using the `site.imgbaseurl` property as a prefix for the file path.  This allows for using the imgix API on the image, which includes the ability to scale and crop.  For example:
+
+```
+![]({{ site.imgbaseurl }}images/general/image.jpg?w=500)
+```
+More information on the imgix API can be found [here](https://imgix.com/solutions/resizing-and-cropping).
+
 ## Data Files
 
 The site currently makes use of four data files (contained in the *_data* directory), which can be edited as needed as the site grows over time:
@@ -42,16 +49,32 @@ The site currently makes use of four data files (contained in the *_data* direct
     ```
 - **people.yml** - The *people* entries are organized on the People landing page according to group.  The groups are specified in the ***people.yml*** file, and the *key* value is assigned to the entries in the *people* collection to form their group associations.
 - **publications.yml** - The *publications* entries are grouped by their associated *groups* on the Publications landing page. The groups are specified in the ***publications.yml*** file, and the *key* value is assigned to the entries in the *publications* collection to form their group associations.
-- **news.yml** - The 'News & Updates' module on the homepage is managed via this file.  Each array entry represents a 'card' within the module.  Follow the structure provided within the file for additional entries, for example:
+- **announcements.yml** - The 'News' and 'Publications & Software' modules on the homepage are managed via this file.  There are 2 arrays: *news_press* and *publications_software*, the entries of which are represented by 'cards' within each module.  Follow the structure provided within the file for additional entries, for example:
     ```yaml
-    - title: "Systematic measurement of combination-drug landscapes to predict in vivo treatment outcomes for tuberculosis"
-      author: "Larkins-Ford et al."
-      year: 2021
-      publication: "Cell Systems"
-      type: tools  # Options: [tools|publication|method|software]
-      image: "news/systemic-measurement-of-combination-drug.jpg"
-      link: "#"
-      target: "_blank"  # Options: [_self|_blank]
+    news_press:
+    - title: "Data Deep Dive"
+        author: "Caruso, C."
+        year: 2022, April 20
+        publication: "Harvard News"
+        image: "news/targeting-immunosuppressive-macrophages.jpg"
+        link: "https://hms.harvard.edu/news/data-deep-dive"
+        label: News  # [News|Press Release]
+        target: "_blank"  # [_self|_blank]
+    ...
+
+    publications_software:
+    - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
+        description:
+        author: "Nirmal, et al."
+        year: 2022
+        publication: "Cancer Discovery"
+        image: "publications/the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution_v2.png"
+        link: "https://doi.org/10.1158/2159-8290.CD-21-1357"
+        label: Publication  # [Publication|Software|Method]
+        target: "_blank"  # [_self|_blank]
+        link2: # Optional - will be displayed below primary link 
+        label2: # [Publication|Software|Method]
+        target2: # [_self|_blank]
     ...
     ```
 ## Collection Details
@@ -73,6 +96,22 @@ Below is information about the front matter options for each of the site's colle
 - **minerva_link** - Link to the associated Minerva page
 - **info_link** - Link to the associated (off-site) info page
 - **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
+- **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file.
+
+
+### funding ###
+- **date** - Used to assist with content ordering on the page (will not be displayed to end users)
+- **name** - The name of the organization
+- **summary** - Description for the organization
+- **project-image** - (not currently in use)
+- **grant** - Name of the grant provided
+- **grant-image** - Logo for the organization 
+- **is-high-dpi** (boolean) - If true, system assumes the image is provided at 2x it's intended display size.  This allows for sharper display on high density (eg. Retina) displays.  As an example, if an image should be displayed at 120px in width, create an image that is 240px in width, and set this value to *true*. 
+- **description** - (optional) Additional information.
+- **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
+- **title** - N/A
+- **link** - N/A
+- **short-name** - N/A
 
 ### atlases ###
 - **title** - The title of the atlas entry
@@ -81,8 +120,7 @@ Below is information about the front matter options for each of the site's colle
 - **dataset** - Page slug for associated Atlas Dataset entry
 - **grant** - Grant information, displayed in the right-hand column on the Atlases landing page
 - **grant-image** - Displays an image shown in the right-hand column on the Atlases landing page
-- **description** - Description for the Atlas - is initially shown in collapsed state on the Atlases landing page, with a toggle to expand.
-- **project-image** - (not currently in use)
+- **project-image** - Used for the thumbnail shown on the Atlases landing page
 - **link** - (not currently in use)
 - **short-name** - (not currently in use)
 
@@ -119,15 +157,58 @@ Below is information about the front matter options for each of the site's colle
 - **image** - Path to the image used for the graphic.  Images should be placed in the *images/graphics* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'graphics/my-image.jpg').  Sizing will be automatically applied.
 - **bordered** (boolean) - If *true*, will draw a border around the image
 
-## Page Content ##
-
-For any pages that render out body content (eg. project summary pages), a few notes:
-
+## Displaying Collection Data ##
+Collection data is generally displayed within corresponding sections of the site (eg. the *publications* collection is displayed on the *Publications* page).  Collection entries can also be pulled into other pages of the site using some available *include* specifications:
 - **Graphics** - Any entry in the *graphics* collection can be embedded in a page using the following syntax:
     ```
     {% include graphic.html content='my-graphic-entry' %}
     ```
     This will display the graphic -- with its associated title and caption information -- inline in the page on mobile, and will 'float' the content to the right on desktop displays.
+- **Publications** - A list of any of the entries in the *publications* collection can be embedded in a page by providing either a comma-delineated string of publication filenames, or an array of publication objects.  For example:
+    
+    *List of filenames:*
+    ```
+    {% assign publicationList = 'my-publication-filename,my-other-publication-filename' %}
+
+    {% include pub-list.html list=publicationList %}
+    ```
+    ***Or**, array of publications:*
+    ```
+    {% assign publicationArray = site.publications %}
+    
+    {% include pub-list.html publications=publicationArray %}
+    ```
+- **Data Cards** - A list of any of the entries in the *data-cards* collection can be embedded in a page by providing either a comma-delineated string of publication filenames, a tag to filter on, or an array of data-card objects.  For example:
+    
+    *List of filenames:*
+    ```
+    {% assign cardList = 'my-data-card-filename,my-other-data-card-filename' %}
+
+    {% include cards.html list=cardList %}
+    ```
+    ***Or**, tag to filter on:*
+    ```
+    {% include cards.html tag='my-tag' %}
+    ```
+    ***Or**, array of data-cards:*
+    ```
+    {% assign dataCardArray = site.data-cards %}
+    
+    {% include cards.html cards=dataCardArray %}
+    ```
+
+## Page Content ##
+
+For any pages that render out body content (eg. project summary pages), a few notes:
+
+- **Image Alignment** - Images used in the body of our pages can be aligned left or right, and shown at 50% width on desktop, by using the `float-half-left` and `float-half-right` classes on the images.  For example:
+    ```
+    ![](/images/general/image.jpg){: .float-half-right }
+    ```
+- **Enlarge Image** - This gives the ability to 'float' an image to the left or right on desktop displays, with a 'Click to enlarge' CTA that opens the image at a larger size inside of a modal overlay.  Usage:
+    ```
+    {% include enlarge-image.html src='general/my-image.jpg' float='right' alt='' %}
+    ```
 - **Expand/Collapse** - Expand/collapse functionality can be added to blocks of content by making use of the `<details>` and `<summary>` HTML elements. Note that a custom value can be assigned to the expanded state of the summary button via a `data-collapse-label` attribute:
     ```
     <details>
@@ -136,12 +217,25 @@ For any pages that render out body content (eg. project summary pages), a few no
     </details>
     ```
     By default (if no value is provided), the label on the expanded button will be 'Collapse'.
-- **Video** - Vimeo video support is available via the 'vimeo' include file.  Usage is as follows:
+- **Table Layouts** - Standard Markdown table formatting is supported, and tables will be automatically styled.  There is also an alternate table layout available, where each table record is specified and rendered out in its own block, with the label values displayed down the first column, with values of the record directly to the right (column 2). This is useful in tables with many columns, that would otherwise require horizontal scrolling.  To use the alternate format, specify a pipe-delineated string of labels, and then a separate pipe-delineated string of values for a single row/record. The *left-column-head-table.html* include is then used to render out the block:
+    ```
+    {% assign labels = "Heading 1 | Heading 2 | Heading 3" %}
+    {% capture values %}
+        Value 1 | Value 2 | Value 3
+    {% endcapture %}
+    {% include left-column-head-table.html labels=labels values=values %}
+    ```
+    **NOTE:** *capture* is used here to specify the *values* content, because it allows for syntax highlighting in the editor. *assign* can be used as well, but will not provide highlighting.
+- **Video** - Vimeo video support is available via the *vimeo* include file.  Basic usage is as follows:
+    ```
+    {% include vimeo.html id="158396727" %}
+    ```
+    Sample usage with some additional parameters:
     ```
     {% include vimeo.html id="158396727" autoplay=true muted=true time="1m" %}
     ```
 
-    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 1 minute mark.  Note that some values can be overridden by the embed settings assigned on Vimeo's video configuration page (namely, `title`, `byline`, `color`, and `portrait`).
+    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 1 minute mark.  Note that some values can be overridden by the embed settings assigned on Vimeo's video configuration page (namely, `showVimeoTitle`, `byline`, `color`, and `portrait`).
 
     Available parameters include:
 
@@ -158,10 +252,30 @@ For any pages that render out body content (eg. project summary pages), a few no
     | `speed`       | true, false | false | Show speed controls in the player.‡
     | `time`        | Time in minutes and/or seconds (for example, time="1m2s") | "0m" (Start of video) | Used to automatically begin playback at a specific point in time.
     | `texttrack`   | A lowercase language code and optionally the locale and type of text track. (examples: "en", "en-US", "en.captions", "en.subtitles") | false | Displays a given cc/subtitle track by default in the player (provided the cc/subtitle track is available).
-    | `title`       | true, false | false | Show the video's title.†
+    | `showVimeoTitle` | true, false | false | Show the video's title.†
 
     † Value specified in the video's embed settings on site may override this.  
     ‡ Requires a **Plus** account or higher.
+- **Video Card** - The *vimeo card* layout essentially wraps the *vimeo* embed (described above) in a card wrapper, with the title and description (optional) displayed below it, with a *Click to enlarge* link that opens the video in a modal overlay.  Note that all parameters available on the *vimeo* include are also available on the *vimeo card* include. In additional, 2 other parameters are available:
+
+    | Parameter     | Description
+    |:--------------|:------------|
+    | `title`       | The title of the video
+    | `description` | Video description
+    ```
+    {% include vimeo-card.html id="158396727" title="My Video Title" description="A short description of this video." %}
+    ```
+    Note that *vimeo cards* are typically displayed within a grid context, with 2 cards per row on desktop displays.  The markup for this (using bootstrap's grid) is as follows:
+    ```html
+    <div class="row mb-4">
+        <div class="col-md-6 mb-4">
+            {% include vimeo-card.html id="679370096" title="My Video Title" %}
+        </div>
+        <div class="col-md-6 mb-4">
+            {% include vimeo-card.html id="679368905" title="My Other Video Title" description="This video has a description." %}
+        </div>
+    </div>
+    ```
 
 ## Publishing Notes ##
 

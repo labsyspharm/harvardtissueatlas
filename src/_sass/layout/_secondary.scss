@@ -3,6 +3,7 @@
 //-------------------------------------------------------------------
 
 .secondary {
+    @extend %clearfix;
 }
 
 .secondary__hero {
@@ -28,16 +29,12 @@
 }
 
 .secondary__content-wrap {
-    @extend %clearfix;
-    margin-top:40px;
+    
+    margin-top:80px;
     margin-bottom:60px;
 
     @include breakpoint(desktop) {
-        margin-top:60px;
-        margin-bottom:100px;
-    }
-    @include breakpoint(desktop-xxl) {
-        margin-top:70px;
+        margin-top:95px;
         margin-bottom:120px;
     }
 }
@@ -46,4 +43,60 @@
 }
 .secondary__content-wrap--wide {
     @extend %container-wide;
+}
+
+.secondary__subnav {
+    @extend %container;
+    margin-top:10px;
+    margin-bottom:-40px;
+
+    .subnav {
+        display: inline-block;
+        margin: 0;
+    }
+    .subnav__item {
+        @include font-size(14px);
+
+        @include breakpoint(desktop) {
+            @include font-size(16px);
+        }
+    }
+    .subnav__link {
+        text-decoration: none;
+        position:relative;
+    
+        &:hover:not(.active) {
+            color: $color_blue !important;
+        }
+    
+        &.active {
+            cursor: default;
+            
+            &:before {
+                content:"";
+                display:block;
+                position:absolute;
+                right:0;
+                bottom:-3px;
+                width:100%;
+                border-bottom:2px solid $color_light-blue;
+            }
+        }
+    }
+
+    @include breakpoint(desktop) {
+        margin-bottom:-45px;
+    }
+}
+.secondary__subnav-heading {
+    @include font-size(20px);
+    display: inline-block;
+    font-weight:500;
+    text-transform: uppercase;
+    color: $color_dark-blue;
+    margin-right:1em;
+
+    @include breakpoint(desktop) {
+        @include font-size(24px);
+    }
 }

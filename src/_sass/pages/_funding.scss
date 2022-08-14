@@ -1,8 +1,17 @@
+.funding__body {
+    hr {
+        border-color:#6c6c6c;
+        margin-top:-30px;
+        margin-bottom:30px;
+    }
+}
 .funding__name {
-    margin-top: .15em;
-    margin-bottom: .65em;
+
 }
 .funding__summary {
-    font-weight: bold;
     margin-bottom: 1em;
+}
+.funding__image {
+    margin-top: 5px;
+    max-width:100%;
 }

@@ -1,0 +1,32 @@
+
+
+{% comment %}
+  Start by assigning our publication array.  If a comma-
+  delineated string was provided, iterate through it and
+  pull the matching publications from the collection.
+  Otherwise - if a list of publication objects was 
+  provided - just use that array directly.
+{% endcomment %}
+{% if include.list %}
+  {% assign publications = "" | split: "," %}
+  {% assign publicationSlugs = include.list | split: ',' %}
+  {% for filename in publicationSlugs %}
+    {% assign slug = filename | split: '.' | first %}
+    {% assign pubs = site.publications %}
+    {% for pub in pubs %}
+      {% assign pubSlug = pub.id | split: '/' | last %}
+      {% if pubSlug == slug %}
+        {% assign publications = publications | push: pub %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% elsif include.publications %}
+  {% assign publications = include.publications %}
+{% else %}
+  {% assign publications = site.publications | sort: 'date' | reverse %}
+{% endif %}
+
+
+{% for pub in publications %}
+  {% include pub-listing.html content=pub %}
+{% endfor %}

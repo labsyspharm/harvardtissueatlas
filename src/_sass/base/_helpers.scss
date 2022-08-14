@@ -100,3 +100,24 @@
     @extend %container-wide;
 }
 
+/*
+ * Image Alignment
+ */
+
+.float-half-right,
+.float-half-left {
+    margin-bottom: .5em;
+}
+
+@include breakpoint(tablet-v) {
+    .float-half-right {
+        float: right;
+        max-width: 48%;
+        margin-left: 4%;
+    }
+    .float-half-left {
+        float: left;
+        max-width: 48%;
+        margin-right: 4%;
+    }
+}

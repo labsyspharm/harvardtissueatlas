@@ -2,7 +2,7 @@
 title: Atlases
 permalink: /atlases
 
-section_id: about
+section_id: data
 layout: atlases
 
 ---

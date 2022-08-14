@@ -5,7 +5,7 @@
         {% else%}
             {% assign imgUrl = "/general/HTA_thumb.jpg" %}
         {% endif %}
-        <img src="{{ site.imgbaseurl }}{{ imgUrl }}?w=258&fit=clamp" alt="{{ include.content.title }}">
+        <img srcset="{{ site.imgbaseurl }}{{ imgUrl }}?w=258&fit=clamp, {{ site.imgbaseurl }}{{ imgUrl }}?w=258&fit=clamp&dpr=2 2x" alt="{{ include.content.title }}">
     </div>
     <div class="software-listing__info">
         <h3 class="software-listing__title">{{ include.content.title }}</h3>

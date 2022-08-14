@@ -1,0 +1,17 @@
+{% comment %}
+  Here, we build a single record table, where the data headings
+  are displayed down the first column of the table, with their
+  associated record values in the cell to the right (column 2)
+{% endcomment %}
+
+{% assign labelArr = include.labels | split: "|" %}
+{% assign valueArr = include.values | split: "|" %}
+
+<table class="left-column-head-table">
+{% for label in labelArr %}
+  <tr>
+    <th scope="row">{{ label }}</th>
+    <td>{{ valueArr[forloop.index0] | markdownify }}</td>
+  </tr>
+{% endfor %}
+</table>
