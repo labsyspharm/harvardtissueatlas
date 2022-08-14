@@ -236,6 +236,18 @@ li.nav-bar__item {
     }
 }
 
+/* For third-level link items */
+.subnav-bar__nested-list {
+    margin-bottom:12px !important;
+
+    @include breakpoint(desktop) {
+        margin:16px 0 0 1em !important;
+    }
+}
+.subnav-bar__nested-list-item a {
+    font-size:.85rem !important;
+}
+
 
 //-------------------------------------------------------------------
 // Mobile Version (.nav-bar-mobile)

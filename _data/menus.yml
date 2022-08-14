@@ -4,19 +4,16 @@ main:
     url: "/about"
     target: "_self"
     children:
-      - name: "Atlases"
-        url: "/atlases"
+      - name: "Overview"
+        url: "/about"
         target: "_self"
       - name: "People"
-        section_id: people
         url: "/people"
         target: "_self"
       - name: "Funding"
-        section_id: funding
         url: "/funding"
         target: "_self"
       - name: "Join Us"
-        section_id: join-us
         url: "/join-us"
         target: "_self"
   - name: "Publications"
@@ -31,9 +28,16 @@ main:
     url: "/data-overview"
     target: "_self"
     children:
-      - name: "Atlas Datasets"
-        url: "/atlas-datasets"
+      - name: "Overview"
+        url: "/data-overview"
         target: "_self"
+      - name: "Atlases"
+        url: "/atlases"
+        target: "_self"
+        children:
+        - name: "Atlases: Datasets"
+          url: "/atlas-datasets"
+          target: "_self"
       - name: "Data Explorations"
         url: "/data-explorations"
         target: "_self"
@@ -48,6 +52,9 @@ main:
     url: "/learn"
     target: "_self"
     children:
+      - name: "Overview"
+        url: "/learn"
+        target: "_self"
       - name: "Curriculum"
         url: "/curriculum"
       - name: "Talks"

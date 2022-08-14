@@ -1,5 +1,8 @@
 table {
     border:1px solid $color_black;
+    overflow-x: auto;
+    max-width: 100%;
+    display: block;
 }
 tbody {
     border-top:1px solid $color_black; 
@@ -23,5 +26,53 @@ thead th {
 .table-wrapper {
     @include breakpoint("max-width:1439px") {
         overflow-x: scroll;
+    }
+}
+
+//-------------------------------------------------------------------
+// 'Left Column Head' styl tables
+//-------------------------------------------------------------------
+
+.left-column-head-table {
+    border: none;
+    margin:1em 0;
+
+    tbody {
+        border: none;
+    }
+    tr {
+        border-bottom: 1px solid $color_white;
+    }
+    th {
+        color: $color_white;
+        background-color: $color_medium-blue;
+        text-align: left;
+        font-weight: 500;
+        border-right: 1px solid $color_white;
+    }
+    td {
+        border: none;
+        background-color: #e6eef5;
+        color: $color_black;
+    }
+    a {
+        color: $color_black;
+
+        &:hover {
+            color: $color_medium-blue;
+        }
+    }
+
+    @include breakpoint(desktop) {
+        th {
+            white-space: nowrap;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        td {
+            width: 100%;
+            padding-left:20px;
+            padding-right:20px;
+        }
     }
 }

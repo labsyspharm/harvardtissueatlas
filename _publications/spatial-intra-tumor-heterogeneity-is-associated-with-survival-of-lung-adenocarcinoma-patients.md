@@ -2,12 +2,12 @@
 title: 'Spatial intra-tumor heterogeneity is associated with survival
 of lung adenocarcinoma patients.'
 contributors: 'Wu, H.-J., Temko, D., Maliga, M., Moreira. A., Sei, E., Conterno Minussi, D., Dean, J., Lee, C. Xu, Q., ... Michor, F. (2022).'
-publication: Forthcoming in Cell Genomics
-publication_link:
+publication: Cell Genomics Vol 2 (8) 100165. August 10, 2022.
+publication_link: https://doi.org/10.1016/j.xgen.2022.100165
 
-image:
+image: publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg
 
-#group: profiling
+group: profiling
 
 date: 2022-06-01
 

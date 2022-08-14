@@ -4,7 +4,7 @@ contributors: 'Gaglia, G., Kabraji, S., Angyropoulu, D., Dai, Y., Wang, S., Berg
 publication: Nature Cell Biology, 24(3), 316-326
 publication_link: https://doi.org/10.1038/s41556-022-00860-9
 
-image: publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer.PNG
+image: publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer_v2.png
 
 group: featured
 

@@ -21,51 +21,48 @@ layout: default
 
         {{ content }}
 
+        {% assign cards = site.data.announcements.news_press %}
+            
+        {% include cards.html 
+            heading='News' 
+            cards=cards
+            card-type='news-card'
+            card-color='medium-blue'
+            extra-margins=true
+        %}
+
+
+        {% assign cards = site.data.announcements.publications_software %}
+        {% assign cta_url = 'publications' | relative_url %}
+        {% assign cta_label = 'View all publications' %}
+        {% assign cta_url2 = 'methods-software' | relative_url %}
+        {% assign cta_label2 = 'View all software' %}
+
+        {% include cards.html 
+            heading='Publications &amp; Software' 
+            cards=cards
+            card-type='news-card'
+            card-color='dark-blue'
+            cta-url=cta_url
+            cta-label=cta_label
+            cta-url2=cta_url2
+            cta-label2=cta_label2
+            extra-margins=true
+        %}
+
+
+        {% assign cta_url = 'data-explorations' | relative_url %}
+        {% assign cta_label = 'View all data' %}
+
+        {% include cards.html 
+            heading='Featured Atlas/Data' 
+            featured=true
+            cta-url=cta_url
+            cta-label=cta_label
+            extra-margins=true
+        %}
+
     </div>
 </div>
 
-<section class="featured-cards">
-    <div class="featured-cards__inner container-wide">
-        <h2 class="featured-cards__heading">News &amp; Updates</h2>
-        <div class="featured-cards__items">
-            {% for item in site.data.news.featured %}
 
-                {% include news-card.html content=item %}
-
-            {% endfor %}
-        </div>
-        <div class="featured-cards__cta">
-            <a href="{{ 'publications' | relative_url }}" class="arrow-button">View all publications</a>
-        </div>
-    </div>
-</section>
-
-<section class="featured-cards">
-    <div class="featured-cards__inner container-wide">
-        <h2 class="featured-cards__heading">Featured Atlas/Data</h2>
-        <div class="featured-cards__items">
-            {% assign sorted = site.data-cards | where: 'featured', true | sort: 'date' | reverse %}
-            {% for dataset in sorted %}
-
-                {% include data-card.html content=dataset %}
-
-            {% endfor %}
-        </div>
-        <div class="featured-cards__cta">
-            <a href="{{ 'data-explorations' | relative_url }}" class="arrow-button">View all data</a>
-        </div>
-    </div>
-</section>
-
-<section class="featured-cards">
-    <div class="featured-cards__inner container-wide">
-        <h2 class="featured-cards__heading">News &amp; Updates</h2>
-        <div class="featured-cards__items">
-            {% for item in site.data.news.featured %}
-
-                {% include news-card.html content=item %}
-                
-            {% endfor %}
-        </div>
-    </div>
-</section>

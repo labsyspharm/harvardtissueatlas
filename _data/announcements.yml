@@ -1,0 +1,87 @@
+news_press:
+  - title: "Data Deep Dive"
+    author: "Caruso, C."
+    year: 2022, April 20
+    publication: "Harvard News"
+    image: "news/targeting-immunosuppressive-macrophages.jpg"
+    link: "https://hms.harvard.edu/news/data-deep-dive"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
+  - title: "Getting Under Our Skin"
+    author: "Caruso, C."
+    year: 2022, April 14
+    publication: "Harvard News"
+    image: "news/under-our-skin.JPG"
+    link: "https://hms.harvard.edu/news/getting-under-our-skin"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
+
+publications_software:
+  - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
+    author: "Wu, et al."
+    year: 2022
+    publication: "Cell Genomics"
+    image: "publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg"
+    link: "https://doi.org/10.1016/j.xgen.2022.100165"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+  - title: "Minerva"
+    description: "Needs a description here"
+    author:
+    year:
+    publication:
+    image: "software/minerva_v2.png"
+    link: "https://github.com/labsyspharm/minerva-story/wiki"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+  - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
+    description:
+    author: "Nirmal, et al."
+    year: 2022
+    publication: "Cancer Discovery"
+    image: "publications/the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution_v2.png"
+    link: "https://doi.org/10.1158/2159-8290.CD-21-1357"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link2: "#"
+    label2: Software  # [Publication|Software|Method]
+    target2: "_blank"  # [_self|_blank]
+  - title: "ASHLAR"
+    description: "Needs a description here"
+    author:
+    year:
+    publication:
+    image: "software/ashlar-exemplar.png"
+    link: "https://labsyspharm.github.io/ashlar/"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link2: "#"
+    label2: Method  # [Publication|Software|Method]
+    target2: "_blank"  # [_self|_blank]
+  - title: "Temporal and spatial topography of cell proliferation in cancer"
+    description:
+    author: "Gaglia et al."
+    year: 2022
+    publication: "Nature Cell Biology"
+    image: "publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer_v2.png"
+    link: "https://doi.org/10.1038/s41556-022-00860-9"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link2: "#"
+    label2: Software  # [Publication|Software|Method]
+    target2: "_blank"  # [_self|_blank]
+  - title: "MCMICRO: A multiple-choice microscopy pipeline"
+    description: "Needs a description here"
+    author:
+    year:
+    publication:
+    image: "news/mcmicro.jpg"
+    link: "https://mcmicro.org/"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+
+  
+
+
+
+  

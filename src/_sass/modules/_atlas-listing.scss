@@ -1,0 +1,73 @@
+.atlas-listing {
+    padding-bottom:1.5em;
+    margin-bottom:1.75em;
+    border-bottom:1px solid $color_dark-gray;
+
+    @include breakpoint(tablet-v) {
+        padding-bottom:2em;
+        margin-bottom:2.5em;
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+.atlas-listing__photo {
+    transition:flex-basis 0.2s $ease-out-quad;
+    margin-top:.2em;
+    margin-bottom:.75em;
+    
+    img {
+        max-width:100%;
+        display:block;
+        border:1px solid $color_black;
+    }
+
+    @include breakpoint(tablet-v) {
+        flex:0 0 200px;
+    }
+    @include breakpoint(desktop-l) {
+        flex:0 0 260px;
+    }
+}
+.atlas-listing__info {
+
+    @include breakpoint(tablet-v) {
+        flex-basis:calc(100% - 230px);  // Subtract photo width + gutter
+    }
+    @include breakpoint(desktop-l) {
+        flex-basis:calc(100% - 290px);
+    }
+}
+
+.atlas-listing__title {
+    @include breakpoint(tablet-v) {
+        margin-top:0;
+    }
+    @include breakpoint(desktop) {
+        @include font-size(22px);
+    }
+}
+.atlas-listing__summary {
+    margin-bottom:1.5em;
+}
+
+.atlas-listing__link {
+
+    padding:0 6px;
+    background:$color_blue;
+    height:32px;
+    min-width:32px;
+    box-sizing:border-box;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    transition:all 0.2s $ease-out-quad;
+    color:$color_white;
+    font-style: italic;
+    text-decoration: none;
+    
+    &:hover {
+        background:$color_dark-blue;
+    }
+}
+

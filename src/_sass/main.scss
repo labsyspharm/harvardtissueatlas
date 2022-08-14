@@ -33,7 +33,7 @@
 // Forms and Buttons
 // ----------------------------------------------------------------------------
 @import "forms-buttons/base";
-@import "forms-buttons/buttons";
+@import "forms-buttons/buttons-links";
 
 
 // ----------------------------------------------------------------------------
@@ -53,6 +53,7 @@
 @import "modules/data-card";
 @import "modules/project-listing";
 @import "modules/pub-listing";
+@import "modules/atlas-listing";
 @import "modules/software-listing";
 @import "modules/modal";
 @import "modules/person";
@@ -63,6 +64,7 @@
 @import "modules/news-card";
 @import "modules/image";
 @import "modules/subnav";
+@import "modules/cards";
 
 
 // ----------------------------------------------------------------------------
@@ -73,6 +75,7 @@
 @import "pages/atlases";
 @import "pages/people";
 @import "pages/funding";
+@import "pages/atlas-detail";
 
 
 // ----------------------------------------------------------------------------
