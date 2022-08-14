@@ -1,7 +1,7 @@
 <nav class="subnav">
     <ul class="subnav__list">
     {% for item in include.links %}
-        <li class="subnav__item"><a href="{{ item.url | relative_url }}" class="subnav__link">{{ item.name }}</a></li>
+        <li class="subnav__item"><a href="{{item.url | relative_url}}"  class="subnav__link">{{ item.name }}</a></li>
     {% endfor %}
     </ul>
 </nav>

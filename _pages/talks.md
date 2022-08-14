@@ -22,14 +22,6 @@ Ben Izar, MD, PhD, Medical Oncologist at Dana-Farber Cancer Institute, talks abo
   </div>
 </div>
 
-
-## Multiplexed Technologies for Spatial Analysis of FFPE Tumor Samples
-
-{% include vimeo.html id="692410439" autoplay=false muted=false time="0m" %}
-
-## Developing a Cloud Data Resource to Accelerate TB Research
-{% include vimeo.html id="701262344" autoplay=false muted=false time="0m" %}
-
 ## Tissue Atlas Industry Showcases
 
 <div class="row mb-4">
