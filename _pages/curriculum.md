@@ -26,7 +26,8 @@ Welcome to the multiplexed tissue imaging technology series! This webinar series
 
 ## Overview of Multiplex Tissue Imaging
 
-HTA is a molecular and physical map of human tissues and tumors. Multiplex imaging is the key method for developing these maps - it captures spatially resolved genomic, proteomic, and metabolic data at a single-cell level while preserving tissue architecture and context.  
+HTA is a molecular and physical map of human tissues and tumors. Multiplex imaging is the key method for developing these maps - it captures spatially resolved genomic, proteomic, and metabolic data at a single-cell level while preserving tissue architecture and context.
+{:.mb-5}
 
 ## Specimen and Experiment Management: Collection, Archiving and Tracking
 
@@ -46,7 +47,7 @@ Please come back for an episode on MITI! In the meantime, please check out the f
 
 [Read the publication](https://doi.org/10.1038/s41592-022-01415-4){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
 [Check out MITI's website](https://www.miti-consortium.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-
+{:.mb-5}
 
 ## Antibody validation and antibody panel design
 
@@ -66,10 +67,12 @@ Please come back for an episode on the t-CyCIF method! In the meantime, please c
 
 [Read our publication](https://elifesciences.org/articles/31657){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
 [Visit t-CyCIF website](https://www.cycif.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+{:.mb-5}
 
 ## High resolution and 3D imaging
 
 HTA contributes to the collective understanding of physiology and pathology across many scales. Imaging at higher resolution can highlight striking subcellular features, such as the arrangement of organelles, that can be used to characterize diseases. On the other end of the scale, thick tissues can be imaged in 3D by optical or serial sectioning to better describe the intricate ways cells interact in their native tissue context.
+{:.mb-5}
 
 ## OMERO
 
@@ -80,7 +83,6 @@ Tissue imaging projects at the LSP are multi-disciplinary and encourage cross-in
     {% include vimeo-card.html id="688017487" title="OMERO" %}
   </div>
 </div>
-
 
 ## MCMICRO: Multiple-Choice Microscopy Pipeline
 
@@ -103,6 +105,7 @@ Please come back later for an episode on SCIMAP. For more information in the mea
 
 [See SCIMAP resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
 [Head to SCIMAP website](https://scimap.xyz/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+{:.mb-5}
 
 ## Data Visualization and Sharing – MINERVA and Scope2Screen
 
@@ -122,6 +125,7 @@ Please come back for an episode on Scope2Screen! In the meantime, check out the 
 
 [See Scope2Screen resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
 [Find open source code for Scope2Screen on GitHub](https://github.com/labsyspharm/scope2screen){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+{:.mb-5}
 
 ## Integrating Spatial Transcriptomics with Imaging
 
