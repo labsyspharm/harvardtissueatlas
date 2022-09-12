@@ -20,9 +20,11 @@ Globally, tuberculosis (TB) is the leading cause of death from an infectious dis
 
 The Tuberculosis Granuloma Atlas aims to improve the understanding of granuloma biology and facilitate further advances in TB treatment. This effort starts with the creation of a *Tuberculosis Data Resource* that allows investigators funded by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) (BMGF) to share and jointly analyze data about tuberculosis. This Tuberculosis Data Resource will include clinical imaging data (e.g., PET, MRI), highly multiplexed tissue images, and spatial or single-cell transcriptomics. Integrating data across these diverse modalities requires a means to share the primary data itself and specialized software tools for data analysis; the Tuberculosis Data Resource is developing and deploying these tools. In addition, we are building capacity for digital pathology in low- and middle-income countries to enable equitable data sharing with the communities most heavily impacted by TB.
 
-## Introduction to TB Granuloma with Bree Aldridge
-{% include vimeo.html id="701262344" autoplay=false muted=false time="0m" %}
-
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="701262344" title="Introduction to TB Granuloma with Bree Aldridge" %}
+  </div>
+</div>
 
 # Imaging TB Granulomas
 {:.mt-5}
@@ -39,17 +41,16 @@ These [MINERVA](https://github.com/labsyspharm/minerva-story/wiki)-based data ex
     | where_exp: "item", "item.hide != true"
 %}
 
-<section class="data-cards">
-    <div class="data-cards__inner">
-        <div class="data-cards__items">
-            {% for s in stories %}
-            {% unless s.url contains '-overview' %}
-            {% include data-card.html content=s %}
-            {% endunless %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% unless s.url contains '-overview' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endunless %}
+{% endfor %}
+
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
 
 
 ## About the Technology

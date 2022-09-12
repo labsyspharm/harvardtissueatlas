@@ -162,6 +162,7 @@ Free account registration is required to download files from Synapse. Files avai
 
 
 ### About Accessing AWS Data
+{:.mt-5}
 
 To browse and download the data use either a graphical file transfer application
 that supports S3 such as [CyberDuck](https://cyberduck.io), or the [AWS CLI

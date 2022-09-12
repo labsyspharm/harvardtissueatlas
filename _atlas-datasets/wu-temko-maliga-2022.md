@@ -36,17 +36,11 @@ data:
     | where_exp: "item", "item.url contains '-overview'"
 %}
 
-<section class="data-cards">
-    <div class="data-cards__inner">
-        <div class="data-cards__items">
-            {% for o in overviews %}
-            {% include data-card.html content=o %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% if overviews.size > 0 %}
+  {% include cards.html cards=overviews %}
+{% endif %}
 
-### Data Access
+## Data Access
 ### About the Data Files
 
 This dataset can be used to reproduce the analysis of 12 lung tumors, as described (Wu HJ, Temko D, Maliga Z, et. al. Cell Genomics, 2022), and to develop new computational tools for processing and analysis of tumors stained for standard histopathology (hematoxylin and eosin) or highly multiplexed (20+) fluorescent tissue imaging.
