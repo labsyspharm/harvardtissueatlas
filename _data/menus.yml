@@ -34,10 +34,6 @@ main:
       - name: "Atlases"
         url: "/atlases"
         target: "_self"
-        children:
-        - name: "Atlases: Datasets"
-          url: "/atlas-datasets"
-          target: "_self"
       - name: "Data Explorations"
         url: "/data-explorations"
         target: "_self"

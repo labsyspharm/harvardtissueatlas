@@ -67,17 +67,16 @@ general.
     | where_exp: "item", "item.hide != true"
 %}
 
-<section class="data-cards">
-    <div class="data-cards__inner">
-        <div class="data-cards__items">
-            {% for s in stories %}
-            {% unless s.url contains '-overview' %}
-            {% include data-card.html content=s %}
-            {% endunless %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% unless s.url contains '-overview' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endunless %}
+{% endfor %}
+
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
 
 ## Data overviews
 
@@ -90,15 +89,9 @@ general.
     | where_exp: "item", "item.url contains '-overview'"
 %}
 
-<section class="data-cards">
-    <div class="data-cards__inner">
-        <div class="data-cards__items">
-            {% for o in overviews %}
-            {% include data-card.html content=o %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% if overviews.size > 0 %}
+  {% include cards.html cards=overviews %}
+{% endif %}
 
 
 ## Primary Data Access

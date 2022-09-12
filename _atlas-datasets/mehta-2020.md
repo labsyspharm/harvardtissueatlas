@@ -116,6 +116,7 @@ data:
     thumbnailDir=sectionId %}
 
 ## Available images
+{:.mt-5}
 
 {% include atlas-dataset-cards.html
     sectionId=sectionId
