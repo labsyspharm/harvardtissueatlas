@@ -63,3 +63,11 @@ featured:
     image: "software/ashlar-exemplar.png"
     link: "https://labsyspharm.github.io/ashlar/"
     target: "_blank"  # [_self|_blank]
+  - title: "Atlas maker: Q & A with Peter Sorger"
+    author: ""
+    year: 2022, April 20
+    publication: "Ludwig Cancer Research"
+    type: news  # [tools|publication|method|software]
+    image: "people/sorger-peter.jpg"
+    link: "https://www.ludwigcancerresearch.org/success-story/the-atlas-maker-qa-with-peter-sorger/"
+    target: "_blank"  # [_self|_blank]

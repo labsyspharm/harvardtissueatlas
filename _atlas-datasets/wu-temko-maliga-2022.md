@@ -30,17 +30,18 @@ data:
 **Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
 
 {%
-    assign overviews = site.data-cards
+    assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'wu-temko-maliga-2022/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.url contains '-overview'"
 %}
 
 <section class="data-cards">
     <div class="data-cards__inner">
         <div class="data-cards__items">
-            {% for o in overviews %}
-            {% include data-card.html content=o %}
+            {% for s in stories %}
+            {% unless s.url contains '-overview' %}
+            {% include data-card.html content=s %}
+            {% endunless %}
             {% endfor %}
         </div>
     </div>
