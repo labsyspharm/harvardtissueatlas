@@ -5,5 +5,5 @@ positions:
 
 photo: people/arias-camison-raquel.jpg
 
-group: staff
+group: alumni
 ---

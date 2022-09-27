@@ -5,5 +5,5 @@ positions:
 
 photo: people/tefft-juliann.jpg
 
-group: staff
+group: fellow
 ---
