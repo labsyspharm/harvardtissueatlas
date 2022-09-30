@@ -39,9 +39,9 @@ publications_software:
     year:
     publication:
     image: "software/minerva_v2.png"
-    link: "https://github.com/labsyspharm/minerva-story/wiki"
+    link: "software#minerva"
     label: Software  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
+    target: "_self"  # [_self|_blank]
   - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
     description:
     author: "Nirmal, et al."
@@ -53,19 +53,19 @@ publications_software:
     target: "_self"  # [_self|_blank]
     link2: "#"
     label2: Software  # [Publication|Software|Method]
-    target2: "_blank"  # [_self|_blank]
+    target2: "_self"  # [_self|_blank]
   - title: "ASHLAR"
     description: "Needs a description here"
     author:
     year:
     publication:
     image: "software/ashlar-exemplar.png"
-    link: "https://labsyspharm.github.io/ashlar/"
+    link: "software#ashlar"
     label: Software  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
+    target: "_self"  # [_self|_blank]
     link2: "#"
     label2: Method  # [Publication|Software|Method]
-    target2: "_blank"  # [_self|_blank]
+    target2: "_self"  # [_self|_blank]
   - title: "Temporal and spatial topography of cell proliferation in cancer"
     description:
     author: "Gaglia et al."
@@ -77,13 +77,13 @@ publications_software:
     target: "_self"  # [_self|_blank]
     link2: "#"
     label2: Software  # [Publication|Software|Method]
-    target2: "_blank"  # [_self|_blank]
+    target2: "_self"  # [_self|_blank]
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
     description: "Needs a description here"
     author:
     year:
     publication:
     image: "news/mcmicro.jpg"
-    link: "https://mcmicro.org/"
+    link: "software#mcmicro"
     label: Software  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
+    target: "_self"  # [_self|_blank]

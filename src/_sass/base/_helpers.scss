@@ -86,7 +86,8 @@
 }
 
 
-.publications [id] {
+.publications [id],
+.software [id] {
     scroll-margin-top: calc(#{$header_height_mobile} + 20px);
     @include breakpoint(desktop) {
         scroll-margin-top: calc(#{$header_height_tablet} + 40px);
