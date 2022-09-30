@@ -5,5 +5,5 @@ positions:
 
 photo: people/rashid-rumana.jpg
 
-group: alumni
+group: staff
 ---

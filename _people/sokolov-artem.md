@@ -6,5 +6,5 @@ positions:
 
 photo: people/sokolov-artem.jpg
 
-group: staff
+group: alumni
 ---
