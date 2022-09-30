@@ -16,17 +16,8 @@ layout: secondary
             {{ content }}
 
             <div class="publications__group">
-                <h2 id="software">Software</h2>
-                {{ page.software-description | markdownify}}
+                {{ page.description | markdownify}}
                 {% assign software = site.software | sort: 'date' | reverse %}
-                {% for s in software %}
-                    {% unless s.type == 'method' %}
-                    {% include software-listing.html content=s %}
-                    {% endunless %}
-                {% endfor %}
-
-                <h2 id="methods">Methods</h2>
-                {{ page.methods-description | markdownify}}
                 {% for s in software %}
                     {% if s.type == 'method' %}
                     {% include software-listing.html content=s %}

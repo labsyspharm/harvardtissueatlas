@@ -18,4 +18,7 @@ video: https://vimeo.com/679368905
 
 # for sorting purpose
 date: 2022-01-01
+# set the type for this item - will determine which page it appears on:
+# [ software | method ]
+type: software
 ---

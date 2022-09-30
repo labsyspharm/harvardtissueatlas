@@ -22,7 +22,15 @@ main:
     target: "_self"
   - name: "Methods & Software"
     section_id: methods-software
-    url: "/methods-software"
+    url: "/methods"
+    target: "_self"
+    children:
+      - name: "Methods"
+        url: "/methods"
+        target: "_self"
+      - name: "Software"
+        url: "/software"
+        target: "_self"
   - name: "Data"
     section_id: data
     url: "/data-overview"

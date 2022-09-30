@@ -17,4 +17,7 @@ documentation: https://vcg.seas.harvard.edu/publications/scope2screen
 
 # for sorting purpose
 date: 2018-01-01
+# set the type for this item - will determine which page it appears on:
+# [ software | method ]
+type: software
 ---
