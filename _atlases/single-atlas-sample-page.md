@@ -1,4 +1,3 @@
-@@ -1,58 +0,0 @@
 ---
 date: 0007-01-01
 name: Single Atlas Sample Page
