@@ -83,7 +83,18 @@
     @include breakpoint(desktop-xxl) {
         scroll-margin-top: $header_height_desktop;
     }
-  }
+}
+
+
+.publications [id] {
+    scroll-margin-top: calc(#{$header_height_mobile} + 20px);
+    @include breakpoint(desktop) {
+        scroll-margin-top: calc(#{$header_height_tablet} + 40px);
+    }
+    @include breakpoint(desktop-xxl) {
+        scroll-margin-top: calc(#{$header_height_desktop} + 40px);
+    }
+}
 
   
 /*
