@@ -7,10 +7,10 @@ data:
   publication:
     title: Evolution of Delayed Resistance to Immunotherapy in a Melanoma Responder
     authors: David Liu, Jia-Ren Lin* (equal contribution), Emily J Robitschek, Gyulnara G Kasumova, Alex Heyde, Alvin Shi, Adam Kraya, Gao Zhang, Tabea Moll, Dennie T Frederick, Yu-An Chen, Shu Wang, Denis Schapiro, Li-Lun Ho, Kevin Bi, Avinash Sahu, Shaolin Mei, Benchun Miao, Tatyana Sharova, Christopher Alvarez-Breckinridge, Jackson Stocking, Tommy Kim, Riley Fadden, Donald Lawrence, Mai P Hoang, Daniel P Cahill, Mohsen Malehmir, Martin A Nowak, Priscilla K Brastianos, Christine G Lian, Eytan Ruppin, Benjamin Izar, Meenhard Herlyn, Eliezer M Van Allen, Katherine Nathanson, Keith T Flaherty, Ryan J Sullivan, Manolis Kellis, Peter K Sorger, Genevieve M Boland
-    journal: Nature Medicine. 2021 Jun; 27: 985–992. PMID: 33941922.
+    journal: Nature Medicine. 2021. 27, 985–992.
     description: Despite initial responses, most melanoma patients develop resistance to immune checkpoint blockade (ICB) via poorly understood mechanisms. To understand the evolution of resistance, we studied 37 tumor samples collected over 9 years from a patient with metastatic melanoma and initial response to ICB followed by delayed recurrence and death. Phylogenetic analysis revealed co-evolution of 7 lineages with multiple convergent, but independent resistance-associated alterations (RAAs). All progression tumors emerged from a lineage characterized by loss of chromosome 15q including β2 microglobulin (B2M), with post-treatment resistant clones continuing to acquire additional genomic driver events including genome doubling, CDKN2A biallelic loss, and chromosome 11 loss. Deconvolution of bulk RNAseq and highly-multiplexed immunofluorescence (t-CyCIF) of histological specimens revealed differences in immune composition amongst the different lineages, despite an overall low immune composition. Imaging also revealed an NGFR-High tumor population enriched for PD-L1 expression in close proximity to immune cells with a vasculogenic mimicry phenotype. Rapid autopsy samples demonstrated 2 distinct NGFR spatial patterns with increased polarity and proximity to immune cells in subcutaneous tumors versus a diffuse spatial pattern in lung tumors, suggesting differences in the role and etiology of this neural crest-like program in different tumor microenvironments.
-     links:
-       Publication: https://doi.org/10.1038/s41591-021-01331-8
+    links:
+      Publication: https://doi.org/10.1038/s41591-021-01331-8
 
   group object:
     Biopsies:

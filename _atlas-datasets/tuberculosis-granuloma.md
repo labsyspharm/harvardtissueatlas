@@ -32,8 +32,6 @@ These [MINERVA](https://github.com/labsyspharm/minerva-story/wiki)-based data ex
 ## Data Explorations
 **Data Explorations are like museum guides and use the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
 
-{{Collection of all the relevant Minerva stories}}
-
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'tuberculosis-granulomas-2022/'"
