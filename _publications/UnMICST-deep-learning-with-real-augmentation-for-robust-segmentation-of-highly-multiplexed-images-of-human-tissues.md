@@ -1,5 +1,5 @@
 ---
-title: 'UnMICST: Deep learning with real augmentation for robust segmentation of highly multiplexed images of human tissues'
+title: 'UnMICST: Deep learning with real augmentation for robust segmentation of highly multiplexed images of human tissues.'
 contributors: 'Yapp, C., Novikov, E., Jang, W.-D., Chen, Y.-A., Cicconet, M., Maliga, Z., Jacobson, C. A., Wei, D., Santagata, S., Pfister, H., & Sorger, P. K. (2021).'
 publication: Manuscript Submitted
 publication_link:

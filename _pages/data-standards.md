@@ -25,7 +25,7 @@ We use established standardized data formats whenever possible.
 
  **Transcriptional data:** Distributed via [GEO](https://www.ncbi.nlm.nih.gov/geo/) using well-established approaches
 
- **Highly Multiplexed Tissue Images:** A standard for multiplexed tissue images didn't exist, so we developed the standard [Minimum Information about highly multiplexed Tissue Imaging (MITI)](https://www.tissue-atlas.org/miti-consortium.org).
+ **Highly Multiplexed Tissue Images:** A standard for multiplexed tissue images didn't exist, so we developed the standard [Minimum Information about highly multiplexed Tissue Imaging (MITI)](https://www.miti-consortium.org/).
  >MITI repurposes best practices from other data types to highly multiplexed tissue images and traditional histology images. Individuals and organizations interested in MITI should visit the image.sc forum and may submit pull requests (i.e. requests for inclusion in the MITI “codebase” at https://github.com/miti-consortium/MITI). We are currently developing a practical and reliable means for capturing the information needed to adhere to the MITI standard.
 
 ## Data Levels
