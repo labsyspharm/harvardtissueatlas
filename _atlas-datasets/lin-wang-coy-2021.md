@@ -12,8 +12,8 @@ data:
     links:
       - Publication: https://doi.org/10.1016/j.cell.2022.12.028
       - bioRxiv: https://doi.org/10.1101/2021.03.31.437984
----
 
+---
 {% include_relative TEMP-note-text.md %}
 
 {% assign urlParts = page.url | split: '/' %}
@@ -23,6 +23,18 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
+
+### Key Findings:
+
+  - Multiplexed analysis shows intermixed tumor morphologies and molecular gradients
+
+  - Various cancer characteristic cellular features are large, interconnected structures
+
+  - 3D tertiary lymphoid structure (TLS) networks show intra-TLS patterning variation
+
+  - PD1-PDL1 interactions are primarily between T and myeloid cells in this CRC cohort
+
+<center><img src="{{ site.baseurl }}/images/publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer-graphic-abstract.png" style="width:70%;margin:20px 20px"></center>
 
 ## Colorectal Cancer Atlas
 
@@ -37,20 +49,9 @@ significance in colorectal cancer. This includes the tumor invasive margin,
 where tumor, normal, and immune cells compete and were diverse immunosuppressive environments are found.
 
 ### Contents
-* [Key Findings](#key-findings)
 * [Data Explorations](#data-explorations)
 * [Data Overviews](#data-overviews)
 * [About Minerva](#about-minerva)
-
-### Key Findings:
-
-- Multiplexed analysis shows intermixed tumor morphologies and molecular gradients
-
-- Various cancer characteristic cellular features are large, interconnected structures
-
-- 3D tertiary lymphoid structure (TLS) networks show intra-TLS patterning variation
-
-- PD1-PDL1 interactions are primarily between T and myeloid cells in this CRC cohort
 
 ### Data Explorations
 

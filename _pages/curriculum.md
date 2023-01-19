@@ -30,11 +30,7 @@ Specimens, reagents, projects, and experiments are tracked internally using cust
 
 Inconsistent data annotation is a major barrier to collaboration, data reuse and research reproducibility. To address this problem, the LSP in collaboration with the Human Tumor Atlas Network, developed MITI reporting guidelines to provide clinical, biospecimen, and experimental metadata standards for most multiplexed imaging technologies.
 
-Please come back for an episode on MITI! In the meantime, please check out the following resources:
-
-[Read the publication](https://doi.org/10.1038/s41592-022-01415-4){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-[Check out MITI's website](https://www.miti-consortium.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-
+{% include vimeo.html id="790181049" autoplay=false muted=false time="0m" %}
 
 ## Antibody validation and antibody panel design
 
