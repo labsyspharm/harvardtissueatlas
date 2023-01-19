@@ -8,7 +8,7 @@ layout: secondary
 
 # Data Overview
 
- The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through a requester pays model.
+ The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through Amazon Web Services (AWS) S3 buckets.
 
 Below we describe our software pipeline, how data can be viewed online via MINERVA, and how to access primary full-resolution images.
 
@@ -18,11 +18,11 @@ Below we describe our software pipeline, how data can be viewed online via MINER
   * [__DATA EXPLORATIONS__: Narrated dataset overviews](#data-explorations)
   * [__DATA OVERVIEWS__: Online viewing of unprocessed image data](#data-overviews)
   * [__PUBLIC ACCESS TO PRIMARY DATA__: Our approach to data sharing](#public-access-to-primary-data)
-  * [__REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA__: Instructions for requesting primary data download](#requester-pays-access-to-primary-image-data)
+  * [__ACCESS PRIMARY IMAGE DATA__: Instructions for primary data download](#access-to-primary-image-data)
 
 ## DATA PIPELINE
 
-<center><img src="{{ site.baseurl }}/images/graphics/hta-software-overview-v23.png" style="width:70%;margin:20px 20px"></center>
+<center><img src="{{ site.baseurl }}/images/graphics/hta-software-overview-v25.png" style="width:70%;margin:20px 20px"></center>
 
 **This graphic depicts the flow of data into the Harvard Tissue Atlas (HTA).** Data arise from collaborations between HTA members (green) and additional collaborators (yellow). Before depositing data into the atlases, the data goes through sequential databases, experimental methods, and interoperable software. *Different roles within the workflow are numbered for clarity – note that a single person might hold multiple roles.*
 
@@ -35,7 +35,7 @@ Primary data is deposited onto online databases that allow the project team to d
 Now the scientific discovery process begins. New biological insights require both human inspection of the images and quantitative analysis of the single-cell data. This is highly collaborative (Roles 1, 2, 7, and 8) and is where the greatest innovation occurs! [*View two video examples of how multiplexed data come together for biological insights.*]( https://www.tissue-atlas.org/curriculum#integrating-spatial-transcriptomics-with-imaging)
 
 A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](https://github.com/labsyspharm/minerva-story/wiki), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
-After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems to allow requester-pays download.
+After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems.
 
 
 ## VIEWING DATA ONLINE WITH MINERVA
@@ -74,13 +74,8 @@ A key goal of the HTA is to provide access to primary data consistent with [FAIR
 
 All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to secure and deploy the resources needed to release datasets associated with other funding mechanisms.  
 
-### REQUESTER PAYS ACCESS TO PRIMARY IMAGE DATA
-For available datasets, we are using a “requester pays” model for downloading very large image datasets. This is because the primary cost associated with creation and maintenance of a dataset on a commercial cloud service involves data download, not data ingress and storage. In a requester pays model, a user seeking access to a dataset pays the cost of data egress directly to the cloud provider, making access both secure and anonymous. We continue to explore ways to make data access free, or at least cheaper.
+### ACCESS PRIMARY IMAGE DATA
 
-#### Request a download
+Images and metadata will be available in an AWS S3 bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)). Please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
 
-Downloading a single dataset will cost around $200, although intra-cloud transfer is much cheaper. For users who wish to perform processing within AWS to avoid transfer charges, please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
-
-1. Images and metadata will be available in a bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)).
-
-2. To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. There is unfortunately no web-browser-based mechanism for accessing a requester-pays bucket. *Please refer to the documentation for your chosen tool on how to sign in and enable access to requester-pays buckets.*  
+To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. There is unfortunately no web-browser-based mechanism available at this time.
