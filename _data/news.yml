@@ -1,4 +1,12 @@
 featured:
+  - title: "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer"
+    author: "Lin, et al."
+    year: 2023
+    publication: "Cell"
+    type: publication  # [tools|publication|method|software]
+    image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer.PNG"
+    link: "https://doi.org/10.1016/j.cell.2022.12.028"
+    target: "_blank"  # [_self|_blank]
   - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
     author: "Wu, et al."
     year: 2022
@@ -46,22 +54,6 @@ featured:
     type: software  # [tools|publication|method|software]
     image: "news/mcmicro.jpg"
     link: "https://mcmicro.org/"
-    target: "_blank"  # [_self|_blank]
-  - title: "Minerva"
-    author: ""
-    year:
-    publication: ""
-    type: software  # [tools|publication|method|software]
-    image: "software/minerva.png"
-    link: "https://github.com/labsyspharm/minerva-story/wiki"
-    target: "_blank"  # [_self|_blank]
-  - title: "ASHLAR"
-    author: ""
-    year:
-    publication: ""
-    type: software  # [tools|publication|method|software]
-    image: "software/ashlar-exemplar.png"
-    link: "https://labsyspharm.github.io/ashlar/"
     target: "_blank"  # [_self|_blank]
   - title: "Atlas maker: Q & A with Peter Sorger"
     author: ""

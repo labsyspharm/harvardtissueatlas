@@ -1,14 +1,6 @@
 ### Download the primary data
 
-The full dataset is available through Amazon Web Services S3 using a "requester
-pays" model. AWS charges $0.10/GB for downloading all or part of the data.  The
-person downloading the data must have an AWS account and must email
-tissue-atlas@hms.harvard.edu with the AWS account’s **AWS account ID** and
-**canonical user ID** which may be found as detailed here:
-https://docs.aws.amazon.com/general/latest/gr/acct-identifiers.html#FindingYourAccountIdentifiers.
-We must receive **both** the  account ID and canonical user ID in order to grant
-access to the S3 bucket containing the full dataset. After access is granted the
-images and metadata will be available in the bucket at the following location:
+The full dataset is available through Amazon Web Services S3. The images and metadata will be available in the bucket at the following location:
 
 ```
 s3://hta-melatlas-1/data/
