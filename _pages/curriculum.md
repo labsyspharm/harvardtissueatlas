@@ -23,14 +23,17 @@ HTA is a molecular and physical map of human tissues and tumors. Multiplex imagi
 ## Specimen and Experiment Management: Collection, Archiving and Tracking
 
 Specimens, reagents, projects, and experiments are tracked internally using custom Laboratory Information Management Systems (LIMS) databases built by LSP software engineers. Reagent Tracker and Experiment Tracker are evolving resources that anchor robust metadata and sample tracking pipelines and facilitate collaboration throughout the experimental life cycle.
-
+<details>
+<summary data-collapse-label="Collapse">Expand</summary>
 {% include vimeo.html id="716535956" autoplay=false muted=false time="0m" %}
-
+</details>
 ## MITI: Minimum Information about Tissue Imaging
 
 Inconsistent data annotation is a major barrier to collaboration, data reuse and research reproducibility. To address this problem, the LSP in collaboration with the Human Tumor Atlas Network, developed MITI reporting guidelines to provide clinical, biospecimen, and experimental metadata standards for most multiplexed imaging technologies.
-
+<details>
+<summary data-collapse-label="Collapse">Expand</summary>
 {% include vimeo.html id="790181049" autoplay=false muted=false time="0m" %}
+</details>
 
 ## Antibody validation and antibody panel design
 
