@@ -36,6 +36,8 @@ data:
 
 <center><img src="{{ site.baseurl }}/images/publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer-graphic-abstract.png" style="width:70%;margin:20px 20px"></center>
 
+<i>Figure overview of the Colorectal Cancer Atlas dataset: The colorectal cancer atlas contains detailed 3D analysis of one CRC tissue specimen with CyCIF, H&E, and spatial transcriptomics, whole slide imaging of 16 additional tumor samples, and tissue microarray analysis of 92 tumors.</i>
+
 ## Colorectal Cancer Atlas
 
 The CRC Atlas dataset contains images and other data being used for
@@ -101,7 +103,7 @@ full-resolution images.**
    All software used in this manuscript is freely available via GitHub at [https://github.com/labsyspharm/mcmicro](https://github.com/labsyspharm/mcmicro) and [https://github.com/labsyspharm/CRC_atlas_2022](https://github.com/labsyspharm/CRC_atlas_2022).
 
 ## Access the Data
-   All data is available through a public repository (where available) or through AWS download. You should visit [https://doi.org/10.5281/zenodo.7506942](https://doi.org/10.5281/zenodo.7506942) to view the complete data table with information about where to find each dataset.
+   All data is available through a public repository (where available) or through AWS download. You should visit [https://doi.org/10.5281/zenodo.7554924](https://doi.org/10.5281/zenodo.7554924) to view the complete data table with information about where to find each dataset.
 
 ## Funding Sources
    This publication is part of the HTAN (Human Tumor Atlas Network) Consortium paper package. A list of HTAN members is available at humantumoratlas.org/htan-authors. This work was supported by NIH grants U54-CA225088 (PKS, SS), U2C-CA233280 (PKS, SS), U2C-CA233262 (PKS, SS), U2C-CA233291 (CNH, KSL), R01-DK103831 (CNH, KSL), NIH training grant T32-GM007748 (SC), P30-CA06516 (for histology), Ludwig Cancer Research, the Gray Foundation, and the David Liposarcoma Research Initiative.  

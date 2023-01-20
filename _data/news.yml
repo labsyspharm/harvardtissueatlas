@@ -5,7 +5,7 @@ featured:
     publication: "Cell"
     type: publication  # [tools|publication|method|software]
     image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer.PNG"
-    link: "https://doi.org/10.1016/j.cell.2022.12.028"
+    link: "/atlas-datasets/lin-wang-coy-2021/"
     target: "_blank"  # [_self|_blank]
   - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
     author: "Wu, et al."
@@ -13,7 +13,7 @@ featured:
     publication: "Cell Genomics"
     type: publication  # [tools|publication|method|software]
     image: "publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg"
-    link: "https://doi.org/10.1016/j.xgen.2022.100165"
+    link: "/atlas-datasets/wu-temko-maliga-2022/"
     target: "_blank"  # [_self|_blank]
   - title: "Data Deep Dive"
     author: "Caruso, C."
@@ -29,7 +29,7 @@ featured:
     publication: "Cancer Discovery"
     type: publication  # [tools|publication|method|software]
     image: "publications/the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution.png"
-    link: "https://doi.org/10.1158/2159-8290.CD-21-1357"
+    link: "/atlas-datasets/nirmal-maliga-vallius-2021/"
     target: "_blank"  # [_self|_blank]
   - title: "Getting Under Our Skin"
     author: "Caruso, C."
@@ -45,7 +45,7 @@ featured:
     publication: "Nature Cell Biology"
     type: publication  # [tools|publication|method|software]
     image: "publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer.PNG"
-    link: "https://doi.org/10.1038/s41556-022-00860-9"
+    link: "/atlas-datasets/gaglia-2022/"
     target: "_blank"  # [_self|_blank]
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
     author: ""
@@ -53,7 +53,7 @@ featured:
     publication: ""
     type: software  # [tools|publication|method|software]
     image: "news/mcmicro.jpg"
-    link: "https://mcmicro.org/"
+    link: "/methods-software#mcmicro"
     target: "_blank"  # [_self|_blank]
   - title: "Atlas maker: Q & A with Peter Sorger"
     author: ""

@@ -72,10 +72,10 @@ Data Overviews are MINERVA stories for a single, minimally-processed ([Level 2 o
 
 A key goal of the HTA is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). This remains a work in progress as we develop and implement repositories and standards for our diverse data types. As a result, not all data sets are currently available for download at this time.
 
-All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to secure and deploy the resources needed to release datasets associated with other funding mechanisms.  
+All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to release datasets associated with other funding mechanisms via public repositories.   
 
 ### ACCESS PRIMARY IMAGE DATA
 
-Images and metadata will be available in an AWS S3 bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)). Please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
+Images and metadata will be available in an AWS S3 bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)).
 
-To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. There is unfortunately no web-browser-based mechanism available at this time.
+To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. Email tissue-atlas(at)hms.harvard.edu if you experience issues accessing the above S3 buckets.
