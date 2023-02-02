@@ -1,4 +1,12 @@
 featured:
+  - title: "New 3D Atlas of Colorectal Cancer Promises Improved Diagnosis, Treatment"
+    author: "Tabak, L."
+    year: 2023, January 31
+    publication: "NIH Director's Blog"
+    type: news  # [tools|publication|method|software]
+    image: "publications/New-3D-Atlas-NIH-directors-blog.png"
+    link: "https://directorsblog.nih.gov/2023/01/31/new-3d-atlas-of-colorectal-cancer-promises-improved-diagnosis-treatment/"
+    target: "_blank"  # [_self|_blank]
   - title: "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer"
     author: "Lin, et al."
     year: 2023
@@ -15,14 +23,6 @@ featured:
     image: "publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg"
     link: "/atlas-datasets/wu-temko-maliga-2022/"
     target: "_blank"  # [_self|_blank]
-  - title: "Data Deep Dive"
-    author: "Caruso, C."
-    year: 2022, April 20
-    publication: "Harvard News"
-    type: news  # [tools|publication|method|software]
-    image: "news/targeting-immunosuppressive-macrophages.jpg"
-    link: "https://hms.harvard.edu/news/data-deep-dive"
-    target: "_blank"  # [_self|_blank]
   - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
     author: "Nirmal, et al."
     year: 2022
@@ -31,14 +31,6 @@ featured:
     image: "publications/the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution.png"
     link: "/atlas-datasets/nirmal-maliga-vallius-2021/"
     target: "_blank"  # [_self|_blank]
-  - title: "Getting Under Our Skin"
-    author: "Caruso, C."
-    year: 2022, April 14
-    publication: "Harvard News"
-    type: news  # [tools|publication|method|software]
-    image: "news/under-our-skin.JPG"
-    link: "https://hms.harvard.edu/news/getting-under-our-skin"
-    target: "_blank"  # [_self|_blank]
   - title: "Temporal and spatial topography of cell proliferation in cancer"
     author: "Gaglia et al."
     year: 2022
@@ -46,6 +38,14 @@ featured:
     type: publication  # [tools|publication|method|software]
     image: "publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer.PNG"
     link: "/atlas-datasets/gaglia-2022/"
+    target: "_blank"  # [_self|_blank]
+  - title: "Data Deep Dive"
+    author: "Caruso, C."
+    year: 2022, April 20
+    publication: "Harvard News"
+    type: news  # [tools|publication|method|software]
+    image: "news/under-our-skin.JPG"
+    link: "https://hms.harvard.edu/news/data-deep-dive"
     target: "_blank"  # [_self|_blank]
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
     author: ""
