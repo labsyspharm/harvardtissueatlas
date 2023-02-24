@@ -10,7 +10,7 @@ data:
   publication:
     title: Qualifying antibodies for image-based immune profiling and multiplexed tissue imaging
     authors: Du Z, Lin JR, Rashid R, Maliga Z, Wang S, Aster J, Izar B, Sorger PK, Santagata S.
-    journal: "Nat Protoc. 2019, 14(10), 2900-2930. PMID: 31534232."
+    journal: "Nat Protoc. 2019 Oct; 14(10): 2900-2930. PMID: 31534232."
     links:
       - Raw Data: https://www.synapse.org/#!Synapse:syn17865732/wiki/592782
       - Publication: https://www.nature.com/articles/s41596-019-0206-y
