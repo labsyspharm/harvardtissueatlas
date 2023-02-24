@@ -9,7 +9,7 @@ image: software/scope2screen_v2.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: https://ieeexplore.ieee.org/document/9557792
+publication: https://pubmed.ncbi.nlm.nih.gov/34606456/
 # link to github repo
 source code: https://github.com/labsyspharm/scope2screen
 # link to micro-site

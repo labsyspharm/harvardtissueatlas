@@ -3,7 +3,7 @@
 
 Each folder corresponds to a patient sample (N). The following files are available for each patient and are located on [Synapse (synID syn32529019)](https://www.synapse.org/#!Synapse:syn32529019/wiki/618223) or on Amazon Web Services (AWS).
 
-Free account registration is required to download files from Synapse. Files available through AWS S3 are made available using a “requester pays” model. The person downloading the data must have an AWS account, and AWS will charge the user's account $0.10/GB for downloading all or part of the data. Images and metadata are available in the bucket at the following location: s3://wu-temko-maliga-2022
+Free account registration is required to download files from Synapse. Files available through AWS S3 are available in the bucket at the following location: s3://wu-temko-maliga-2022
 
 |File Type     | Description                                                                        | Location|
 |--------      | ------------ ----------------------------------------------------------------------|---------|
@@ -159,19 +159,3 @@ Free account registration is required to download files from Synapse. Files avai
 |P137941 | 12              | 47.5 GB    | AWS     |
 |P137974 | 12              | 53.2 GB    | AWS     |
 |P138007 | 12              | 50.3 GB    | AWS     |
-
-
-### About Accessing AWS Data
-{:.mt-5}
-
-To browse and download the data use either a graphical file transfer application
-that supports S3 such as [CyberDuck](https://cyberduck.io), or the [AWS CLI
-tools](https://aws.amazon.com/cli/). A graphical tool may be more convenient but
-the CLI tools will likely offer higher download speeds. Please refer to the
-documentation for your chosen tool on how to sign in and enable access to
-requester-pays buckets. There is unfortunately no web-browser-based mechanism
-for accessing a requester-pays bucket. Keep in mind the download costs, which
-will run over $200 for downloading one copy of the entire dataset. For users who
-wish to perform processing within AWS to avoid transfer charges, note that the
-bucket is located in the `us-east-1` region so any other resources must be
-instantiated in this same region.

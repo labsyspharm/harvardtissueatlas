@@ -8,19 +8,19 @@ layout: secondary
 
 # Multiplex Tissue Imaging Technology Series
 
-Multiplex tissue imaging technologies series introduces the major components of the multiplex tissue imaging pipeline used to create a tissue atlas. We showcase the voices of individual scientists in the LSP who are actively developing experimental and computational methods to generate and analyze highly multiplexed data. Each episode focuses on one link in the pipeline, including methods and software used in tissue sample preparation, image acquisition, quantitative image and spatial molecular data analysis, online collaboration, data sharing, and science education. Over time, the curriculum will grow to include more in-depth sessions.
+Multiplex tissue imaging technologies series introduces the major components of the multiplex tissue imaging pipeline used to create a tissue atlas. We showcase the voices of individual scientists in the LSP who are actively developing experimental and computational methods to generate and analyze highly multiplexed data. Each episode focuses on one link in the pipeline, including methods and software used in tissue sample preparation, image acquisition, quantitative image and spatial molecular data analysis, online collaboration, data sharing, and science education. Videos are added regularly, and, over time, the curriculum will grow to include more in-depth sessions.
 
 ## Contents
-[**Intro to the Curriculum**](#intro-to-the-curriculum) | [**Overview**](#overview-of-multiplex-tissue-imaging) | [**Specimen and Experiment Management**](#specimen-and-experiment-management-collection-archiving-and-tracking) | [**MITI**](#miti-minimum-information-about-tissue-imaging) | [**Antibody**](#antibody-validation-and-antibody-panel-design) | [**t-CyCIF method**](#t-cycif-method) | [**Imaging**](#high-resolution-and-3d-imaging) | [**OMERO**](#omero) | [**MCMICRO**](#mcmicro-multiple-choice-microscopy-pipeline) | [**Data Visualization and Sharing**](#data-visualization-and-sharing--minerva-and-scope2screen) | [**Spatial Transcriptomics**](#integrating-spatial-transcriptomics-with-imaging)
+[**Intro to the Curriculum**](#intro-to-the-curriculum) | [**Overview**](#overview-of-multiplex-tissue-imaging) | [**Specimen and Experiment Management**](#specimen-and-experiment-management-collection-archiving-and-tracking) | [**MITI Metadata**](#miti-minimum-information-about-tissue-imaging) | [**Antibodies**](#antibody-validation-and-antibody-panel-design) | [**t-CyCIF method**](#t-cycif-method) | [**Imaging**](#high-resolution-and-3d-imaging) | [**OMERO Collaboration**](#omero) | [**Analysis with MCMICRO**](#mcmicro-multiple-choice-microscopy-pipeline) | [**Data Visualization and Sharing**](#data-visualization-and-sharing--minerva-and-scope2screen) | [**Spatial Transcriptomics**](#integrating-spatial-transcriptomics-with-imaging)
 {:.mb-5}
 
-## Intro to the Curriculum
+## Introduction to the Curriculum
 
-Welcome to the multiplexed tissue imaging technology series! This webinar series will provide unique insight into the active multiplex tissue imaging pipeline used to create the HTA. The goal of these talks is to introduce members of the scientific community to our pipelines in the hope of inspiring collaboration, method sharing, and innovation. Click the expand button to see videos and related resources.  
+Welcome to the multiplexed tissue imaging technology series! This webinar series will provide unique insight into the active multiplex tissue imaging pipeline used to create the HTA. The goal of these talks is to introduce members of the scientific community to our pipelines in the hope of inspiring collaboration, method sharing, and innovation.  
 
 <div class="row mb-4">
   <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="687999091" title="Introduction" description="Lorem ipsum dolor sit amet, cons adipiscing elit. Nullam consequat sem non velit tempor venenatis. Quisque mi purus, placerat et purus in, blandit lacinia diam." %}
+    {% include vimeo-card.html id="687999091" title="Introduction" description="Han Xu, PhD, Harvard Program in Therapeutic Science Education Fellow, provides an introduction to the Multiplex Tissue Imaging Technology series." %}
   </div>
 </div>
 
@@ -43,11 +43,11 @@ Specimens, reagents, projects, and experiments are tracked internally using cust
 
 Inconsistent data annotation is a major barrier to collaboration, data reuse and research reproducibility. To address this problem, the LSP in collaboration with the Human Tumor Atlas Network, developed MITI reporting guidelines to provide clinical, biospecimen, and experimental metadata standards for most multiplexed imaging technologies.
 
-Please come back for an episode on MITI! In the meantime, please check out the following resources:
-
-[Read the publication](https://doi.org/10.1038/s41592-022-01415-4){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
-[Check out MITI's website](https://www.miti-consortium.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-{:.mb-5}
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="790181049" title="MITI Metadata" %}
+  </div>
+</div>
 
 ## Antibody validation and antibody panel design
 

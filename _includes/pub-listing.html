@@ -37,10 +37,17 @@
                     </a>
                 </li>
             {%- endif -%}
+            {%- if include.content.pubmed_link -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.pubmed_link }}" target="_blank">
+                        PubMed
+                    </a>
+                </li>
+            {%- endif -%}
             {%- if include.content.rxiv_link -%}
                 <li class="pub-listing__link">
                     <a href="{{ include.content.rxiv_link }}" target="_blank">
-                        Rxiv
+                        Preprint
                     </a>
                 </li>
             {%- endif -%}
@@ -51,7 +58,7 @@
                         use it directly.  If not, build a path to the specified file.
                     {% endcomment %}
                     {% assign protocol = include.content.pdf_link | slice: 0, 4 %}
-                    
+
                     {% if protocol == 'http' %}
                         {% assign pdfLink = include.content.pdf_link %}
                     {% else %}
@@ -63,9 +70,9 @@
                     </a>
                 </li>
             {%- endif -%}
-            
+
         </ul>
-        
+
     </div>
 
 </div>

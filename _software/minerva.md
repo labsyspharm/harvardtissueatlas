@@ -8,7 +8,7 @@ image: software/minerva_v2.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication:
+publication: https://pubmed.ncbi.nlm.nih.gov/33768192/
 # link to github repo
 source code: https://github.com/labsyspharm/minerva-story
 # link to micro-site

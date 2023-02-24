@@ -1,4 +1,13 @@
 news_press:
+  - title: "New 3D Atlas of Colorectal Cancer Promises Improved Diagnosis, Treatment"
+    author: "Tabak, L."
+    year: 2023, January 31
+    publication: "NIH Director's Blog"
+    type: news  # [tools|publication|method|software]
+    image: "publications/New-3D-Atlas-NIH-directors-blog.png"
+    link: "https://directorsblog.nih.gov/2023/01/31/new-3d-atlas-of-colorectal-cancer-promises-improved-diagnosis-treatment/"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
   - title: "Data Deep Dive"
     author: "Caruso, C."
     year: 2022, April 20
@@ -25,6 +34,14 @@ news_press:
     target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer"
+    author: "Lin, et al."
+    year: 2023
+    publication: "Cell"
+    image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer.PNG"
+    link: "publications#lin-wang-coy-2021/"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
     author: "Wu, et al."
     year: 2022
@@ -34,7 +51,7 @@ publications_software:
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
   - title: "Minerva"
-    description: "Needs a description here"
+    description: "A suite of software tools for interpreting, interacting with, and sharing complex image data."
     author:
     year:
     publication:
@@ -55,17 +72,18 @@ publications_software:
     label2: Software  # [Publication|Software|Method]
     target2: "_self"  # [_self|_blank]
   - title: "ASHLAR"
-    description: "Needs a description here"
+    description: "A Python tool for image registration and stitching."
     author:
     year:
     publication:
     image: "software/ashlar-exemplar.png"
-    link: "software#ashlar"
-    label: Software  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
+    label: Publication  # [Publication|Software|Method]
+    link: https://doi.org/10.1093/bioinformatics/btac544
+    target: "_blank"  # [_self|_blank]
     link2: "#"
-    label2: Method  # [Publication|Software|Method]
+    label2: Software  # [Publication|Software|Method]
     target2: "_self"  # [_self|_blank]
+    link2: "software#ashlar"
   - title: "Temporal and spatial topography of cell proliferation in cancer"
     description:
     author: "Gaglia et al."
@@ -79,11 +97,14 @@ publications_software:
     label2: Software  # [Publication|Software|Method]
     target2: "_self"  # [_self|_blank]
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
-    description: "Needs a description here"
+    description: "An end-to-end processing pipeline for multiplexed whole tissue imaging and tissue microarrays."
     author:
     year:
     publication:
     image: "news/mcmicro.jpg"
-    link: "software#mcmicro"
-    label: Software  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
+    link: https://doi.org/10.1038/s41592-021-01308-y
+    label: Publication
+    target: "_blank"
+    link2: "software#mcmicro"
+    label2: Software  # [Publication|Software|Method]
+    target2: "_self"  # [_self|_blank]

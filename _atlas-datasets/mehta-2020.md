@@ -105,8 +105,6 @@ data:
           - CyCIF image: osd-BRCA1-associated-10
 ---
 
-{% include_relative TEMP-note-text.md %}
-
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
 

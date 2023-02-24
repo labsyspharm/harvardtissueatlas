@@ -43,8 +43,6 @@ data:
         - CyCIF lung-2 image: osd-LUNG_2
 ---
 
-{% include_relative TEMP-note-text.md %}
-
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
 

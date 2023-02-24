@@ -8,7 +8,7 @@ image: software/ashlar-logo_v2.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: https://doi.org/10.1101/2021.04.20.440625
+publication: https://pubmed.ncbi.nlm.nih.gov/35972352/
 # link to github repo
 source code: https://github.com/labsyspharm/ashlar
 # link to micro-site

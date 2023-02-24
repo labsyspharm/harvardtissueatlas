@@ -11,7 +11,7 @@ image: software/unmicst-logo_v2.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: https://www.biorxiv.org/content/10.1101/2021.04.02.438285v1
+publication: https://pubmed.ncbi.nlm.nih.gov/36400937/
 # link to github repo
 source code: https://github.com/HMS-IDAC/unmicst
 # link to micro-site

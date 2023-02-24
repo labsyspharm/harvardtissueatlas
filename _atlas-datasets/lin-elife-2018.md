@@ -8,7 +8,7 @@ data:
     title: Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes
     authors: Lin JR, Izar B, Wang S, Yapp C, Mei S, Shah P, Santagata S, Sorger PK.
     journal: 'eLife. 2018 Jul 11;7:e31657. PMID: 29993362'
-    links: 
+    links:
       - Publication summary: http://lincs.hms.harvard.edu/lin-elife-2018/
 
   stitched mosaic images:
@@ -31,16 +31,14 @@ data:
     - title: Figure 10
       description: Eight-cycle t-CyCIF of a tissue microarray (TMA) including 13 normal tissues and corresponding tumor types. The TMA includes normal tissue types, and corresponding high and low grade tumors, for a total of 39 specimens.
       thumbnail file name: figure10.jpg
-      links: 
+      links:
         - TMA mosaic: osd-figure10
     - title: Figure 11 and 12
       description: Molecular heterogeneity in a single GBM tumor. (A) Representative low magnification image of a GBM specimen generated from 221 stitched 10X frames; the sample was subjected to 10 rounds of t-CyCIF.
       thumbnail file name: figure11.jpg
-      links: 
+      links:
         - GBM mosaic: osd-figure11
 ---
-
-{% include_relative TEMP-note-text.md %}
 
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}

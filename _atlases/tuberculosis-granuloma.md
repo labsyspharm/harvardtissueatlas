@@ -3,18 +3,30 @@ date: 0003-01-01
 name: Tuberculosis Granuloma Atlas
 summary: The Tuberculosis Granuloma Atlas aims to transform our understanding of TB granulomas by using spatially resolved profiling methods that reveal bacterial, lung and immune cell organization, states, and communication within granulomas of different types.
 dataset: tuberculosis-granuloma
-project-image:
+project-image: https://www.cycif.org/assets/img/tuberculosis-granulomas-2022/stages.jpg
 grant: Bill and Melinda Gates Foundation grant INV-027106
 grant-image: funding/gates.svg
-title: Funding - Gates Foundation
-link: gates
-short-name: gates
+title: Tuberculosis Granuloma Atlas
+link: tuberculosis-granuloma
+short-name: Tuberculosis Atlas
 ---
 
 The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, sites of chronic lung inflammation shaped by the biology *Mycobacterium tuberculosis* (*Mtb*) and host immune responses. Within a granuloma, Mtb growth is often limited, but this provides a niche from which bacteria can subsequently disseminate. The project also aims to build capacity for digital pathology in low and middle income countries (LIMC) including the eventual deployment of Atlas viewers and analysis modules on cell phones.  As part of the Atlas, LSP investigators are assembling a cloud-based *Tuberculosis Data Resource* that will consolidate a rich collection of imaging and genomic data on TB granulomas and make the data publicly available.
 
-The Atlas is expected to launch in Summer 2022 and is part of a sustained effort by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) to understand and ultimately eradicate TB (Funded by Grant INV-027106).
+### Introduction to TB Granuloma
 
-### Principal Investigators
-* Bree Aldridge, PhD. Associate Professor, Molecular Biology and Microbiology, Tufts University School of Medicine
-* Peter Sorger, PhD. Professor of Systems Biology, Harvard Medical School
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="701262344" title="Introduction" description="Bree Aldridge, PhD introducing the biology behind the Tuberculosis Granuloma Atlas." %}
+  </div>
+</div>
+
+## Data Explorations
+*Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
+
+{% assign cardList = 'features,stages' %}
+
+{% include cards.html list=cardList %}
+
+## Funding
+The Atlas is part of a sustained effort by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) to understand and ultimately eradicate TB (Funded by Grant INV-027106).

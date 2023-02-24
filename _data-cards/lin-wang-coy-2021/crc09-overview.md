@@ -1,5 +1,5 @@
 ---
-title: CRC09 - overview - Lin, Wang, Coy et al., 2021
+title: CRC08 - overview - Lin, Wang, Coy et al., 2021
 image: https://labsyspharm.github.io/HTA-CRCATLAS-1/images/thumbnail-crc09-overview.jpg
 date: '2008-01-23'
 minerva_link: https://labsyspharm.github.io/HTA-CRCATLAS-1/minerva/crc09-overview.html

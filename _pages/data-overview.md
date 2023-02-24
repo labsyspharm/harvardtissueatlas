@@ -8,12 +8,12 @@ layout: secondary
 
 # Data Overview
 
- The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through a requester pays model.
+The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through Amazon Web Services (AWS) S3 buckets.
 
 Below we describe our software pipeline, how data can be viewed online via MINERVA, and how to access primary full-resolution images.
 
 ## Contents
-[**Data Pipeline**](#data-pipeline) | [**Viewing Data Online with MINERVA**](#viewing-data-online-with-minerva) | [**Data Explorations**](#data-explorations) | [**Data Overviews**](#data-overviews) | [**Public Access to Primary Data**](#public-access-to-primary-data) | [**Requester Pays Access to Primary Image Data**](#requester-pays-access-to-primary-image-data)
+[**Data Pipeline**](#data-pipeline) | [**Viewing Data Online with MINERVA**](#viewing-data-online-with-minerva) | [**Public Access to Primary Data**](#public-access-to-primary-data) | [**Access Primary Image Data**: ](#access-to-primary-image-data)
 
 {% include enlarge-image.html src='graphics/hta-software-overview-v23.png' float='right' alt='' %}
 ## DATA PIPELINE
@@ -29,8 +29,7 @@ Primary data is deposited onto online databases that allow the project team to d
 Now the scientific discovery process begins. New biological insights require both human inspection of the images and quantitative analysis of the single-cell data. This is highly collaborative (Roles 1, 2, 7, and 8) and is where the greatest innovation occurs! [*View two video examples of how multiplexed data come together for biological insights.*]( https://www.tissue-atlas.org/curriculum#integrating-spatial-transcriptomics-with-imaging)
 
 A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](https://github.com/labsyspharm/minerva-story/wiki), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
-After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems to allow requester-pays download.
-
+After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems.
 
 ## VIEWING DATA ONLINE WITH MINERVA
 
@@ -40,17 +39,22 @@ After publication, HTA data are deposited into existing public repositories or m
 
 [Data Explorations](https://www.tissue-atlas.org/data-explorations) are MINERVA stories that guide users through the complexities of a large dataset and analysis by making extensive use of narration and waypoints. We aim to develop at least one exploration per HTA publication or Atlas dataset.  
 
-{% assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'tuberculosis-granulomas-2022/'"
-    | where_exp: "item", "item.hide != true" %}
-{% assign storiesFiltered = "" | split: "," %}
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'lin-wang-coy-2021/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}
-    {% unless s.url contains '-overview' %}
-        {% assign storiesFiltered = storiesFiltered | push: s %}
-    {% endunless %}
+  {% unless s.url contains '-overview' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endunless %}
 {% endfor %}
 
-{% include cards.html cards=storiesFiltered %}
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
 
 ## DATA OVERVIEWS  
 
@@ -60,14 +64,10 @@ Data Overviews are MINERVA stories for a single, minimally-processed ([Level 2 o
 
 A key goal of the HTA is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). This remains a work in progress as we develop and implement repositories and standards for our diverse data types. As a result, not all data sets are currently available for download at this time.
 
-All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to secure and deploy the resources needed to release datasets associated with other funding mechanisms.  
+All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to release datasets associated with other funding mechanisms via public repositories.  
 
-### Requester pays Access to Primary Image Data
-For available datasets, we are using a “requester pays” model for downloading very large image datasets. This is because the primary cost associated with creation and maintenance of a dataset on a commercial cloud service involves data download, not data ingress and storage. In a requester pays model, a user seeking access to a dataset pays the cost of data egress directly to the cloud provider, making access both secure and anonymous. We continue to explore ways to make data access free, or at least cheaper.
+### ACCESS PRIMARY IMAGE DATA
 
-### Request a download
-Downloading a single dataset will cost around $200, although intra-cloud transfer is much cheaper. For users who wish to perform processing within AWS to avoid transfer charges, please note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
+Images and metadata will be available in an AWS S3 bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)).
 
-1. Images and metadata will be available in a bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)).
-
-2. To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. There is unfortunately no web-browser-based mechanism for accessing a requester-pays bucket. *Please refer to the documentation for your chosen tool on how to sign in and enable access to requester-pays buckets.*  
+To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. Email tissue-atlas(at)hms.harvard.edu if you experience issues accessing the above S3 buckets.

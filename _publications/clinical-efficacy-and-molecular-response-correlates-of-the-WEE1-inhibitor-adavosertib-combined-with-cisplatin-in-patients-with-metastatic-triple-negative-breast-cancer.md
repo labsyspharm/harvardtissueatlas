@@ -12,6 +12,7 @@ date: 2021-01-20
 
 minerva_link:
 dataset_link: /atlas-datasets/keenan-2020/
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33257427/
 rxiv_link:
 pdf_link:
 show_page_link: false
