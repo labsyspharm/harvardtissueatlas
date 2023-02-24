@@ -2,7 +2,7 @@
 title: Private Data
 permalink: /private-data
 
-section_id: private-data
+section_id: data
 layout: secondary
 ---
 # Private Data
@@ -12,11 +12,27 @@ Read about the HTA's approach to data sharing on the [Data Overview](/data-overv
 
 ## Private Data Portal Access for HTA Collaborators
 The links below provide access to the Synapse-based private projects that are being used to generate and organize data for use in public tissue atlases. HTA collaborators will receive Synapse group access when data becomes available to share.
-{:.mb-5}
+{:.mb-4}
 
-| Atlas Name         | Public Data Exploration | Request Portal Access | Private Data Portal                                                      |
-|---------------------|-----------------------------------------------------------|
-| BRACA 1/2 Atlas | Coming Summer 2022 |[https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961)| [https://www.synapse.org/#!Synapse:syn27250699/discussion/default](https://www.synapse.org/#!Synapse:syn27250699/discussion/default)
-| Ludwig Tumor Atlas  |[https://www.ludwigtumoratlas.org/](https://www.ludwigtumoratlas.org/) |[https://www.synapse.org/#!Team:3429409](https://www.synapse.org/#!Team:3429409) | [https://www.synapse.org/#!Synapse:syn25931993/wiki/611751](https://www.synapse.org/#!Synapse:syn25931993/wiki/611751)
-| Melanoma Pre-Cancer and Progression Atlas| [https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/](https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/) | [https://www.synapse.org/#!Team:3436622](https://www.synapse.org/#!Team:3436622) | [https://www.synapse.org/#!Synapse:syn26302609/wiki/613128](https://www.synapse.org/#!Synapse:syn26302609/wiki/613128)
-| Tuberculosis Granuloma Atlas | [https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/](https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/)| [https://www.synapse.org/#!Team:3443962](https://www.synapse.org/#!Team:3443962)| [https://www.synapse.org/#!Synapse:syn28092390/wiki/617020](https://www.synapse.org/#!Synapse:syn28092390/wiki/617020)
+
+{% assign labels = "Atlas Name | Public Data Exploration | Request Portal Access | Private Data Portal" %}
+
+{% capture values %}
+**BRACA 1/2 Atlas** | Coming Summer 2022 | [https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961) | [https://www.synapse.org/#!Synapse:syn27250699/discussion/default](https://www.synapse.org/#!Synapse:syn27250699/discussion/default)
+{% endcapture %}
+{% include left-column-head-table.html labels=labels values=values %}
+
+{% capture values %}
+**Ludwig Tumor Atlas** | [https://www.ludwigtumoratlas.org/](https://www.ludwigtumoratlas.org/) | [https://www.synapse.org/#!Team:3429409](https://www.synapse.org/#!Team:3429409) | [https://www.synapse.org/#!Synapse:syn25931993/wiki/611751](https://www.synapse.org/#!Synapse:syn25931993/wiki/611751)
+{% endcapture %}
+{% include left-column-head-table.html labels=labels values=values %}
+
+{% capture values %}
+**Melanoma Pre-Cancer and Progression Atlas** | [https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/](https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/) | [https://www.synapse.org/#!Team:3436622](https://www.synapse.org/#!Team:3436622) | [https://www.synapse.org/#!Synapse:syn26302609/wiki/613128](https://www.synapse.org/#!Synapse:syn26302609/wiki/613128)
+{% endcapture %}
+{% include left-column-head-table.html labels=labels values=values %}
+
+{% capture values %}
+**Tuberculosis Granuloma Atlas** | [https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/](https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/) | [https://www.synapse.org/#!Team:3443962](https://www.synapse.org/#!Team:3443962) | [https://www.synapse.org/#!Synapse:syn28092390/wiki/617020](https://www.synapse.org/#!Synapse:syn28092390/wiki/617020)
+{% endcapture %}
+{% include left-column-head-table.html labels=labels values=values %}

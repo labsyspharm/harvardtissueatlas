@@ -10,7 +10,7 @@ description: |
     configurable Python Class object. Module results are cached to allow for
     dynamic restarts.
 # thumbnail image, can be a logo too
-image: software/cylinter-logo.svg
+image: software/cylinter-logo_v2.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
@@ -22,4 +22,7 @@ documentation: https://labsyspharm.github.io/cylinter/
 
 # for sorting purpose
 date: 2016-01-01
+# set the type for this item - will determine which page it appears on:
+# [ software | method ]
+type: software
 ---

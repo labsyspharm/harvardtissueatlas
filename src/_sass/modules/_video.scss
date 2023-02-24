@@ -14,3 +14,23 @@
     height: 100%;
     border: 0;
 }
+
+// Video Card layout
+.video-card {
+    background: #e6eef6;
+    padding: 14px;
+    height: 100%;
+}
+.video-card__text {
+    margin:.8em auto;
+    text-align: center;
+}
+.video-card__title {
+    @include font-size(20px);
+    font-weight: 700;
+    color: $color_medium-blue;
+}
+.video-card__description {
+    max-width:800px;
+    margin:.6em auto auto;
+}

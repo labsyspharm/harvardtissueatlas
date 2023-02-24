@@ -8,7 +8,7 @@ layout: secondary
 
         {{ content }}
 
-        <div>
+        <div class="funding__body">
 
             {% assign funding = site.funding | sort: 'date' %}
             {% for grant in funding %}
@@ -20,19 +20,29 @@ layout: secondary
                     </h2>
                     <div class="funding__summary">
                         {{ grant['summary'] | markdownify }}
+                        
+                        {% if grant['description'] %}
+                            {{ description['description'] | markdownify }}
+                        {% endif %}
+                        
+                        {% if grant['grant'] %}
+                            {{ grant['grant'] | markdownify }}
+                        {% endif %}
                     </div>
-
-                    {{ grant['description'] | markdownify }}
                 </div>
                 <div class="col-md-3">
-                    <h4 class="my-1">
-                        Funded By:
-                    </h4>
-                    <p class="mb-2">{{ grant['grant'] }}</p>
-                    <img src="{{ '/images/' | append: grant['grant-image'] | relative_url }}" alt=""
-                        style="max-height: 32px; max-width: 100%;">
+                    {% assign imgUrl = grant['grant-image'] %}
+                    {% if imgUrl %}
+                        {% if grant['is-high-dpi'] %}
+                            <img srcset="{{ site.imgbaseurl }}{{ imgUrl }}?w=.5&dpr=1, {{ site.imgbaseurl }}{{ imgUrl }}?w=1&dpr=2 2x" alt="{{ grant['name'] }}" class="funding__image">
+                        {% else %}
+                            <img src="{{ site.imgbaseurl }}{{ imgUrl }}" alt="{{ grant['name'] }}" class="funding__image">
+                        {% endif %}
+                    {% endif %}
                 </div>
             </div>
+
+            <hr>
 
             {% endfor %}
         </div>

@@ -11,7 +11,8 @@ group: methods
 date: 2021-08-21
 
 minerva_link:
-rxiv_link: 
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35277708/
+rxiv_link: https://arxiv.org/abs/2108.09499
 pdf_link:
 show_page_link: false
 ---

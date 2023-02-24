@@ -22,7 +22,8 @@ collections:
   atlas-datasets:
     output: true
   atlases:
-    output: false
+    output: true
+    permalink: /atlases/:path
   publications: 
     output: true
   software:
@@ -43,12 +44,18 @@ defaults:
       layout: summary
       heading: Data
       sub_heading: Data Summary
-      wide_container: true
+      wide_container: false
+  - scope:
+      path: ''
+      type: atlases
+    values:
+      section_id: data
+      layout: atlas-detail
   - scope:
       path: ''
       type: atlas-datasets
     values:
-      wide_container: true
+      wide_container: false
   - scope:
       path: ''
       type: publications
@@ -57,7 +64,7 @@ defaults:
       layout: summary
       heading: Publications
       sub_heading: Publication Summary
-      wide_container: true
+      wide_container: false
 
 sass:
   sass_dir: src/_sass

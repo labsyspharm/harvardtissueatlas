@@ -25,8 +25,9 @@
     @include breakpoint(tablet-v) {
         flex:0 0 200px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
+        margin-top: .3em;
     }
     @include breakpoint(desktop-l) {
         flex:0 0 260px;
@@ -48,10 +49,13 @@
 }
 
 .software-listing__title {
-    @extend %text-style-2;
-    margin-bottom:.1em;
-    font-weight: 700;
+    // margin-bottom:.1em;
+    @include font-size(20px);
     line-height:1.38;
+
+    @include breakpoint(desktop) {
+        @include font-size(24px);
+    }
 
     @include breakpoint(tablet-v) {
         margin-top:0;

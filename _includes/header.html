@@ -21,6 +21,15 @@
                                     {% for subitem in item.children %}
                                         <li class="subnav-bar-mobile__item">
                                             <a href="{{ subitem.url | relative_url }}" target="{{ subitem.target }}">{{subitem.name }}</a>
+                                            {% if subitem.children %}
+                                                <ul class="subnav-bar__nested-list">
+                                                    {% for nestedItem in subitem.children %}
+                                                        <li class="subnav-bar__nested-list-item">
+                                                            <a href="{{ nestedItem.url | relative_url }}" target="{{ nestedItem.target }}">{{nestedItem.name }}</a>
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
                                         </li>
                                     {% endfor %}
                                 </ul>
@@ -75,6 +84,15 @@
                                             {% for subitem in item.children %}
                                                 <li class="subnav-bar__item">
                                                     <a href="{{ subitem.url | relative_url }}" class="nav-bar__sub-link" target="{{ subitem.target }}">{{subitem.name }}</a>
+                                                    {% if subitem.children %}
+                                                        <ul class="subnav-bar__nested-list">
+                                                            {% for nestedItem in subitem.children %}
+                                                                <li class="subnav-bar__nested-list-item">
+                                                                    <a href="{{ nestedItem.url | relative_url }}" target="{{ nestedItem.target }}">{{nestedItem.name }}</a>
+                                                                </li>
+                                                            {% endfor %}
+                                                        </ul>
+                                                    {% endif %}
                                                 </li>
                                             {% endfor %}
                                         </ul>

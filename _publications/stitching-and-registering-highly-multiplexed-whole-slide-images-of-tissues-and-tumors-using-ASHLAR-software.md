@@ -10,6 +10,7 @@ group: methods
 
 date: 2022-08-16
 minerva_link:
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35972352/
 rxiv_link: https://doi.org/10.1101/2021.04.20.440625
 pdf_link:
 show_page_link: false

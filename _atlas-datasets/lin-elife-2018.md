@@ -7,7 +7,7 @@ data:
   publication:
     title: Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes
     authors: Lin JR, Izar B, Wang S, Yapp C, Mei S, Shah P, Santagata S, Sorger PK.
-    journal: 'eLife. 2018. 11(7), e31657. PMID: 29993362'
+    journal: 'eLife. 2018 Jul 11;7:e31657. PMID: 29993362'
     links:
       - Publication summary: http://lincs.hms.harvard.edu/lin-elife-2018/
 
@@ -40,8 +40,6 @@ data:
         - GBM mosaic: osd-figure11
 ---
 
-{% include_relative TEMP-note-text.md %}
-
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
 
@@ -51,6 +49,7 @@ data:
     thumbnailDir=sectionId %}
 
 ## Available images
+{:.mt-5}
 
 {% include atlas-dataset-cards.html
     sectionId=sectionId

@@ -8,21 +8,15 @@ layout: secondary
 
 # Data Overview
 
- The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through Amazon Web Services (AWS) S3 buckets.
+The HTA is committed to ensuring access to spatial profiling data and is involved in multiple projects to establish standards and public access for multiplex data. Our efforts include creating and documenting our data analysis pipelines, developing metadata standards, making images available, and providing access to large primary datasets through Amazon Web Services (AWS) S3 buckets.
 
 Below we describe our software pipeline, how data can be viewed online via MINERVA, and how to access primary full-resolution images.
 
-## Page Contents
-  * [__DATA PIPELINE__: Graphical representation of HTA data from sample collection to data access](#data-pipeline)
-  * [__VIEWING DATA ONLINE WITH MINERVA__: MINERVA software overview](#viewing-data-online-with-minerva)
-  * [__DATA EXPLORATIONS__: Narrated dataset overviews](#data-explorations)
-  * [__DATA OVERVIEWS__: Online viewing of unprocessed image data](#data-overviews)
-  * [__PUBLIC ACCESS TO PRIMARY DATA__: Our approach to data sharing](#public-access-to-primary-data)
-  * [__ACCESS PRIMARY IMAGE DATA__: Instructions for primary data download](#access-to-primary-image-data)
+## Contents
+[**Data Pipeline**](#data-pipeline) | [**Viewing Data Online with MINERVA**](#viewing-data-online-with-minerva) | [**Public Access to Primary Data**](#public-access-to-primary-data) | [**Access Primary Image Data**: ](#access-to-primary-image-data)
 
+{% include enlarge-image.html src='graphics/hta-software-overview-v23.png' float='right' alt='' %}
 ## DATA PIPELINE
-
-<center><img src="{{ site.baseurl }}/images/graphics/hta-software-overview-v25.png" style="width:70%;margin:20px 20px"></center>
 
 **This graphic depicts the flow of data into the Harvard Tissue Atlas (HTA).** Data arise from collaborations between HTA members (green) and additional collaborators (yellow). Before depositing data into the atlases, the data goes through sequential databases, experimental methods, and interoperable software. *Different roles within the workflow are numbered for clarity – note that a single person might hold multiple roles.*
 
@@ -37,7 +31,6 @@ Now the scientific discovery process begins. New biological insights require bot
 A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](https://github.com/labsyspharm/minerva-story/wiki), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
 After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems.
 
-
 ## VIEWING DATA ONLINE WITH MINERVA
 
 [MINERVA](https://github.com/labsyspharm/minerva-story/wiki) is a suite of software tools for visualizing, annotating and sharing large, multi-dimensional images in a browser using [digital docents](https://www.nature.com/articles/s41551-021-00789-8) and narration without the need to download the data. MINERVA enables interactive viewing and efficient data annotation. It can also display other types of data visualization. MINERVA does not require the installation of any software and browsing is anonymous. Nearly all HTA data are available as one of two types of MINERVA-based visualization, described below.
@@ -48,21 +41,20 @@ After publication, HTA data are deposited into existing public repositories or m
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'tuberculosis-granulomas-2022/'"
+    | where_exp: "item", "item.url contains 'lin-wang-coy-2021/'"
     | where_exp: "item", "item.hide != true"
 %}
 
-<section class="data-cards">
-    <div class="data-cards__inner">
-        <div class="data-cards__items">
-            {% for s in stories %}
-            {% unless s.url contains '-overview' %}
-            {% include data-card.html content=s %}
-            {% endunless %}
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% unless s.url contains '-overview' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endunless %}
+{% endfor %}
+
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
 
 ## DATA OVERVIEWS  
 
@@ -72,7 +64,7 @@ Data Overviews are MINERVA stories for a single, minimally-processed ([Level 2 o
 
 A key goal of the HTA is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). This remains a work in progress as we develop and implement repositories and standards for our diverse data types. As a result, not all data sets are currently available for download at this time.
 
-All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to release datasets associated with other funding mechanisms via public repositories.   
+All NCI Human Tumor Atlas Network data are released pre-publication via its [data portal](https://data.humantumoratlas.org/). We are still working to release datasets associated with other funding mechanisms via public repositories.  
 
 ### ACCESS PRIMARY IMAGE DATA
 

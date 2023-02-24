@@ -1,0 +1,14 @@
+.atlas-detail {
+    position: relative;
+
+    .back-link {
+        position:absolute;
+        top: -24px;
+    }
+    
+    @include breakpoint(desktop) {
+        .back-link {
+            top: -22px;
+        }
+    }
+}

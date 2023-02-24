@@ -10,7 +10,8 @@ group: profiling
 date: 2021-01-25
 
 minerva_link:
-rxiv_link:
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33495604/
+rxiv_link: https://doi.org/10.1101/724302v1
 pdf_link:
 show_page_link: false
 ---

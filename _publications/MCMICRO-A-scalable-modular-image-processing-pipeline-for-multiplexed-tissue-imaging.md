@@ -5,11 +5,12 @@ publication: Nature Methods, 19, 311–315
 publication_link: https://doi.org/10.1038/s41592-021-01308-y
 
 image: publications/mcmicro.PNG
-group: featured
+group: methods
 
 date: 2021-11-25
 
 minerva_link:
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/34824477/
 rxiv_link: https://doi.org/10.1101/2021.03.15.435473
 pdf_link:
 show_page_link: false

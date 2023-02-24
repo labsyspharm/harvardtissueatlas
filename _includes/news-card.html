@@ -1,9 +1,12 @@
-<div class="news-card news-card--type-{{ include.content.type }}">
+<div class="news-card news-card--color-{{ include.card-color }}">
     <div class="news-card__image">
         <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=259&h=176&fit=crop" alt="Thumbnail image for news item">
     </div>
     <div class="news-card__content">
         <div class="news-card__title">{{ include.content.title }}</div>
+        {% if include.content.description %}
+            <div class="news-card__description">{{ include.content.description }}</div>
+        {% endif %}
         {%- assign meta = "" -%}
         {%- if include.content.author -%}
             {%- assign meta = include.content.author -%}
@@ -14,26 +17,17 @@
         {%- if include.content.publication -%}
             {%- assign meta = meta | append: " <em>" | append: include.content.publication | append: "</em>" -%}
         {%- endif -%}
-        {%- if meta -%}
+        {%- if meta and meta != "" -%}
             <div class="news-card__meta">{{ meta }}</div>
         {%- endif -%}
 
-        <a href="{{ include.content.link }}" target="{{ include.content.target }}" class="arrow-button news-card__link"></a>
+        {% if include.content.link %}
+            <a href="{{ include.content.link }}" target="{{ include.content.target }}" class="arrow-button news-card__link"><span>{{ include.content.label }}</span></a>
+        {% endif %}
 
-    </div>
+        {% if include.content.link2 %}
+            <a href="{{ include.content.link2 }}" target="{{ include.content.target2 }}" class="arrow-button news-card__link"><span>{{ include.content.label2 }}</span></a>
+        {% endif %}
 
-    <div class="news-card__footer">
-        {%- case include.content.type %}
-            {% when 'tools' %}
-            Tools &amp; Data
-            {% when 'publication' %}
-            Publication
-            {% when 'method' %}
-            Method
-            {% when 'software' %}
-            Software
-            {% else %}
-            News
-        {% endcase -%}
     </div>
 </div>

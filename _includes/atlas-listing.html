@@ -1,0 +1,26 @@
+<div class="atlas-listing">
+    <div class="atlas-listing__photo">
+        {% if include.content['project-image'] %}
+            {% assign imgUrl = include.content['project-image'] %}
+        {% else %}
+            {% assign imgUrl = "general/HTA_thumb.jpg" %}
+        {% endif %}
+        {% if imgUrl contains 'http' %}
+            <img src="{{ imgUrl }}" alt="{{ include.content.name }}">
+        {% else %}
+            <img srcset="{{ site.imgbaseurl }}{{ imgUrl }}?w=258&fit=clamp, {{ site.imgbaseurl }}{{ imgUrl }}?w=258&fit=clamp&dpr=2 2x" alt="{{ include.content.name }}">
+        {% endif %}
+    </div>
+    <div class="atlas-listing__info">
+        <h2 class="atlas-listing__title">{{ include.content.name }}</h2>
+        <div class="atlas-listing__summary">{{ include.content.summary|markdownify }}</div>
+        {% if include.content.grant %}
+            <h3>Funded By:</h3>
+            {{ include.content.grant|markdownify }}
+        {% endif %}
+        <a href="{{ include.content.url | relative_url }}" target="_self" class="atlas-listing__link">
+            Explore Atlas
+        </a>
+    </div>
+
+</div>

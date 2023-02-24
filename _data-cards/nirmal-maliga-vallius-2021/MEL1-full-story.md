@@ -6,4 +6,5 @@ minerva_link: https://labsyspharm.github.io/HTA-MELATLAS-1/stories/MEL1-full-sto
 info_link: null
 show_page_link: false
 featured: true
+tag: MEL
 ---

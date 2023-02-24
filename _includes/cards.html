@@ -1,0 +1,81 @@
+<section class="cards {% if include.extra-margins %}cards--extra-margins{% endif %}">
+    {% if include.heading %}
+        <h2 class="cards__heading">{{ include.heading }}</h2>
+    {% endif %}
+    <div class="cards__backing">
+        <div class="cards__inner container-wide">
+            {% comment %}
+                Start by establishing our data source collection. 
+                By default, our data source is the 'data-cards' 
+                collection, but this can also be overridden by 
+                the use of the 'data-source' attribute.
+            {% endcomment %}
+            {% if include.data-source %}
+                {% assign source = include.data-source %}
+            {% else %}
+                {% assign source = site.data-cards %}
+            {% endif %}
+
+            {% comment %}
+                We then check to see if a 'cards' array was passed
+                into the include. If it was, we simply use that for
+                our card display.  If not, we then check to see if
+                a tag was supplied.  If so, we filter on that tag.
+                We then check to see if a 'list' string (comma 
+                delineated) of filenames was provided, and if so,
+                pull out those individual entries. Finally, if none
+                of the above were provided, we default to the full 
+                collection of cards.
+            {% endcomment %}
+            {% if include.cards %}
+                {% assign cards = include.cards %}
+            {% elsif include.featured %}
+                {% assign cards = source | where: 'featured', true | sort: 'date' | reverse %}
+            {% elsif include.tag %}
+                {% capture exp %}item.tags contains '{{ include.tag }}'{% endcapture %}
+                {% assign cards = source | where_exp: "item", exp  | sort: 'date' | reverse %}
+            {% elsif include.list %}
+                {% assign cards = "" | split: "," %}
+                {% assign cardSlugs = include.list | split: ',' %}
+                {% for filename in cardSlugs %}
+                    {% assign slug = filename | split: '.' | first %}
+                    {% for card in source %}
+                        {% assign cardSlug = card.id | split: '/' | last %}
+                        {% if cardSlug == slug %}
+                            {% assign cards = cards | push: card %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            {% else %}
+                {% assign cards = source | sort: 'date' | reverse %}
+            {% endif %}
+
+            {% comment %}
+                By default, we use the 'data-card.html' template for
+                card rendering. However, this can be overridden via
+                the 'card-type' attribute passed in the include.
+            {% endcomment %}
+            {% if include.card-type %}
+                {% assign card_template = include.card-type | append: '.html' %}
+            {% else %}
+                {% assign card_template = 'data-card.html' %}
+            {% endif %}
+
+            <div class="cards__items">
+                {% for card in cards %}
+                    {% include {{ card_template }} content=card card-color=include.card-color %}
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if include.cta-url %}
+            <div class="cards__cta-wrap">
+                <a href="{{ include.cta-url }}" class="arrow-button">{{ include.cta-label }}</a>
+
+                {% if include.cta-url2 %}
+                    <a href="{{ include.cta-url2 }}" class="arrow-button">{{ include.cta-label2 }}</a>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</section>

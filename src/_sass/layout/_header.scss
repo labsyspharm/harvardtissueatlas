@@ -17,7 +17,7 @@
     height:$header_height_mobile;
     display:flex;
     justify-content:space-between;
-    transition:all 0.2s $ease-out-quad;
+    // transition:all 0.2s $ease-out-quad;
 
     @include breakpoint(desktop) {
         overflow:visible;
