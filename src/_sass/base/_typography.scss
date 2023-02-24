@@ -41,15 +41,15 @@
 %heading-style-1 {
     // H1 heading treatment
     font-family:'Roboto', sans-serif;
-    font-weight:700;
+    font-weight:400;
     font-style:normal;
     text-transform: uppercase;
-    @include font-size(24px);
-    line-height:1.42;
+    @include font-size(28px);
+    line-height:1.2;
     letter-spacing:0.025em;
     
     @include breakpoint(desktop) {
-        @include font-size(32px);
+        @include font-size(36px);
         line-height: normal;
     }
 }
@@ -65,7 +65,7 @@
     letter-spacing:0.025em;
 
     @include breakpoint(desktop) {
-        @include font-size(27px);   // 200312.
+        @include font-size(24px);   // 200312.
     }
 }
 
@@ -73,11 +73,11 @@
     font-family:'Roboto', sans-serif;
     font-weight:700;
     font-style:normal;
-    @include font-size(18px);
+    @include font-size(16px);
     line-height:1.2;
 
     @include breakpoint(desktop) {
-        @include font-size(23px);
+        @include font-size(20px);
         line-height:1.2;
     }
 }
@@ -87,11 +87,11 @@
     font-family:'Roboto', sans-serif;
     font-weight:700;
     font-style:normal;
-    @include font-size(16px);
+    @include font-size(14px);
     line-height:1.2;
 
     @include breakpoint(desktop) {
-        @include font-size(20px);
+        @include font-size(18px);
         line-height:1.2;
     }
 }
@@ -209,14 +209,13 @@
     font-style:normal;
     font-stretch:normal;
     @include font-size(22px);
-    line-height:1.45;
+    line-height:1.44;
     letter-spacing:normal;
 
     @include breakpoint(desktop-xxl) {
         // @include font-size(36px);
         // line-height:1.67;
         @include font-size(24px);
-        line-height:1.45;
     }
 }
 
@@ -228,7 +227,7 @@
     font-style:normal;
     font-stretch:normal;
     @include font-size(16px);
-    line-height:1.55;
+    line-height:1.44;
     letter-spacing:.25px;
 
     @include breakpoint(desktop) {

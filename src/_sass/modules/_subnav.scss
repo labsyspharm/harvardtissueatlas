@@ -1,5 +1,5 @@
 .subnav {
-    margin:1em 0;
+    margin:.3em 0;
 }
 .subnav__list {
     list-style:none;
@@ -7,14 +7,11 @@
     padding:0;
 }
 .subnav__item {
+    @include font-size(15px);
+    color: $color_dark-gray;
     display:inline-block;
     margin:0;
     padding:0;
-
-    a {
-        text-transform: uppercase;
-        color:$color_dark-blue;
-    }
 
     &:after {
         content:"|";
@@ -28,3 +25,7 @@
         }
     }
 } 
+.subnav__link {
+    color: $color_dark-gray;
+    text-transform: uppercase;
+}

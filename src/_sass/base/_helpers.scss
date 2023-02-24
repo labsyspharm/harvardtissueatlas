@@ -83,7 +83,19 @@
     @include breakpoint(desktop-xxl) {
         scroll-margin-top: $header_height_desktop;
     }
-  }
+}
+
+
+.publications [id],
+.software [id] {
+    scroll-margin-top: calc(#{$header_height_mobile} + 20px);
+    @include breakpoint(desktop) {
+        scroll-margin-top: calc(#{$header_height_tablet} + 40px);
+    }
+    @include breakpoint(desktop-xxl) {
+        scroll-margin-top: calc(#{$header_height_desktop} + 40px);
+    }
+}
 
   
 /*
@@ -100,3 +112,24 @@
     @extend %container-wide;
 }
 
+/*
+ * Image Alignment
+ */
+
+.float-half-right,
+.float-half-left {
+    margin-bottom: .5em;
+}
+
+@include breakpoint(tablet-v) {
+    .float-half-right {
+        float: right;
+        max-width: 48%;
+        margin-left: 4%;
+    }
+    .float-half-left {
+        float: left;
+        max-width: 48%;
+        margin-right: 4%;
+    }
+}

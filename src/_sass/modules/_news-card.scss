@@ -1,7 +1,8 @@
 
 .news-card {
     max-width:295px;
-    margin:0 auto 30px;
+    min-height:440px;
+    margin:15px auto;
     background:$color_blue;
     color:$color_white;
     display:flex;
@@ -9,23 +10,19 @@
     justify-content: stretch;
 
     @include breakpoint(tablet-v) {
-        margin-bottom:60px;
+        margin-top:25px;
+        margin-bottom:35px;
     }
     @include breakpoint(desktop) {
-        margin-bottom:90px;
+        margin-top:40px;
+        margin-bottom:50px;
     }
 }
 // MODIFIERS FOR COLOR
-.news-card--type-tools {
-    background:$color_magenta;
-}
-.news-card--type-publication {
+.news-card--color-medium-blue {
     background:$color_medium-blue;
 }
-.news-card--type-method {
-    background:$color_fuchsia;
-}
-.news-card--type-software {
+.news-card--color-dark-blue {
     background:$color_dark-blue;
 }
 
@@ -39,38 +36,43 @@
 }
 
 .news-card__content {
-    padding:12px 18px 10px;
+    @include font-size(16px);
+    padding:12px 18px 35px;
     flex-grow:1;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
+    justify-content: flex-start;
     line-height:1.222;
     // margin-bottom:.75em;
 }
 .news-card__title {
+    @include font-size(18px);
     font-weight: 500;
     margin-bottom:1em;
 }
+.news-card__description {
+    margin-bottom:1.5em;
+}
 .news-card__meta {
-    @include font-size(16px);
     font-weight: 500;
-    margin-bottom:.8em;
+    margin-bottom:1.5em;
 }
 .news-card__link {
     color:$color_white;
-    @include font-size(22px);
+    @include font-size(20px);
     border:none;
-    padding-left:0;
-    margin-left:-.4em;
+    white-space: nowrap;
+
+    padding: 2px 0 3px 0;
 
     &:hover {
         background:none;
     }
-}
-.news-card__footer {
-    @include font-size(16px);
-    font-style: italic;
-    text-transform: uppercase;
-    padding:8px 18px 7px;
-    background:rgba(255,255,255,.17);
+
+    span {
+        @include font-size(16px);
+        position:relative;
+        top:-.08em;
+        margin-right: .3em;
+    }
 }

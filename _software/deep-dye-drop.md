@@ -15,7 +15,7 @@ image: software/deep-dye-drop-logo.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: https://doi.org/10.1101/2021.08.27.457854
+publication: https://pubmed.ncbi.nlm.nih.gov/36376301/
 # link to github repo
 source code: https://github.com/datarail/DrugResponse
 # link to micro-site

@@ -11,7 +11,8 @@ group: methods
 date: 2020-10-15
 
 minerva_link:
-rxiv_link: 
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33768192/
+rxiv_link:
 pdf_link:
 show_page_link: false
 ---

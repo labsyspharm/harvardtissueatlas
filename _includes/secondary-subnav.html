@@ -1,0 +1,21 @@
+<div class="secondary__subnav">
+    <span class="secondary__subnav-heading">{{ include.name }}</span>
+    <nav class="subnav">
+        <ul class="subnav__list">
+
+        {% assign segments = page.url | split: "/" %}
+        {% assign pageSlug = segments[-1] %}
+        {% assign parentSlug = segments[-2] %}
+
+        {% for item in include.links %}
+            {% assign itemSlug = item.url | split: "/" | last %}
+            {% if itemSlug == pageSlug or itemSlug == parentSlug %}
+                {% assign isActive = true %}
+            {% else %}
+                {% assign isActive = false %}
+            {% endif %}
+            <li class="subnav__item"><a href="{{ item.url | relative_url }}" class="subnav__link {% if isActive %}active{% endif %}">{{ item.name }}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
+</div>

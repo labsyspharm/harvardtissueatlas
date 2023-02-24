@@ -23,4 +23,7 @@ documentation: https://scimap.xyz/
 
 # for sorting purpose
 date: 2017-01-01
+# set the type for this item - will determine which page it appears on:
+# [ software | method ]
+type: software
 ---

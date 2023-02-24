@@ -1,7 +1,7 @@
 
 .data-card {
     max-width:295px;
-    margin:0 auto 30px;
+    margin:15px auto;
     background:$color_blue;
     color:$color_white;
     display:flex;
@@ -9,10 +9,12 @@
     justify-content: stretch;
 
     @include breakpoint(tablet-v) {
-        margin-bottom:60px;
+        margin-top:25px;
+        margin-bottom:35px;
     }
     @include breakpoint(desktop) {
-        margin-bottom:90px;
+        margin-top:40px;
+        margin-bottom:50px;
     }
 }
 

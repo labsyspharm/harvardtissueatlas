@@ -1,0 +1,29 @@
+---
+layout: secondary
+---
+<section class="software">
+    <div class="software__inner">
+        <h1 class="software__heading">{{ page.title }}</h1>
+        {% if page.subnav %}
+            {% include subnav.html links=page.subnav %}
+        {% endif %}
+		{% if page.cta %}
+            <div class="projects__cta-wrap">
+                {% include button.html label=page.cta link=page.cta_link icon=page.cta_icon %}
+            </div>
+        {% endif %}
+
+            {{ content }}
+
+            <div class="publications__group">
+                {{ page.description | markdownify}}
+                {% assign software = site.software | sort: 'date' | reverse %}
+                {% for s in software %}
+                    {% unless s.type == 'method' %}
+                    {% include software-listing.html content=s %}
+                    {% endunless %}
+                {% endfor %}
+            </div>
+    </div>
+
+</section>

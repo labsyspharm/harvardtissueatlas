@@ -1,23 +1,27 @@
 html {
     scroll-behavior: smooth;
-    color:$color_black;
+    color:$color_dark-gray;
 }
 
 body {
     @extend %text-style-2;
+    overflow-x:hidden;
 }
 
 h1 {
     @extend %heading-style-1;
     color: $color_dark-blue;
+    margin: .65em 0;
 }
 h2 {
     @extend %heading-style-2;
-    color: $color_blue;
+    color: $color_medium-blue;
+    margin:.1em 0;
 }
 h3 {
     @extend %heading-style-3;
-    color: $color_blue;
+    color: $color_medium-blue;
+    margin: .5em 0 .1em;
 }
 
 a {
@@ -31,6 +35,18 @@ a {
 
 ul, ol {
     padding-inline-start:1.7em;
+    margin-top:0;
+    margin-bottom:1.3em;
+}
+ul {
+    padding-left: .9em;
+}
+ol {
+    padding-left: 1.5em;
+}
+p + ul,
+p + ol {
+    margin-top:-1.3em;
 }
 
 // section {
@@ -39,16 +55,20 @@ ul, ol {
 // }
 
 p {
-    // &:first-of-type {
-        margin-top:0;
-    // }
-    &:last-of-type {
+    margin-top:0;
+    margin-bottom:1.3em;
+
+    &:last-child {
         margin-bottom:0;
     }
 }
 
 *:focus {
     outline:0;
+}
+
+img {
+    max-width: 100%;
 }
 
 details {

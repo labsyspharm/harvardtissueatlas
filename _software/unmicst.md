@@ -7,11 +7,11 @@ description: |
     aforementioned classes. These maps can make downstream image binarization more accurate using tools such as [s3segmenter](https://github.com/HMS-IDAC/S3segmenter). UnMICST currently uses the UNet architecture (Ronneberger et al., 2015) but Mask R-CNN and Pyramid Scene Parsing (PSP) Net are coming very soon!
 
 # thumbnail image, can be a logo too
-image: software/unmicst-logo.png
+image: software/unmicst-logo_v2.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
-publication: https://www.biorxiv.org/content/10.1101/2021.04.02.438285v1
+publication: https://pubmed.ncbi.nlm.nih.gov/36400937/
 # link to github repo
 source code: https://github.com/HMS-IDAC/unmicst
 # link to micro-site
@@ -19,4 +19,7 @@ documentation:
 
 # for sorting purpose
 date: 2019-01-01
+# set the type for this item - will determine which page it appears on:
+# [ software | method ]
+type: software
 ---
