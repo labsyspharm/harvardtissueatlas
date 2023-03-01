@@ -11,7 +11,7 @@ description: |
   computational tools that assign cell cycle state and calculate growth rate metrics. Dye
   Drop can be combined with CyCIF to yield further molecular and spatial information.
 # thumbnail image, can be a logo too
-image: software/deep-dye-drop-logo.png
+image: software/dyedrop-logo.png
 
 # link to the publication
 # maybe link to the entry on the publication page?
