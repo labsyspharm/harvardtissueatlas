@@ -21,7 +21,7 @@ news_press:
     year: 2023, January 20
     publication: "Applied Radiation Oncology"
     type: news  # [tools|publication|method|software]
-    image: "publications/2D-and-3D Maps-Provide-New Insight-Into-Colorectal-Cancer.png"
+    image: "publications/2D-and-3D-Maps-Provide-New-Insight-Into-Colorectal-Cancer.png"
     link: "https://appliedradiationoncology.com/articles/2d-and-3d-maps-provide-new-insight-into-colorectal-cancer"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
