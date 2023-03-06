@@ -13,7 +13,7 @@ news_press:
     year: 2023, January 23
     publication: "Ludwig Cancer Research"
     type: news  # [tools|publication|method|software]
-    image: "publications/New-3D-Atlas-NIH-directors-blog.png"
+    image: "publications/Ludwig-Harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors.png"
     link: "https://www.ludwigcancerresearch.org/news-releases/ludwig-harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
