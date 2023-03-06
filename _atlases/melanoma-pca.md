@@ -23,6 +23,14 @@ Although immune checkpoint inhibitors (e.g. [nivolumab](https://www.opdivo.com/)
 * How can we use this information to improve our ability to recognize the subset of primary melanomas that are at high risk of progression to metastatic disease?
 * What are the molecular events that allow some melanoma cells to escape therapy and survive as residual disease from which disseminated cancer can re-arise?
 
+### Principal Investigators
+*  Genevieve Boland, MD PhD, Section Head of Melanoma/Sarcoma Surgery, Massachusetts General Hospital
+*  Christine Lian, MD, Associate Professor of Pathology, Brigham and Women's Hospital
+*  George Murphy, MD, Director of Dermatopathology, Brigham and Women's Hospital
+*  Sandro Santagata, MD PhD, Associate Professor of Pathology, Brigham and Women's Hospital and Harvard Medical School
+*  Eugene Semenov, MD MA FAAD, Instructor of Dermatology, Massachusetts General Hospital
+*  Peter Sorger, PhD, Professor of Systems Biology, Harvard Medical School
+
 ## Publications
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names

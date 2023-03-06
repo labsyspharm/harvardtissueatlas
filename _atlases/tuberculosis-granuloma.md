@@ -13,6 +13,12 @@ short-name: Tuberculosis Atlas
 
 The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, sites of chronic lung inflammation shaped by the biology *Mycobacterium tuberculosis* (*Mtb*) and host immune responses. Within a granuloma, Mtb growth is often limited, but this provides a niche from which bacteria can subsequently disseminate. The project also aims to build capacity for digital pathology in low and middle income countries (LIMC) including the eventual deployment of Atlas viewers and analysis modules on cell phones.  As part of the Atlas, LSP investigators are assembling a cloud-based *Tuberculosis Data Resource* that will consolidate a rich collection of imaging and genomic data on TB granulomas and make the data publicly available.
 
+### Principal Investigators
+* Bree Aldridge, PhD, Associate Professor, Molecular Biology and Microbiology, Tufts University School of Medicine
+* Amanda Martinot, DVM MPH DACVP, Assistant Professor of Infectious Diseases and Global Health, Tufts University
+* Jyothi Rengarajan, PhD, Professor, Division of Infectious Diseases, Emory University School of Medicine
+* Peter Sorger, PhD, Professor of Systems Biology, Harvard Medical School
+
 ### Introduction to TB Granuloma
 
 <div class="row mb-4">
@@ -29,4 +35,4 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 {% include cards.html list=cardList %}
 
 ## Funding
-The Atlas is part of a sustained effort by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) to understand and ultimately eradicate TB (Funded by Grant INV-027106).
+The Atlas is part of a sustained effort by the [Bill and Melinda Gates Foundation](https://www.gatesfoundation.org/) to understand and ultimately eradicate TB (Funded by Grant INV-027106) and NIH 1R01-AI166305.
