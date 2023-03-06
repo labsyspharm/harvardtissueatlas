@@ -8,6 +8,40 @@ news_press:
     link: "https://directorsblog.nih.gov/2023/01/31/new-3d-atlas-of-colorectal-cancer-promises-improved-diagnosis-treatment/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
+  - title: "Ludwig Harvard imaging study reveals cellular, molecular and structural complexity of colorectal tumors"
+    author: "Tabak, L."
+    year: 2023, January 23
+    publication: "Ludwig Cancer Research"
+    type: news  # [tools|publication|method|software]
+    image: "publications/New-3D-Atlas-NIH-directors-blog.png"
+    link: "https://www.ludwigcancerresearch.org/news-releases/ludwig-harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors/"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
+  - title: "2D and 3D Maps Provide New Insight Into Colorectal Cancer"
+    year: 2023, January 20
+    publication: "Applied Radiation Oncology"
+    type: news  # [tools|publication|method|software]
+    image: "publications/2D-and-3D Maps-Provide-New Insight-Into-Colorectal-Cancer.png"
+    link: "https://appliedradiationoncology.com/articles/2d-and-3d-maps-provide-new-insight-into-colorectal-cancer"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
+  - title: "3D Spatial Colorectal Cancer Maps Combine Molecular and Histological Features"
+    year: 2023, January 20
+    publication: "Genetic Engineering and Biotechnology News"
+    type: news  # [tools|publication|method|software]
+    image: "publications/3D-spatial-colorectal-caner-maps-combine-molecular-and-histological-features.png"
+    link: "https://www.genengnews.com/topics/cancer/colorectal-cancer/3d-spatial-colorectal-cancer-maps-combine-molecular-and-histological-features/"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
+  - title: "An Unprecedented Look at Colorectal Cancer"
+    author: "Caruso, C."
+    year: 2023, January 19
+    publication: "Harvard News"
+    type: news  # [tools|publication|method|software]
+    image: "publications/An-Unprecedented-Look-at-Colorectal-Cancer.jpg"
+    link: "https://hms.harvard.edu/news/unprecedented-look-colorectal-cancer"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
   - title: "Data Deep Dive"
     author: "Caruso, C."
     year: 2022, April 20

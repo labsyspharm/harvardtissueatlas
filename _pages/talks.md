@@ -7,8 +7,10 @@ layout: secondary
 ---
 
 # Talks
-
 <div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="724884741" title="AACR Virtual Journal Club: Cancer Discovery With Dr. Peter Sorger" description=" This AACR Journal Club discusses features Peter Sorger, PhD, discussing his article “The Spatial Landscape of Progression and Immunoediting in Primary Melanoma at Single-Cell Resolution.” The intricacies of primary melanoma progression are revealed by a combination of high-plex imaging, 3D high-resolution microscopy, and spatially resolved microregion transcriptomics. Dr. Sorger shows that this unprecedented spatiotemoporal resolution uncovers recurrent cellular neighborhoods and the landscape of immune evasion and immunoediting." %}
+  </div>
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="686780846" title="Profiling of the Tumor Microenvironment to Improve Diagnosis and Therapy" description="This webinar presents two projects from the Ludwig Centers at Harvard and MIT that are part of the Ludwig Tumor Atlas Project. The Ludwig Tumor Atlas applies diverse technologies to probe the tumor environment using a variety of methods, including highly multiplexed tissue imaging, dissociative single cell sequencing, spatial transcriptomics and conventional histology." %}
   </div>
@@ -24,7 +26,7 @@ layout: secondary
 </div>
 
 
-## Tissue Atlas Industry Showcases
+# Tissue Atlas Industry Showcases
 
 <div class="row mb-4">
   <div class="col-md-6 mb-4">

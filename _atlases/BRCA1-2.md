@@ -13,6 +13,11 @@ short-name: BRCA1/2 Atlas
 
 The mutations that cause cancer often arise spontaneously in somatic tissues but some are heritable. Among these mutations in BRCA1 or BRCA2 (BReast CAncer gene 1&2) stand out as having relatively high prevalence and causing a substantial increase in a variety of cancers including those of the breast, ovaries, pancreas and prostate. BRCA1 and BRCA2 are involved in the repair of damaged DNA but the precise events that initiate tumor formation are not fully understood.
 
+### Principal Investigators
+* Joan Brugge, PhD, Director of the Harvard Ludwig Cancer Center and Professor of Cell Biology, Harvard Medical School
+*  Sandro Santagata, MD PhD, Associate Professor of Pathology, Brigham and Women's Hospital and Harvard Medical School
+*  Peter Sorger, PhD, Professor of Systems Biology, Harvard Medical School
+
 ## Publications
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
