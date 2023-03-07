@@ -37,6 +37,9 @@ Specimens, reagents, projects, and experiments are tracked internally using cust
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="716535956" title="Tissue Specimen Management" %}
   </div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="802110173" title="Reagent and Experiment Tracking" %}
+  </div>
 </div>
 
 ## MITI: Minimum Information about Tissue Imaging
