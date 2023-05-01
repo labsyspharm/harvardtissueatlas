@@ -95,4 +95,4 @@ full-resolution images.**
 
 ## Data access
 
-The images in Lin et al. (2023) comprise a ~4.5 TB dataset. All full resolution images, derived image data (e.g., segmentation masks) and all cell count tables are available at DOI: [10.5281/zenodo.7506942](https://doi.org/10.5281/zenodo.7506942). This data will eventually also be available via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [https://humantumoratlas.org](https://humantumoratlas.org)). A version of this data with additional annotations and visualizations is available at DOI: [10.5281/zenodo.7506942](https://doi.org/10.5281/zenodo.7506942).
+The images in Lin et al. (2023) comprise a ~4.5 TB dataset. All full resolution images, derived image data (e.g., segmentation masks) and all cell count tables are available at DOI: [10.5281/zenodo.7506942](https://doi.org/10.5281/zenodo.7506942). This data will eventually also be available via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [https://humantumoratlas.org](https://humantumoratlas.org)).
