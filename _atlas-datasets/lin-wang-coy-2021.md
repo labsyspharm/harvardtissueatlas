@@ -12,7 +12,7 @@ data:
     links:
       - Publication: https://doi.org/10.1016/j.cell.2022.12.028
       - bioRxiv: https://doi.org/10.1101/2021.03.31.437984
-      - Dataset: https://github.com/labsyspharm/orion-crc/blob/v2023.2.14/datarelease-README.md
+      - Dataset: https://doi.org/10.5281/zenodo.7506942 
 ---
 
 {% assign urlParts = page.url | split: '/' %}
