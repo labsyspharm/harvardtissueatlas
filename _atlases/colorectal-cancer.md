@@ -2,10 +2,9 @@
 date: 0002-02-01
 name: Colorectal Cancer Atlas
 summary: The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding of the complex spatial interactions that contribute to colorectal cancer. Colorectal cancers are complex assemblies of tumor, immune, and stromal cells that invade adjacent tissue and spread to distant sites. We use highly multiplexed tissue imaging, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. This work is a component of the [Human Tumor Atlas Network](https://humantumoratlas.org/).  
-project-image: /images/publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png
+project-image: /images/publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-2.png
 grant: NCI Human Tumor Atlas Network U2C-CA233262, NCI U54-CA225088, and the Ludwig Cancer Research Foundation
 title: CRC Atlas
-link: patch
 short-name: CRC Atlas
 ---
 
