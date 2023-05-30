@@ -19,5 +19,5 @@ Thumbs.db
 .Trashes
 .idea
 vendor
-.bundle
-*/.obsidian/
+.bundle/
+.obsidian/
