@@ -13,6 +13,7 @@ data:
       - Publication: https://doi.org/10.1016/j.cell.2022.12.028
       - bioRxiv: https://doi.org/10.1101/2021.03.31.437984
       - Dataset: https://doi.org/10.5281/zenodo.7506942
+      - Colorectal Cancer Atlas: /atlases/colorectal-cancer
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -23,7 +24,7 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-
+<br>
 ### Key Findings:
 - Multiplexed analysis shows intermixed tumor morphologies and molecular gradients
 
@@ -31,29 +32,19 @@ data:
 
 - 3D tertiary lymphoid structure (TLS) networks show intra-TLS patterning variation
 
-- PD1-PDL1 interactions are primarily between T and myeloid cells in this CRC cohort
+- PD1-PDL1 interactions are primarily between T and myeloid cells in this CRC cohort  
+
 
 {% include enlarge-image.html src='/images/publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer-graphic-abstract.png' float='center' alt='' %}
 
-<i>Figure overview of the Colorectal Cancer Atlas dataset: The colorectal cancer atlas contains detailed 3D analysis of one CRC tissue specimen with CyCIF, H&E, and spatial transcriptomics, whole slide imaging of 16 additional tumor samples, and tissue microarray analysis of 92 tumors.</i>
+<i><b>Figure overview of the Colorectal Cancer Atlas dataset:</b> The colorectal cancer atlas contains detailed 3D analysis of one CRC tissue specimen with CyCIF, H&E, and spatial transcriptomics, whole slide imaging of 16 additional tumor samples, and tissue microarray analysis of 92 tumors.  </i>
 
-## Colorectal Cancer Atlas
 
-The HTA CRC Atlas 1 dataset contains images and other data being used for
-construction of an atlas of human colorectal cancer under the auspices of the
-[Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid
-cancers are complex assemblies of tumor, immune, and stromal cells that invade
-adjacent tissue and spread to distant sites. We use highly multiplexed tissue
-imaging, spatial statistics, and machine learning to identify cell types and
-states underlying morphological features of known diagnostic and prognostic
-significance in colorectal cancer. This includes the tumor invasive margin,
-where tumor, normal, and immune cells compete and were diverse immunosuppressive
-environments are found.
 
 ### Contents
 * [Data Explorations](#data-explorations)
 * [Data Overviews](#data-overviews)
-* [About Minerva](#about-minerva)
+* [Data Access](#data-access)
 
 ### Data Explorations
 
