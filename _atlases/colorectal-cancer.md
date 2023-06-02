@@ -11,12 +11,6 @@ short-name: CRC Atlas
 The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding of the complex spatial interactions that contribute to colorectal cancer. Colorectal cancers are complex assemblies of tumor, immune, and stromal cells that invade adjacent tissue and spread to distant sites. We use highly multiplexed tissue imaging, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. This work is a component of the [Human Tumor Atlas Network](https://humantumoratlas.org/).  
 
 
-### Key Questions
-
-
-### Principal Investigators  
-* Sandro Santagata, MD PhD, Associate Professor of Pathology, Brigham and Women's Hospital and Harvard Medical School
-* Peter Sorger, PhD, Professor of Systems Biology, Harvard Medical School
 
 ## Publications
 {% comment %}
@@ -29,7 +23,7 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
 ## Data Explorations
 *Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
 
-{% assign cardList = 'viz-CRC,crc01-introduction,osd-crc-case-1-ffpe-cycif-stack' %}
+{% assign cardList = 'orion-crc04-explore-1,viz-CRC,crc01-introduction,osd-crc-case-1-ffpe-cycif-stack,' %}
 
 {% include cards.html list=cardList %}
 
