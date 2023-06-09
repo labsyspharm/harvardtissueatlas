@@ -18,7 +18,7 @@ The links below provide access to the Synapse-based private projects that are be
 {% assign labels = "Atlas Name | Public Data Exploration | Request Portal Access | Private Data Portal" %}
 
 {% capture values %}
-**BRACA 1/2 Atlas** | Coming Summer 2022 | [https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961) | [https://www.synapse.org/#!Synapse:syn27250699/discussion/default](https://www.synapse.org/#!Synapse:syn27250699/discussion/default)
+**BRACA 1/2 Atlas** | [https://www.tissue-atlas.org/atlases/BRCA1-2](https://www.tissue-atlas.org/atlases/BRCA1-2) | [https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961) | [https://www.synapse.org/#!Synapse:syn27250699/discussion/default](https://www.synapse.org/#!Synapse:syn27250699/discussion/default)
 {% endcapture %}
 {% include left-column-head-table.html labels=labels values=values %}
 
@@ -28,11 +28,11 @@ The links below provide access to the Synapse-based private projects that are be
 {% include left-column-head-table.html labels=labels values=values %}
 
 {% capture values %}
-**Melanoma Pre-Cancer and Progression Atlas** | [https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/](https://www.tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/) | [https://www.synapse.org/#!Team:3436622](https://www.synapse.org/#!Team:3436622) | [https://www.synapse.org/#!Synapse:syn26302609/wiki/613128](https://www.synapse.org/#!Synapse:syn26302609/wiki/613128)
+**Melanoma Pre-Cancer and Progression Atlas** | [https://www.tissue-atlas.org/atlases/melanoma-pca](https://www.tissue-atlas.org/atlases/melanoma-pca) | [https://www.synapse.org/#!Team:3436622](https://www.synapse.org/#!Team:3436622) | [https://www.synapse.org/#!Synapse:syn26302609/wiki/613128](https://www.synapse.org/#!Synapse:syn26302609/wiki/613128)
 {% endcapture %}
 {% include left-column-head-table.html labels=labels values=values %}
 
 {% capture values %}
-**Tuberculosis Granuloma Atlas** | [https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/](https://www.tissue-atlas.org/atlas-datasets/tuberculosis-granuloma/) | [https://www.synapse.org/#!Team:3443962](https://www.synapse.org/#!Team:3443962) | [https://www.synapse.org/#!Synapse:syn28092390/wiki/617020](https://www.synapse.org/#!Synapse:syn28092390/wiki/617020)
+**Tuberculosis Granuloma Atlas** | [https://www.tissue-atlas.org/atlases/tuberculosis-granuloma](https://www.tissue-atlas.org/atlases/tuberculosis-granuloma) | [https://www.synapse.org/#!Team:3443962](https://www.synapse.org/#!Team:3443962) | [https://www.synapse.org/#!Synapse:syn28092390/wiki/617020](https://www.synapse.org/#!Synapse:syn28092390/wiki/617020)
 {% endcapture %}
 {% include left-column-head-table.html labels=labels values=values %}
