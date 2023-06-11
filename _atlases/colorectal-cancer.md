@@ -30,9 +30,24 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
 ## Data Overviews
 *Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.*
 
-{% assign cardList = 'lin-wang-coy-2021,lin-chen-campton-2023' %}
+{% assign datasets = 'lin-chen-campton-2023,lin-wang-coy-2021' | split: ',' %}
 
-{% include cards.html tag='overview' %}
+{% assign cards = '' | split: '' %}
+{% for dataset in datasets %}
+  {% assign _cards = site.data-cards | where_exp: "item", "item.url contains dataset" %}
+  {{ datasets }}
+  {% assign cards = cards | concat:_cards %}
+{% endfor %}
+
+{%
+  assign cards = cards
+  | where_exp: "item", "item.hide != true"
+  | where_exp: "item", "item.tags contains 'overview-crc'"
+%}
+
+{% if cards.size > 0 %}
+  {% include cards.html cards=cards%}
+{% endif %}
 
 ### Funding
 This work has been funded by the [NCI Human Tumor Atlas Network](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/human-tumor-atlas) (Grant U2C-CA233262), the [NCI Cancer Systems Biology Program](https://csbconsortium.org/) (Grant U54-CA225088), an NIH NCI SBIR grant in collaboration with RareCyte (Grant R41-CA224503), and an NIH NCI Research Specialist Award (Grant R50-CA274277). Additional support for the image processing software and data science methods is provided by the [Ludwig Center at Harvard Medical School](https://ludwigcenter.hms.harvard.edu/), the [Ludwig Institute for Cancer Research](https://www.ludwigcancerresearch.org/), the Gray Foundation, the Bill and Melinda Gates Foundation, the David Liposarcoma Research Initiative, and the Emerson Collective.

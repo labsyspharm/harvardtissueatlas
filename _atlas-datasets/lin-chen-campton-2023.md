@@ -74,7 +74,7 @@ full-resolution images.**
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'lin-chen-campton-2023/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.url contains '-overview'"
+    | where_exp: "item", "item.tags contains 'overview-crc'"
 %}
 
 {% if overviews.size > 0 %}

@@ -6,5 +6,6 @@ minerva_link: https://www.cycif.org/data/lin-wang-coy-2021/osd-crc-case-1-ffpe-c
 info_link: null
 show_page_link: false
 hide: true
-tag: overview
+tags:
+    - overview-crc
 ---
