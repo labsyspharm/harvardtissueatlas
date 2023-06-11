@@ -34,7 +34,7 @@ data:
 
 - Analyzing multimodal imaging using machine learning / artificial intelligence methods reveals biomarkers not discoverable by other means
 
-{% include enlarge-image.html src='/images/publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers.PNG' float='center' alt='' %}
+{% include enlarge-image.html src='publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers.jpg' float='center' alt='' %}
 
 <i> **Top:** Overview of the Orion method for same-slide immunofluorescence and H&E imaging. **Bottom:** Example images of a colorectal cancer specimen from Orion, showing the multiplex immunofluorescence image (left; 5 of 18 fluorescence channels shown), the corresponding same-section H&E image (center), and the overlay of these two images (right). </i>
 

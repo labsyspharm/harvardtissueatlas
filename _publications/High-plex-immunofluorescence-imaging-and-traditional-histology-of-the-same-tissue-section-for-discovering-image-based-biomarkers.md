@@ -4,7 +4,7 @@ contributors: 'Lin JR, Chen YA, Campton D, Cooper J, Coy S, Yapp C, Tefft JB, Mc
 publication: 'Nature Cancer, #(#), #-#'
 publication_link: https://doi.org/10.1038/s43018-023-00576-1
 
-image: High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.PNG
+image:  publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png
 
 group: featured
 

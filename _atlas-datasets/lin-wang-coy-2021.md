@@ -13,7 +13,7 @@ data:
       - Publication: https://doi.org/10.1016/j.cell.2022.12.028
       - bioRxiv: https://doi.org/10.1101/2021.03.31.437984
       - Dataset: https://doi.org/10.5281/zenodo.7506942
-      - Colorectal Cancer Atlas: atlases/colorectal-cancer
+      - Colorectal Cancer Atlas: /atlases/colorectal-cancer
 ---
 
 {% assign urlParts = page.url | split: '/' %}
