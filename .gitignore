@@ -8,16 +8,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-Gemfile
-Gemfile.lock
-
-
 # Misc
 .DS_Store
 Desktop.ini
 Thumbs.db
 .Trashes
 .idea
-vendor
-.bundle/
-.obsidian/
