@@ -5,4 +5,6 @@ date: '2008-02-06'
 minerva_link: https://labsyspharm.github.io/HTA-CRCATLAS-1/minerva/crc16-overview.html
 info_link: null
 show_page_link: false
+tags:
+    - overview-crc
 ---
