@@ -10,7 +10,6 @@ exclude:
   - webpack.dev.js
   - webpack.prod.js
   - yarn.lock
-  - vendor
 permalink: pretty
 title: 'Harvard Tissue Atlas'
 
