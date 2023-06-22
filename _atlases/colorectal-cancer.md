@@ -23,7 +23,8 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
 ## Data Explorations
 *Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
 
-{% assign cardList = 'viz-CRC,crc01-introduction,osd-crc-case-1-ffpe-cycif-stack,' %}
+{% assign cardList = 'orion-crc04-explore-1,viz-CRC,crc01-introduction,osd-crc-case-1-ffpe-cycif-stack,' %}
+
 
 {% include cards.html list=cardList %}
 

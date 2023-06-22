@@ -16,5 +16,5 @@ dataset_link: /atlas-datasets/wu-temko-maliga-2022/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/36419822/
 rxiv_link:
 pdf_link:
-show_page_link: true
+show_page_link: false
 ---
