@@ -7,7 +7,7 @@ data:
   publication:
     title: High-plex immunofluorescence imaging and traditional histology of the same tissue section for discovering image-based biomarkers
     authors: 'Lin JR, Chen YA, Campton D, Cooper J, Coy S, Yapp C, Tefft JB, McCarty E, Ligon KL, Rodig SJ, Reese S, George T, Santagata S, Sorger PK'
-    journal: 'Nature Cancer, #, #-#, DOI: [10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1)'
+    journal: 'Nature Cancer (2023). DOI: [10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1)'
     description: Precision medicine is critically dependent on better methods for diagnosing and staging disease and predicting drug response. Histopathology using Hematoxylin and Eosin (H&E) stained tissue - not genomics – remains the primary diagnostic method in cancer. Recently developed highly-multiplexed tissue imaging methods promise to enhance research studies and clinical practice with precise, spatially-resolved, single-cell data. Here we describe the “Orion” platform for collecting H&E and high-plex immunofluorescence images from the same cells in a whole-slide format suitable for diagnosis. Using a retrospective cohort of 74 colorectal cancer resections, we show that IF and H&E images provide human experts and machine learning algorithms with complementary information that can be used to generate interpretable, multiplexed image-based models predictive of progression-free survival. Combining models of immune infiltration and tumor-intrinsic features achieves a nearly 20-fold discrimination between rapid and slow (or no) progression, demonstrating the ability of multi-modal tissue imaging to generate high-performance biomarkers.
     links:
       - Publication: https://doi.org/10.1038/s43018-023-00576-1

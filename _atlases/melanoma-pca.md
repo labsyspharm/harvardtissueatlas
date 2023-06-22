@@ -24,9 +24,10 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 ### Principal Investigators
 * Genevieve Boland, MD PhD, Section Head of Melanoma/Sarcoma Surgery, Massachusetts General Hospital
 * Christine Lian, MD, Associate Professor of Pathology, Brigham and Women's Hospital
+* David Liu, MD, MPH, MS, Assistant Professor of Medicine, Dana-Farber Cancer Institute
 * George Murphy, MD, Director of Dermatopathology, Brigham and Women's Hospital
 * Sandro Santagata, MD PhD, Associate Professor of Pathology, Brigham and Women's Hospital and Harvard Medical School
-* David Liu, MD, MPH, MS, Assistant Professor of Medicine, Dana-Farber Cancer Institute
+* Dirk Schadendorf, MD, Director of the Department of Dermatology, University Hospital Essen
 * Eugene Semenov, MD MA FAAD, Instructor of Dermatology, Massachusetts General Hospital
 * Peter Sorger, PhD, Professor of Systems Biology, Harvard Medical School
 
