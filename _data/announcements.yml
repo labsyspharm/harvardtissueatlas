@@ -68,12 +68,20 @@ news_press:
     target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: "High-plex immunofluorescence imaging and traditional histology of the same tissue section for discovering image-based biomarkers"
+    author: "Lin, et al."
+    year: 2023
+    publication: "Nature Cancer"
+    image: "publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png"
+    link: "publications#High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer"
     author: "Lin, et al."
     year: 2023
     publication: "Cell"
     image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer.PNG"
-    link: "publications#lin-wang-coy-2021/"
+    link: "publications#multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
   - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
