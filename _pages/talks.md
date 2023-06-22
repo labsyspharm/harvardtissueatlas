@@ -23,6 +23,9 @@ layout: secondary
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="270692465" title="Understanding and Personalizing Immunotherapy Through Single-cell Analysis" description="Ben Izar, MD, PhD, Medical Oncologist at Dana-Farber Cancer Institute, talks about how multiplexed immunofluorescence imaging using t-CyCIF is revealing the architecture of tumors and the many types of cells involved." %}
   </div>
+  <div class="col-md-6 mb-4">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8gWMytghieg?start=184" title="Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer" description=" This AACR Journal Club discusses features Peter Sorger, PhD, discussing his article “The Spatial Landscape of Progression and Immunoediting in Primary Melanoma at Single-Cell Resolution.” The intricacies of primary melanoma progression are revealed by a combination of high-plex imaging, 3D high-resolution microscopy, and spatially resolved microregion transcriptomics. Dr. Sorger shows that this unprecedented spatiotemoporal resolution uncovers recurrent cellular neighborhoods and the landscape of immune evasion and immunoediting." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
 </div>
 
 
