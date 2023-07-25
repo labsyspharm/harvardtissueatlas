@@ -66,11 +66,15 @@ Meaningful data from tissue imaging relies on having high-quality antibodies and
 
 Tissue-based cyclic immunofluorescence, or t-CyCIF, is the multiplex imaging method developed within the LSP that can be used to measure the distribution of dozens of proteins in intact tissue specimens. This iterative process collects repeated immunofluorescent images from the same sample using different fluorescent-tagged antibodies in each cycle and then assembles these images into a high-dimensional representation of the tissue.  
 
-Please come back for an episode on the t-CyCIF method! In the meantime, please checkout the resources below:
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="848215164" title="t-CyCIF" %}
+  </div>
+</div>
 
-[Read our publication](https://elifesciences.org/articles/31657){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
-[Visit t-CyCIF website](https://www.cycif.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-{:.mb-5}
+#### Resources (Click to follow link)
+[Original t-CyCIF paper](https://doi.org/10.7554/eLife.31657) | [MCMICRO website](https://mcmicro.org) | [MCMICRO GitHub](https://github.com/labsyspharm/mcmicro) | [Minerva Story](https://github.com/labsyspharm/minerva-story) | [HTA melanoma atlas](https://www.tissue-atlas.org/atlases/melanoma-pca) | [t-CyCIF protocol](https://www.protocols.io/view/tissue-cyclic-immunofluorescence-t-CyCIF-version-3-5qpvorbndv4o/v2) | [Leica Bond tissue pretreatment](https://www.protocols.io/view/ffpe-tissue-pre-treatment-before-t-CyCIF-on-leica-n92ld3dbng5b/v2)
+
 
 ## High resolution and 3D imaging
 
