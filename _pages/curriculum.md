@@ -114,9 +114,9 @@ Please come back later for an episode on SCIMAP. For more information in the mea
 [Head to SCIMAP website](https://scimap.xyz/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 {:.mb-5}
 
-## Data Visualization and Sharing – MINERVA and Scope2Screen
+## Data Visualization and Sharing
 
-Science succeeds as a collaborative process. In the adjacent fields of multiplex tissue imaging and digital pathology, there is need to both share processed and annotated results from imaging and incentivize open access to raw data. MINERVA and Scope2Screen are software tools developed at the LSP for image visualization and data sharing in accordance with FAIR (Findable, Accessible, Interoperable, and Reusable) principles.  
+Science succeeds as a collaborative process. In the adjacent fields of multiplex tissue imaging and digital pathology, there is need to both share processed and annotated results from imaging and incentivize open access to raw data. MINERVA is a software tool developed at the LSP for image visualization and data sharing in accordance with FAIR (Findable, Accessible, Interoperable, and Reusable) principles.  
 
 ### MINERVA
 
@@ -125,14 +125,6 @@ Science succeeds as a collaborative process. In the adjacent fields of multiplex
     {% include vimeo-card.html id="685606030" title="Data Visualization and Sharing with MINERVA" %}
   </div>
 </div>
-
-### Scope2Screen
-
-Please come back for an episode on Scope2Screen! In the meantime, check out the resources below:
-
-[See Scope2Screen resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
-[Find open source code for Scope2Screen on GitHub](https://github.com/labsyspharm/scope2screen){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-{:.mb-5}
 
 ## Integrating Spatial Transcriptomics with Imaging
 
