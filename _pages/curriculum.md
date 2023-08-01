@@ -11,7 +11,7 @@ layout: secondary
 Multiplex tissue imaging technologies series introduces the major components of the multiplex tissue imaging pipeline used to create a tissue atlas. We showcase the voices of individual scientists in the LSP who are actively developing experimental and computational methods to generate and analyze highly multiplexed data. Each episode focuses on one link in the pipeline, including methods and software used in tissue sample preparation, image acquisition, quantitative image and spatial molecular data analysis, online collaboration, data sharing, and science education. Videos are added regularly, and, over time, the curriculum will grow to include more in-depth sessions.
 
 ## Contents
-[**Intro to the Curriculum**](#intro-to-the-curriculum) | [**Overview**](#overview-of-multiplex-tissue-imaging) | [**Specimen and Experiment Management**](#specimen-and-experiment-management-collection-archiving-and-tracking) | [**MITI Metadata**](#miti-minimum-information-about-tissue-imaging) | [**Antibodies**](#antibody-validation-and-antibody-panel-design) | [**t-CyCIF method**](#t-cycif-method) | [**Imaging**](#high-resolution-and-3d-imaging) | [**OMERO Collaboration**](#omero) | [**Analysis with MCMICRO**](#mcmicro-multiple-choice-microscopy-pipeline) | [**Data Visualization and Sharing**](#data-visualization-and-sharing--minerva-and-scope2screen) | [**Spatial Transcriptomics**](#integrating-spatial-transcriptomics-with-imaging)
+[**Intro to the Curriculum**](#introduction-to-the-curriculum) | [**Overview**](#overview-of-multiplex-tissue-imaging) | [**Specimen and Experiment Management**](#specimen-and-experiment-management-collection-archiving-and-tracking) | [**MITI Metadata**](#miti-minimum-information-about-tissue-imaging) | [**Antibodies**](#antibody-validation-and-antibody-panel-design) | [**t-CyCIF method**](#t-cycif-method) | [**Imaging**](#high-resolution-and-3d-imaging) | [**OMERO Collaboration**](#omero) | [**Analysis with MCMICRO**](#mcmicro-multiple-choice-microscopy-pipeline) | [**Spatial Analysis with SCIMAP**](#spatial-analysis-with-scimap) | [**Data Visualization and Sharing**](#data-visualization-and-sharing) | [**Spatial Transcriptomics**](#integrating-spatial-transcriptomics-with-imaging)
 {:.mb-5}
 
 ## Introduction to the Curriculum
@@ -66,11 +66,15 @@ Meaningful data from tissue imaging relies on having high-quality antibodies and
 
 Tissue-based cyclic immunofluorescence, or t-CyCIF, is the multiplex imaging method developed within the LSP that can be used to measure the distribution of dozens of proteins in intact tissue specimens. This iterative process collects repeated immunofluorescent images from the same sample using different fluorescent-tagged antibodies in each cycle and then assembles these images into a high-dimensional representation of the tissue.  
 
-Please come back for an episode on the t-CyCIF method! In the meantime, please checkout the resources below:
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="848215164" title="t-CyCIF" %}
+  </div>
+</div>
 
-[Read our publication](https://elifesciences.org/articles/31657){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
-[Visit t-CyCIF website](https://www.cycif.org/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-{:.mb-5}
+#### Resources (Click to follow link)
+[Original t-CyCIF paper](https://doi.org/10.7554/eLife.31657) | [MCMICRO website](https://mcmicro.org) | [MCMICRO GitHub](https://github.com/labsyspharm/mcmicro) | [Minerva Story](https://github.com/labsyspharm/minerva-story) | [HTA melanoma atlas](https://www.tissue-atlas.org/atlases/melanoma-pca) | [t-CyCIF protocol](https://www.protocols.io/view/tissue-cyclic-immunofluorescence-t-CyCIF-version-3-5qpvorbndv4o/v2) | [Leica Bond tissue pretreatment](https://www.protocols.io/view/ffpe-tissue-pre-treatment-before-t-CyCIF-on-leica-n92ld3dbng5b/v2)
+
 
 ## High resolution and 3D imaging
 
@@ -100,9 +104,9 @@ Reproducible analysis of large multichannel images poses a substantial computati
   </div>
 </div>
 
-### SCIMAP: Spatial Single-cell Analysis Toolkit
+## Spatial Analysis with SCIMAP
 
-t-CyCIF enables detailed molecular analysis of single cells by preserving spatial context between imaging cycles. SCIMAP is a Python-based toolkit to perform single-cell analysis on t-CyCIF images. With a wide range of capabilities, including pre-processing, phenotyping, clustering and spatial analysis, SCIMAP efficiently deals with large datasets of millions of cells.
+t-CyCIF enables detailed molecular analysis of single cells by preserving spatial context between imaging cycles. SCIMAP, Spatial Single-cell Analysis Toolkit, is a Python-based toolkit to perform single-cell analysis on t-CyCIF images. With a wide range of capabilities, including pre-processing, phenotyping, clustering and spatial analysis, SCIMAP efficiently deals with large datasets of millions of cells.
 
 Please come back later for an episode on SCIMAP. For more information in the meantime, please check out resources below:
 
@@ -110,9 +114,9 @@ Please come back later for an episode on SCIMAP. For more information in the mea
 [Head to SCIMAP website](https://scimap.xyz/){: .btn .btn-outline .btn-arrow }{:target="_blank"}
 {:.mb-5}
 
-## Data Visualization and Sharing – MINERVA and Scope2Screen
+## Data Visualization and Sharing
 
-Science succeeds as a collaborative process. In the adjacent fields of multiplex tissue imaging and digital pathology, there is need to both share processed and annotated results from imaging and incentivize open access to raw data. MINERVA and Scope2Screen are software tools developed at the LSP for image visualization and data sharing in accordance with FAIR (Findable, Accessible, Interoperable, and Reusable) principles.  
+Science succeeds as a collaborative process. In the adjacent fields of multiplex tissue imaging and digital pathology, there is need to both share processed and annotated results from imaging and incentivize open access to raw data. MINERVA is a software tool developed at the LSP for image visualization and data sharing in accordance with FAIR (Findable, Accessible, Interoperable, and Reusable) principles.  
 
 ### MINERVA
 
@@ -121,14 +125,6 @@ Science succeeds as a collaborative process. In the adjacent fields of multiplex
     {% include vimeo-card.html id="685606030" title="Data Visualization and Sharing with MINERVA" %}
   </div>
 </div>
-
-### Scope2Screen
-
-Please come back for an episode on Scope2Screen! In the meantime, check out the resources below:
-
-[See Scope2Screen resources on the Software page](./methods-software){: .btn .btn-outline .btn-arrow }{:target="_blank"}  
-[Find open source code for Scope2Screen on GitHub](https://github.com/labsyspharm/scope2screen){: .btn .btn-outline .btn-arrow }{:target="_blank"}
-{:.mb-5}
 
 ## Integrating Spatial Transcriptomics with Imaging
 

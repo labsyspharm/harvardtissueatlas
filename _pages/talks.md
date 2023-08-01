@@ -23,8 +23,14 @@ layout: secondary
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="270692465" title="Understanding and Personalizing Immunotherapy Through Single-cell Analysis" description="Ben Izar, MD, PhD, Medical Oncologist at Dana-Farber Cancer Institute, talks about how multiplexed immunofluorescence imaging using t-CyCIF is revealing the architecture of tumors and the many types of cells involved." %}
   </div>
-  <div class="col-md-6 mb-4">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8gWMytghieg?start=184" title="Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer" description=" This AACR Journal Club discusses features Peter Sorger, PhD, discussing his article “The Spatial Landscape of Progression and Immunoediting in Primary Melanoma at Single-Cell Resolution.” The intricacies of primary melanoma progression are revealed by a combination of high-plex imaging, 3D high-resolution microscopy, and spatially resolved microregion transcriptomics. Dr. Sorger shows that this unprecedented spatiotemoporal resolution uncovers recurrent cellular neighborhoods and the landscape of immune evasion and immunoediting." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="video-card">
+  <div class="video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8gWMytghieg?start=184" title="Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer" description="During this presentation of the Cancer Moonshot Seminar Series, Sandro Santagata, M.D., Ph.D. (Brigham and Women’s Hospital) discusses multiplexed tissue imaging to reveal the spatial biology of tumors. This work is related to the Blue Ribbon Panel recommendation to generate human tumor atlases." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div>
+  <div class="video-card__text">
+  <div class="video-card__title">Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer</div>
+  <a href="https://www.youtube.com/embed/8gWMytghieg?start=184" class="video-card__expand-link" data-lity="">Click to enlarge</a>
+  <div class="video-card__description">During this presentation of the Cancer Moonshot Seminar Series, Sandro Santagata, M.D., Ph.D. (Brigham and Women’s Hospital) discusses multiplexed tissue imaging to reveal the spatial biology of tumors. This work is related to the Blue Ribbon Panel recommendation to generate human tumor atlases.</div>
+  </div>
   </div>
 </div>
 
