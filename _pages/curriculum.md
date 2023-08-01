@@ -11,7 +11,7 @@ layout: secondary
 Multiplex tissue imaging technologies series introduces the major components of the multiplex tissue imaging pipeline used to create a tissue atlas. We showcase the voices of individual scientists in the LSP who are actively developing experimental and computational methods to generate and analyze highly multiplexed data. Each episode focuses on one link in the pipeline, including methods and software used in tissue sample preparation, image acquisition, quantitative image and spatial molecular data analysis, online collaboration, data sharing, and science education. Videos are added regularly, and, over time, the curriculum will grow to include more in-depth sessions.
 
 ## Contents
-[**Intro to the Curriculum**](#intro-to-the-curriculum) | [**Overview**](#overview-of-multiplex-tissue-imaging) | [**Specimen and Experiment Management**](#specimen-and-experiment-management-collection-archiving-and-tracking) | [**MITI Metadata**](#miti-minimum-information-about-tissue-imaging) | [**Antibodies**](#antibody-validation-and-antibody-panel-design) | [**t-CyCIF method**](#t-cycif-method) | [**Imaging**](#high-resolution-and-3d-imaging) | [**OMERO Collaboration**](#omero) | [**Analysis with MCMICRO**](#mcmicro-multiple-choice-microscopy-pipeline) | [**Data Visualization and Sharing**](#data-visualization-and-sharing--minerva-and-scope2screen) | [**Spatial Transcriptomics**](#integrating-spatial-transcriptomics-with-imaging)
+[**Intro to the Curriculum**](#introduction-to-the-curriculum) | [**Overview**](#overview-of-multiplex-tissue-imaging) | [**Specimen and Experiment Management**](#specimen-and-experiment-management-collection-archiving-and-tracking) | [**MITI Metadata**](#miti-minimum-information-about-tissue-imaging) | [**Antibodies**](#antibody-validation-and-antibody-panel-design) | [**t-CyCIF method**](#t-cycif-method) | [**Imaging**](#high-resolution-and-3d-imaging) | [**OMERO Collaboration**](#omero) | [**Analysis with MCMICRO**](#mcmicro-multiple-choice-microscopy-pipeline) | [**Spatial Analysis with SCIMAP**](#spatial-analysis-with-scimap) | [**Data Visualization and Sharing**](#data-visualization-and-sharing) | [**Spatial Transcriptomics**](#integrating-spatial-transcriptomics-with-imaging)
 {:.mb-5}
 
 ## Introduction to the Curriculum
@@ -104,9 +104,9 @@ Reproducible analysis of large multichannel images poses a substantial computati
   </div>
 </div>
 
-### SCIMAP: Spatial Single-cell Analysis Toolkit
+## Spatial Analysis with SCIMAP
 
-t-CyCIF enables detailed molecular analysis of single cells by preserving spatial context between imaging cycles. SCIMAP is a Python-based toolkit to perform single-cell analysis on t-CyCIF images. With a wide range of capabilities, including pre-processing, phenotyping, clustering and spatial analysis, SCIMAP efficiently deals with large datasets of millions of cells.
+t-CyCIF enables detailed molecular analysis of single cells by preserving spatial context between imaging cycles. SCIMAP, Spatial Single-cell Analysis Toolkit, is a Python-based toolkit to perform single-cell analysis on t-CyCIF images. With a wide range of capabilities, including pre-processing, phenotyping, clustering and spatial analysis, SCIMAP efficiently deals with large datasets of millions of cells.
 
 Please come back later for an episode on SCIMAP. For more information in the meantime, please check out resources below:
 
