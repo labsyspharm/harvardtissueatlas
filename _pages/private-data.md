@@ -18,7 +18,7 @@ The links below provide access to the Synapse-based private projects that are be
 {% assign labels = "Atlas Name | Public Data Exploration | Request Portal Access | Private Data Portal" %}
 
 {% capture values %}
-**BRACA 1/2 Atlas** | [https://www.tissue-atlas.org/atlases/BRCA1-2](https://www.tissue-atlas.org/atlases/BRCA1-2) | [https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961) | [https://www.synapse.org/#!Synapse:syn27250699/discussion/default](https://www.synapse.org/#!Synapse:syn27250699/discussion/default)
+**BRACA 1/2 Atlas** | [https://www.tissue-atlas.org/atlases/BRCA1-2](https://www.tissue-atlas.org/atlases/BRCA1-2) | [https://www.synapse.org/#!Team:3443961](https://www.synapse.org/#!Team:3443961) | [https://www.synapse.org/#!Synapse:syn27250699/wiki/617601](https://www.synapse.org/#!Synapse:syn27250699/wiki/617601)
 {% endcapture %}
 {% include left-column-head-table.html labels=labels values=values %}
 
