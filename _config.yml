@@ -76,3 +76,7 @@ sass:
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+
+# Google Analytics Tracking
+ga_tracking:
+ga_tracking_anonymize_ip: true
