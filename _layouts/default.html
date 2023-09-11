@@ -10,6 +10,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" rel="stylesheet">
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
+    {% if site.ga_tracking != nil %}
+        {% include google-analytics.html %}
+    {% endif %}
+
     {% seo %}
 </head>
 
