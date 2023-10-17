@@ -33,7 +33,7 @@ main:
         target: "_self"
   - name: "Data"
     section_id: data
-    url: "/data-overview"
+    url: "/atlases"
     target: "_self"
     children:
       - name: "Overview"

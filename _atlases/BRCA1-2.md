@@ -29,7 +29,7 @@ The mutations that cause cancer often arise spontaneously in somatic tissues but
 ## Data Explorations
 *Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
 
-{% assign cardList = 'osd-BRCA-WT-vs-BRCA1-associated-TNBC' %}
+{% assign cardList = 'ovarian-cancer-with-annotation-lsp15327,ovarian-cancer-with-annotation-lsp15343,osd-BRCA-WT-vs-BRCA1-associated-TNBC' %}
 
 {% include cards.html list=cardList %}
 
@@ -37,7 +37,7 @@ The mutations that cause cancer often arise spontaneously in somatic tissues but
 *Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.*
 
 {% assign dataCards = site.data-cards
-    | where_exp: "item", "item.url contains 'mehta-2020,keenan-2020'"
+    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfors-2022,kadar-drapkin-ovarina-pilot,mehta-2020,keenan-2020'"
     | where_exp: "item", "item.hide != true" %}
 
 {% include cards.html tag='BRCA' %}

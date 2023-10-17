@@ -65,10 +65,7 @@ data:
 
 ### Data Overviews
 
-**NOTE! These Data Overviews provide access to minimally processed
-Level 2 images with no annotation or quality control. Click any of the
-following thumbnail images for an interactive view of the
-full-resolution images.**
+**These Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
 
 {%
     assign overviews = site.data-cards
