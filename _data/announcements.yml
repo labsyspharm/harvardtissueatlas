@@ -1,4 +1,13 @@
 news_press:
+  - title: "Live Cell Imaging IDs Bad Actors in Cancer and Finds Possible Ways to Defeat Them"
+    author:
+    year: 2023, July 25
+    publication: "HMS News"
+    type: news  # [tools|publication|method|software]
+    image: "news/live-cell-imaging-id-news.png"
+    link: "https://blog.dana-farber.org/insight/2023/07/live-cell-imaging-ids-bad-actors-in-cancer-and-finds-possible-ways-to-defeat-them/"
+    label: News  # [News|Press Release]
+    target: "_blank"  # [_self|_blank]
   - title: "A New Tool for Diagnosing Cancer"
     author: "Caruso, C."
     year: 2023, June 22
@@ -6,14 +15,6 @@ news_press:
     type: news  # [tools|publication|method|software]
     image: "publications/A-new-tool-for-diagnosing-cancer.jpg"
     link: "https://hms.harvard.edu/news/new-tool-diagnosing-cancer"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "Ludwig Harvard team devises platform to bring “multiplex” imaging to the clinical pathology laboratory"
-    year: 2023, June 22
-    publication: "Ludwig Cancer Research"
-    type: news  # [tools|publication|method|software]
-    image: "publications/A-new-tool-for-diagnosing-cancer.jpg"
-    link: "https://www.ludwigcancerresearch.org/news-releases/ludwig-harvard-team-devises-platform-to-bring-multiplex-imaging-to-the-clinical-pathology-laboratory/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
   - title: "New 3D Atlas of Colorectal Cancer Promises Improved Diagnosis, Treatment"
@@ -32,22 +33,6 @@ news_press:
     type: news  # [tools|publication|method|software]
     image: "publications/Ludwig-Harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors.png"
     link: "https://www.ludwigcancerresearch.org/news-releases/ludwig-harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors/"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "2D and 3D Maps Provide New Insight Into Colorectal Cancer"
-    year: 2023, January 20
-    publication: "Applied Radiation Oncology"
-    type: news  # [tools|publication|method|software]
-    image: "publications/2D-and-3D-Maps-Provide-New-Insight-Into-Colorectal-Cancer.png"
-    link: "https://appliedradiationoncology.com/articles/2d-and-3d-maps-provide-new-insight-into-colorectal-cancer"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "3D Spatial Colorectal Cancer Maps Combine Molecular and Histological Features"
-    year: 2023, January 20
-    publication: "Genetic Engineering and Biotechnology News"
-    type: news  # [tools|publication|method|software]
-    image: "publications/3D-spatial-colorectal-caner-maps-combine-molecular-and-histological-features.png"
-    link: "https://www.genengnews.com/topics/cancer/colorectal-cancer/3d-spatial-colorectal-cancer-maps-combine-molecular-and-histological-features/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
   - title: "An Unprecedented Look at Colorectal Cancer"
