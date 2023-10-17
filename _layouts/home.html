@@ -22,9 +22,9 @@ layout: default
         {{ content }}
 
         {% assign cards = site.data.announcements.news_press %}
-            
-        {% include cards.html 
-            heading='News' 
+
+        {% include cards.html
+            heading='News'
             cards=cards
             card-type='news-card'
             card-color='medium-blue'
@@ -38,8 +38,8 @@ layout: default
         {% assign cta_url2 = 'methods-software' | relative_url %}
         {% assign cta_label2 = 'View all software' %}
 
-        {% include cards.html 
-            heading='Publications &amp; Software' 
+        {% include cards.html
+            heading='Publications &amp; Software'
             cards=cards
             card-type='news-card'
             card-color='dark-blue'
@@ -51,11 +51,11 @@ layout: default
         %}
 
 
-        {% assign cta_url = 'data-explorations' | relative_url %}
-        {% assign cta_label = 'View all data' %}
+        {% assign cta_url = 'atlases' | relative_url %}
+        {% assign cta_label = 'View Atlases' %}
 
-        {% include cards.html 
-            heading='Featured Atlas/Data' 
+        {% include cards.html
+            heading='Featured Atlas/Data'
             featured=true
             cta-url=cta_url
             cta-label=cta_label
@@ -64,5 +64,3 @@ layout: default
 
     </div>
 </div>
-
-
