@@ -2,7 +2,7 @@ news_press:
   - title: "Live Cell Imaging IDs Bad Actors in Cancer and Finds Possible Ways to Defeat Them"
     author:
     year: 2023, July 25
-    publication: "HMS News"
+    publication: "Dana Farber Cancer Institute"
     type: news  # [tools|publication|method|software]
     image: "news/live-cell-imaging-id-news.png"
     link: "https://blog.dana-farber.org/insight/2023/07/live-cell-imaging-ids-bad-actors-in-cancer-and-finds-possible-ways-to-defeat-them/"

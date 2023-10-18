@@ -27,21 +27,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
   </div>
 </div>
 
-## Data Explorations
-*Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
-
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'mccaffrey-2022/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'exploration'"
-%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
-
-### Data Overviews
+## Data Overviews
 **Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
 
 {%
