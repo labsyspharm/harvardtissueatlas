@@ -29,19 +29,6 @@ data:
 * [Data Overviews](#data-overviews)
 * [Data Access](#data-access)
 
-### Data Explorations
-
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'mccaffrey-2022/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'exploration'"
-%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
-
 ### Data Overviews
 **Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
 
@@ -49,14 +36,8 @@ data:
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'mccaffrey-2022/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'overview'"
 %}
 
 {% if overviews.size > 0 %}
   {% include cards.html cards=overviews %}
 {% endif %}
-
-
-## Data Access
-
-Please check back or reach out for information on accessing primary CyCIF image data.
