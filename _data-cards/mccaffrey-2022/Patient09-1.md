@@ -1,6 +1,6 @@
 ---
 title: Patient 9-1
-image: https://s3.amazonaws.com/www.cycif.org/mccaffrey-2022/Patient9-1/CD45_13__CD45/0_0_0.jpg
+image: https://s3.amazonaws.com/www.cycif.org/mccaffrey-2022/Patient9-1/thumbnail--default.jpg
 date: '2022-03-01'
 minerva_link: https://labsyspharm.github.io/mccaffrey-2022/Patient9-1
 info_link: null
