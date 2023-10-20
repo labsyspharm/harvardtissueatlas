@@ -23,14 +23,9 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
-
-### Contents
-* [Data Explorations](#data-explorations)
-* [Data Overviews](#data-overviews)
-* [Data Access](#data-access)
-
+<br>
 ### Data Overviews
-**Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
+**Data Overviews provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution Multiplex Ion Beam Imaging (MIBI) data.**
 
 {%
     assign overviews = site.data-cards
