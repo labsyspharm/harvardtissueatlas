@@ -6,8 +6,8 @@ section_id: data
 data:
   publication:
     title: Multiplexed 3D analysis of cell plasticity and immune niches in melanoma
-    authors: 'Nirmal AJ, Zhou F, Maliga Z, Llopis PM, Murphy GF, Lian CG, Danuser G, Santagata S, Sorger PK'
-    
+    authors: 'Yapp C, Nirmal AJ, Zhou F, Maliga Z, Llopis PM, Murphy GF, Lian CG, Danuser G, Santagata S, Sorger PK'
+
 ---
 
 {% assign urlParts = page.url | split: '/' %}
