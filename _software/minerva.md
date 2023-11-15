@@ -12,7 +12,7 @@ publication: https://pubmed.ncbi.nlm.nih.gov/33768192/
 # link to github repo
 source code: https://github.com/labsyspharm/minerva-story
 # link to micro-site
-documentation: www.minerva.im
+documentation: https://www.minerva.im
 # link to minerva video
 video: https://vimeo.com/439974633
 
