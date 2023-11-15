@@ -73,7 +73,7 @@ Tissue-based cyclic immunofluorescence, or t-CyCIF, is the multiplex imaging met
 </div>
 
 #### Resources (Click to follow link)
-[Original t-CyCIF paper](https://doi.org/10.7554/eLife.31657) | [MCMICRO website](https://mcmicro.org) | [MCMICRO GitHub](https://github.com/labsyspharm/mcmicro) | [Minerva Story](www.minerva.im) | [HTA melanoma atlas](https://www.tissue-atlas.org/atlases/melanoma-pca) | [t-CyCIF protocol](https://www.protocols.io/view/tissue-cyclic-immunofluorescence-t-CyCIF-version-3-5qpvorbndv4o/v2) | [Leica Bond tissue pretreatment](https://www.protocols.io/view/ffpe-tissue-pre-treatment-before-t-CyCIF-on-leica-n92ld3dbng5b/v2)
+[Original t-CyCIF paper](https://doi.org/10.7554/eLife.31657) | [MCMICRO website](https://mcmicro.org) | [MCMICRO GitHub](https://github.com/labsyspharm/mcmicro) | [Minerva Story](https://www.minerva.im/) | [HTA melanoma atlas](https://www.tissue-atlas.org/atlases/melanoma-pca) | [t-CyCIF protocol](https://www.protocols.io/view/tissue-cyclic-immunofluorescence-t-CyCIF-version-3-5qpvorbndv4o/v2) | [Leica Bond tissue pretreatment](https://www.protocols.io/view/ffpe-tissue-pre-treatment-before-t-CyCIF-on-leica-n92ld3dbng5b/v2)
 
 
 ## High resolution and 3D imaging

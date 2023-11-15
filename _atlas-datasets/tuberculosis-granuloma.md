@@ -29,7 +29,7 @@ The Tuberculosis Granuloma Atlas aims to improve the understanding of granuloma 
 # Imaging TB Granulomas
 {:.mt-5}
 
-These [MINERVA](www.minerva.im)-based data explorations show clinical histology staining side-by-side with a highly multiplexed image of a TB granuloma collected using cyclic immunofluorescence (CyCIF). It is possible to follow the story in the MINERVA visualization or freely pan and zoom across the large (gigapixel) high-plex image dataset.
+These [MINERVA](https://www.minerva.im/)-based data explorations show clinical histology staining side-by-side with a highly multiplexed image of a TB granuloma collected using cyclic immunofluorescence (CyCIF). It is possible to follow the story in the MINERVA visualization or freely pan and zoom across the large (gigapixel) high-plex image dataset.
 
 ## Data Explorations
 **Data Explorations are like museum guides and use the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
