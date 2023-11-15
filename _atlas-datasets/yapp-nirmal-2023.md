@@ -47,7 +47,7 @@ Review your IAM permissions and add additional in-line policies, as needed. For 
 
 ## Viewing Images
 Here are some tips for getting started viewing .ims files using Imaris Viewer: <br><br>
-1. To view the .ims images, download the free Imaris Viewer at: [https://imaris.oxinst.com/imaris-viewer](https://imaris.oxinst.com/imaris-viewer) <br><br>
+1. To view the .ims images, download the free Imaris Viewer at: [https://imaris.oxinst.com/imaris-viewer](https://imaris.oxinst.com/imaris-viewer). View the recommended system requirements [here](https://imaris.oxinst.com/support/system-requirements). <br><br>
 2. Open Imaris Viewer and, in the top left corner, select Surpass. Click and drag .ims file into Imaris Viewer.<br><br>
 
 3. To view the channel/antibody list, select Edit > Image Properties.
