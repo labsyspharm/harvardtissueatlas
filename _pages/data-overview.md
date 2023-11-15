@@ -28,12 +28,12 @@ Primary data is deposited onto online databases that allow the project team to d
 
 Now the scientific discovery process begins. New biological insights require both human inspection of the images and quantitative analysis of the single-cell data. This is highly collaborative (Roles 1, 2, 7, and 8) and is where the greatest innovation occurs! [*View two video examples of how multiplexed data come together for biological insights.*]( https://www.tissue-atlas.org/curriculum#integrating-spatial-transcriptomics-with-imaging)
 
-A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](www.minerva.im), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
+A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](https://www.minerva.im/), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
 After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems.
 
 ## VIEWING DATA ONLINE WITH MINERVA
 
-[MINERVA](www.minerva.im) is a suite of software tools for visualizing, annotating and sharing large, multi-dimensional images in a browser using [digital docents](https://www.nature.com/articles/s41551-021-00789-8) and narration without the need to download the data. MINERVA enables interactive viewing and efficient data annotation. It can also display other types of data visualization. MINERVA does not require the installation of any software and browsing is anonymous. Nearly all HTA data are available as one of two types of MINERVA-based visualization, described below.
+[MINERVA](https://www.minerva.im/) is a suite of software tools for visualizing, annotating and sharing large, multi-dimensional images in a browser using [digital docents](https://www.nature.com/articles/s41551-021-00789-8) and narration without the need to download the data. MINERVA enables interactive viewing and efficient data annotation. It can also display other types of data visualization. MINERVA does not require the installation of any software and browsing is anonymous. Nearly all HTA data are available as one of two types of MINERVA-based visualization, described below.
 
 ## DATA EXPLORATIONS
 
