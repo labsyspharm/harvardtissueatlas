@@ -52,7 +52,7 @@ large as 1 gigapixel. With MINERVA, users can pan
 around and magnify areas of an image and switch between channels. MINERVA does
 not require the installation of any software and is therefore secure; browsing
 is also anonymous. Users interested in the tool are welcome to explore the
-[documentation](https://github.com/labsyspharm/minerva-story/wiki), the
+[documentation](www.minerva.im), the
 [software publication](https://joss.theoj.org/papers/10.21105/joss.02579), and a
 description of [digital
 docents](https://www.biorxiv.org/content/10.1101/2020.03.27.001834v2) in
