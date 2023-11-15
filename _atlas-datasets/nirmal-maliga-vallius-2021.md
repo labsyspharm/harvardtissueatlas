@@ -37,10 +37,8 @@ where tumor, normal, and immune cells compete and were diverse immunosuppressive
 environments are found.
 
 ## Contents
-* [__Data Explorations__: MINERVA Stories summarizing key findings and
-  data](#data-explorations)
-* [__Data Overviews__: MINERVA Stories showing individual H&E and CyCIF
-  images](#data-overviews)
+* [__Data Explorations__: MINERVA Stories summarizing key findings and data](#data-explorations)
+* [__Data Overviews__: MINERVA Stories showing individual H&E and CyCIF images](#data-overviews)
 * [__Primary Data Access__: List of available data files](#primary-data-access)
 
 
@@ -52,7 +50,7 @@ large as 1 gigapixel. With MINERVA, users can pan
 around and magnify areas of an image and switch between channels. MINERVA does
 not require the installation of any software and is therefore secure; browsing
 is also anonymous. Users interested in the tool are welcome to explore the
-[documentation](www.minerva.im), the
+[documentation](https://www.minerva.im/), the
 [software publication](https://joss.theoj.org/papers/10.21105/joss.02579), and a
 description of [digital
 docents](https://www.biorxiv.org/content/10.1101/2020.03.27.001834v2) in
