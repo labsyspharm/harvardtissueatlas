@@ -27,8 +27,26 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
   </div>
 </div>
 
+## Data Explorations
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'tuberculosis-granulomas-2022/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% unless s.url contains '-overview' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endunless %}
+{% endfor %}
+
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
+
 ## Data Overviews
-**Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
+**Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images. These are currently all MIBI images.**
 
 {%
     assign overviews = site.data-cards
