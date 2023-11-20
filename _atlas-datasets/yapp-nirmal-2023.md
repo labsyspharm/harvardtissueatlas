@@ -21,9 +21,24 @@ data:
     thumbnailDir=sectionId %}
 
 ## Contents
+  * [__Data Explorations__: MINERVA Stories summarizing key findings and data](#data-explorations)
   * [__Data Access__: Instructions to access files on AWS](#data-access)
   * [__Viewing Images__: Tips for using Imaris Viewer](#viewing-images)
   * [__Contact__: Reach out with questions](#contact)
+
+
+## Data Explorations
+**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
+
+{%
+    assign overviews = site.data-cards
+    | where_exp: "item", "item.url contains 'yapp-nirmal-2023/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% if overviews.size > 0 %}
+  {% include cards.html cards=overviews %}
+{% endif %}
 
 ## Data Access
 ### Access the full 3D Melanoma dataset
