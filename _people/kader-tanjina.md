@@ -1,7 +1,7 @@
 ---
 name: Tanjina Kader, PhD
 positions:
-  - Postdoctoral Fellow, Sorger Lab, Harvard Medical School
+  - Postdoctoral Fellow, Sorger and Santagata Labs, Harvard Medical School
 
 photo: people/kader-tanjina.jpg
 
