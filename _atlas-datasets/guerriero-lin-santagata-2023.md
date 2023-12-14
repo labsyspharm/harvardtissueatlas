@@ -25,10 +25,10 @@ data:
   * [Funding](#funding)
 
 ### Graphical Abstract
-{% include enlarge-image.html src='publications/guerriero-lin-santagata-2023-min.pdf' float='center' alt='Figure 1. Overview of fluorescent CyCIF antibody qualification against antibodies used in the clinical laboratory' %}
+{% include enlarge-image.html src='publications/guerriero-lin-santagata-2023-compressed.png' alt='Figure 1. Overview of fluorescent CyCIF antibody qualification against antibodies used in the clinical laboratory' %}
 
 ## Data Access
-Instructions to access data for download will be added by 11/11
+Instructions to access data will be posted to the [GitHub repository](https://github.com/labsyspharm/npjbcancer2023) associated with this publication.
 
 ### Funding  
 This work was supported by the Dana-Farber/Harvard Cancer Center (DF/HCC) Specialized Program of Research Excellence (SPORE) in Breast Cancer P50 CA1685404 Career Enhancement Award, The Susan G. Komen Foundation Career Catalyst Award CCR18547597, The Terri Brodeur Breast Cancer Foundation, The Ludwig Center at Harvard, NIH NCI R37-CA269499, U2C-CA233280 and U2C-CA233262, the Gray Foundation, R50-CA274277 and the Center for Cancer Systems Pharmacology NCI U54-CA225088.
