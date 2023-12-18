@@ -4,7 +4,7 @@ positions:
   - Associate Professor of Neurosurgery and Radiology, Harvard Medical School
   - Associate Professor of Neurosurgery, Brigham And Women's Hospital
 
-photo: people/agar-nathalie.png
+photo: people/agar-nathalie.jpg
 
 group: principals
 
