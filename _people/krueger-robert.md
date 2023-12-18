@@ -6,6 +6,6 @@ positions:
 
 photo: people/krueger-robert.jpg
 
-group: staff
+group: alumni
 
 ---
