@@ -1,13 +1,10 @@
 ### Download the primary data
-
-The full dataset is available through Amazon Web Services S3. The images and metadata will be available in the bucket at the following location:
+The full dataset is available through the [Human Tumor Atlas Network](https://humantumoratlas.org/publications/hms_ckcm_nirmal_2022?tab=cycif). The Laboratory of Systems Pharmacology also makes the data available through Amazon Web Services S3. The images and metadata will be available in the bucket at the following location:
 
 ```
 s3://hta-melatlas-1/data/
 ```
-The Laboratory of Systems Pharmacology at Harvard Medical School will commit to
-making the full dataset available through S3 while the Human Tumor Atlas
-Network's Data Coordination Center exploring options to host the data.
+Follow our instructions on Zenodo to access this dataset (DOI: [10.5281/zenodo.10223574](https://doi.org/10.5281/zenodo.10223574)).
 
 The following table contains summary biospecimen and file metadata.
 

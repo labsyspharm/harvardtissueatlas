@@ -22,9 +22,6 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-
-# HTA Melanoma Atlas 1
-
 The dataset associated with "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution" contains images and other data being used for
 construction of an atlas of human melanoma under the auspices of the
 [Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid

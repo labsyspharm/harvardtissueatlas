@@ -68,6 +68,4 @@ All NCI Human Tumor Atlas Network data are released pre-publication via its [dat
 
 ### ACCESS PRIMARY IMAGE DATA
 
-Images and metadata will be available in an AWS S3 bucket at a location specified for each paper or atlas (e.g s3://hta-melatlas-1/data/ for [Nirmal et al, 2022](https://doi.org/10.1158/2159-8290.CD-21-1357)).
-
-To browse and download the data use either a graphical file transfer application that supports S3 such as [CyberDuck](https://cyberduck.io/), or the [AWS CLI](https://aws.amazon.com/cli/) tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds. Email tissue-atlas(at)hms.harvard.edu if you experience issues accessing the above S3 buckets.
+Images and metadata will be available in an AWS S3 bucket at a location specified for each paper's data availability statement. For up-to-date instructions on how to download image data found on this website, please visit our access instructions on Zenodo ([DOI: 10.5281/zenodo.10223574](https://doi.org/10.5281/zenodo.10223574)). Email tissue-atlas(at)hms.harvard.edu if you have questions or experience issues.
