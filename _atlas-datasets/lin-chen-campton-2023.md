@@ -11,9 +11,9 @@ data:
     description: Precision medicine is critically dependent on better methods for diagnosing and staging disease and predicting drug response. Histopathology using Hematoxylin and Eosin (H&E) stained tissue - not genomics – remains the primary diagnostic method in cancer. Recently developed highly-multiplexed tissue imaging methods promise to enhance research studies and clinical practice with precise, spatially-resolved, single-cell data. Here we describe the “Orion” platform for collecting H&E and high-plex immunofluorescence images from the same cells in a whole-slide format suitable for diagnosis. Using a retrospective cohort of 74 colorectal cancer resections, we show that IF and H&E images provide human experts and machine learning algorithms with complementary information that can be used to generate interpretable, multiplexed image-based models predictive of progression-free survival. Combining models of immune infiltration and tumor-intrinsic features achieves a nearly 20-fold discrimination between rapid and slow (or no) progression, demonstrating the ability of multi-modal tissue imaging to generate high-performance biomarkers.
     links:
       - Publication: https://doi.org/10.1038/s43018-023-00576-1
-      - bioRxiv: https://doi.org/10.1101/2022.09.28.509927
       - Dataset: https://doi.org/10.5281/zenodo.7637655
       - Colorectal Cancer Atlas: /atlases/colorectal-cancer
+      - Response article from Nature Cancer: https://www.nature.com/articles/s43018-023-00590-3
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -37,7 +37,6 @@ data:
 {% include enlarge-image.html src='publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers.jpg' float='center' alt='' %}
 
 <i> **Top:** Overview of the Orion method for same-slide immunofluorescence and H&E imaging. **Bottom:** Example images of a colorectal cancer specimen from Orion, showing the multiplex immunofluorescence image (left; 5 of 18 fluorescence channels shown), the corresponding same-section H&E image (center), and the overlay of these two images (right). </i>
-
 
 ### Contents
 * [Data Explorations](#data-explorations)
