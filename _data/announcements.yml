@@ -1,6 +1,15 @@
 news_press:
+  - title: "'High-plex immunofluorescence imaging' featured in Nature Cancer’s 2023 in Review"
+    author: " "
+    year: 2023, December 15
+    publication: "Nature Cancer"
+    type: news
+    image: "publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png"
+    link: "https://www.nature.com/collections/bcggjhfcea"
+    label: News
+    target: "_blank"
   - title: "Live Cell Imaging IDs Bad Actors in Cancer and Finds Possible Ways to Defeat Them"
-    author:
+    author: " "
     year: 2023, July 25
     publication: "Dana Farber Cancer Institute"
     type: news  # [tools|publication|method|software]
@@ -70,6 +79,14 @@ news_press:
     target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: "Qualification of a multiplexed tissue imaging assay and detection of novel patterns of HER2 heterogeneity in breast cancer"
+    author: 'Guerriero, Lin JR, et al.'
+    year: 2024
+    publication: "npj Breast Cancer"
+    image: publications/guerriero-lin-santagata-2023-compressed.png
+    link: "publications#qualification-of-a-multiplexed-tissue-imaging-assay-and-detection-of-novel-patterns-of-HER2-heterogeneity-in-breast-cancer"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "High-plex immunofluorescence imaging and traditional histology of the same tissue section for discovering image-based biomarkers"
     author: "Lin, et al."
     year: 2023

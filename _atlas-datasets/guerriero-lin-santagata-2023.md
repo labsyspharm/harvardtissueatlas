@@ -6,9 +6,11 @@ section_id: data
 data:
   publication:
     title: Qualification of a multiplexed tissue imaging assay and detection of novel patterns of HER2 heterogeneity in breast cancer
+    journal: 'npj Breast Cancer (2024). DOI: [10.1038/s41523-023-00605-3](https://doi.org/10.1038/s41523-023-00605-3)'
     authors: 'Guerriero JL, Lin JR, Pastorello RG, Du Z, Chen YA, Townsend M, Shimada K, Hughes ME, Ren S, Tayob N, Zheng K, Mei S, Patterson A, Taneja K, Metzger O, Tolaney SM, Lin NU, Dillon DA, Schnitt SJ, Sorger PK, Mittendorf EA, Santagata S'
     description: 'Emerging data suggests that HER2 intratumoral heterogeneity (ITH) is associated with therapy resistance, highlighting the need for new strategies to assess HER2 ITH. A promising approach is leveraging multiplexed tissue analysis techniques such as cyclic immunofluorescence (CyCIF), which enable visualization and quantification of 10-60 antigens at single-cell resolution from individual tissue sections. In this study, we qualified a breast cancer specific antibody panel, including HER2, ER and PR, for multiplexed tissue imaging. We then compared the performance of these antibodies against established clinical standards using pixel-, cell- and tissue-level analyses, utilizing 866 tissue cores (representing 294 patients). To ensure reliability, the CyCIF antibodies were qualified against HER2 immunohistochemistry (IHC) and fluorescence in situ hybridization (FISH) data from the same samples. Our findings demonstrate the successful qualification of a breast cancer antibody panel for CyCIF, showing high concordance with established clinical antibodies. Subsequently, we employed the qualified antibodies, along with antibodies for CD45, CD68, PD-L1, p53, Ki67, pRB and AR to characterize 567 HER2+ invasive breast cancer samples from 189 patients. Through single-cell analysis we identified four distinct cell clusters within HER2+ breast cancer exhibiting heterogeneous HER2 expression. Furthermore, these clusters displayed variations in ER, PR, p53, AR and PD-L1 expression. To quantify the extent of heterogeneity, we calculated heterogeneity scores based on the diversity among these clusters. Our analysis revealed expression patterns that are relevant to breast cancer biology, with correlations to HER2 ITH and potential relevance to clinical outcome.'
-
+links:
+  - Publication: https://doi.org/10.1038/s41523-023-00605-3
 ---
 
 {% assign urlParts = page.url | split: '/' %}
