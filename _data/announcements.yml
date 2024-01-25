@@ -1,4 +1,13 @@
 news_press:
+  - title: "'Multiplexed 3D atlas' selected as the Best of Cell 2023"
+    author: " "
+    year: 2023
+    publication: "Cell"
+    type: news
+    image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer-graphic-abstract.png"
+    link: "https://info.cell.com/best-of-cell-2023"
+    label: News
+    target: "_blank"
   - title: "'High-plex immunofluorescence imaging' featured in Nature Cancer’s 2023 in Review"
     author: " "
     year: 2023, December 15
@@ -53,28 +62,12 @@ news_press:
     link: "https://hms.harvard.edu/news/unprecedented-look-colorectal-cancer"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
-  - title: "Data Deep Dive"
-    author: "Caruso, C."
-    year: 2022, April 20
-    publication: "Harvard News"
-    image: "news/targeting-immunosuppressive-macrophages.jpg"
-    link: "https://hms.harvard.edu/news/data-deep-dive"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
   - title: "Getting Under Our Skin"
     author: "Caruso, C."
     year: 2022, April 14
     publication: "Harvard News"
     image: "news/under-our-skin.JPG"
     link: "https://hms.harvard.edu/news/getting-under-our-skin"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "Atlas maker: Q & A with Peter Sorger"
-    author: ""
-    year: 2022, April 20
-    publication: "Ludwig Cancer Research"
-    image: "people/sorger-peter.jpg"
-    link: "https://www.ludwigcancerresearch.org/success-story/the-atlas-maker-qa-with-peter-sorger/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
 
@@ -145,18 +138,6 @@ publications_software:
     label2: Software  # [Publication|Software|Method]
     target2: "_self"  # [_self|_blank]
     link2: "software#ashlar"
-  - title: "Temporal and spatial topography of cell proliferation in cancer"
-    description:
-    author: "Gaglia et al."
-    year: 2022
-    publication: "Nature Cell Biology"
-    image: "publications/temporal-and-spatial-topography-of-cell-proliferation-in-cancer_v2.png"
-    link: "publications#temporal-and-spatial-topography-of-cell-proliferation-in-cancer"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-    link2: "#"
-    label2: Software  # [Publication|Software|Method]
-    target2: "_self"  # [_self|_blank]
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
     description: "An end-to-end processing pipeline for multiplexed whole tissue imaging and tissue microarrays."
     author:
