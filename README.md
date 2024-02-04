@@ -121,7 +121,8 @@ Below is information about the front matter options for each of the site's colle
 - **grant** - Grant information, displayed in the right-hand column on the Atlases landing page
 - **grant-image** - Displays an image shown in the right-hand column on the Atlases landing page
 - **project-image** - Used for the thumbnail shown on the Atlases landing page
-- **link** - (not currently in use)
+- **link** - Where the *Explore Atlas* button on the Atlases landing page should link to. Use `self` to have the button link to a page generated from the content of the atlas entry.
+- **redirect_to** - (Optional) If using an external URL for the `link` value, you can supply the same URL if you would like to prevent the Atlas detail page from being viewed if the user should have access to the page URL (they will instead be redirected to the provided link).
 - **short-name** - (not currently in use)
 
 
@@ -328,4 +329,4 @@ npm run build
 ```
 yarn build
 ```
-⚠️ **IMPORTANT:** If any changes are made to the javascript files - or if the dev workflow is used (even without js file changes) - be sure to run the build script before pushing updates to GitHub. This optimizes / minimizes the javascript bundle for production usage.  If you do not plan to make updates to the javascript files, there is no need to install the workflow files or to run the dev workflow.  If only using the local jekyll server (via `bundle exec jekyll serve`), there is no need to re-build the javascript before pushing files to GitHub.  All other site build processes (page rendering, Sass processing, etc) is handled by the GitHub Pages rendering system.
+⚠️ **IMPORTANT:** If any changes are made to the javascript files - or if the dev workflow is used (even without js file changes) - be sure to run the build script before pushing updates to GitHub. This optimizes / minimizes the javascript bundle for production usage.  If you do not plan to make updates to the javascript files, there is no need to install the workflow files or to run the dev workflow.  If only using the local jekyll server (via `bundle exec jekyll serve`), there is no need to re-build the javascript before pushing files to GitHub.  All other site build processes (page rendering, Sass processing, etc) is handled by the GitHub Pages rendering system.  Note that as of the initial site build, GitHub Pages uses Ruby version 2.7.4, and Jekyll 3.9.3.

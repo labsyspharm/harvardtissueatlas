@@ -7,7 +7,7 @@ project-image: https://www.cycif.org/assets/img/tuberculosis-granulomas-2022/sta
 grant: Bill and Melinda Gates Foundation grant INV-027106
 grant-image: funding/gates.svg
 title: Tuberculosis Granuloma Atlas
-link: tuberculosis-granuloma
+link: self
 short-name: Tuberculosis Atlas
 ---
 

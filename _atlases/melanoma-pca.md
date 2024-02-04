@@ -7,7 +7,7 @@ project-image: https://labsyspharm.github.io/HTA-MELATLAS-1/images/thumbnail-MEL
 grant: NCI Human Tumor Atlas Network U2C-CA233262, NCI U54-CA225088, and the Ludwig Cancer Research Foundation
 grant-image: funding/nci-color.png
 title: Melanoma Pre-Cancer Atlas
-link: Mel PCA Atlas
+link: self
 short-name: Mel PCA Atlas
 ---
 
