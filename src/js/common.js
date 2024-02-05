@@ -20,8 +20,13 @@ function initDetailsElements() {
     });
 }
 
+function initCarousels() {
+    $('.carousel').slick();
+}
+
 exports.init = function() {
     // Do common initialization...
     initHeader();
     initDetailsElements();
+    initCarousels();
 };
