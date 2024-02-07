@@ -1,0 +1,33 @@
+
+<div class="video-card">
+  {% include youtube.html id=include.id playsinline=include.playsinline autoplay=include.autoplay mute=include.mute color=include.color controls=include.controls loop=include.loop start=include.start cc_load_policy=include.cc_load_policy iv_load_policy=include.iv_load_policy %}
+
+  {% comment %}
+    Values to include with the modal version of the player.
+  {% endcomment %}
+  {%- if include.start != nil %}
+      {% assign start = include.start %}
+  {% else %}
+      {% assign start = '0' %}
+  {% endif -%}
+  {%- if include.cc_load_policy != nil %}
+      {% assign cc_load_policy = include.cc_load_policy %}
+  {% else %}
+      {% assign cc_load_policy = '0' %}
+  {% endif -%}
+  {%- if include.iv_load_policy != nil %}
+      {% assign iv_load_policy = include.iv_load_policy %}
+  {% else %}
+      {% assign iv_load_policy = '1' %}
+  {% endif -%}
+
+  <div class="video-card__text">
+    {% if include.title %}
+      <div class="video-card__title">{{ include.title }}</div>
+    {% endif %}
+    <a href="https://www.youtube.com/embed/{{ include.id }}?cc_load_policy={{ cc_load_policy }}&iv_load_policy={{ iv_load_policy }}&start={{ start }}" class="video-card__expand-link" data-lity>Click to enlarge</a>
+    {% if include.description %}
+      <div class="video-card__description">{{ include.description }}</div>
+    {% endif %}
+  </div>
+</div>

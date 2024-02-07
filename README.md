@@ -227,7 +227,7 @@ For any pages that render out body content (eg. project summary pages), a few no
     {% include left-column-head-table.html labels=labels values=values %}
     ```
     **NOTE:** *capture* is used here to specify the *values* content, because it allows for syntax highlighting in the editor. *assign* can be used as well, but will not provide highlighting.
-- **Video** - Vimeo video support is available via the *vimeo* include file.  Basic usage is as follows:
+- **Video: Vimeo** - Vimeo video support is available via the *vimeo* include file.  Basic usage is as follows:
     ```
     {% include vimeo.html id="158396727" %}
     ```
@@ -257,23 +257,55 @@ For any pages that render out body content (eg. project summary pages), a few no
 
     † Value specified in the video's embed settings on site may override this.  
     ‡ Requires a **Plus** account or higher.
-- **Video Card** - The *vimeo card* layout essentially wraps the *vimeo* embed (described above) in a card wrapper, with the title and description (optional) displayed below it, with a *Click to enlarge* link that opens the video in a modal overlay.  Note that all parameters available on the *vimeo* include are also available on the *vimeo card* include. In additional, 2 other parameters are available:
+- **Video: YouTube** - YouTube video support is available via the *youtube* include file.  Basic usage is as follows:
+    ```
+    {% include youtube.html id="8gWMytghieg" %}
+    ```
+    Sample usage with some additional parameters:
+    ```
+    {% include youtube.html id="8gWMytghieg" autoplay=true mute=true start="184" %}
+    ```
+
+    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 3 minute  4 second mark.
+
+    Available parameters include:
+
+    | Parameter  | Supported Values | Default Value | Description
+    |:--------------|:------------|:------|:----------------------|
+    | `autoplay`    | true, false | false | Automatically start playback of the video.<br>**Note:** May require `mute` to be set to `true`, depending on browser and device.
+    | `color`       | [color name] | "white" | Color of the video controls. Options are "red" or "white".
+    | `controls`    | true, false | true  | Show/hide player controls.
+    | `loop`        | true, false | false | Play the video again when it reaches the end, infinitely.
+    | `mute`        | true, false | false | Mute the audio on load (can be re-enabled by user, if controls are displayed).
+    | `playsinline` | true, false | true  | Play video inline on mobile devices instead of automatically going into fullscreen mode.
+    | `start`       | Time in seconds | "0" (Start of video) | Used to automatically begin playback at a specific point in time.
+    | `cc_load_policy` | true, false | true | Whether to show closed captions
+    | `iv_load_policy` | true, false | true | Whether to show annotations
+
+
+- **Video Card** - The *video card* layout essentially wraps either the *vimeo* or *youtube* embed files (described above) in a card wrapper, with the title and description (optional) displayed below it, with a *Click to enlarge* link that opens the video in a modal overlay.  Note that all parameters available on the respective *vimeo* and *youtube* includes are also available on the video card includes. In additional, 2 other parameters are available:
 
     | Parameter     | Description
     |:--------------|:------------|
     | `title`       | The title of the video
     | `description` | Video description
+
+    ***Vimeo Card***
     ```
     {% include vimeo-card.html id="158396727" title="My Video Title" description="A short description of this video." %}
     ```
-    Note that *vimeo cards* are typically displayed within a grid context, with 2 cards per row on desktop displays.  The markup for this (using bootstrap's grid) is as follows:
+    ***YouTube Card***
+    ```
+    {% include youtube-card.html id="8gWMytghieg" title="My Video Title" description="A short description of this video." %}
+    ```
+    Note that video cards are typically displayed within a grid context, with 2 cards per row on desktop displays.  The markup for this (using bootstrap's grid) is as follows:
     ```html
     <div class="row mb-4">
         <div class="col-md-6 mb-4">
             {% include vimeo-card.html id="679370096" title="My Video Title" %}
         </div>
         <div class="col-md-6 mb-4">
-            {% include vimeo-card.html id="679368905" title="My Other Video Title" description="This video has a description." %}
+            {% include youtube-card.html id="8gWMytghieg" title="My Other Video Title" description="This video has a description." %}
         </div>
     </div>
     ```
