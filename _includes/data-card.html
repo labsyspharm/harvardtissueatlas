@@ -18,6 +18,34 @@
                     </a>
                 </li>
             {%- endif -%}
+            {%- if include.content.broad_portal_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.broad_portal_link }}">
+                        <img src="{{ '/assets/img/icon-broadsinglecellportal.svg' | relative_url }}" alt="Broad Single Cell Portal">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.cbio_portal_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.cbio_portal_link }}">
+                        <img src="{{ '/assets/img/icon-bioportal.svg' | relative_url }}" alt="cBioPortal">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.cellxgene_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.cellxgene_link }}">
+                        <img src="{{ '/assets/img/icon-cellxgene.svg' | relative_url }}" alt="cellxgene">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.view_data_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.view_data_link }}">
+                        <img src="{{ '/assets/img/icon-viewdata.svg' | relative_url }}" alt="View Data">
+                    </a>
+                </li>
+            {%- endif -%}
             {%- if include.content.info_link -%}
                 <li class="data-card__link">
                     <a href="{{ include.content.info_link }}">
