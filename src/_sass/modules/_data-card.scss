@@ -20,10 +20,11 @@
 
 .data-card__image {
     overflow:hidden;
-    padding-bottom: 12px;
-
+    
     img {
-        max-width:100%;
+        aspect-ratio: 295/280;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
