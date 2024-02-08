@@ -139,7 +139,9 @@ Below is information about the front matter options for each of the site's colle
 - **group** - *key* value for the group that this publication is included in (as defined within the *_data/publications.yml* file).  Publications will be displayed within their associated group on the Publications landing page.
 - **date** - Date representing when the publication was posted/published.  Note that newer items are listed first in the publications list.
 - **minerva_link** - Link to the associated Minerva page
-- **rxiv_link** - Link to the associated Rxiv page
+- **dataset_link** - Link to the associated data set page
+- **pubmed_link** - Link to PubMed page
+- **rxiv_link** - Link to the associated Rxiv/preprint page (will be labelled as 'Preprint' for display)
 - **pdf_link** - Link to an associated PDF file.  Note that the file can either be uploaded to the site -- in which case it should be placed in the *downloads* directory, and referenced via its path INCLUDING the directory name, eg. `downloads/my-file.pdf` -- or, a URL can be used here, pointing to a third-party location where the file can be accessed.
 - **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page.  Content within the body of the entry will be displayed on this summary page.
 
