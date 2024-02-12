@@ -100,15 +100,18 @@
   
 /*
  * Containers
+ * NOTE: We use an alternate naming convention for these classes,
+ *       because we don't want to conflict with the Bootstrap
+ *       container class.
  */
 
-.container {
+.wrapper {
     @extend %container;
 }
-.container-narrow {
+.wrapper-narrow {
     @extend %container-narrow;
 }
-.container-wide {
+.wrapper-wide {
     @extend %container-wide;
 }
 
@@ -133,3 +136,111 @@
         margin-right: 4%;
     }
 }
+
+
+/*
+ * Spacing
+ * Extend vertical spacing options for Bootstrap spacing utilities
+ */
+ .mt-6 {
+    margin-top: 4rem !important;
+}
+.mb-6 {
+    margin-bottom: 4rem !important;
+}
+.mt-7 {
+    margin-top: 5rem !important;
+}
+.mb-7 {
+    margin-bottom: 5rem !important;
+}
+@media (min-width: 768px) {
+    .mt-md-6 {
+        margin-top: 4rem !important;
+    }
+    .mb-md-6 {
+        margin-bottom: 4rem !important;
+    }
+    .mt-md-7 {
+        margin-top: 5rem !important;
+    }
+    .mb-md-7 {
+        margin-bottom: 5rem !important;
+    }
+}
+@media (min-width: 992px) {
+    .mt-lg-6 {
+        margin-top: 4rem !important;
+    }
+    .mb-lg-6 {
+        margin-bottom: 4rem !important;
+    }
+    .mt-lg-7 {
+        margin-top: 5rem !important;
+    }
+    .mb-lg-7 {
+        margin-bottom: 5rem !important;
+    }
+}
+@media (min-width: 1200px) {
+    .mt-xl-6 {
+        margin-top: 4rem !important;
+    }
+    .mb-xl-6 {
+        margin-bottom: 4rem !important;
+    }
+    .mt-xl-7 {
+        margin-top: 5rem !important;
+    }
+    .mb-xl-7 {
+        margin-bottom: 5rem !important;
+    }
+}
+
+/*
+ * General Purpose
+ */
+// Simulate H1 styling on a text element, with tighter vertical
+// spacing. Useful for prominent inline headings.
+.section-heading {
+    @extend %heading-style-1;
+    margin:1em 0 .4em;
+}
+.offset-background {
+    background:$color_light-gray;
+    overflow: auto; // prevent margin collapse
+    margin-left: -#{$margin_mobile};
+    margin-right: -#{$margin_mobile};    
+    padding-top:15px;
+    padding-bottom:15px;
+
+    @include breakpoint(tablet-v) {
+        margin-left: -#{$margin_tablet};
+        margin-right: -#{$margin_tablet};
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    
+    @include breakpoint(desktop) {
+        margin-left: -#{$margin_desktop};
+        margin-right: -#{$margin_desktop};
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+}
+.secondary__content-wrap--standard {
+    .offset-background {
+        @include breakpoint("min-width:#{$max-screen-width}") {
+            margin-left: calc((100vw - #{$max-content-width}) / 2 * -1);
+            margin-right: calc((100vw - #{$max-content-width}) / 2 * -1);
+        }
+    }
+  }
+  .secondary__content-wrap--wide {
+    .offset-background {
+        @include breakpoint("min-width:#{$max-wide-screen-width}") {
+            margin-left: calc((100vw - #{$max-wide-content-width}) / 2 * -1);
+            margin-right: calc((100vw - #{$max-wide-content-width}) / 2 * -1);
+        }
+    }
+  }

@@ -13,6 +13,6 @@ date: 2019-01-01
 minerva_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/31534232/
 dataset_link: /atlas-datasets/du-lin-rashid-nat-protoc-2019/
-rxiv_link:
+preprint_link:
 show_page_link: false
 ---

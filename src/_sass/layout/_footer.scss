@@ -77,3 +77,12 @@
         }
     }
 }
+.site-footer__legal {
+    @extend %text-style-3;
+    background: #353535;
+    padding: 8px 0;
+
+    a {
+        color: $color_white;
+    }
+}

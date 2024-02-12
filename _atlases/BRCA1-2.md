@@ -7,7 +7,8 @@ project-image: data-cards/brca1-associated-triple.jpg
 grant: NCI U54 CA225088 and The Gray Foundation
 grant-image: funding/gray.png
 title: BRCA1/2 Cancer Atlas
-link: brca
+link: https://www.graybrcaatlas.org/
+redirect_to: https://www.graybrcaatlas.org/
 short-name: BRCA1/2 Atlas
 ---
 

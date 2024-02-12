@@ -12,7 +12,7 @@ date: 2022-05-30
 
 minerva_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/34750536/
-rxiv_link: https://doi.org/10.1101/2020.03.27.001834
+preprint_link: https://doi.org/10.1101/2020.03.27.001834
 pdf_link:
 show_page_link: false
 ---

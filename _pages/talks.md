@@ -7,17 +7,10 @@ layout: secondary
 ---
 
 # Talks
-<div class="video-card">
-<div class="video-wrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8gWMytghieg?start=184" title="Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer" description="During this presentation of the Cancer Moonshot Seminar Series, Sandro Santagata, M.D., Ph.D. (Brigham and Women’s Hospital) discusses multiplexed tissue imaging to reveal the spatial biology of tumors. This work is related to the Blue Ribbon Panel recommendation to generate human tumor atlases." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></div>
-<div class="video-card__text">
-<div class="video-card__title">Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer</div>
-<a href="https://www.youtube.com/embed/8gWMytghieg?start=184" class="video-card__expand-link" data-lity="">Click to enlarge</a>
-<div class="video-card__description">During this presentation of the Cancer Moonshot Seminar Series, Sandro Santagata, M.D., Ph.D. (Brigham and Women’s Hospital) discusses multiplexed tissue imaging to reveal the spatial biology of tumors. This work is related to the Blue Ribbon Panel recommendation to generate human tumor atlases.</div>
-</div>
-</div>
-<br>
 <div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include youtube-card.html id="8gWMytghieg" start="184" title="Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer" description="During this presentation of the Cancer Moonshot Seminar Series, Sandro Santagata, M.D., Ph.D. (Brigham and Women’s Hospital) discusses multiplexed tissue imaging to reveal the spatial biology of tumors. This work is related to the Blue Ribbon Panel recommendation to generate human tumor atlases." %}
+  </div>
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="866199199" title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" description="This interview with Sandro Santagata, MD PhD, and Sarah Arena, MLIS, dive into the vision for the Gray BRCA Pre-Cancer Atlas." %}
   </div>

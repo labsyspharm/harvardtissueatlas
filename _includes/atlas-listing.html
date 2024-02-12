@@ -18,9 +18,16 @@
             <h3>Funded By:</h3>
             {{ include.content.grant|markdownify }}
         {% endif %}
-        <a href="{{ include.content.url | relative_url }}" target="_self" class="atlas-listing__link">
-            Explore Atlas
-        </a>
+        {% if include.content.link == 'self' %}
+            {% assign link = include.content.url | relative_url %}
+        {% else %}
+            {% assign link = include.content.link %}
+        {% endif %}
+        {% if link %}
+            <a href="{{ link }}" target="_self" class="atlas-listing__link">
+                Explore Atlas
+            </a>
+        {% endif %}
     </div>
 
 </div>

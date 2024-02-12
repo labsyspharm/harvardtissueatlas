@@ -6,7 +6,7 @@ project-image: graphics/liposarcoma-atlas.png
 grant: David Liposarcoma Research Initiative
 grant-image:
 title: Liposarcoma
-link: liposarcoma
+link: self
 short-name: Liposarcoma Atlas
 ---
 

@@ -12,7 +12,7 @@ date: 2020-08-14
 
 minerva_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/32434946/
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

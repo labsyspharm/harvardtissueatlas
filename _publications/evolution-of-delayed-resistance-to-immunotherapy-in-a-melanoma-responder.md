@@ -13,7 +13,7 @@ date: 2021-05-03
 minerva_link:
 dataset_link: /atlas-datasets/liu-lin-2019/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33941922/
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

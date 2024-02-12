@@ -6,7 +6,7 @@ project-image: graphics/OMS-atlas.png
 grant: NCI Human Tumor Atlas Network U2C-CA233280
 grant-image: funding/nci-color.png
 title: OMS Atlas
-link: oms-atlas
+link: self
 short-name: OMS Atlas
 ---
 

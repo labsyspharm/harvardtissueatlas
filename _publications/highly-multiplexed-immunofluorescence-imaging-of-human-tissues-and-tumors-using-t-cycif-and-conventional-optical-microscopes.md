@@ -13,7 +13,7 @@ date: 2018-07-11
 minerva_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/29993362/
 dataset_link: /atlas-datasets/lin-elife-2018/
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

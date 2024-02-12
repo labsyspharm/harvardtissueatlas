@@ -1,12 +1,27 @@
 
 <div class="video-card">
-  {% include vimeo.html id=include.id playsinline=include.playsinline autoplay=include.autoplay byline=include.byline color=include.color controls=include.controls loop=include.loop muted=include.muted portrait=include.portrait speed=include.speed time=include.time texttrack=include.texttrack title=include.title %}
+  {% include vimeo.html id=include.id playsinline=include.playsinline autoplay=include.autoplay byline=include.byline color=include.color controls=include.controls loop=include.loop muted=include.muted portrait=include.portrait speed=include.speed time=include.time texttrack=include.texttrack showVimeoTitle=include.showVimeoTitle %}
+
+  {% comment %}
+    Values to include with the modal version of the player.
+  {% endcomment %}
+  {%- if include.time != nil %}
+      {% assign time = include.time %}
+  {% else %}
+      {% assign time = '0m' %}
+  {% endif -%}
+
+  {%- if include.texttrack != nil %}
+      {% assign texttrack = include.texttrack %}
+  {% else %}
+      {% assign texttrack = '0' %}
+  {% endif -%}
 
   <div class="video-card__text">
     {% if include.title %}
       <div class="video-card__title">{{ include.title }}</div>
     {% endif %}
-    <a href="https://player.vimeo.com/video/{{ include.id }}" class="video-card__expand-link" data-lity>Click to enlarge</a>
+    <a href="https://player.vimeo.com/video/{{ include.id }}?texttrack={{ texttrack }}#t={{ time }}" class="video-card__expand-link" data-lity>Click to enlarge</a>
     {% if include.description %}
       <div class="video-card__description">{{ include.description }}</div>
     {% endif %}
