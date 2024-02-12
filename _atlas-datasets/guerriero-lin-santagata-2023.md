@@ -29,6 +29,25 @@ links:
 ### Graphical Abstract
 {% include enlarge-image.html src='publications/guerriero-lin-santagata-2023-compressed.png' alt='Figure 1. Overview of fluorescent CyCIF antibody qualification against antibodies used in the clinical laboratory' %}
 
+### Data Explorations
+
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'guerriero-lin-santagata-2023/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% unless s.url contains '-overview' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endunless %}
+{% endfor %}
+
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
+
 ## Data Access
 Instructions to access data will be posted to the [GitHub repository](https://github.com/labsyspharm/npjbcancer2023) associated with this publication.
 
