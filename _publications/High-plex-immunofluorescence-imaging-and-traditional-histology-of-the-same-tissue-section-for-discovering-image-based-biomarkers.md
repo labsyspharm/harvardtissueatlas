@@ -13,7 +13,7 @@ date: 2023-06-02
 minerva_link:
 dataset_link: /atlas-datasets/lin-chen-campton-2023/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/
-rxiv_link: https://doi.org/10.1101/2022.09.28.509927
+preprint_link: https://doi.org/10.1101/2022.09.28.509927
 pdf_link:
 show_page_link: false
 ---

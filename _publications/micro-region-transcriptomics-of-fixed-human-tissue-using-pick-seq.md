@@ -11,7 +11,7 @@ group: methods
 date: 2021-03-19
 
 minerva_link:
-rxiv_link: https://www.biorxiv.org/content/10.1101/2021.03.18.431004v1
+preprint_link: https://www.biorxiv.org/content/10.1101/2021.03.18.431004v1
 pdf_link:
 show_page_link: false
 ---

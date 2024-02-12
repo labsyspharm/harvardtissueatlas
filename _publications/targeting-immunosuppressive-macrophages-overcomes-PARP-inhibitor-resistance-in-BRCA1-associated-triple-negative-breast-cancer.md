@@ -13,7 +13,7 @@ date: 2021-01-01
 minerva_link:
 dataset_link: /atlas-datasets/mehta-2020/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33738458/
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---
