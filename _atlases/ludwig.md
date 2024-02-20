@@ -7,6 +7,7 @@ grant: Ludwig Center at Harvard Medical School and the Ludwig Cancer Research Fo
 grant-image: funding/ludwig.png
 title: Ludwig Tumor Atlas
 link: https://www.ludwigtumoratlas.org/
+redirect_to: https://www.ludwigtumoratlas.org/
 short-name: Ludwig Tumor Atlas
 ---
 The Ludwig Tumor Atlas is a collaborative project involving US and European research laboratories that are part of Ludwig Cancer Research Centers and Branches and involves several types of solid cancer. Research at HMS is performed under the auspices of the [Ludwig Center at Harvard Medical School](https://ludwigcenter.hms.harvard.edu/). The overall aim of the Atlas is to investigate the molecular basis of intrinsic and acquired resistance to anti-cancer drugs and to develop disease management strategies and therapies that overcome or avoid such resistance. A full description of the projects, data, and publications related to the Ludwig Tumor Atlas can be viewed at the [Ludwig Tumor Atlas](https://www.ludwigtumoratlas.org/) website.

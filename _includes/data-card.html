@@ -1,12 +1,10 @@
 <div class="data-card">
     <div class="data-card__image">
         {% if include.content.image contains "http" %}
-        <div class="bg-img" style="background-image: url({{ include.content.image }});">
-            <img src="{{ site.imgbaseurl }}general/HTA_thumb.jpg?w=295&h=280&fit=crop" alt="Data image" style="visibility: hidden;">
-        </div>
+            <img src="{{ include.content.image }}" alt="Data image">
         {% else %}
-        <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
-        {% endif %}
+            <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
+        {% endif %}    
     </div>
     <div class="data-card__content">
         <div class="data-card__title">{{ include.content.title }}</div>
@@ -15,6 +13,34 @@
                 <li class="data-card__link">
                     <a href="{{ include.content.minerva_link }}">
                         <img src="{{ '/assets/img/icon-minerva.svg' | relative_url }}" alt="Minerva">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.broad_portal_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.broad_portal_link }}">
+                        <img src="{{ '/assets/img/icon-broadsinglecellportal.svg' | relative_url }}" alt="Broad Single Cell Portal">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.cbio_portal_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.cbio_portal_link }}">
+                        <img src="{{ '/assets/img/icon-bioportal.svg' | relative_url }}" alt="cBioPortal">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.cellxgene_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.cellxgene_link }}">
+                        <img src="{{ '/assets/img/icon-cellxgene.svg' | relative_url }}" alt="cellxgene">
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.view_data_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.view_data_link }}">
+                        <img src="{{ '/assets/img/icon-viewdata.svg' | relative_url }}" alt="View Data">
                     </a>
                 </li>
             {%- endif -%}

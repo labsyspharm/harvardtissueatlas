@@ -22,6 +22,7 @@
     "defaults"
   ],
   "scripts": {
+    "review": "bundle exec jekyll serve",
     "dev": "webpack --config webpack.dev.js & bundle exec jekyll serve",
     "build": "webpack --config webpack.prod.js && JEKYLL_ENV=production bundle exec jekyll build"
   }

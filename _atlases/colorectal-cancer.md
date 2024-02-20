@@ -5,6 +5,7 @@ summary: The Harvard Tissue Atlas for Colorectal Cancer aims to advance our unde
 project-image: publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-2.png
 grant: NCI Human Tumor Atlas Network U2C-CA233262, NCI U54-CA225088, and the Ludwig Cancer Research Foundation
 title: CRC Atlas
+link: self
 short-name: CRC Atlas
 ---
 

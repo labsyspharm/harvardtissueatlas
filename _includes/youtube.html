@@ -1,0 +1,73 @@
+{%- if include.playsinline != nil and include.playsinline == false %}
+    {% assign playsinline = '0' %}
+{% else %}
+    {% assign playsinline = '1' %}
+{% endif -%}
+
+{%- if include.autoplay != nil and include.autoplay == true %}
+    {% assign autoplay = '1' %}
+{% else %}
+    {% assign autoplay = '0' %}
+{% endif -%}
+
+{% comment %}
+    Available colors:
+    - red
+    - white
+{% endcomment %}
+{%- if include.color != nil %}
+    {% assign color = include.color %}
+{% else %}
+    {% assign color = 'white' %}
+{% endif -%}
+
+{%- if include.controls != nil and include.controls == false %}
+    {% assign controls = '0' %}
+{% else %}
+    {% assign controls = '1' %}
+{% endif -%}
+
+{%- if include.loop != nil and include.loop == true %}
+    {% assign loop = '1' %}
+{% else %}
+    {% assign loop = '0' %}
+{% endif -%}
+
+{%- if include.mute != nil and include.mute == true %}
+    {% assign mute = '1' %}
+{% else %}
+    {% assign mute = '0' %}
+{% endif -%}
+
+{%- if include.rel != nil and include.rel == true %}
+    {% assign rel = '1' %}
+{% else %}
+    {% assign rel = '0' %}
+{% endif -%}
+
+{%- if include.cc_load_policy != nil and include.cc_load_policy == false %}
+    {% assign cc_load_policy = '0' %}
+{% else %}
+    {% assign cc_load_policy = '1' %}
+{% endif -%}
+
+{% comment %}
+    Applied parameter values:
+    - 1 (default) - Annotations are shown
+    - 3 - Annotations are hidden
+{% endcomment %}
+{%- if include.iv_load_policy != nil and include.iv_load_policy == false %}
+    {% assign iv_load_policy = '3' %}
+{% else %}
+    {% assign iv_load_policy = '1' %}
+{% endif -%}
+
+{%- if include.start != nil %}
+    {% assign start = include.start %}
+{% else %}
+    {% assign start = '0' %}
+{% endif -%}
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/{{ include.id }}?autoplay={{ autoplay }}&mute={{ mute }}&playsinline={{ playsinline }}&color={{ color }}&controls={{ controls }}&loop={{ loop }}&rel={{ rel }}&cc_load_policy={{ cc_load_policy }}&iv_load_policy={{ iv_load_policy }}&start={{ start }}" allow="autoplay; fullscreen"></iframe>
+</div>

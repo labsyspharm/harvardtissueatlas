@@ -20,10 +20,11 @@
 
 .data-card__image {
     overflow:hidden;
-    padding-bottom: 12px;
-
+    
     img {
-        max-width:100%;
+        aspect-ratio: 295/280;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -44,11 +45,14 @@
     margin:0;
     padding:0;
     list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
 }
 .data-card__link {
-    display:inline-block;
-    margin:0 0 0 18px;
+    margin:0;
     padding:0;
+    flex: 0 0 auto;
 
     &:first-child {
         margin-left:0;

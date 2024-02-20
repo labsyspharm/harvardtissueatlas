@@ -1,0 +1,34 @@
+<div>
+  {% if include.type == 'vimeo' %}
+    {% assign videoUrl = 'https://player.vimeo.com/video/' | append: include.id %}
+  {% else %}
+    {% assign videoUrl = 'https://www.youtube.com/embed/' | append: include.id | append: '?rel=0' %}
+  {% endif %}
+  <div class="video-slider__slide">
+    <div class="video-slider__slide-content">
+      <img src="{{ '/assets/img/logo-hta_white.svg' | relative_url }}" 
+        alt="Harvard Tissue Atlas logo" class="video-slider__slide-logo">
+      <div class="video-slider__slide-title">{{ include.title }}</div>
+    </div>
+    <div class="video-slider__slide-thumb">
+      <img src="{{ site.imgbaseurl | append: include.image }}?w=290&h=215&fit=clip" alt="">
+    </div>
+    <a href="{{ videoUrl }}" class="video-card__slide-overlay" data-lity>
+      <span class="video-card__slide-play"></span>  
+    </a>
+  </div>
+  <div class="video-slider__slide-footer">
+    <div class="video-slider__slide-footer-title">{{ include.title }}</div>
+    <a href="{{ videoUrl }}" class="video-card__slide-video-link" data-lity>Click to Enlarge</a>
+    {% if include.link %}
+      <div>
+        {% if include.link contains 'http' %}
+          {% assign url = include.link %}
+        {% else %}
+          {% assign url = include.link | relative_url %}
+        {% endif %}
+        <a href="{{ url }}" class="video-card__slide-project-link">{{ include.label }}</a>
+      </div>
+    {% endif %}
+  </div>
+</div>

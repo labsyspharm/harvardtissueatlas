@@ -14,7 +14,7 @@ date: 2022-06-01
 minerva_link:
 dataset_link: /atlas-datasets/wu-temko-maliga-2022/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/36419822/
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---
