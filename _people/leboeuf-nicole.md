@@ -1,8 +1,8 @@
 ---
-name: Nicole LeBoeuf, MD MPH
+name: Nicole LeBoeuf, MD, MPH
 positions:
-  - Division Chief of Oncodermatology, Dana-Farber Brigham Cancer Center
-  - Director, Center for Cutaneous Oncology, Dana-Farber Brigham Cancer Center
+  - Chief, Division of Oncodermatology, Brigham and Women's Hospital
+  - Vice Chair of Dermatology, Dana-Farber Cancer Institute
 
 photo: people/leboeuf-nicole.jpg
 
