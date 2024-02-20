@@ -1,5 +1,5 @@
 ---
-date: 0003-01-01
+date: 0005-01-01
 name: Tuberculosis Granuloma Atlas
 summary: The Tuberculosis Granuloma Atlas aims to transform our understanding of TB granulomas by using spatially resolved profiling methods that reveal bacterial, lung and immune cell organization, states, and communication within granulomas of different types.
 dataset: tuberculosis-granuloma

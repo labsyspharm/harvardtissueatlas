@@ -1,5 +1,5 @@
 ---
-date: 0002-01-01
+date: 0003-01-01
 name: Melanoma Pre-Cancer and Progression Atlas
 summary: Melanoma is a highly immunogenic type of cancer treatable with minor surgery when localized to superficial layers of the skin but potentially lethal when it invades deep into the dermis and metastasizes. The Melanoma Pre-Cancer and Progression Atlas aims to identify the earliest molecular changes in pre-cancer and determine the sequence of events that ultimately leads to disseminated disease. This work is a component of the National Cancer Institute [Human Tumor Atlas Network (HTAN)](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/human-tumor-atlas)(a [Cancer Moonshot Initiative](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative)) and [Cancer Systems Biology Program](https://csbconsortium.org/).
 dataset: nirmal-maliga-vallius-2021
