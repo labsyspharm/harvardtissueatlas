@@ -10,7 +10,7 @@ link: self
 short-name: Liposarcoma Atlas
 ---
 
-Liposarcomas originate from precursors of fat cells are one of 250 types of sarcoma and are relatively rare, but they have few effective treatments. This is a subset of a larger, multi-PI David Liposarcoma Research Initiative from the Dana-Farber Cancer Institute, which is led by DFCI Investigator [George Demetri](https://www.dana-farber.org/find-a-doctor/george-d-demetri). The David Liposarcoma Research Initiative aims to transform the treatment of this rare, underfunded, and understudied disease. As part of this effort, the LSP is collecting highly multiplexed images of liposarcomas before and after treatment.
+Liposarcomas originate from precursors of fat cells are one of 250 types of sarcoma and are relatively rare, but they have few effective treatments. This Atlas is a subset of a larger, multi-PI David Liposarcoma Research Initiative from the Dana-Farber Cancer Institute, which is led by DFCI Investigator [George Demetri](https://www.dana-farber.org/find-a-doctor/george-d-demetri). The David Liposarcoma Research Initiative aims to transform the treatment of this rare, underfunded, and understudied disease. As part of this effort, the LSP is collecting highly multiplexed images of liposarcomas before and after treatment.
 
 ### Principal Investigators
 *  George Demetri, MD, Professor of Medicine, Harvard Medical School
