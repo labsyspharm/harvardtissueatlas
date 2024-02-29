@@ -35,7 +35,7 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
 {% endcomment %}
-{% assign publicationList = 'the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder' %}
+{% assign publicationList = 'immune-profiling-of-dermatologic-adverse-events-from-checkpoint-blockade-using-tissue-cyclic-immunofluorescence,the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder' %}
 
 {% include pub-list.html list=publicationList %}
 
