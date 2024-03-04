@@ -1,7 +1,7 @@
 ---
 title: 'Development and validation of time-to-event models to predict metastatic recurrence of localized cutaneous melanoma.'
 contributors: 'Wan G, Leung BW, DeSimone MS, Nguyen N, Rajeh A, Collier MR, Rashdan H, Roster K,...Semenov YR. (2024).'
-publication: 'J Am Acad Dermatol, 90(2):288-298.'
+publication: 'Journal of the American Academy of Dermatology, 90(2):288-298.'
 publication_link: https://doi.org/10.1016/j.jaad.2023.08.105
 
 image: publications/development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma.png
