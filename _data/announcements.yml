@@ -72,8 +72,16 @@ news_press:
     target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: "Development and validation of time-to-event models to predict metastatic recurrence of localized cutaneous melanoma"
+    author: 'Wan, Leung, et al.'
+    year: 2024
+    publication: "J Am Acad Dermatol"
+    image: publications/development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma.png
+    link: "publications#development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Qualification of a multiplexed tissue imaging assay and detection of novel patterns of HER2 heterogeneity in breast cancer"
-    author: 'Guerriero, Lin JR, et al.'
+    author: 'Guerriero, Lin, et al.'
     year: 2024
     publication: "npj Breast Cancer"
     image: publications/guerriero-lin-santagata-2023-compressed.png
@@ -125,19 +133,6 @@ publications_software:
     link2: "#"
     label2: Software  # [Publication|Software|Method]
     target2: "_self"  # [_self|_blank]
-  - title: "ASHLAR"
-    description: "A Python tool for image registration and stitching."
-    author:
-    year:
-    publication:
-    image: "software/ashlar-exemplar.png"
-    label: Publication  # [Publication|Software|Method]
-    link: https://doi.org/10.1093/bioinformatics/btac544
-    target: "_blank"  # [_self|_blank]
-    link2: "#"
-    label2: Software  # [Publication|Software|Method]
-    target2: "_self"  # [_self|_blank]
-    link2: "software#ashlar"
   - title: "MCMICRO: A multiple-choice microscopy pipeline"
     description: "An end-to-end processing pipeline for multiplexed whole tissue imaging and tissue microarrays."
     author:
