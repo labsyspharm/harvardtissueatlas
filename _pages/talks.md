@@ -9,7 +9,10 @@ layout: secondary
 # Talks
 <div class="row mb-4">
   <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="923796203" title="Multiplexed Imaging of Cell-States and Spatial Organization in Liposarcoma" description="Talk given by Shannon Coy, M.D. (Brigham and Women’s Hospital) for the 2024 David Liposarcoma Research Symposium." %}
+    {% include vimeo-card.html id="923796203" title="Image processing, visual analytics, and data sharing for whole-slide imaging" description="Talk given on March 11, 2024 by Jeremy Muhlich (Harvard Medical School) for the Computation Center for Biomedicine (CCB) Seminar Series at Harvard Medical School about image processing and analysis using the MCMICRO software pipeline." %}
+    </div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="923796203" title="Multiplexed Imaging of Cell-States and Spatial Organization in Liposarcoma" description="Talk given by Shannon Coy, M.D. (Brigham and Women’s Hospital) for the 2024 David Liposarcoma Research Symposium on March 6, 2024." %}
   </div>
   <div class="col-md-6 mb-4">
     {% include youtube-card.html id="8gWMytghieg" start="184" title="Multiplexed Tissue Imaging to Reveal the Spatial Biology of Cancer" description="During this presentation of the Cancer Moonshot Seminar Series, Sandro Santagata, M.D., Ph.D. (Brigham and Women’s Hospital) discusses multiplexed tissue imaging to reveal the spatial biology of tumors. This work is related to the Blue Ribbon Panel recommendation to generate human tumor atlases." %}
