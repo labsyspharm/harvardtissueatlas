@@ -35,7 +35,7 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
 {% endcomment %}
-{% assign publicationList = 'immune-profiling-of-dermatologic-adverse-events-from-checkpoint-blockade-using-tissue-cyclic-immunofluorescence,the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder' %}
+{% assign publicationList = 'spatialCells-automated-profiling-of-tumor-microenvironments-with-spatially-resolved-multiplexed-single-cell-data,immune-profiling-of-dermatologic-adverse-events-from-checkpoint-blockade-using-tissue-cyclic-immunofluorescence,development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma,increased-risk-of-cutaneous-immune-related-adverse-events-in-patients-treated-with-talimogene-laherparepvec-and-immune-checkpoint-inhibitors,prediction-of-early-stage-melanoma-recurrence-using-clinical-and-histopathologic-features,the-impact-of-stage-related-features-in-melanoma-recurrence-prediction,the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder' %}
 
 {% include pub-list.html list=publicationList %}
 
