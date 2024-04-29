@@ -2,7 +2,7 @@
 title: CK15 (BRCA wildtype)
 image: https://www.cycif.org/assets/img/gray-2023/CK15.jpg
 date: 2010-03-13
-minerva_link: https://s3.amazonaws.com/www.cycif.org/110-Komen_BRCA/CK15/index.html
+minerva_link: https://www.cycif.org/data/110-Komen_BRCA/CK15
 info_link: null
 show_page_link: false
 tags:
