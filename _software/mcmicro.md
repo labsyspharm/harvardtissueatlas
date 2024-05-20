@@ -2,7 +2,7 @@
 # name of the software
 title: Multiple-choice microscopy pipeline (MCMICRO)
 # summary of the tool
-description: MCMICRO is the end-to-end processing pipeline for multiplexed whole tissue imaging and tissue microarrays. It comprises stitching and registration, segmentation, and single-cell feature extraction. Each step of the pipeline is containerized to enable portable deployment across an array of compute environments, including local machines, job-scheduling clusters and cloud environments like AWS. The pipeline execution is implemented in Nextflow, a workflow language that facilitates caching of partial results, dynamic restarts, extensive logging and resource usage reports.
+description: MCMICRO is an open-source processing pipeline for multiplexed whole-tissue images and tissue microarrays. It consists of customizable modules that sequentially perform image processing and quantification steps, including stitching, registration, cell segmentation, single-cell quantification, and visualization. Each module is containerized with Docker, making it possible to deploy MCMICRO across various computing environments, including local machines, job-scheduling clusters, and cloud environments like AWS. MCMICRO is undergoing active development, and modules are regularly added and improved as part of the growing MCMICRO community.
 # thumbnail image, can be a logo too
 image: software/mcmicro-logo.svg
 
@@ -17,7 +17,7 @@ documentation: https://mcmicro.org
 video: https://vimeo.com/679368905
 
 # for sorting purpose
-date: 2022-01-01
+date: 2024-01-01
 # set the type for this item - will determine which page it appears on:
 # [ software | method ]
 type: software

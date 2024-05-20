@@ -2,7 +2,7 @@
 # name of the software
 title: Minerva
 # summary of the tool
-description: Minerva is a suite of software tools for interpreting and interacting with complex images, organized around a guided analysis approach. The software enables fast sharing of large image data that is stored on Amazon S3 and viewed using a zoomable image viewer implemented using OpenSeadragon, making it ideal for integration into multi-omic browsers for data dissemination of tissue atlases. Check out the Minerva Wiki to learn more about the software and for news.
+description: Minerva is a suite of lightweight software tools that enables interactive viewing and fast sharing of large image data. With **Minerva Author**, users can import an image and generate a multi-waypoint, annotated **Minerva Story** that walks viewers through their data. Minerva Stories are hosted on the web and viewed through a web browser (no download required!), making them ideal for sharing large-scale image data as part of tissue atlases. 
 # thumbnail image, can be a logo too
 image: software/minerva_v2.png
 
@@ -17,7 +17,7 @@ documentation: https://www.minerva.im
 video: https://vimeo.com/439974633
 
 # for sorting purpose
-date: 2021-01-01
+date: 2023-01-01
 # set the type for this item - will determine which page it appears on:
 # [ software | method ]
 type: software

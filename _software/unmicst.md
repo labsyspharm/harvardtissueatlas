@@ -3,8 +3,7 @@
 title: UnMICST
 # summary of the tool
 description: |
-    Universal Models for Identifying Cells and Segmenting Tissue Nuclei segmentation, especially for tissues, is a challenging and unsolved problem. Convolutional neural networks are particularly well-suited for this task: separating the foreground class (nuclei pixels) from the background class. UnMICST generates probability maps where the intensity at each pixel defines how confident the pixel has been correctly classified to the
-    aforementioned classes. These maps can make downstream image binarization more accurate using tools such as [s3segmenter](https://github.com/HMS-IDAC/S3segmenter). UnMICST currently uses the UNet architecture (Ronneberger et al., 2015) but Mask R-CNN and Pyramid Scene Parsing (PSP) Net are coming very soon!
+    Identifying single cells within tissue images, a process known as segmentation, is critical for single-cell analysis of imaging data. UnMICST (Universal Models for Identifying Cells and Segmenting Tissue) is a semantic segmentation method for tissue images. UnMICST uses a convolutional neural network to generate probability maps that classify whether a given pixel belongs to the foreground or background class. UnMICST was trained using images of real human tissue, including real augmentations (e.g., out-of-focus images) and nuclear envelope stains, to improve segmentation accuracy across a wide range of tissue types. The latest version of UnMICST is part of the [MCMICRO pipeline](https://mcmicro.org/).
 
 # thumbnail image, can be a logo too
 image: software/unmicst-logo_v2.png

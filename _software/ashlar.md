@@ -2,7 +2,8 @@
 # name of the software
 title: ASHLAR
 # summary of the tool
-description: ASHLAR (Alignment by Simultaneous Harmonization of Layer/Adjacency Registration) is Python tool for image registration and stitching that is more rapid and accurate than existing methods in assembling subcellular-resolution, multi-channel images up to several square centimeters in size. ASHLAR uses Bioformats software to read virtually any microscope image files and write the OME-TIFF format files.
+description: ASHLAR (Alignment by Simultaneous Harmonization of Layer/Adjacency Registration) is an open-source Python tool that combines multi-tile microscopy images into high-dimensional mosaic images. For multi-cycle imaging methods (like CyCIF), ASHLAR also aligns images from different cycles with a high level of accuracy. ASHLAR can be used with virtually any unstitched microscope image file and multiplexed imaging method.
+
 # thumbnail image, can be a logo too
 image: software/ashlar-logo_v2.png
 
