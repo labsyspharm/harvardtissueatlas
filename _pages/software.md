@@ -5,10 +5,9 @@ permalink: /software
 section_id: methods-software
 layout: software
 description: |
-    Analyzing spatially resolved data requires the development of new software. The LSP is actively engaged in a wide variety of open source software projects aimed at the analysis of highly multiplexed whole slide images. These include methods for stitching images together into seamless gigapixel mosaics, machine learning tools for interpreting imaging features, visualization tools, and rapid and intuitive interaction with image data.
+  At the [Laboratory of Systems Pharmacology](https://labsyspharm.org/), we pair innovative methods for data collection with cutting-edge computational methods and software. We are engaged in a variety of open-source software projects for the analysis, visualization, and quality control of highly multiplexed whole slide images. 
 
-    The two largest software projects in the group are MCMICRO, an end-to-end pipeline for transforming images into quantitative cell x feature data and Minerva, a suite of tools for visualization of large and complex images in a browser.
+  Our largest software projects are **MCMICRO**, an end-to-end pipeline for transforming images into quantitative single-cell feature data, and **Minerva**, a suite of lightweight tools for interactive viewing and fast sharing of multiplexed image data. Ongoing projects enable intuitive interaction with imaging data, facilitate multimodal data integration, and harness AI/ML for analyzing and interpreting image features.
+
     {: .mb-5 }
 ---
-
-
