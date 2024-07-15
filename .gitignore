@@ -17,3 +17,5 @@ Thumbs.db
 .bundle/
 vendor/
 .obsidian/
+Gemfile
+Gemfile.lock
