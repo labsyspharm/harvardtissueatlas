@@ -14,3 +14,6 @@ Desktop.ini
 Thumbs.db
 .Trashes
 .idea
+.bundle/
+vendor/
+.obsidian/
