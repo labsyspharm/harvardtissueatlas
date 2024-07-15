@@ -19,3 +19,4 @@ vendor/
 .obsidian/
 Gemfile
 Gemfile.lock
+[vendor]
