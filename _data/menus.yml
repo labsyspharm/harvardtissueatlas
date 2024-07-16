@@ -28,6 +28,10 @@ main:
       - name: "Methods"
         url: "/methods"
         target: "_self"
+        children:
+          - name: "CyCIF"
+            url: "/cycif-method"
+            target: "_self"
       - name: "Software"
         url: "/software"
         target: "_self"

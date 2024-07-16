@@ -34,6 +34,20 @@
                     </a>
                 </li>
             {%- endif -%}
+            {%- if include.content.protocol -%}
+                <li class="software-listing__link">
+                    <a href="{{ include.content.protocol }}" target="_blank">
+                        Protocol
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.dataset -%}
+                <li class="software-listing__link">
+                    <a href="{{ include.content.dataset }}" target="_blank">
+                        Dataset
+                    </a>
+                </li>
+            {%- endif -%}
             {%- if include.content.video -%}
                 <li class="software-listing__link">
                     <a href="{{ include.content.video }}" target="_blank">

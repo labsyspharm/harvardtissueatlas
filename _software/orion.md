@@ -8,13 +8,13 @@ description: |
 # thumbnail image, can be a logo too
 image: software/orion.png
 
-# link to the publication
+# links (options include publication, dataset, documentation, video, protocol, source code) to the publication
 publication: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc10368530/
 # link to associated data
-dataset_link: https://www.tissue-atlas.org/atlas-datasets/lin-chen-campton-2023/
+dataset: https://www.tissue-atlas.org/atlas-datasets/lin-chen-campton-2023/
 
 # for sorting purpose
-date: 2020-01-02
+date: 2021-01-15
 # set the type for this item - will determine which page it appears on:
 # [ software | method ]
 type: method
