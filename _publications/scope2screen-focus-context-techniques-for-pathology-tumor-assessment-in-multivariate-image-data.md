@@ -6,7 +6,7 @@ publication_link: https://pubmed.ncbi.nlm.nih.gov/34606456/
 
 image: publications/scope2screen-focus-context-techniques-for-pathology-tumor-assessment-in-multivariate-image-data.PNG
 
-group: methods
+group: other
 
 date: 2022-01-04
 

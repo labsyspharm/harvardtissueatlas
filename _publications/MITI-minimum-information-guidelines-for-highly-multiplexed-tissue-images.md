@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s41592-022-01415-4
 
 image: publications/MITI.PNG
 
-group: methods
+group: other
 
 date: 2021-08-21
 

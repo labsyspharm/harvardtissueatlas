@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/cichowski-santagata-sorger-2024.PNG
 
-group: featured
+group: other
 
 date: 2024-02-29
 

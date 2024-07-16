@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.jid.2024.01.024
 
 image: publications/immune-profiling-of-dermatologic-adverse-events-from-checkpoint-blockade-using-tissue-cyclic-immunofluorescence.png
 
-group: profiling
+group: other
 
 date: 2024-02-13
 

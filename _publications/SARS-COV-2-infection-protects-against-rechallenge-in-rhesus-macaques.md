@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1126/science.abc4776
 
 image: publications/SARS-COV-2-infection-protects-against-rechallenge-in-rhesus-macaques.PNG
 
-group: profiling
+group: other
 
 date: 2020-08-14
 

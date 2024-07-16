@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s41596-019-0206-y
 
 image: publications/Ludwig_11-Du-et-al-2019-Nature Protocols.jpg
 
-group: methods
+group: other
 
 date: 2019-01-01
 

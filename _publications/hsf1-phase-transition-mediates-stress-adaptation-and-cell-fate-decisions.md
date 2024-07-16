@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s41556-019-0458-3
 
 image: publications/Ludwig_6-Gaglia-et-al-2020-HSF1.jpg
 
-group: profiling
+group: other
 
 date: 2020-01-01
 

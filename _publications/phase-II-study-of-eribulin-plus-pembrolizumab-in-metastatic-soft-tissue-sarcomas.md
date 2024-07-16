@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1158/1078-0432.CCR-23-2250
 
 image: publications/Phase-II-study-of-eribulin-plus-pembrolizumab-in-metastatic-soft-tissue-sarcomas.png
 
-group: Profiling
+group: other
 
 date: 2024-01-18
 

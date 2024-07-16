@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1200/po.19.00287
 
 image: publications/Ludwig_7-Hemming-et-al-2020-sarcoma.jpg
 
-group: profiling
+group: other
 
 date: 2020-01-01
 

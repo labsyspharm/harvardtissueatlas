@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.jaad.2023.02.017
 
 image: publications/increased-risk-of-cutaneous-immune-related-adverse-events-in-patients-treated-with-talimogene-laherparepvec-and-immune-checkpoint-inhibitors.jpg
 
-group: profiling
+group: other
 
 date: 2023-06-01
 

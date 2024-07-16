@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s41698-022-00321-4
 
 image: publications/prediction-of-early-stage-melanoma-recurrence-using-clinical-and-histopathologic-features.jpg
 
-group: profiling
+group: other
 
 date: 2022-10-31
 

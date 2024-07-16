@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.7554/eLife.31657
 
 image: publications/highly-multiplexed-immunofluorescence-imaging-of-human-tissues-and-tumors-using-t-cycif-and-conventional-optical-microscopes.PNG
 
-group: methods
+group: other
 
 date: 2018-07-11
 

@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/micro-region-transcriptomics-of-fixed-human-tissue-using-pick-seq.PNG
 
-group: methods
+group: other
 
 date: 2021-03-19
 

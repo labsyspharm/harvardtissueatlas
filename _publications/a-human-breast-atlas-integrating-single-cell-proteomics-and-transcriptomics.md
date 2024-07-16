@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.devcel.2022.05.003
 
 image: publications/a-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.jpg
 
-group: profiling
+group: other
 
 date: 2022-01-01
 

@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.jaad.2023.02.014
 
 image: publications/influence-of-melanoma-type-on-incidence-and-downstream-implications-of-cutaneous-immune-related-adverse-events-in-the-setting-of-immune-checkpoint-inhibitor-therapy.jpg
 
-group: profiling
+group: other
 
 date: 2023-06-01
 
