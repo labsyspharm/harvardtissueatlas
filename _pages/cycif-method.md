@@ -26,14 +26,34 @@ Once the cycles of fluorescence imaging are complete, the slide can optionally b
 ### Extracting and analyzing spatial features
 The images from each **CyCIF** cycle are then assembled into a high-plex whole slide image, processed into single-cell data, and quantified for spatial features using the open-source **[MCMICRO](https://www.mcmicro.org/) pipeline**. The single-cell data can be analyzed with tools like **[SCIMAP](https://www.scimap.xyz)**, then visualized and shared with the software **[Minerva](https://www.minerva.im)**. *Visit [Software](/software) to learn more.*
 
+{% include enlarge-image.html src='graphics/cycif-mosaic-image.png' alt='Five images of 4-6 channels each are overlaid into a single mosiac image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
+
 ---
 **Please cite as:** Lin J-R, Izar B, Wang S, Yapp C, Mei S, Shah PM, Santagata S, Sorger PK. [Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes](https://doi.org/10.7554/elife.31657). Elife. 2018 Jul 11;7. PMCID: PMC6075866.
 
-**t-CyCIF Protocol**: [dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2](https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2)
+---
+
+### Getting started with CyCIF
+
+The CyCIF method does not rely on any particular equipment or reagents and can be customized to work with a variety of tissue types, microscopes, and analysis pipelines. 
+
+>**t-CyCIF Protocol**: [dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2](https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2)
+
+#### Sample preparation
+{: .mb-0 }
+Dewaxing. Briefly call out key things to keep track of when optimizing in your own laboratory (i.e., buffer, etc.).
+
+#### Antibodies
+{: .mb-0 }
+Unconjugated antibodies are okay for the first round, afterwards antibodies must be conjugated. More?
+
 
 <div class="row mb-4">
-  <div class="col-md-7 mb-4">
-    {% include vimeo-card.html id="848215164" title="t-CyCIF"%}
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="848215164" title="Overview of the t-CyCIF method"%}
+  </div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="269904895" title="Example CyCIF data from Lin et al., 2018" %}
   </div>
 </div>
 
