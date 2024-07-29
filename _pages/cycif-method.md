@@ -14,17 +14,17 @@ layout: secondary
 {% include enlarge-image.html src='graphics/cycif-workflow.png' alt='Workflow overview is described in text below.' %}
 
 ### Experimental process
-CyCIF is a multiplexed imaging method that uses cycles of staining, bleaching, and imaging to generate high-plex images. CyCIF can be applied to many sample types (*see [references](#selected-publications-using-cycif) below*). Here, we focus on using CyCIF with formalin-fixed, paraffin-embedded (FFPE) human tissue sections, known as tissue-based (t-) CyCIF.
+CyCIF is a multiplexed imaging method that uses cycles of staining, bleaching, and imaging to generate high-plex images. CyCIF can be applied to many sample types (*see [references](#selected-publications-using-cycif) below*). A major advantage of our workflow is that it can generate and analyze whole slide images (WSI). WSIs enable deep spatial analyses and provide enough statistical power to make conclusions about spatial relationships that are impossible in small fields of view. Here, we focus on using CyCIF with formalin-fixed, paraffin-embedded (FFPE) human tissue sections, known as tissue-based (t-) CyCIF.
 
 In the **t-CyCIF** method, a tissue sample is first **pre-stained** with fluorescent secondary antibodies to block any background auto-fluorescence that may be present in the tissue. The sample is then **bleached** with hydrogen peroxide to inactivate the fluorophores. Next, the sample is **stained** with 1-4 primary antibodies that target proteins or molecules of interest, paired secondary antibodies, and a nuclear stain. After a few rinses, the sample is **imaged** using a fluorescence microscope.  
 
 **Then the cycle begins again:** the sample is bleached, re-stained with new antibodies and a nuclear dye, and imaged again. 
 
-Once the cycles of fluorescence imaging are complete, the slide can optionally be stained with **hematoxylin and eosin (H&E)**, a standard stain used in the clinic for diagnosing disease, and imaged once more with a bright-field microscope. 
+Once the cycles of fluorescence imaging are complete, the slide can optionally be stained with **hematoxylin and eosin (H&E)**, a standard stain used in the clinic for diagnosing disease, then imaged once more with a bright-field microscope. 
 
 
 ### Extracting and analyzing spatial features
-The images from each **CyCIF** cycle are then assembled into a high-plex whole slide image, processed into single-cell data, and quantified for spatial features using the open-source **[MCMICRO](https://www.mcmicro.org/) pipeline**. The single-cell data can be analyzed with tools like **[SCIMAP](https://www.scimap.xyz)**, then visualized and shared with the software **[Minerva](https://www.minerva.im)**. *Visit [Software](/software) to learn more.*
+The images from each **CyCIF** cycle are then assembled into a high-plex whole slide image, processed into single-cell data, and quantified for spatial features using the open-source **[MCMICRO](https://www.mcmicro.org/) pipeline**. The single-cell data can be analyzed with tools like **[SCIMAP](https://www.scimap.xyz)**, then visualized and shared with the software **[Minerva](https://www.minerva.im)**. *Visit [Software](/software) to learn more.* 
 
 {% include enlarge-image.html src='graphics/cycif-mosaic-image.png' alt='Five images of 4-6 channels each are overlaid into a single mosiac image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
 
@@ -35,17 +35,31 @@ The images from each **CyCIF** cycle are then assembled into a high-plex whole s
 
 ### Getting started with CyCIF
 
-The CyCIF method does not rely on any particular equipment or reagents and can be customized to work with a variety of tissue types, microscopes, and analysis pipelines. 
+The CyCIF method is flexible, does not require expensive or specialized reagents, and can be customized to work with a many tissue types, microscopes, and analysis pipelines. For these reasons, CyCIF works well for exploratory experiments and for probing specific biological hypotheses.
 
->**t-CyCIF Protocol**: [dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2](https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2)
+CyCIF can be used with human and animal tissues of many origins, although denser tissues are typically more robust and can withstand a greater number of cycles. If you’re new to CyCIF, we recommend using a reference sample, like tonsil, to optimize the procedure in your laboratory. Once you’ve achieved the expected staining results with tonsil, proceed to your tissue of interest.  
 
 #### Sample preparation
 {: .mb-0 }
-Dewaxing. Briefly call out key things to keep track of when optimizing in your own laboratory (i.e., buffer, etc.).
+We primarily use CyCIF with formalin-fixed, parafin-embedded (FFPE) tissues. FFPE tissue slides must be pre-treated with a dewaxing and antigen retrieval step prior to staining. 
+{: .mb-0 }
+> _**Dewaxing protocol:**_ [dx.doi.org/10.17504/protocols.io.bji2kkge](https://dx.doi.org/10.17504/protocols.io.bji2kkge)
+
+#### Running CyCIF
+{: .mb-0 }
+Dewaxed slides can then be stained with the CyCIF protocol, below. Please note that the staining and blocking buffer can impact the performance of the nuclear stains over cycles; in some buffers, the nuclear signal will fade across cycles.  We recommend that you verify the performance of your buffer with your tissue of interest and use a consistent buffer in each experiment.
+{: .mb-0 }
+>_**t-CyCIF Protocol:**_ [dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2](https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2)
+
 
 #### Antibodies
 {: .mb-0 }
-Unconjugated antibodies are okay for the first round, afterwards antibodies must be conjugated. More?
+Most staining cycles require conjugated primary and secondary antibodies. Antibodies will remain attached to the sample after bleaching and would interfere with staining after the first cycle. However, unconjugated primary antibodies can be used during the first cycle, if desired. 
+
+> *Several points to keep in mind:*
+  - Not all fluorophores bleach as efficiently as others; AlexaFluor antibodies bleach particularly well in our experiments.
+  -	Antibodies perform differently in new tissue types or contexts and require validation. 
+  -	We have successfully used hundreds of antibodies in many different tissues. Most of our papers include an antibody list as a supplement. *Please refer to these lists for information about the specific antibodies that have worked in our laboratory.*
 
 
 <div class="row mb-4">

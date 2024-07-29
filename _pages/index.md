@@ -13,7 +13,9 @@ layout: home
 
 # Navigating Spatial Biology
 
-The Harvard Tissue Atlas (HTA) gathers together image and omic datasets into molecular maps. Our atlases bring together multiple research projects examining normal and diseased tissue from human and animal models, with an emphasis on cancer. The goal of these atlases is to describe the myriad of interactions that occur between cells and acellular structures within tissues to advance our understanding of disease initiation and progression. This will help develop a new generation of diagnostic molecular tests, which are needed for disease stratification in clinical trials and precision medicine for patients.
+The Harvard Tissue Atlas (HTA) gathers image and -omic datasets into high-resolution molecular maps. Our atlases provide precise molecular data on cell types, states, and interactions in a preserved 3D environment, shedding light on the complex interactions between cellular and acellular structures in normal and diseased tissue. These data enable a deeper understanding of how diseases start and progress to improve how diseases are diagnosed and managed. 
+
+The Harvard Tissue Atlas datasets provide a foundation for future advances in precision medicine, such as early cancer detection, AI/ML predictive models, and disease stratification for clinical trials.
 
 <a href="{{ 'about' | relative_url }}" class="arrow-button">More</a>
 
