@@ -11,7 +11,7 @@ image: software/orion.png
 # links (options include publication, dataset, documentation, video, protocol, source code) to the publication
 publication: http://www.ncbi.nlm.nih.gov/pmc/articles/pmc10368530/
 # link to associated data
-dataset: https://www.tissue-atlas.org/atlas-datasets/lin-chen-campton-2023/
+dataset: /atlas-datasets/lin-chen-campton-2023/
 
 # for sorting purpose
 date: 2021-01-15

@@ -9,6 +9,7 @@ data:
     authors: Lin JR, Izar B, Wang S, Yapp C, Mei S, Shah P, Santagata S, Sorger PK.
     journal: 'eLife. 2018 Jul 11;7:e31657. PMID: 29993362'
     links:
+      - Learn more about CyCIF: /cycif-method
       - Publication summary: http://lincs.hms.harvard.edu/lin-elife-2018/
 
   stitched mosaic images:

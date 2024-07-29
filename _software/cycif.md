@@ -11,7 +11,7 @@ image: software/cycif-thumbnail.png
 # link to the publication
 publication: https://pubmed.ncbi.nlm.nih.gov/29993362/
 # link to publication landing page
-dataset: https://www.tissue-atlas.org/atlas-datasets/lin-elife-2018/
+dataset: /atlas-datasets/lin-elife-2018/
 # link to protocol
 protocol: https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2
 documentation: /cycif-method
