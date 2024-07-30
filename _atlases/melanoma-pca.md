@@ -15,6 +15,11 @@ Melanoma is an increasingly common type of cancer that often becomes metastatic 
 
 Melanoma is noteworthy in that it can be treated both with [targeted therapy](https://www.nejm.org/doi/full/10.1056/NEJMoa1406037) (inhibitors of the RAF and MEK kinases for the ~50% cutaneous melanomas carrying BRAF mutations) and with [immunotherapy](https://www.nejm.org/doi/full/10.1056/nejmoa1302369) (inhibitors of the PD-1 and CTLA-4 checkpoint proteins). Understanding precisely why these therapies achieve longer and deeper remission in some patients than others is not only relevant to understanding targeted and immunotherapy in general, but also to improving patient care--choosing among treatment options at the level of individual patients is not always straightforward. The importance of understanding the high responsiveness of melanoma immunotherapy is increasing since many other types of solid cancer have proven to be much more resistant to immune therapy.
 
+<a href="#publications" class="button2">Publications</a>
+<a href="#narrated-minerva-stories" class="button">View Narrated Data</a>
+<a href="#curated-minerva-stories" class="button2">View Curated Data</a>
+<a href="#automated-minerva-stories" class="button">View Automated Data</a>
+
 ### Key Questions
 * What are the earliest events in the development of melanoma precursors? How might these precursors be identified diagnostically and eradicated therapeutically?
 * What are the key events in melanoma progression and why does the immune system successfully clear many pre-melanomas but fail to stop others?
@@ -38,6 +43,57 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 {% assign publicationList = 'spatialCells-automated-profiling-of-tumor-microenvironments-with-spatially-resolved-multiplexed-single-cell-data,immune-profiling-of-dermatologic-adverse-events-from-checkpoint-blockade-using-tissue-cyclic-immunofluorescence,development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma,increased-risk-of-cutaneous-immune-related-adverse-events-in-patients-treated-with-talimogene-laherparepvec-and-immune-checkpoint-inhibitors,prediction-of-early-stage-melanoma-recurrence-using-clinical-and-histopathologic-features,the-impact-of-stage-related-features-in-melanoma-recurrence-prediction,the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder' %}
 
 {% include pub-list.html list=publicationList %}
+
+## Narrated Minerva Stories
+Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.tags contains 'MEL'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% assign dataCardArray = '' | split: '' %}
+{% for n in stories %}
+  {% if n.tags contains 'narrated' %}
+    {% assign dataCardArray = dataCardArray | push: n %}
+  {% endif %}
+{% endfor %}
+
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include cards.html cards=dataCardArraySort %}
+{% endif %}
+
+## Curated Minerva Stories
+Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+
+{% assign dataCardArray = '' | split: '' %}
+{% for c in stories %}
+  {% if c.tags contains 'curated' %}
+    {% assign dataCardArray = dataCardArray | push: c %}
+  {% endif %}
+{% endfor %}
+
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include cards.html cards=dataCardArraySort %}
+{% endif %}
+
+## Automated Minerva Stories
+Automated stories provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.
+{: .mb-0 }
+ 
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% if s.tags contains 'auto' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endif %}
+{% endfor %}
+
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include cards.html cards=dataCardArraySort %}
+{% endif %}
 
 ## Data Explorations
 *Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*

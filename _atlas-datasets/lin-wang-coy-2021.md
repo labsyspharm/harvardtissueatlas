@@ -11,8 +11,7 @@ data:
     description: Advanced solid cancers are complex assemblies of tumor, immune, and stromal cells that invade adjacent tissue and spread to distant sites. Here we use highly multiplexed tissue imaging, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. We find that a thorough spatial analysis requires imaging the entire tumor region, not small fields of view (e.g. those found in tissue microarrays). When this condition is met, the data reveal frequent transitions between histological archetypes (tumor grades and morphologies) correlated with molecular gradients. At the tumor invasive margin, where tumor, normal, and immune cells compete, localized features in 2D such as tumor buds and mucin pools are seen in 3D to be large connected structures having continuously varying molecular properties. Immunosuppressive cell-cell interactions also exhibit graded variation in type and frequency. Thus, whereas scRNA-Seq emphasizes discrete changes in tumor state, whole-specimen imaging reveals the presence of large- and small-scale spatial gradients analogous to those in developing tissues.
     links:
       - Publication: https://doi.org/10.1016/j.cell.2022.12.028
-      - bioRxiv: https://doi.org/10.1101/2021.03.31.437984
-      - Dataset: https://doi.org/10.5281/zenodo.7506942
+      - Preprint: https://doi.org/10.1101/2021.03.31.437984
       - Colorectal Cancer Atlas: /atlases/colorectal-cancer
 ---
 
@@ -24,7 +23,9 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-<br>
+
+  <br>
+
 ### Key Findings:
 - Multiplexed analysis shows intermixed tumor morphologies and molecular gradients
 
@@ -36,18 +37,18 @@ data:
 
 
 {% include enlarge-image.html src='/images/publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer-graphic-abstract.png' float='center' alt='' %}
+{: .mb-0 }
+<b>Figure overview of the Colorectal Cancer Atlas dataset:</b><i> The colorectal cancer atlas contains detailed 3D analysis of one CRC tissue specimen with CyCIF, H&E, and spatial transcriptomics, whole slide imaging of 16 additional tumor samples, and tissue microarray analysis of 92 tumors.  </i>
 
-<i><b>Figure overview of the Colorectal Cancer Atlas dataset:</b> The colorectal cancer atlas contains detailed 3D analysis of one CRC tissue specimen with CyCIF, H&E, and spatial transcriptomics, whole slide imaging of 16 additional tumor samples, and tissue microarray analysis of 92 tumors.  </i>
+  <a href="#narrated-minerva-stories" class="button2">View Narrated Data</a>
+  <a href="#curated-minerva-stories" class="button2">View Curated Data</a>
+  <a href="#automated-minerva-stories" class="button2">View Automated Data</a>
+  <a href="#data-access" class="button2">Access Primary Data</a>
 
+<br>
 
-
-### Contents
-* [Data Explorations](#data-explorations)
-* [Data Overviews](#data-overviews)
-* [Data Access](#data-access)
-
-### Data Explorations
-
+## Narrated Minerva Stories
+Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'lin-wang-coy-2021/'"
@@ -55,32 +56,43 @@ data:
 %}
 
 {% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
+{% for n in stories %}
+  {% if n.tags contains 'narrated' %}
+    {% assign dataCardArray = dataCardArray | push: n %}
+  {% endif %}
 {% endfor %}
 
 {% if dataCardArray.size > 0 %}
   {% include cards.html cards=dataCardArray %}
 {% endif %}
 
-### Data Overviews
+## Curated Minerva Stories
+Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
 
-**NOTE! These Data Overviews provide access to minimally processed
-Level 2 images with no annotation or quality control. Click any of the
-following thumbnail images for an interactive view of the
-full-resolution images.**
+{% assign dataCardArray = '' | split: '' %}
+{% for c in stories %}
+  {% if c.tags contains 'curated' %}
+    {% assign dataCardArray = dataCardArray | push: c %}
+  {% endif %}
+{% endfor %}
 
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'lin-wang-coy-2021/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'overview-crc'"
-%}
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
+{% endif %}
 
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
+## Automated Minerva Stories
+Automated stories provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.
+{: .mb-0 }
+
+{% assign dataCardArray = '' | split: '' %}
+{% for s in stories %}
+  {% if s.tags contains 'auto' %}
+    {% assign dataCardArray = dataCardArray | push: s %}
+  {% endif %}
+{% endfor %}
+
+{% if dataCardArray.size > 0 %}
+  {% include cards.html cards=dataCardArray %}
 {% endif %}
 
 

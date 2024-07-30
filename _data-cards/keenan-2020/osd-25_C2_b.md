@@ -5,5 +5,10 @@ date: '2006-01-02'
 minerva_link: https://www.cycif.org/data/keenan-2020/osd-25_C2_b.html
 info_link: https://www.cycif.org/data/keenan-2020/index.html
 show_page_link: false
-tags: BRCA
+tags: 
+    - BRCA
+    - breast
+    - narrated
+    - liver
+    - met
 ---

@@ -5,5 +5,9 @@ date: '2010-01-01'
 minerva_link: https://www.cycif.org/data/mehta-2020/osd-BRCA-WT-1.html
 info_link: https://www.cycif.org/data/mehta-2020/index.html
 show_page_link: false
-tags: BRCA
+tags: 
+    - BRCA
+    - breast
+    - cycif
+    - auto
 ---

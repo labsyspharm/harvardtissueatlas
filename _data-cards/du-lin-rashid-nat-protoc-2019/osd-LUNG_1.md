@@ -5,4 +5,7 @@ date: '2002-01-01'
 minerva_link: https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_1.html
 info_link: https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/index.html
 show_page_link: false
+tags:
+    - narrated
+    - lung
 ---
