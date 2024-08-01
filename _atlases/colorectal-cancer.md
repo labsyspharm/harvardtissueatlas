@@ -1,5 +1,5 @@
 ---
-date: 0004-02-01
+date: 0003-02-01
 name: Colorectal Cancer Atlas
 summary: The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding of the complex spatial interactions that contribute to colorectal cancer. Colorectal cancers are complex assemblies of tumor, immune, and stromal cells that invade adjacent tissue and spread to distant sites. We use highly multiplexed tissue imaging, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer. This work is a component of the [Human Tumor Atlas Network](https://humantumoratlas.org/).  
 project-image: publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-2.png
@@ -23,8 +23,7 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
 
 ---
 
-## Narrated Minerva Stories
-Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.tags contains 'CRC'"
@@ -43,8 +42,8 @@ Narrated stories provide access to images with annotation, quality control, and 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Curated Minerva Stories
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+
+{% include curated-minerva-description.md %} 
 
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
@@ -58,9 +57,9 @@ Curated stories provide access to images with contextual information. Click any 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Automated Minerva Stories
-Automated stories provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.
-{: .mb-0 }
+
+
+{% include auto-minerva-description.md %} 
  
 {% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}

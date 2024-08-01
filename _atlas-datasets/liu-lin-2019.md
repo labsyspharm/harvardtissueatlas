@@ -197,15 +197,10 @@ data:
 
 <br>
 
-## Available images
-These automated Minerva stories provide access to images with no annotation. Click any of the following thumbnail images for an interactive view of the full-resolution images.
-{:.mt-0}
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'liu-lin-2019/'"
+    | where_exp: "item", "item.url contains 'liu-lin-2019'"
     | where_exp: "item", "item.hide != true"
 %}
 
-{% if stories.size > 0 %}
-  {% include cards.html cards=stories %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}

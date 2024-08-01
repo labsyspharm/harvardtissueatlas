@@ -20,14 +20,10 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
+    
+  <a href="#data-access" class="button">Primary Data Access</a>
 
-### Contents
-* [Data Overviews](#data-overviews)
-* [Data Access](#data-access)
-
-## Data overviews
-
-**Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
+<br>
 
 {%
     assign stories = site.data-cards
@@ -35,16 +31,8 @@ data:
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
+{% include minerva-story-sorting-pubs.md %}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
 
 ## Data Access
 ### About the Data Files

@@ -1,5 +1,5 @@
 ---
-title: Patient 3-1
+title: TB - MIBI - Patient 3-1
 image: https://s3.amazonaws.com/www.cycif.org/mccaffrey-2022/Patient3-1/thumbnail--default.jpg
 date: '2022-03-01'
 minerva_link: https://labsyspharm.github.io/mccaffrey-2022/Patient3-1
@@ -11,5 +11,5 @@ tags:
     - MIBI
     - overview
     - TB
-    - auto
+    - curated
 ---

@@ -9,8 +9,9 @@ redirect_from:
 data:
   publication:
     title: Qualifying antibodies for image-based immune profiling and multiplexed tissue imaging
-    authors: Du Z, Lin JR, Rashid R, Maliga Z, Wang S, Aster J, Izar B, Sorger PK, Santagata S.
+    authors: Du Z, Lin JR, Rashid R, Maliga Z, Wang S, Aster J, Izar B, Sorger PK, Santagata S
     journal: "Nat Protoc. 2019 Oct; 14(10): 2900-2930. PMID: 31534232."
+    description: Multiplexed tissue imaging enables precise, spatially resolved enumeration and characterization of cell types and states in human resection specimens. A growing number of methods applicable to formalin-fixed, paraffin-embedded (FFPE) tissue sections have been described, the majority of which rely on antibodies for antigen detection and mapping. This protocol provides step-by-step procedures for confirming the selectivity and specificity of antibodies used in fluorescence-based tissue imaging and for the construction and validation of antibody panels. Although the protocol is implemented using tissue-based cyclic immunofluorescence (t-CyCIF) as an imaging platform, these antibody-testing methods are broadly applicable. We demonstrate assembly of a 16-antibody panel for enumerating and localizing T cells and B cells, macrophages, and cells expressing immune checkpoint regulators. The protocol is accessible to individuals with experience in microscopy and immunofluorescence; some experience in computation is required for data analysis. A typical 30-antibody dataset for 20 FFPE slides can be generated within 2 weeks.
     links:
       - Raw Data: https://www.synapse.org/#!Synapse:syn17865732/wiki/592782
       - Publication: https://www.nature.com/articles/s41596-019-0206-y
@@ -51,10 +52,12 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-## Available images
-{:.mt-5}
+<br>
 
-{% include atlas-dataset-cards.html
-    sectionId=sectionId
-    pubData=page.data
-    thumbnailDir=sectionId %}
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'du-lin-rashid-nat-protoc-2019'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% include minerva-story-sorting-pubs.md %}

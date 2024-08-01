@@ -39,25 +39,12 @@ data:
 
 <br>
 
-## Curated Minerva Stories
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
-
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'gray-rosenbluth-selfors-2022/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'cycif'"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for c in stories %}
-  {% if c.tags contains 'curated' %}
-    {% assign dataCardArray = dataCardArray | push: c %}
-  {% endif %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}
 
 

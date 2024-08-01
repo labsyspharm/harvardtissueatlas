@@ -17,8 +17,7 @@ wide_container: false
 <a href="#automated-minerva-stories" class="button">View Automated Data</a>
 
  
-## Narrated Minerva Stories
-Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{% include narrated-minerva-description.md %} 
 {%
     assign narrated = site.data-cards
     | where_exp: "item", "item.hide != true"
@@ -40,8 +39,8 @@ Narrated stories provide access to images with annotation, quality control, and 
   <a href="#narrated-minerva-stories" class="button">Back to Narrated Data</a>
   <a href="#automated-minerva-stories" class="button2">To Automated Data</a>
 
-## Curated Minerva Stories
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{% include curated-minerva-description.md %} 
+
 {%
     assign curated = site.data-cards
     | where_exp: "item", "item.hide != true"
@@ -63,9 +62,8 @@ Curated stories provide access to images with contextual information. Click any 
   <a href="#narrated-minerva-stories" class="button">Back to Narrated Data</a>
   <a href="#curated-minerva-stories" class="button2">Back to Curated Data</a>
 
-## Automated Minerva Stories
-Automated stories provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.
-{: .mb-0 }
+{% include auto-minerva-description.md %} 
+
 {%
     assign automated = site.data-cards
     | where_exp: "item", "item.hide != true"

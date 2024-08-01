@@ -27,9 +27,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
   </div>
 </div>
 
-
-## Narrated Minerva Stories
-Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.tags contains 'TB'"
@@ -48,8 +46,21 @@ Narrated stories provide access to images with annotation, quality control, and 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Curated Minerva Stories
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+
+
+{% assign dataCardArray = '' | split: '' %}
+{% for c in stories %}
+  {% if c.tags contains 'curated' %}
+    {% assign dataCardArray = dataCardArray | push: c %}
+  {% endif %}
+{% endfor %}
+
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include curated-minerva-description.md %} 
+  {% include cards.html cards=dataCardArraySort %}
+{% endif %}
+
 
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
@@ -60,6 +71,7 @@ Curated stories provide access to images with contextual information. Click any 
 
 {% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
 {% if dataCardArraySort.size > 0 %}
+  {% include auto-minerva-description.md %} 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 

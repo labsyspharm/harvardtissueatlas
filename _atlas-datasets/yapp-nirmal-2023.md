@@ -20,15 +20,16 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
+<br>
+
 ## Contents
-  * [__Data Explorations__: MINERVA Stories summarizing key findings and data](#data-explorations)
+  * [__Data Explorations__: MINERVA Stories summarizing key findings and data](#curated-minerva-stories)
   * [__Data Access__: Instructions to access files on AWS](#data-access)
   * [__Viewing Images__: Tips for using Imaris Viewer](#viewing-images)
   * [__Contact__: Reach out with questions](#contact)
 
 
-## Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
+{% include curated-minerva-description.md %} 
 
 {%
     assign overviews = site.data-cards

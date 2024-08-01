@@ -20,7 +20,7 @@ data:
         links:
           - CyCIF image: osd-BRCA-WT-vs-BRCA1-associated-TNBC
 
-    _BRCA_-wildtype TNBC:
+    BRCA-wildtype TNBC:
       - title: _BRCA_-WT TNBC 1
         description:
         thumbnail file name: BRCA-WT-1.jpg
@@ -52,7 +52,7 @@ data:
         links:
           - CyCIF image: osd-BRCA-WT-6
 
-    _BRCA1_-associated TNBC:
+    BRCA1-associated TNBC:
       - title: _BRCA1_-associated TNBC 1
         description:
         thumbnail file name: BRCA1-associated-1.jpg

@@ -24,6 +24,7 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
+<br>
 
 ### Key Findings:
 - The Orion platform rapidly collects 18-plex immunofluorescence (IF) and diagnostic-grade H&E images from the same cells
@@ -34,16 +35,11 @@ data:
 
 - Analyzing multimodal imaging using machine learning / artificial intelligence methods reveals biomarkers not discoverable by other means
 
-{% include enlarge-image.html src='publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers.jpg' float='center' alt='' %}
+{% include enlarge-image.html src='publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers2.png' float='center' alt='' %}
+{: .mb-0 }
+**Top:** Overview of the Orion method for same-slide immunofluorescence and H&E imaging. **Bottom:** Example images of a colorectal cancer specimen from Orion, showing the multiplex immunofluorescence image (left; 5 of 18 fluorescence channels shown), the corresponding same-section H&E image (center), and the overlay of these two images (right).
 
-<i> **Top:** Overview of the Orion method for same-slide immunofluorescence and H&E imaging. **Bottom:** Example images of a colorectal cancer specimen from Orion, showing the multiplex immunofluorescence image (left; 5 of 18 fluorescence channels shown), the corresponding same-section H&E image (center), and the overlay of these two images (right). </i>
-
-### Contents
-* [Data Explorations](#data-explorations)
-* [Data Overviews](#data-overviews)
-* [Data Access](#data-access)
-
-### Data Explorations
+<br>
 
 {%
     assign stories = site.data-cards
@@ -51,33 +47,9 @@ data:
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
+{% include minerva-story-sorting-pubs.md %}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-### Data Overviews
-
-**These Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
-
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'lin-chen-campton-2023/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'overview-crc'"
-%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
 
 
 ## Data access
-
 The images in Lin, Chen, Campton et al. (2023) comprise a ~10.5 TB dataset. Visit **[doi.org/10.5281/zenodo.7637655](https://doi.org/10.5281/zenodo.7637655)** to view a table detailing where to find each file and data type. This data will eventually also be available via the NCI-sponsored repository for Human Tumor Atlas Network (HTAN; [https://humantumoratlas.org](https://humantumoratlas.org)).

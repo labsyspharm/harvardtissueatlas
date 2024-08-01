@@ -47,8 +47,7 @@ data:
 
 <br>
 
-## Narrated Minerva Stories
-Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'lin-wang-coy-2021/'"
@@ -66,8 +65,8 @@ Narrated stories provide access to images with annotation, quality control, and 
   {% include cards.html cards=dataCardArray %}
 {% endif %}
 
-## Curated Minerva Stories
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+
+{% include curated-minerva-description.md %} 
 
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
@@ -80,9 +79,8 @@ Curated stories provide access to images with contextual information. Click any 
   {% include cards.html cards=dataCardArray %}
 {% endif %}
 
-## Automated Minerva Stories
-Automated stories provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.
-{: .mb-0 }
+
+{% include auto-minerva-description.md %} 
 
 {% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}

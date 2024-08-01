@@ -1,5 +1,5 @@
 ---
-date: 0003-01-01
+date: 0001-01-01
 name: Melanoma Pre-Cancer and Progression Atlas
 summary: Melanoma is a highly immunogenic type of cancer treatable with minor surgery when localized to superficial layers of the skin but potentially lethal when it invades deep into the dermis and metastasizes. The Melanoma Pre-Cancer and Progression Atlas aims to identify the earliest molecular changes in pre-cancer and determine the sequence of events that ultimately leads to disseminated disease. This work is a component of the National Cancer Institute [Human Tumor Atlas Network (HTAN)](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/human-tumor-atlas)(a [Cancer Moonshot Initiative](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative)) and [Cancer Systems Biology Program](https://csbconsortium.org/).
 dataset: nirmal-maliga-vallius-2021
@@ -40,12 +40,12 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
 {% endcomment %}
-{% assign publicationList = 'spatialCells-automated-profiling-of-tumor-microenvironments-with-spatially-resolved-multiplexed-single-cell-data,immune-profiling-of-dermatologic-adverse-events-from-checkpoint-blockade-using-tissue-cyclic-immunofluorescence,development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma,increased-risk-of-cutaneous-immune-related-adverse-events-in-patients-treated-with-talimogene-laherparepvec-and-immune-checkpoint-inhibitors,prediction-of-early-stage-melanoma-recurrence-using-clinical-and-histopathologic-features,the-impact-of-stage-related-features-in-melanoma-recurrence-prediction,the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder' %}
+{% assign publicationList = 'the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution,evolution-of-delayed-resistance-to-immunotherapy-in-a-melanoma-responder,prediction-of-early-stage-melanoma-recurrence-using-clinical-and-histopathologic-features,the-impact-of-stage-related-features-in-melanoma-recurrence-prediction,spatialCells-automated-profiling-of-tumor-microenvironments-with-spatially-resolved-multiplexed-single-cell-data,development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma,increased-risk-of-cutaneous-immune-related-adverse-events-in-patients-treated-with-talimogene-laherparepvec-and-immune-checkpoint-inhibitors' %}
 
 {% include pub-list.html list=publicationList %}
 
-## Narrated Minerva Stories
-Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+{% include narrated-minerva-description.md %} 
+
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.tags contains 'MEL'"
@@ -64,8 +64,8 @@ Narrated stories provide access to images with annotation, quality control, and 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Curated Minerva Stories
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+
+{% include curated-minerva-description.md %} 
 
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
@@ -79,10 +79,9 @@ Curated stories provide access to images with contextual information. Click any 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Automated Minerva Stories
-Automated stories provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.
-{: .mb-0 }
- 
+
+{% include auto-minerva-description.md %} 
+
 {% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}
   {% if s.tags contains 'auto' %}
