@@ -5,7 +5,6 @@ date: 2021-02-09
 minerva_link: https://www.cycif.org/data/guerriero-lin-santagata-2024/BC03
 info_link: /atlas-datasets/guerriero-lin-santagata-2023/
 show_page_link: false
-featured: true 
 tags:
     - Gray
     - ludwig

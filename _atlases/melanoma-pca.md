@@ -3,7 +3,7 @@ date: 0001-01-01
 name: Melanoma Pre-Cancer and Progression Atlas
 summary: Melanoma is a highly immunogenic type of cancer treatable with minor surgery when localized to superficial layers of the skin but potentially lethal when it invades deep into the dermis and metastasizes. The Melanoma Pre-Cancer and Progression Atlas aims to identify the earliest molecular changes in pre-cancer and determine the sequence of events that ultimately leads to disseminated disease. This work is a component of the National Cancer Institute [Human Tumor Atlas Network (HTAN)](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/human-tumor-atlas)(a [Cancer Moonshot Initiative](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative)) and [Cancer Systems Biology Program](https://csbconsortium.org/).
 dataset: nirmal-maliga-vallius-2021
-project-image: https://labsyspharm.github.io/HTA-MELATLAS-1/images/thumbnail-MEL1-abstract.jpg
+project-image: https://www.cycif.org/assets/img/pca-2019/3_cycif.jpg
 grant: NCI Human Tumor Atlas Network U2C-CA233262, NCI U54-CA225088, and the Ludwig Cancer Research Foundation
 grant-image: funding/nci-color.png
 title: Melanoma Pre-Cancer Atlas
@@ -21,10 +21,10 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 <a href="#automated-minerva-stories" class="button">View Automated Data</a>
 
 ### Key Questions
-* What are the earliest events in the development of melanoma precursors? How might these precursors be identified diagnostically and eradicated therapeutically?
-* What are the key events in melanoma progression and why does the immune system successfully clear many pre-melanomas but fail to stop others?
-* How can we use this information to improve our ability to recognize the subset of primary melanomas that are at high risk of progression to metastatic disease?
-* What are the molecular events that allow some melanoma cells to escape therapy and survive as residual disease from which disseminated cancer can re-arise?
+* What are the earliest events that lead to melanoma? How can we detect melanoma precursors and eradicate them?
+* What are the key events in melanoma progression? Why does the immune system successfully clear many pre-melanomas but fail to stop others?
+* How can we use this information to recognize melanomas that are at high risk of progressing to metastatic disease?
+* What molecular events allow some melanoma cells to escape therapy and survive as residual disease?
 
 ### Principal Investigators
 * Genevieve Boland, MD PhD, Section Head of Melanoma/Sarcoma Surgery, Massachusetts General Hospital
@@ -44,8 +44,8 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 
 {% include pub-list.html list=publicationList %}
 
+## Narrated Minerva Stories
 {% include narrated-minerva-description.md %} 
-
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.tags contains 'MEL'"
@@ -65,8 +65,8 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 {% endif %}
 
 
+## Curated Minerva Stories
 {% include curated-minerva-description.md %} 
-
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
   {% if c.tags contains 'curated' %}
@@ -80,8 +80,8 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
 {% endif %}
 
 
+## Automated Minerva Stories
 {% include auto-minerva-description.md %} 
-
 {% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}
   {% if s.tags contains 'auto' %}

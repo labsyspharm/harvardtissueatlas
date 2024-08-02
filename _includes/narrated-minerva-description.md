@@ -1,2 +1,1 @@
-<h2>Narrated Minerva Stories </h2>
-Narrated stories provide access to images with annotation, quality control, and an accompanying narration. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+Narrated stories use multi-step narrations and annotations to walk a viewer through key features of the data. Narrated stories distill the multidisciplinary knowledge encompassed by each dataset into a single product that grounds the scientific analyses in the underlying data and metadata. Click the *Minerva story* icon for an interactive view of the full-resolution images.

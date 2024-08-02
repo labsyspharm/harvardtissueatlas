@@ -13,6 +13,7 @@ data:
       - Publication: https://doi.org/10.1016/j.cell.2022.12.028
       - Preprint: https://doi.org/10.1101/2021.03.31.437984
       - Colorectal Cancer Atlas: /atlases/colorectal-cancer
+      - Access Primary Data: /atlas-datasets/lin-wang-coy-2021#data-access
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -22,7 +23,6 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
-
 
   <br>
 
@@ -40,58 +40,16 @@ data:
 {: .mb-0 }
 <b>Figure overview of the Colorectal Cancer Atlas dataset:</b><i> The colorectal cancer atlas contains detailed 3D analysis of one CRC tissue specimen with CyCIF, H&E, and spatial transcriptomics, whole slide imaging of 16 additional tumor samples, and tissue microarray analysis of 92 tumors.  </i>
 
-  <a href="#narrated-minerva-stories" class="button2">View Narrated Data</a>
-  <a href="#curated-minerva-stories" class="button2">View Curated Data</a>
-  <a href="#automated-minerva-stories" class="button2">View Automated Data</a>
-  <a href="#data-access" class="button2">Access Primary Data</a>
-
 <br>
 
-{% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'lin-wang-coy-2021/'"
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for n in stories %}
-  {% if n.tags contains 'narrated' %}
-    {% assign dataCardArray = dataCardArray | push: n %}
-  {% endif %}
-{% endfor %}
+{% include minerva-story-sorting-pubs.md %}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-
-{% include curated-minerva-description.md %} 
-
-{% assign dataCardArray = '' | split: '' %}
-{% for c in stories %}
-  {% if c.tags contains 'curated' %}
-    {% assign dataCardArray = dataCardArray | push: c %}
-  {% endif %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-
-{% include auto-minerva-description.md %} 
-
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% if s.tags contains 'auto' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endif %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
 
 
 ## Data access

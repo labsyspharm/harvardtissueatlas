@@ -27,6 +27,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
   </div>
 </div>
 
+## Narrated Minerva Stories
 {% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
@@ -47,7 +48,8 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 {% endif %}
 
 
-
+## Curated Minerva Stories
+{% include curated-minerva-description.md %} 
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
   {% if c.tags contains 'curated' %}
@@ -57,9 +59,9 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 
 {% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
 {% if dataCardArraySort.size > 0 %}
-  {% include curated-minerva-description.md %} 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
+
 
 
 {% assign dataCardArray = '' | split: '' %}
@@ -71,6 +73,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 
 {% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
 {% if dataCardArraySort.size > 0 %}
+  <h2>Automated Minerva Stories</h2>
   {% include auto-minerva-description.md %} 
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}

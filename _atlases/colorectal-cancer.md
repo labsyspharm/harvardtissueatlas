@@ -9,9 +9,11 @@ link: self
 short-name: CRC Atlas
 ---
 
-The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding of the complex spatial interactions that contribute to colorectal cancer. Colorectal cancers are complex assemblies of tumor, immune, and stromal cells that invade adjacent tissue and spread to distant sites. We use highly multiplexed tissue imaging, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer.
+The Colorectal Cancer atlas aims to advance our understanding of the complex spatial interactions that contribute to colorectal cancer. Colorectal cancers are complex assemblies of tumor, immune, and stromal cells that invade adjacent tissue and spread to distant sites. We use highly multiplexed tissue imaging, spatial statistics, and machine learning to identify cell types and states underlying morphological features of known diagnostic and prognostic significance in colorectal cancer.
 
-
+<a href="#narrated-minerva-stories" class="button2">View Narrated Data</a>
+<a href="#curated-minerva-stories" class="button2">View Curated Data</a>
+<a href="#automated-minerva-stories" class="button2">View Automated Data</a>
 
 ## Publications
 {% comment %}
@@ -23,6 +25,7 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
 
 ---
 
+## Narrated Minerva Stories
 {% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
@@ -42,7 +45,7 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-
+## Curated Minerva Stories
 {% include curated-minerva-description.md %} 
 
 {% assign dataCardArray = '' | split: '' %}
@@ -58,7 +61,7 @@ The Harvard Tissue Atlas for Colorectal Cancer aims to advance our understanding
 {% endif %}
 
 
-
+## Automated Minerva Stories
 {% include auto-minerva-description.md %} 
  
 {% assign dataCardArray = '' | split: '' %}

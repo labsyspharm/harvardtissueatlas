@@ -113,10 +113,12 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-## Available images
-{:.mt-5}
+<br>
 
-{% include atlas-dataset-cards.html
-    sectionId=sectionId
-    pubData=page.data
-    thumbnailDir=sectionId %}
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'mehta-2020/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% include minerva-story-sorting-pubs.md %}

@@ -13,6 +13,7 @@ data:
       - Publication: https://doi.org/10.1158/2159-8290.CD-21-1357
       - bioRxiv: https://doi.org/10.1101/2021.05.23.445310
       - Melanoma atlas: /atlases/melanoma-pca
+      - Access Primary Data: /atlas-datasets/nirmal-maliga-vallius-2021#primary-data-access
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -22,8 +23,6 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
-
-  <a href="#primary-data-access" class="button">Access Primary Data</a>
 
 <br>
 

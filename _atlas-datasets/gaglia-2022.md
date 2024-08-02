@@ -12,6 +12,8 @@ data:
     links:
       - Publication: https://doi.org/10.1038/s41556-022-00860-9
       - PubMed: https://pubmed.ncbi.nlm.nih.gov/35292783/
+      - Access Primary Data: /atlas-datasets/gaglia-2022#primary-data-access
+
 ---
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}

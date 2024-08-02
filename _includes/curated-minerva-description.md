@@ -1,3 +1,2 @@
-<h2>Curated Minerva Stories  </h2>
-Curated stories provide access to images with contextual information. Click any of the following thumbnail images for an interactive view of the full-resolution images. 
+Curated stories provide access to images that have undergone a quality control step to remove failed markers, ensure appropriate channel intensity settings, and provide metadata about the underlying sample and image. Click the *Minerva story* icon for an interactive view of the full-resolution images.
 
