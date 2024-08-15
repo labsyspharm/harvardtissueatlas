@@ -12,6 +12,8 @@ data:
     links:
       - Publication: https://doi.org/10.1038/s41556-022-00860-9
       - PubMed: https://pubmed.ncbi.nlm.nih.gov/35292783/
+      - Access Primary Data: /atlas-datasets/gaglia-2022#primary-data-access
+
 ---
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
@@ -21,44 +23,22 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-
-## Contents
-* [__Data Explorations__: MINERVA Stories summarizing key findings and
-  data](#data-explorations)
-* [__Data Overviews__: MINERVA Stories showing individual H&E and CyCIF
-  images](#data-overviews)
-* [__Primary Data Access__: List of available data files](#primary-data-access)
-
-
-## Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
+<br>
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'gaglia-2022/'"
+    | where_exp: "item", "item.url contains 'gaglia-2022'"
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
+{% include minerva-story-sorting-pubs.md %}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-## Data Overviews
-
-The multiplexed T-CyCIF images can be viewed on [Omero](https://omero.hms.harvard.edu/webclient/?show=project-8863)
 
 ## Analysis
-
 Image analysis matlab codes can be found at [www.github.com/santagatalab/manuscripts-codes-gaglia-kabraji-2021](www.github.com/santagatalab/manuscripts-codes-gaglia-kabraji-2021)    
 
 ## Primary Data Access
+You can vew the multiplexed t-CyCIF images on [Omero](https://omero.hms.harvard.edu/webclient/?show=project-8863).
 
 <details>
     <summary>Download the primary data</summary>

@@ -6,4 +6,6 @@ minerva_link: https://s3.amazonaws.com/www.cycif.org/cichowski-santagata-sorger-
 show_page_link: false
 info_link: https://s3.amazonaws.com/www.cycif.org/cichowski-santagata-sorger-2024
 featured: false
+tags:
+    - narrated
 ---

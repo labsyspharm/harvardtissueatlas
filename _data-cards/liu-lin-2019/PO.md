@@ -1,9 +1,14 @@
 ---
-title: Liu et al, 2019 - PO
+title: Longitudinal study of metastatic melanoma - Day 92 - Skin, left neck (T20)
 image: https://www.cycif.org/assets/img/liu-lin-2019/PO.jpg
-date: '2009-02-01'
+date: '2019-02-01'
 minerva_link: https://www.cycif.org/data/liu-lin-2019/PO.html
-info_link: https://www.cycif.org/data/liu-lin-2019/index.html
+info_link: /atlas-datasets/liu-lin-2019
 show_page_link: false
-tag: MEL
+tags: 
+    - MEL
+    - melanoma
+    - met
+    - cycif
+    - curated
 ---

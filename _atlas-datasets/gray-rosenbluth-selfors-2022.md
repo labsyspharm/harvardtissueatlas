@@ -13,6 +13,7 @@ data:
       - Publication: https://doi.org/10.1016/j.devcel.2022.05.003
       - Sequencing: https://singlecell.broadinstitute.org/single_cell/study/SCP1731/a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics
       - CyTOF: https://data.mendeley.com/datasets/pcftzv8w63/1
+      - Gray BRCA Atlas: https://www.graybrcaatlas.org/
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -23,12 +24,7 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-
-## Contents
-* [Key Findings](#key-findings)
-* [Data Stories](#data-stories)
-* [Explore Tissue Images](#explore-tissue-images)
-
+<br>
 
 ### Key Findings
   - Multimodal single-cell analyses identify breast epithelial and stromal subtypes
@@ -39,39 +35,16 @@ data:
 
   - Subtypes of the three major epithelial lineages are maintained in organoid cultures
 
-{% include enlarge-image.html src='publications/a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.jpg' float='center' alt='Highlighted epithelial cell subtypes: 1. Young nulliparous (AP2:  Proliferative alveolar progenitors), 2. Aging associated (BL: Basal-luminal alveolar cells and BA1: Contractile ductal myoepithelial cells), 3. BRCA2 mutation associated (HS1 - ER-active hormone-sensing luminal cells), and 4. Parity associated (AP1: Parity-associated alveolar progenitors)' %}
+{% include enlarge-image.html src='/images/publications/a-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.jpg' float='center' alt='Highlighted epithelial cell subtypes: 1. Young nulliparous (AP2:  Proliferative alveolar progenitors), 2. Aging associated (BL: Basal-luminal alveolar cells and BA1: Contractile ductal myoepithelial cells), 3. BRCA2 mutation associated (HS1 - ER-active hormone-sensing luminal cells), and 4. Parity associated (AP1: Parity-associated alveolar progenitors)' %}
 
-### Data Stories
-Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
-
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfors-2022/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'Overview'"
-%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
-
-### Explore Tissue Images
-Access the minimally processed, unannotated Level 2 images associated with this publication. Click any of the following thumbnail images for an interactive view of the full-resolution images.
+<br>
 
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'gray-rosenbluth-selfors-2022/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'CyCIF'"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
+{% include minerva-story-sorting-pubs.md %}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
+

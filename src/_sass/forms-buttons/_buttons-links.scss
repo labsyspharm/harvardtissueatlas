@@ -20,6 +20,26 @@
     }
 }
 
+.button2 {
+    display:inline-block;
+    color:$color_white;
+    background:$color_dark-blue;
+    text-transform:uppercase;
+    text-decoration:none;
+    border:2px solid $color_dark-blue;
+    padding:7px 14px 7px 14px;
+    transition:all 0.2s $ease-out-quad;
+    &:hover {
+        text-decoration:none;
+    }
+
+    &:hover {
+        background:$color_white;
+        color:$color_dark-blue;
+        border:2px solid $color_dark-blue;
+    }
+}
+
 .arrow-button {
     display:inline-block;
     color:$color_dark-blue;

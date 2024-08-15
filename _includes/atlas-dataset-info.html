@@ -14,8 +14,7 @@
 
     {% for link_hash in include.pubData.publication.links %}
         {% for link in link_hash %}
-        <a class="m-1" href="{{ link[1] }}" {% if link[1] contains 'http' %} target="_blank" {% endif %}>{{ link[0] }}</a> 
+        <a class="button2" href="{{ link[1] }}" {% if link[1] contains 'http' %} target="_blank" {% endif %}>{{ link[0] }}</a> 
         {% endfor %}
-        {% if forloop.last == false %} | {% endif %}
     {% endfor %}
 </section>

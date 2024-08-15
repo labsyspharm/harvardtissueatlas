@@ -8,8 +8,10 @@ data:
     title: Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes
     authors: Lin JR, Izar B, Wang S, Yapp C, Mei S, Shah P, Santagata S, Sorger PK.
     journal: 'eLife. 2018 Jul 11;7:e31657. PMID: 29993362'
+    description: The architecture of normal and diseased tissues strongly influences the development and progression of disease as well as responsiveness and resistance to therapy. We describe a tissue-based cyclic immunofluorescence (t-CyCIF) method for highly multiplexed immuno-fluorescence imaging of formalin-fixed, paraffin-embedded (FFPE) specimens mounted on glass slides, the most widely used specimens for histopathological diagnosis of cancer and other diseases. t-CyCIF generates up to 60-plex images using an iterative process (a cycle) in which conventional low-plex fluorescence images are repeatedly collected from the same sample and then assembled into a high-dimensional representation. t-CyCIF requires no specialized instruments or reagents and is compatible with super-resolution imaging; we demonstrate its application to quantifying signal transduction cascades, tumor antigens and immune markers in diverse tissues and tumors. The simplicity and adaptability of t-CyCIF makes it an effective method for pre-clinical and clinical research and a natural complement to single-cell genomics.
     links:
-      - Publication summary: http://lincs.hms.harvard.edu/lin-elife-2018/
+      - Publication: https://doi.org/10.7554/eLife.31657
+      - Primary data access: http://lincs.hms.harvard.edu/lin-elife-2018/
 
   stitched mosaic images:
     - title: Figure 2
@@ -48,10 +50,12 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-## Available images
-{:.mt-5}
+<br>
 
-{% include atlas-dataset-cards.html
-    sectionId=sectionId
-    pubData=page.data
-    thumbnailDir=sectionId %}
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'lin-elife-2018/'"
+    | where_exp: "item", "item.hide != false"
+%}
+
+{% include minerva-story-sorting-pubs.md %}
