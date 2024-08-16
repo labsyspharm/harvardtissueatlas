@@ -22,7 +22,7 @@ In the **t-CyCIF** method, a tissue sample is first **pre-stained** with fluores
 
 **Then the cycle begins again:** the sample is bleached, re-stained with new antibodies and a nuclear dye, and imaged again. 
 
-Once the cycles of fluorescence imaging are complete, the slide can optionally be stained with **hematoxylin and eosin (H&E)**, a standard stain used in the clinic for diagnosing disease, then imaged once more with a bright-field microscope. 
+Once the cycles of fluorescence imaging are complete, the slide can optionally be stained with **hematoxylin and eosin (H&E)**, a standard stain used in the clinic for diagnosing disease. The slide is then imaged once more with a bright-field microscope. 
 
 
 ### Extracting and analyzing spatial features
@@ -31,7 +31,10 @@ The images from each **CyCIF** cycle are then assembled into a high-plex whole s
 {% include enlarge-image.html src='graphics/cycif-mosaic-image.png' alt='Five images of 4-6 channels each are overlaid into a single mosaic image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
 
 ---
-**Please cite as:** Lin J-R, Izar B, Wang S, Yapp C, Mei S, Shah PM, Santagata S, Sorger PK. [Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes](https://doi.org/10.7554/elife.31657). Elife. 2018 Jul 11;7. PMCID: PMC6075866.
+### How to cite CyCIF
+
+**If you use the CyCIF method, please reference:**  
+Lin J-R, Izar B, Wang S, Yapp C, Mei S, Shah PM, Santagata S, Sorger PK. [Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes](https://doi.org/10.7554/elife.31657). Elife. 2018 Jul 11;7. PMCID: PMC6075866.
 
 ---
 
@@ -57,7 +60,7 @@ CyCIF can be used with human and animal tissues of many origins, although denser
 - **Background autofluorescence tends to fade across cycles**  
   - We recommend using higher signal antibodies in early cycles and lower signal antibodies in later ones.  
 
-We have successfully used hundreds of antibodies in many different tissues and include an antibody list as a supplementary file in most of our papers. Please refer to these files for more information about the specific antibodies that have worked in our laboratory. Keep in mind that antibodies perform differently in different experimental conditions and require validation.
+We have successfully used hundreds of antibodies in many different tissues and include an antibody list as a supplementary file in most of our papers. Please refer to these files for more information about the specific antibodies that have worked in our laboratories. Keep in mind that antibodies perform differently in different experimental conditions and require validation.
 
 <div class="row mb-4">
   <div class="col-md-6 mb-4">
@@ -91,7 +94,7 @@ We have successfully used hundreds of antibodies in many different tissues and i
   - *Establishes a set of CyCIF-compatible antibodies that have been rigorously compared to the clinical immunohistochemistry standard antibodies. Uses this set to assess heterogeneity in human breast cancer specimens.*
 
 - **[Sequential apoptotic and multiplexed proteomic evaluation of single cancer cells](https://doi.org/10.1126/sciadv.adg4128)**, *Science Advances*, 2023 
-  - *CyCIF imaging of fixed *in vitro* cells after BH3 profiling.*
+  - *CyCIF imaging of fixed in vitro cells after BH3 profiling.*
 
 - **[Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method](https://doi.org/10.1038/ncomms9390)**, *Nature Communications*, 2015 
   - *Describes a CyCIF method for plated, cultured cells (p-CyCIF).* 
