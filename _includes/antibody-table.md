@@ -28,7 +28,5 @@
 | Lung-1-LN: Lung adenocarcinoma metastasis to lymph node | Lung | Human | CyCIF | [Here](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_1#s=0) | CD45, IBA1, Keratin, α-SMA, CD20, CD4, CD8a, CD163, CD11b, CD68, CD14,  |
 | Lung-2-BR: Lung squamous cell carcinoma metastasis to brain | Lung | Human | CyCIF | [Here](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_2#s=0) | CD45, IBA1, Keratin, α-SMA, CD20, CD4, CD8a, CD163, CD11b, CD68, CD14,  |
 | Lung-3-PR: Primary lung squamous cell carcinoma | Lung | Human | CyCIF | [Here](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3#s=0) | Keratin, α-SMA, CD45, IBA1, PD-L1, CD3d, CD20, CD4, FOXP3, CD8a, PD1, LAG3, CD163, CD68, CD11b, CD14 |
-| TOPACIO Responder | Ovarian  | Human | CyCIF |  |  |
-| TOPACIO Non-responder | Ovarian  | Human | CyCIF |  |  |
 
 </div>

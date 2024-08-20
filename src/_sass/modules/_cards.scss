@@ -33,9 +33,9 @@
   overflow: auto; // prevent margin collapse
 }
 .cards__heading {
-  @extend %heading-style-1;
+  @extend %heading-style-2;
   color: $color_dark-blue;
-  margin:0 0 .5em;
+  margin:0 0 0;
 }
 .cards__content-wrap {
   @extend %container-wide;

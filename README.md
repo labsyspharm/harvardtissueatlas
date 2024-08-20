@@ -100,7 +100,7 @@ Below is information about the front matter options for each of the site's colle
 - **view_data_link** - Link to an associated data page (displays a 'View Data' button)
 - **info_link** - Link to the associated (off-site) info page
 - **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
-- **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file.
+- **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file. For stories: auto, curated, narrated
 
 
 ### funding ###

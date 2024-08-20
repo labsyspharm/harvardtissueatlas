@@ -8,7 +8,7 @@ image: publications/the-spatial-landscape-of-progression-and-immunoediting-in-pr
 
 group: featured
 
-date: 2022-06-01
+date: 2024-06-01
 
 minerva_link:
 dataset_link: /atlas-datasets/nirmal-maliga-vallius-2021/
@@ -16,4 +16,6 @@ pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35404441/
 preprint_link: https://doi.org/10.1101/2021.05.23.445310
 pdf_link:
 show_page_link: false
+tags:
+    - MEL
 ---

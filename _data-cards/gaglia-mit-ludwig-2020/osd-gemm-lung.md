@@ -6,4 +6,9 @@ minerva_link: https://www.cycif.org/data/gaglia-mit-ludwig-2020/osd-gemm-lung.ht
 info_link: https://www.cycif.org/data/gaglia-mit-ludwig-2020/index.html
 show_page_link: false
 featured: false
+tags:
+    - narrated
+    - mouse
+    - cycif
+    - lung
 ---

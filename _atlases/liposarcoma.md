@@ -1,5 +1,5 @@
 ---
-date: 0007-01-01
+date: 0006-01-01
 name: David Liposarcoma Research Initiative
 summary: Liposarcomas originate from precursors of fat cells are one of 250 types of sarcoma and are relatively rare, but they have few effective treatments. The David Liposarcoma Research Collaboration is led by DFCI Investigator [George Demetri](https://ludwigcenter.hms.harvard.edu/george-d-demetri-md) and aims to transform the treatment of this rare, underfunded, and understudied disease. As part of this effort, the LSP is collecting highly multiplexed images of liposarcomas before and after treatment.
 project-image: graphics/liposarcoma-atlas.png

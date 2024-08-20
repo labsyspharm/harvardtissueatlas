@@ -1,9 +1,14 @@
 ---
-title: Liu et al, 2019 - PB
+title: Longitudinal study of metastatic melanoma - Day 39 - Skin, right scalp (T9)
 image: https://www.cycif.org/assets/img/liu-lin-2019/PB.jpg
-date: '2009-01-22'
+date: '2019-01-22'
 minerva_link: https://www.cycif.org/data/liu-lin-2019/PB.html
-info_link: https://www.cycif.org/data/liu-lin-2019/index.html
+info_link: /atlas-datasets/liu-lin-2019
 show_page_link: false
-tag: MEL
+tags: 
+    - MEL
+    - melanoma
+    - met
+    - cycif
+    - curated
 ---

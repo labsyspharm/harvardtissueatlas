@@ -12,6 +12,8 @@ data:
     links:
       - Publication: https://doi.org/10.1158/2159-8290.CD-21-1357
       - bioRxiv: https://doi.org/10.1101/2021.05.23.445310
+      - Melanoma atlas: /atlases/melanoma-pca
+      - Access Primary Data: /atlas-datasets/nirmal-maliga-vallius-2021#primary-data-access
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -22,37 +24,12 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-The dataset associated with "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution" contains images and other data being used for
-construction of an atlas of human melanoma under the auspices of the
-[Human Tumor Atlas Network](https://humantumoratlas.org/). Advanced solid
-cancers are complex assemblies of tumor, immune, and stromal cells that invade
-adjacent tissue and spread to distant sites. We use highly multiplexed tissue
-imaging, spatial statistics, and machine learning to identify cell types and
-states underlying morphological features of known diagnostic and prognostic
-significance in melanoma. This includes the tumor invasive margin,
-where tumor, normal, and immune cells compete and were diverse immunosuppressive
-environments are found.
+<br>
 
-## Contents
-* [__Data Explorations__: MINERVA Stories summarizing key findings and data](#data-explorations)
-* [__Data Overviews__: MINERVA Stories showing individual H&E and CyCIF images](#data-overviews)
-* [__Primary Data Access__: List of available data files](#primary-data-access)
+{% include enlarge-image.html src='/images/publications/the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution-full.png' float='center' alt='Axis of progression for melanoma. Regions of normal skin transition into precursor regions, then melanoma in situ, and eventually to invasive melanoma.' %}
+{: .mb-0 }
 
-
-## Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
-
-The images in Nirmal et al. (2021) comprise a ~2.3 TB dataset with some images as
-large as 1 gigapixel. With MINERVA, users can pan
-around and magnify areas of an image and switch between channels. MINERVA does
-not require the installation of any software and is therefore secure; browsing
-is also anonymous. Users interested in the tool are welcome to explore the
-[documentation](https://www.minerva.im/), the
-[software publication](https://joss.theoj.org/papers/10.21105/joss.02579), and a
-description of [digital
-docents](https://www.biorxiv.org/content/10.1101/2020.03.27.001834v2) in
-general.
-
+<br>
 
 {%
     assign stories = site.data-cards
@@ -60,31 +37,7 @@ general.
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-## Data Overviews
-
-**Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
-
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'nirmal-maliga-vallius-2021/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.url contains '-overview'"
-%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}
 
 
 ## Primary Data Access
