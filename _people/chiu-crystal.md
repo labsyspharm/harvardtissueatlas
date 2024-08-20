@@ -1,9 +1,9 @@
 ---
-name: Sabrina Chan, BS
+name: Crystal Chiu, BS
 positions:
   - Clinical Research Coordinator, Laboratory of Systems Pharmacology
 
-photo: people/chan-sabrina.jpg
+photo: people/chiu-crystal.jpg
 
-group: alumni
+group: staff
 ---
