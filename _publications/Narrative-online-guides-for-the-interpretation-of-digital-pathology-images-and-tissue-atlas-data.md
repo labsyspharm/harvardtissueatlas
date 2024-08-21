@@ -6,7 +6,7 @@ publication_link: https://pubmed.ncbi.nlm.nih.gov/34750536/
 
 image: publications/online-narrative-guides-for-illuminating-tissue-atlas-data-and-digital-pathology-images.PNG
 
-group: methods
+group: other
 
 date: 2022-05-30
 

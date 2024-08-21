@@ -5,7 +5,7 @@ publication: 'Nature Immunology, 23(2):318–329.'
 publication_link: https://doi.org/10.1038/s41590-021-01121-x
 image: publications/the-immunoregulatory-landscape-of-human-tuberculosis-granuloma.png
 
-group: profiling
+group: other
 
 date: 2022-01-01
 

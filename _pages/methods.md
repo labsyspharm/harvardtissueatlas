@@ -6,7 +6,10 @@ section_id: methods-software
 layout: methods
 
 description: |
-    We development experimental methods to investigate molecular states of each cell in its original spatial context.
+    We develop high-plex quantitative methods that provide subcellular spatial data about the complex biological interactions occurring within tissues. Our methods enable next-generation breakthroughs in precision medicine, such as AI-assisted predictive models, early detection of cancer, and targeted approaches to treating disease.  
+     {: .mb-2 }
+    
+    Much of our work relies on the cyclic immunofluorescence (CyCIF) method, which generates high-plex tissue images using multiple cycles of staining, imaging, and bleaching. More recently, we developed the Orion method, which collects rapid, one-shot 18-channel immunofluorescence images and clinical-grade H&E images of the same slide.  
     {: .mb-5 }
 ---
 

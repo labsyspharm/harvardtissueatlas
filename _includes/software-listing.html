@@ -13,6 +13,13 @@
             {{ include.content.description | markdownify }}
         </div>
         <ul class="software-listing__links">
+            {%- if include.content.learn -%}
+            <li class="software-listing__link">
+                <a href="{{ include.content.learn }}" target="_blank">
+                    Learn More
+                </a>
+            </li>
+            {%- endif -%}
             {%- if include.content.publication -%}
                 <li class="software-listing__link">
                     <a href="{{ include.content.publication }}" target="_blank">
@@ -30,7 +37,21 @@
             {%- if include.content.documentation -%}
                 <li class="software-listing__link">
                     <a href="{{ include.content.documentation }}" target="_blank">
-                        Project site
+                        Website
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.protocol -%}
+                <li class="software-listing__link">
+                    <a href="{{ include.content.protocol }}" target="_blank">
+                        Protocol
+                    </a>
+                </li>
+            {%- endif -%}
+            {%- if include.content.dataset -%}
+                <li class="software-listing__link">
+                    <a href="{{ include.content.dataset }}" target="_blank">
+                        Dataset
                     </a>
                 </li>
             {%- endif -%}

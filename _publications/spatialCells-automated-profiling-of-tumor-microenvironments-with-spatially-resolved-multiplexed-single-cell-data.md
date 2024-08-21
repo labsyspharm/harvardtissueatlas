@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1093/bib/bbae189
 
 image: publications/spatialcells-automated-profiling-of-tumor-microenvironments-with-spatially-resolved-multiplexed-single-cell-data.jpg
 
-group: profiling
+group: other
 
 date: 2023-11-14
 

@@ -8,6 +8,7 @@ The site (as currently stands) is comprised of 6 Collections:
 - **pages** - These provide the content for the top-level pages of the website.  Pages are gathered within the collection for organizational purposes, so that the source files are not left 'loose' at the root of the site.
 - **data-cards** - These entries provide the source content for the items in the *Data* section of the website, as well as the *Featured Data* module on the homepage.
 - **atlases** - These provide the content for the *Atlases* section of the website.
+- **software** - these provide content for the small blurbs on the software and methods pages
 - **publications** - These provide the content for the *Publications* section of the website. At a minimum, entries should contain front matter that can be used to populate the publication list on the Publications landing page.  They can also contain body content, which can then be displayed as a standalone summary page for the publication.
 - **people** - These entries provide the source content for the items in the *People* section of the website.  No standalone pages are build for these items, but body content is displayed within the People landing page list.
 - **graphics** - These entries are used whenever a graphic with captioning needs to be displayed.  Each item in the graphics collection has a title assigned, an image, and then body copy which can be marked up as needed, and will then be rendered out within a `<figure>` / `<figcaption>` HTML structure.
@@ -89,19 +90,38 @@ Below is information about the front matter options for each of the site's colle
 - **wide_container** (boolean) - If used, specifies whether to render the content in a wider content container.
 
 ### data-cards ###
-- **title** - The title of the dataset entry
+- **title** - The title of the dataset entry (will display on the card - very long names make the card bigger)
 - **image** - Path to the image used for the dataset card.  Images should be placed in the *images/data-cards* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'data-cards/my-image.jpg').  Sizing will be automatically applied.
 - **date** - Date representing when the dataset was posted.  Can be adjusted as needed to move the entry higher or lower in its display order (newer items are listed first in the dataset lists)
+- **hide:** If *false* will hide the card from site
 - **featured** (boolean) - If *true*, will display this entry on the homepage
-- **minerva_link** - Link to the associated Minerva page
+- **minerva_link** - Link to the associated Minerva page (with Minerva Story icon)
+- **info_link** - Link to the associated 'Atlas Dataset' publication page 
+
 - **broad_portal_link** - Link to the associated Broad Single Cell Portal page
 - **cbio_portal_link** - Link to the associated cBioPortal page
 - **cellxgene_link** - Link to the associated cellxgene page
 - **view_data_link** - Link to an associated data page (displays a 'View Data' button)
-- **info_link** - Link to the associated (off-site) info page
 - **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
-- **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file. For stories: auto, curated, narrated
 
+- **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file. 
+    - **Disease/Tissue type** (breast, MEL, melanoma, lung, STIC, GBM, BRCA, CRC, TB, met, TMA, gatesfoundation, MIBI, orion, heart)
+    - **Story type** (narrated, auto, curated)
+    - **Assay** (cycif, 3d-cycif, MIBI, orion)
+    - **Funder** (Gray, gatesfoundation, ludwig)
+    - **Species** (human, mouse)
+
+### software and methods ###
+- **title** - The title of the software or method entry (will display at top of the list entry)
+- **image** - Path to the image used for the dataset card.  Images should be placed in the *images/software* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'data-cards/my-image.jpg').  Sizing will be automatically applied.
+- **date** - Date representing when the dataset was posted.  Can be adjusted as needed to move the entry 
+#### LINKS ### - options include learn, publication, source code, documentation, protocol, dataset, video
+learn: A page to learn more. If used, this will display as the first button
+publication: DOI
+source code: link to GitHub repo
+documentation: stand-a-lone documentation
+dataset: atlas dataset page if applicable
+protocol: published protocol ppaer or protocols.io link
 
 ### funding ###
 - **date** - Used to assist with content ordering on the page (will not be displayed to end users)
@@ -131,6 +151,7 @@ Below is information about the front matter options for each of the site's colle
 
 
 ### publications ###
+*The information that shows up on the publication card*
 - **title** - The title of the article
 - **contributors** - Contributors to the article -- will be displayed on the Publications landing page
 - **publication** - Name of the publication
@@ -144,6 +165,28 @@ Below is information about the front matter options for each of the site's colle
 - **preprint_link** - Link to the associated Preprint page
 - **pdf_link** - Link to an associated PDF file.  Note that the file can either be uploaded to the site -- in which case it should be placed in the *downloads* directory, and referenced via its path INCLUDING the directory name, eg. `downloads/my-file.pdf` -- or, a URL can be used here, pointing to a third-party location where the file can be accessed.
 - **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page.  Content within the body of the entry will be displayed on this summary page.
+- **tags:** (array) List of tags that can be used to filter on when using the *pub-list.html* include file. 
+    - Options: breast, MEL, melanoma, cycif, lung, Gray, STIC, GBM, BRCA, ludwig, CRC, TB, met, TMA, gatesfoundation, MIBI, orion, heart
+
+### Atlas Dataset ###
+*The dataset associated with a publication*
+---
+layout: secondary
+title: Data
+section_id: data
+
+data:
+  publication:
+    title: Title of article
+    authors: Lasta AA, Lastb BB, Doe, J
+    journal: 'Journal name (YYYY)'
+    description: *The abstract of the paper*
+    links:
+      - Publication: https://doi.org/10.1038/s43018-023-00576-1
+      - Access Primary Data: /atlas-datasets/lin-chen-campton-2023#data-access
+      - Colorectal Cancer Atlas: /atlases/colorectal-cancer
+      - The link description of your dreams: internal page or external URL
+---
 
 ### people ###
 - **name** - The name of the individual.
@@ -181,9 +224,12 @@ Collection data is generally displayed within corresponding sections of the site
     ```
     ***Or**, array of publications:*
     ```
-    {% assign publicationArray = site.publications %}
-    
-    {% include pub-list.html publications=publicationArray %}
+    {% assign publicationList = site.publications
+        | where_exp: "item", "item.tags contains 'breast'"
+        | where_exp: "item", "item.hide != true"
+    %}
+
+    {% include pub-list.html publications=publicationList %}    
     ```
 - **Data Cards** - A list of any of the entries in the *data-cards* collection can be embedded in a page by providing either a comma-delineated string of publication filenames, a tag to filter on, or an array of data-card objects.  For example:
     

@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1038/s42003-022-04076-3
 
 image: publications/UnMICST-deep-learning-with-real-augmentation-for-robust-segmentation-of-highly-multiplexed-images-of-human-tissues.PNG
 
-group: methods
+group: other
 
 date: 2022-11-18
 

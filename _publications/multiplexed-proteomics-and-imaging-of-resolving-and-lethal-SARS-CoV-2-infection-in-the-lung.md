@@ -6,7 +6,7 @@ publication_link:
 
 image: publications/multiplexed-proteomics-and-imaging-of-resolving-and-lethal-SARS-CoV-2-infection-in-the-lung.PNG
 
-group: methods
+group: other
 
 date: 2020-10-15
 
