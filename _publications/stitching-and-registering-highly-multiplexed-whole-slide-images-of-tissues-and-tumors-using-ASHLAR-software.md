@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1093/bioinformatics/btac544
 
 image: publications/stitching-and-registering-highly-multiplexed-whole-slide-images-of-tissues-and-tumors-using-ASHLAR-software.PNG
 
-group: methods
+group: other
 
 date: 2022-08-16
 minerva_link:

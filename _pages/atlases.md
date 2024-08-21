@@ -6,5 +6,7 @@ section_id: data
 layout: atlases
 
 ---
-The Harvard Tissue Atlas (HTA) gathers together multiple research projects into collections of single-cell data “atlases” that contain data from normal and diseased tissues from humans and animal models, with a particular emphasis on cancer. The goal of these atlases is to describe the myriad of interactions that occur between cells and acellular structures within tissues by combining image and omic datasets into molecular and physical maps. Many HTA projects are currently organized by the manuscript in which they were first described, but will be gathered together into larger Atlases soon.
+The Harvard Tissue Atlas (HTA) gathers image and -omic datasets into high-resolution molecular maps. Our atlases provide precise molecular data on cell types, states, and interactions in a preserved 3D environment, shedding light on the complex interactions between cellular and acellular structures in normal and diseased tissue. These data enable a deeper understanding of how diseases start and progress to improve how diseases are diagnosed and managed. 
+
+The Harvard Tissue Atlas datasets provide a foundation for future advances in precision medicine, such as early cancer detection, AI/ML predictive models, and disease stratification for clinical trials.
 {:.mb-5}

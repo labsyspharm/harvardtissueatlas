@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.cell.2018.09.006
 
 image: publications/Ludwig_8-Jerby-Arnon-et-al-2018-Cell.jpg
 
-group: profiling
+group: other
 
 date: 2018-01-01
 

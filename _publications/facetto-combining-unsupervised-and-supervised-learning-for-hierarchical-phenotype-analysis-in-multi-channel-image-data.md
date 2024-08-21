@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1109/TVCG.2019.2934547
 
 image: publications/Ludwig_12-Krueger-et-al-2019-Facetto.jpg
 
-group: methods
+group: other
 
 date: 2020-01-01
 

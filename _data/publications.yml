@@ -1,7 +1,6 @@
 groups:
   - key: featured
     name: Featured Publications
-  - key: methods
-    name: Methods and software
-  - key: profiling
-    name: Profiling and Atlasing
+  - key: other
+    name: Other Publications
+

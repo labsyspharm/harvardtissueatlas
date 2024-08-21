@@ -19,7 +19,7 @@ The Colorectal Cancer atlas aims to advance our understanding of the complex spa
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
 {% endcomment %}
-{% assign publicationList = 'High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers,multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer' %}
+{% assign publicationList = 'High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers,multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer,Epigenetic-and-oncogenic-inhibitors-cooperatively-drive-differentiation-and-kill-KRAS-mutant-colorectal-cancers' %}
 
 {% include pub-list.html list=publicationList %}
 

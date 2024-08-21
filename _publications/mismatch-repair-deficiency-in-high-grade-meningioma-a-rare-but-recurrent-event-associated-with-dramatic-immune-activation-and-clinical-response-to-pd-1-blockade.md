@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1200/PO.18.00190
 
 image: publications/Ludwig_3-Dunn-et-al-2018-Meningioma.jpg
 
-group: profiling
+group: other
 
 date: 2019-01-01
 

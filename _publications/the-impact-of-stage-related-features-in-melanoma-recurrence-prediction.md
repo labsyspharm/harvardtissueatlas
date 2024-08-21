@@ -6,7 +6,7 @@ publication_link: https://doi.org/10.1016/j.jdin.2022.08.014
 
 image: publications/the-impact-of-stage-related-features-in-melanoma-recurrence-prediction.jpg
 
-group: profiling
+group: other
 
 date: 2022-08-30
 
