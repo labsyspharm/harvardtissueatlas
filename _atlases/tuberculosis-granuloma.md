@@ -27,36 +27,55 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
   </div>
 </div>
 
-## Data Explorations
+## Narrated Minerva Stories
+{% include narrated-minerva-description.md %} 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'tuberculosis-granulomas-2022/'"
+    | where_exp: "item", "item.tags contains 'TB'"
     | where_exp: "item", "item.hide != true"
 %}
 
 {% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
+{% for n in stories %}
+  {% if n.tags contains 'narrated' %}
+    {% assign dataCardArray = dataCardArray | push: n %}
+  {% endif %}
 {% endfor %}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Data Overviews
-**Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images. These are currently all MIBI images.**
 
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'mccaffrey-2022/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'overview'"
-%}
+## Curated Minerva Stories
+{% include curated-minerva-description.md %} 
+{% assign dataCardArray = '' | split: '' %}
+{% for c in stories %}
+  {% if c.tags contains 'curated' %}
+    {% assign dataCardArray = dataCardArray | push: c %}
+  {% endif %}
+{% endfor %}
 
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include cards.html cards=dataCardArraySort %}
+{% endif %}
+
+
+
+{% assign dataCardArray = '' | split: '' %}
+{% for c in stories %}
+  {% if c.tags contains 'auto' %}
+    {% assign dataCardArray = dataCardArray | push: c %}
+  {% endif %}
+{% endfor %}
+
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  <h2>Automated Minerva Stories</h2>
+  {% include auto-minerva-description.md %} 
+  {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
 ## Funding

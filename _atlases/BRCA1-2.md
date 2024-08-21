@@ -1,6 +1,6 @@
 ---
 date: 0002-01-01
-name: BRCA1/2 Cancer Atlas
+name: BRCA-positive Breast Cancer Atlas
 summary: The BRAC1/2 Cancer Atlas involves leading cancer centers across the US focused on collecting and analyzing diverse genomic and imaging on BRAC1/2 breast and ovarian cancers. The goal of the effort is to understand pre-cancer states, develop new diagnostics that detect cancer before it spreads, and improve disease management and prevention strategies.
 dataset:
 project-image: data-cards/brca1-associated-triple.jpg

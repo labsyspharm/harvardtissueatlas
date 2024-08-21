@@ -9,8 +9,8 @@ data:
     journal: 'TBA'
     authors: 'Schade A, Perurena N, Yang Y, Rodriguez CL, Krishnan A, Loi P, Mastellone GM, Pilla NF, Watanabe M, Xu Y, Nguyen V, Ota K, Davis RA, Mattioli K, Xiang D, Zoeller JL, Morganti S, Garrido-Castro AC, Tolaney S, Li Z, Barbie DA, Sorger PK, Helin K, Santagata S, Knott SRV, Cichowski K.'
     description: 'Triple negative breast cancer (TNBC) is the most aggressive breast cancer subtype and has the  highest  rate  of  recurrence.  The  predominant  standard  of  care  for  advanced  TNBC  is  systemic chemotherapy  with  or  without  immunotherapy,  however  responses  are  typically  short-lived. Thus,  there  is  an  urgent  need  to  develop  more  effective  treatments.  PI3K  pathway  components represent  plausible  therapeutic  targets,  as  at  least  70%  of  TNBCs  have  PIK3CA/AKT1/PTEN alterations. However, unlike hormone receptor-positive tumors, it is still unclear if or how PI3K pathway inhibitors will be effective in triple-negative disease. Here we describe a promising AKT inhibitor-based  therapeutic  combination  for  TNBC. Specifically,  we  show  that  AKT  inhibitors potently synergize with agents that suppress the histone methyltransferase, EZH2, and promote robust tumor regression in multiple TNBC models in vivo. AKT and EZH2 inhibitors exert these effects by first cooperatively driving basal-like TNBC cells into a more differentiated, luminal-like state, which cannot be effectively induced by either agent alone. Once differentiated, these agents kill TNBCs by hijacking signals that normally drive mammary gland involution. Importantly, using a  machine  learning  approach  we  developed  a  classifier  that  can  be  used  to  predict  sensitivity. Together these findings identify a promising therapeutic strategy for this highly aggressive tumor type  and  illustrate  how  deregulated  epigenetic  enzymes  can  insulate  tumors  from  oncogenic vulnerabilities. These studies also reveal how developmental tissue-specific cell death pathways may be co-opted for therapeutic benefit.'
-links:
-  - Data Access: https://github.com/labsyspharm/cichowski-santagata-sorger-2024/
+    links:
+      - Primary data Access: https://github.com/labsyspharm/cichowski-santagata-sorger-2024/
 ---
 
 {% assign urlParts = page.url | split: '/' %}
@@ -20,16 +20,12 @@ links:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
-
-## Contents
-  * [Graphical Abstract](#graphical-abstract)
-  * [Data Access](#data-access)
-  * [Funding](#funding)
+<br>
 
 ### Graphical Abstract
 {% include enlarge-image.html src='publications/cichowski-santagata-sorger-2024.PNG' alt='EZH2 + AKT inhibitors in TNBC' %}
 
-### Data Explorations
+<br>
 
 {%
     assign stories = site.data-cards
@@ -37,16 +33,7 @@ links:
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}
 
 ## Data Access
 Instructions to access data will be posted to the [GitHub repository](https://github.com/labsyspharm/cichowski-santagata-sorger-2024/) associated with this publication.

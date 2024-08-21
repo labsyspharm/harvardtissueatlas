@@ -23,16 +23,13 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
+
 <br>
-### Data Overviews
-**Data Overviews provide access to minimally processed images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution Multiplex Ion Beam Imaging (MIBI) data.**
 
 {%
-    assign overviews = site.data-cards
+    assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'mccaffrey-2022/'"
     | where_exp: "item", "item.hide != true"
 %}
 
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}

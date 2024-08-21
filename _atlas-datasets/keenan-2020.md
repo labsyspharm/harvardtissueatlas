@@ -5,7 +5,7 @@ section_id: data
 
 data:
   publication:
-    title: Clinical efficacy and molecular response correlates of the Wee1 inhibitor adavosertib with cisplatin in metastatic triple-negative breast cancer (mTNBC)
+    title: Clinical efficacy and molecular response correlates of the Wee1 inhibitor adavosertib with cisplatin in metastatic triple-negative breast cancer
     authors: Keenan T., Li T., Vallius T., Guerriero J.L., Tayob N., Kochupurakkal B., Davis J., Pastorello R., Tahara R.K., Anderson L., Conway J., He M.X., Shannon E., Godin R.E., Sorger P.K., D’Andrea A., Overmoyer B.,  Winer E.P., Mittendorf E.A., Van Allen E., Shapiro G.I., Tolaney S.M.
     journal: "Clinical Cancer Research, 2(1), 66-82. PMID: 33257427"
     description: Selective inhibition of the negative cell cycle regulator WEE1 may enhance the efficacy of DNA-damaging agents by reducing DNA damage repair. These are multiplexed cyclic immunofluorescence on paired pre- and post-WEE1 inhibitor tumor biopsies, from the first phase II study assessing the efficacy of the WEE1 inhibitor adavosertib with cisplatin in metastatic triple-negative breast cancer (mTNBC). Among patients with mTNBC treated with 0-1 prior lines, adavosertib combined with cisplatin narrowly missed the prespecified ORR cutoff of > 30%. The finding of immune infiltrated tumors in patients with clinical benefit to therapy requires validation in future studies.
@@ -43,8 +43,10 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-## Available images
-{:.mt-5}
+<br>
+
+## Narrated stories
+{% include narrated-minerva-description.md %}
 
 {% include atlas-dataset-cards.html
     sectionId=sectionId

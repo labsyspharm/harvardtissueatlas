@@ -9,6 +9,8 @@ data:
     authors: 'Yapp C, Nirmal AJ, Zhou F, Maliga Z, Llopis PM, Murphy GF, Lian CG, Danuser G, Santagata S, Sorger PK'
     links:
       - bioRxiv: https://doi.org/10.1101/2023.11.10.566670
+      - Access Primary Data: /atlas-datasets/yapp-nirmal-2023/#data-access
+      - Contact: /atlas-datasets/yapp-nirmal-2023/#contact
 
 ---
 
@@ -20,25 +22,15 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-## Contents
-  * [__Data Explorations__: MINERVA Stories summarizing key findings and data](#data-explorations)
-  * [__Data Access__: Instructions to access files on AWS](#data-access)
-  * [__Viewing Images__: Tips for using Imaris Viewer](#viewing-images)
-  * [__Contact__: Reach out with questions](#contact)
-
-
-## Data Explorations
-**Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.**
+<br>
 
 {%
-    assign overviews = site.data-cards
+    assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'yapp-nirmal-2023/'"
     | where_exp: "item", "item.hide != true"
 %}
 
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}
 
 ## Data Access
 ### Access the full 3D Melanoma dataset
@@ -60,7 +52,9 @@ For users who wish to perform processing within AWS, note that the bucket is loc
 
 Review your IAM permissions and add additional in-line policies, as needed. For example, use: aws s3 ls --no-sign-request s3://yapp-2023-3d-melanoma/data/. If you continue to experience issues using the CLI, please follow the instructions for using a GUI above or refer to AWS existing documentation.
 
-## Viewing Images
+<br>
+
+## Tips for viewing Images with Imaris
 Here are some tips for getting started viewing .ims files using Imaris Viewer: <br><br>
 1. To view the .ims images, download the free Imaris Viewer at: [https://imaris.oxinst.com/imaris-viewer](https://imaris.oxinst.com/imaris-viewer). View the recommended system requirements [here](https://imaris.oxinst.com/support/system-requirements). <br><br>
 2. Open Imaris Viewer and, in the top left corner, select Surpass. Click and drag .ims file into Imaris Viewer.<br><br>
@@ -74,6 +68,8 @@ Here are some tips for getting started viewing .ims files using Imaris Viewer: <
     - To pan around -> use the right mouse button
 
 5. To switch to single plane viewing, select Slice in the top menu. Click on 3D View to return to 3D navigation mode.
+
+<br>
 
 ## Contact
 

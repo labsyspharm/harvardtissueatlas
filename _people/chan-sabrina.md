@@ -5,5 +5,5 @@ positions:
 
 photo: people/chan-sabrina.jpg
 
-group: staff
+group: alumni
 ---

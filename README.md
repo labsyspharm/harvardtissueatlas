@@ -103,6 +103,7 @@ Below is information about the front matter options for each of the site's colle
 - **cellxgene_link** - Link to the associated cellxgene page
 - **view_data_link** - Link to an associated data page (displays a 'View Data' button)
 - **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
+
 - **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file. 
     - **Disease/Tissue type** (breast, MEL, melanoma, lung, STIC, GBM, BRCA, CRC, TB, met, TMA, gatesfoundation, MIBI, orion, heart)
     - **Story type** (narrated, auto, curated)
@@ -121,7 +122,6 @@ source code: link to GitHub repo
 documentation: stand-a-lone documentation
 dataset: atlas dataset page if applicable
 protocol: published protocol ppaer or protocols.io link
-
 
 ### funding ###
 - **date** - Used to assist with content ordering on the page (will not be displayed to end users)

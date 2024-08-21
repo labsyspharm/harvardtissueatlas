@@ -20,7 +20,7 @@ data:
         links:
           - CyCIF image: osd-BRCA-WT-vs-BRCA1-associated-TNBC
 
-    _BRCA_-wildtype TNBC:
+    BRCA-wildtype TNBC:
       - title: _BRCA_-WT TNBC 1
         description:
         thumbnail file name: BRCA-WT-1.jpg
@@ -52,7 +52,7 @@ data:
         links:
           - CyCIF image: osd-BRCA-WT-6
 
-    _BRCA1_-associated TNBC:
+    BRCA1-associated TNBC:
       - title: _BRCA1_-associated TNBC 1
         description:
         thumbnail file name: BRCA1-associated-1.jpg
@@ -113,10 +113,12 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-## Available images
-{:.mt-5}
+<br>
 
-{% include atlas-dataset-cards.html
-    sectionId=sectionId
-    pubData=page.data
-    thumbnailDir=sectionId %}
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.url contains 'mehta-2020/'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% include minerva-story-sorting-pubs.md %}
