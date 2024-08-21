@@ -5,6 +5,6 @@ positions:
 
 photo: people/xu-han.jpg
 
-group: fellows
+group: alumni
 
 ---
