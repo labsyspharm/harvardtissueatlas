@@ -10,11 +10,11 @@
 
     @include breakpoint(tablet-v) {
         margin-top:25px;
-        margin-bottom:25px;
+        margin-bottom:35px;
     }
     @include breakpoint(desktop) {
-        margin-top:25px;
-        margin-bottom:25px;
+        margin-top:40px;
+        margin-bottom:50px;
     }
 }
 
