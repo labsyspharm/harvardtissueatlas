@@ -1,6 +1,6 @@
 ---
-title: STIC-TR4\u2013 3D CyCIF \u2013 LSP18251
-image: 
+title: STIC-TR4\u2013 3D CyCIF \u2013 LSP18251 
+image: https://s3.amazonaws.com/www.cycif.org/yapp-nirmal-2023/ovarianTR4-MIP-minerva/Hoechst_ffffff-HLA-E_ff0000-STING_00ff00-TP53_0000ff.jpg
 info_link: 
 date: '2024-08-28'
 minerva_link: https://www.cycif.org/data/ovarianTR4-MIP
