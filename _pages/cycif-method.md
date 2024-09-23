@@ -41,14 +41,16 @@ Lin J-R, Izar B, Wang S, Yapp C, Mei S, Shah PM, Santagata S, Sorger PK. [Highly
 
 ---
 
-### Getting started with CyCIF
+### Getting started
 The CyCIF method is flexible, does not require expensive or specialized reagents, and can be customized to work with many tissue types, microscopes, and analysis pipelines. For these reasons, CyCIF works well for exploratory experiments and for probing specific biological hypotheses.  
 
 CyCIF can be used with human and animal tissues of many origins, although denser tissues are typically more robust and can withstand more cycles. If you’re new to CyCIF, we recommend using a reference sample, like tonsil, to optimize the procedure in your laboratory. Once you’ve achieved the expected staining results with tonsil, proceed to your tissue of interest.  
 
-### Available protocols
+
 <a href="https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2" class="arrow-button">CyCIF Protocol</a>
 <a href="https://dx.doi.org/10.17504/protocols.io.bji2kkge" class="arrow-button">pre-CYCIF FFPE sample preparation</a>
+
+---
 
 ### Designing your experiment
 - **Multiplexing with CyCIF requires conjugated primary antibodies** 
