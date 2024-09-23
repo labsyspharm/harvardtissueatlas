@@ -102,5 +102,5 @@ We have successfully used hundreds of antibodies in many different tissues and i
 - **[Cyclic immunofluorescence (CycIF), a highly multiplexed method for single-cell imaging](https://doi.org/10.1002/cpch.14)**, *Curr Protoc Chem Biol*, 2016 
   - *Describes the CyCIF protocol for plated, cultured cells (p-CyCIF).* 
 
-_**Please visit [Publications](/publications/) for a more complete list of Harvard Tissue Atlas Publications.**_
+_**Please visit [Publications](/publications) for a more complete list of Harvard Tissue Atlas Publications.**_
 
