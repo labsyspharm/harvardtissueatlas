@@ -1,5 +1,5 @@
 ---
-title: Glioblastoma (GBM)\u2013 3D CyCIF \u2013 LSP17378
+title: Glioblastoma (GBM)- 3D CyCIF - LSP17378
 image: https://s3.amazonaws.com/www.cycif.org/yapp-nirmal-2023/LSP17378-GBM-MIP-minerva/Hoechst_ffffff-BANF1_ff0000-STING_00ff00-TREX1_0000ff.jpg
 info_link: 
 date: '2024-08-28'
