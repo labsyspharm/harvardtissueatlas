@@ -24,11 +24,14 @@ In the **t-CyCIF** method, a tissue sample is first **pre-stained** with fluores
 
 Once the cycles of fluorescence imaging are complete, the slide can optionally be stained with **hematoxylin and eosin (H&E)**, a standard stain used in the clinic for diagnosing disease. The slide is then imaged once more with a bright-field microscope. 
 
+<br>
+
+{% include enlarge-image.html src='graphics/cycif-mosaic-image.png' float='right' alt='Five images of 4-6 channels each are overlaid into a single mosaic image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
 
 ### Extracting and analyzing spatial features
 The images from each **CyCIF** cycle are then assembled into a high-plex whole slide image, processed into single-cell data, and quantified for spatial features using the open-source **[MCMICRO](https://www.mcmicro.org/) pipeline**. The single-cell data can be analyzed with tools like **[SCIMAP](https://www.scimap.xyz)**, then visualized and shared with the software **[Minerva](https://www.minerva.im)**. *Visit [Software](/software) to learn more.* 
 
-{% include enlarge-image.html src='graphics/cycif-mosaic-image.png' alt='Five images of 4-6 channels each are overlaid into a single mosaic image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
+<br>
 
 ---
 ### How to cite CyCIF
