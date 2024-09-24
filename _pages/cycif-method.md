@@ -24,11 +24,14 @@ In the **t-CyCIF** method, a tissue sample is first **pre-stained** with fluores
 
 Once the cycles of fluorescence imaging are complete, the slide can optionally be stained with **hematoxylin and eosin (H&E)**, a standard stain used in the clinic for diagnosing disease. The slide is then imaged once more with a bright-field microscope. 
 
+<br>
+
+{% include enlarge-image.html src='graphics/cycif-mosaic-image.png' float='right' alt='Five images of 4-6 channels each are overlaid into a single mosaic image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
 
 ### Extracting and analyzing spatial features
 The images from each **CyCIF** cycle are then assembled into a high-plex whole slide image, processed into single-cell data, and quantified for spatial features using the open-source **[MCMICRO](https://www.mcmicro.org/) pipeline**. The single-cell data can be analyzed with tools like **[SCIMAP](https://www.scimap.xyz)**, then visualized and shared with the software **[Minerva](https://www.minerva.im)**. *Visit [Software](/software) to learn more.* 
 
-{% include enlarge-image.html src='graphics/cycif-mosaic-image.png' alt='Five images of 4-6 channels each are overlaid into a single mosaic image containing ~20 channels. Note: The mosaic image shown here contains data from only a small portion of a slide. A whole slide image would be made up of many image ‘tiles’ of small regions, which must be assembled into the full whole slide image.' %}
+<br>
 
 ---
 ### How to cite CyCIF
@@ -38,14 +41,16 @@ Lin J-R, Izar B, Wang S, Yapp C, Mei S, Shah PM, Santagata S, Sorger PK. [Highly
 
 ---
 
-### Getting started with CyCIF
+### Getting started
 The CyCIF method is flexible, does not require expensive or specialized reagents, and can be customized to work with many tissue types, microscopes, and analysis pipelines. For these reasons, CyCIF works well for exploratory experiments and for probing specific biological hypotheses.  
 
 CyCIF can be used with human and animal tissues of many origins, although denser tissues are typically more robust and can withstand more cycles. If you’re new to CyCIF, we recommend using a reference sample, like tonsil, to optimize the procedure in your laboratory. Once you’ve achieved the expected staining results with tonsil, proceed to your tissue of interest.  
 
-### Available protocols
+
 <a href="https://dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2" class="arrow-button">CyCIF Protocol</a>
 <a href="https://dx.doi.org/10.17504/protocols.io.bji2kkge" class="arrow-button">pre-CYCIF FFPE sample preparation</a>
+
+---
 
 ### Designing your experiment
 - **Multiplexing with CyCIF requires conjugated primary antibodies** 
@@ -102,5 +107,5 @@ We have successfully used hundreds of antibodies in many different tissues and i
 - **[Cyclic immunofluorescence (CycIF), a highly multiplexed method for single-cell imaging](https://doi.org/10.1002/cpch.14)**, *Curr Protoc Chem Biol*, 2016 
   - *Describes the CyCIF protocol for plated, cultured cells (p-CyCIF).* 
 
-_**Please visit [Publications](/publications/) for a more complete list of Harvard Tissue Atlas Publications.**_
+_**Please visit [Publications](/publications) for a more complete list of Harvard Tissue Atlas Publications.**_
 
