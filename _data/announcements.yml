@@ -1,3 +1,25 @@
+atlas_news:
+  - title: "Melanoma Pre-Cancer and Progression Atlas"
+    image: data-cards/mel-3d-mis-2.jpg
+    link: /atlases/melanoma-pca
+    label: Atlas
+    target: "_blank"
+  - title: "BRCA-positive Breast Cancer Atlas"
+    image: data-cards/brca1-associated-triple.jpg
+    link: https://www.graybrcaatlas.org/
+    label: Atlas
+    target: "_blank"
+  - title: "Colorectal Cancer Atlas"
+    image: data-cards/orion-crc.jpg
+    link: /atlases/colorectal-cancer
+    label: Atlas
+    target: "_blank"
+  - title: "Ludwig Tumor Atlas: A Focus on Drug Resistance"
+    image: data-cards/combination-therapy-in-ovarian-cancer.jpg
+    link: https://www.ludwigtumoratlas.org/
+    label: Atlas
+    target: "_blank"
+
 news_press:
   - title: "'Multiplexed 3D atlas' selected as the Best of Cell 2023"
     author: " "
@@ -104,44 +126,3 @@ publications_software:
     link: "publications#multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: "Spatial intra-tumor heterogeneity is associated with survival of lung adenocarcinoma patients"
-    author: "Wu, et al."
-    year: 2022
-    publication: "Cell Genomics"
-    image: "publications/spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcimoma-patients.jpg"
-    link: "publications#spatial-intra-tumor-heterogeneity-is-associated-with-survival-of-lung-adenocarcinoma-patients"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-  - title: "Minerva"
-    description: "A suite of software tools for interpreting, interacting with, and sharing complex image data."
-    author:
-    year:
-    publication:
-    image: "software/minerva_v2.png"
-    link: "software#minerva"
-    label: Software  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-  - title: "The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution"
-    description:
-    author: "Nirmal, et al."
-    year: 2022
-    publication: "Cancer Discovery"
-    image: "publications/the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution_v2.png"
-    link: "publications#the-spatial-landscape-of-progression-and-immunoediting-in-primary-melanoma-at-single-cell-resolution"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-    link2: "#"
-    label2: Software  # [Publication|Software|Method]
-    target2: "_self"  # [_self|_blank]
-  - title: "MCMICRO: A multiple-choice microscopy pipeline"
-    description: "An end-to-end processing pipeline for multiplexed whole tissue imaging and tissue microarrays."
-    author:
-    year:
-    publication:
-    image: "news/mcmicro.jpg"
-    link: https://doi.org/10.1038/s41592-021-01308-y
-    label: Publication
-    target: "_blank"
-    link2: "software#mcmicro"
-    label2: Software  # [Publication|Software|Method]
-    target2: "_self"  # [_self|_blank]
