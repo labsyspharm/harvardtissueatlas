@@ -64,13 +64,12 @@ After publication, HTA data are deposited into existing public repositories or m
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'yapp-nirmal-2023'"
     | where_exp: "item", "item.hide != true"
 %}
 
 {% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}
-  {% if s.tags contains 'curated' %}
+  {% if s.tags contains 'highlight' %}
     {% assign dataCardArray = dataCardArray | push: s %}
   {% endif %}
 {% endfor %}

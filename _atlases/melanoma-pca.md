@@ -94,19 +94,6 @@ Melanoma is noteworthy in that it can be treated both with [targeted therapy](ht
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
-## Data Explorations
-*Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
-
-{% assign cardList = 'MEL1-abstract,MEL1-full-story' %}
-
-{% include cards.html list=cardList %}
-
-## Data Overviews
-*Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.*
-
-{% assign cardList = 'nirmal-maliga-vallius-2021,liu-lin-2019' %}
-
-{% include cards.html tag='MEL' %}
 
 ### Funding
 Research on precancers and primary melanoma is supported by the [NCI Human Tumor Atlas Network](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/human-tumor-atlas) as part of the Pre-cancer Atlases of Cutaneous & Hematologic Origin [(PATCH) Center](https://humantumoratlas.org/hta7) (Grant U2C-CA233262). [HTAN](https://doi.org/10.1016/j.cell.2020.03.053) aims to generate, publicly-accessible data on the spatial, genetic and epigenetic features of common human cancers and precancers. Research on advanced and metastatic melanomas are supported by the [NCI Cancer Systems Biology Program](https://csbconsortium.org/) (Grant U54-CA225088). Additional support is provided by the [Ludwig Center at Harvard Medical School](https://ludwigcenter.hms.harvard.edu/) and the [Ludwig Institute for Cancer Research](https://www.ludwigcancerresearch.org/).
