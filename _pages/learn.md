@@ -7,7 +7,7 @@ layout: secondary
 ---
 # Learn Overview
 
-A major challenge in the use and interpretation of highly multiplexed imaging data is that the methods for collecting and analyzing these data are new and rapidly evolving and publications lag well behind the state of the art. For individuals involved in functional genomics, tissue imaging will appear unfamiliar up until the stage at which features of individual cells are generated to create cell x feature tables; however, these tables capture only part of the information in an image. For individuals who are familiar with tissue biology and histology, the scale and complexity of whole-slide high-plex image data require learning new software tools and data analysis approaches.
+A major challenge in the use and interpretation of highly multiplexed imaging data is that the methods for collecting and analyzing these data are new and rapidly evolving and publications lag behind the state of the art. For individuals involved in functional genomics, tissue imaging will appear unfamiliar up until the stage at which features of individual cells are generated to create cell x feature tables; however, these tables capture only part of the information in an image. For individuals who are familiar with tissue biology and histology, the scale and complexity of whole-slide high-plex image data require learning new software tools and data analysis approaches.
 
 The LEARN section of the HTA website houses curated resources for learning and adopting multiplex tissue imaging and the infrastructure that supports it. Each section contains educational and training materials that are designed with a different goal.
 

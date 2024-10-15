@@ -21,6 +21,20 @@ layout: default
 
         {{ content }}
 
+        {% assign cards = site.data.announcements.atlas_news %}
+        {% assign cta_url = 'atlases' | relative_url %}
+        {% assign cta_label = 'Explore all atlases' %}
+
+        {% include cards.html
+            heading='Atlases'
+            cards=cards
+            card-type='news-card'
+            card-color='medium-blue'
+            cta-url=cta_url
+            cta-label=cta_label
+            extra-margins=true
+        %}
+
         {% assign cards = site.data.announcements.news_press %}
 
         {% include cards.html
@@ -30,7 +44,6 @@ layout: default
             card-color='medium-blue'
             extra-margins=true
         %}
-
 
         {% assign cards = site.data.announcements.publications_software %}
         {% assign cta_url = 'publications' | relative_url %}
@@ -55,12 +68,12 @@ layout: default
         {% assign cta_label = 'View Atlases' %}
 
         {% include cards.html
-            heading='Featured Atlas/Data'
+            heading='Featured Data Explorations'
             featured=true
             cta-url=cta_url
             cta-label=cta_label
             extra-margins=true
         %}
 
-    </div>
+  </div>
 </div>
