@@ -1,9 +1,9 @@
 ---
-title: LSP15639
+title: ERS_high
 image: 
 info_link: 
 date: '2024-11-15'
-minerva_link: https://www.cycif.org/data/shimada-2024/LSP15639
+minerva_link: https://www.cycif.org/data/shimada-2024/ERS_high
 show_page_link: false
 featured: false
 tags:
