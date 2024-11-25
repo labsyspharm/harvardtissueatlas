@@ -1,6 +1,6 @@
 ---
 title: 'Concurrent dexamethasone limits the clinical benefit of immune checkpoint blockade in glioblastoma.'
-contributors: 'Iorgulescu, J.B., Gokhale, P.C., Speranza, M.C., Eschle, B.K., Poitras, M.J., Wilkens, M.K., Soroko, K.M., ... Reardon, D.A. (2021).'
+contributors: 'Iorgulescu JB, Gokhale PC, Speranza MC, Eschle BK, Poitras MJ, Wilkens MK, Soroko KM,... Reardon DA. (2021).'
 publication: Clinical Cancer Research, 27(1), 276–87.
 publication_link: https://doi.org/10.1158/1078-0432.CCR-20-2291
 

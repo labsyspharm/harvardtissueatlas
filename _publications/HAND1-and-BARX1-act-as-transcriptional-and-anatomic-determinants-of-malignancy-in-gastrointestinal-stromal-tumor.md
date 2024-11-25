@@ -1,6 +1,6 @@
 ---
 title: 'HAND1 and BARX1 act as transcriptional and anatomic determinants of malignancy in gastrointestinal stromal tumor.'
-contributors: 'Hemming, M.L., Coy, S., Lin, J.-R., Andersen, J.L., Przybyl, J., Mazzola, E., Abdelhamid Ahmed, A.H., ... Santagata, S. (2021).'
+contributors: 'Hemming ML, Coy S, Lin J-R, Andersen JL, Przybyl J, Mazzola E, Abdelhamid Ahmed AH,... Santagata S. (2021).'
 publication: Clinical Cancer Research, 27(6), 1706-19.
 publication_link:  https://doi.org/10.1158/1078-0432.CCR-20-3538
 

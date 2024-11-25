@@ -1,6 +1,6 @@
 ---
 title: 'HSF1 phase transition mediates stress adaptation and cell fate decisions.'
-contributors: 'Gaglia, G., Rashid, R., Yapp, C., Joshi, G. N., Li, C. G., Lindquist, S. L., Sarosiek, K. A., Whitesell, L., Sorger, P. K., & Santagata, S. (2020).'
+contributors: 'Gaglia G, Rashid R, Yapp C, Joshi GN, Li CG, Lindquist SL, Sarosiek KA, Whitesell L, Sorger PK, Santagata S. (2020).'
 publication: Nature Cell Biology, 22(2), 151–158.
 publication_link: https://doi.org/10.1038/s41556-019-0458-3
 

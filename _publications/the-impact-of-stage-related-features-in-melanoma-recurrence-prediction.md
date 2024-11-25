@@ -1,6 +1,6 @@
 ---
 title: 'The impact of stage-related features in melanoma recurrence prediction: A machine learning approach.'
-contributors: 'Wan G, Leung B, Nguyen N, DeSimone MS, Liu F, Choi MS, Ho D, Laucks V, Duey S, Sullivan RJ, Boland GM, LeBoeuf NR, Liu D, Gusev A, Kwatra SG, Sorger PK, Yu KH, Semenov YR (2022).'
+contributors: 'Wan G, Leung B, Nguyen N, DeSimone MS, Liu F, Choi MS, Ho D, Laucks V, Semenov YR (2022).'
 publication: 'JAAD International, 10: P28-30'
 publication_link: https://doi.org/10.1016/j.jdin.2022.08.014
 

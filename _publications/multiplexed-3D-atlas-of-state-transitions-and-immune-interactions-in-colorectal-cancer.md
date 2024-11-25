@@ -1,6 +1,6 @@
 ---
 title: 'Multiplexed 3D atlas of state transitions and immune interactions in colorectal cancer.'
-contributors: 'Lin, J.-R., Wang, S., Coy, S., Tyler, M., Yapp, C., Chen, Y.-A., Heiser, C.N., Lau, K.S., Santagata, S., Sorger, P.K. (2023).'
+contributors: 'Lin J-R, Wang S, Coy S, Tyler M, Yapp C, Chen Y-A, Heiser CN, Lau KS, Santagata S, Sorger PK. (2023).'
 publication: 'Cell, 186(19), 363-381.e19.'
 publication_link: https://doi.org/10.1016/j.cell.2022.12.028
 

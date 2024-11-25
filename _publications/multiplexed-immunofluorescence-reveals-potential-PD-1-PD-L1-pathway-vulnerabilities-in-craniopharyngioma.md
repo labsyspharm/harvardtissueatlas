@@ -1,6 +1,6 @@
 ---
 title: 'Multiplexed immunofluorescence reveals potential PD-1/PD-L1 pathway vulnerabilities in craniopharyngioma.'
-contributors: 'Coy, S., Rashid, R., Lin, J.R., Du, Z., Donson, A.M., Hankinson, T.C., Foreman, N.K., ... Santagata, S. (2018).'
+contributors: 'Coy S, Rashid R, Lin JR, Du Z, Donson AM, Hankinson TC, Foreman NK, ... Santagata S. (2018).'
 publication: Neuro-Oncology, 20(8), 1101-12.
 publication_link: https://doi.org/10.1093/neuonc/noy035
 

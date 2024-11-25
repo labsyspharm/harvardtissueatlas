@@ -1,6 +1,6 @@
 ---
 title: 'Narrative online guides for the interpretation of digital-pathology images and tissue-atlas data.'
-contributors: 'Rumana, R., Chen, Y.-A., Hoffer, J., Muhlich, J.L., Lin, J.-R., Krueger, R., Pfister, H., Mitchell, R., Santagata, S., & Sorger, P. K. (2022).'
+contributors: 'Rumana R, Chen Y-A, Hoffer J, Muhlich JL, Lin J-R, Krueger R, Pfister H, Mitchell R, Santagata S, Sorger PK. (2022).'
 publication: Nature Biomedical Engineering, 6(5):515-526.
 publication_link: https://pubmed.ncbi.nlm.nih.gov/34750536/
 

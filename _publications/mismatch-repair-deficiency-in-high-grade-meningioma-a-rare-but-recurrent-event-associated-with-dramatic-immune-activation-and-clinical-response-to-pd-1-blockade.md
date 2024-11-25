@@ -1,6 +1,6 @@
 ---
 title: 'Mismatch repair deficiency in high-grade meningioma: A rare but recurrent event associated with dramatic immune activation and clinical response to PD-1 blockade.'
-contributors: 'Dunn, I. F., Du, Z., Touat, M., Sisti, M. B., Wen, P. Y., Umeton, R., Dubuc, A. M., Ducar, M., ... & Reardon, D.A. (2018).'
+contributors: 'Dunn IF, Du Z, Touat M, Sisti MB, Wen PY, Umeton R, Dubuc AM, Ducar M,... Reardon DA. (2018).'
 publication: JCO Precision Oncology, 2018.
 publication_link: https://doi.org/10.1200/PO.18.00190
 

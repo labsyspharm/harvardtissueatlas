@@ -1,6 +1,6 @@
 ---
 title: 'A human breast atlas integrating single-cell proteomics and transcriptomics.'
-contributors: 'Gray, G.K., Li, C.M.-C., Rosenbluth, J.M., Selfors, L.M., Girnius, N., Lin, J.-R., Schackmann, R.C.J., Goh, W.L., Moore, K., Shapiro, H.K., Mei, S., D’Andrea, K., Nathanson, K.L., Sorger, P.K., Santagata, S., Regev, A., Garber, J.E., Dillon, D.A., Brugge, J.S. (2022).'
+contributors: 'Gray GK, Li CM-C, Rosenbluth JM, Selfors LM, Girnius N, Lin J-R, Schackmann RCJ, Goh WL, Moore K,...Brugge JS. (2022).'
 publication: Developmental Cell, 57(22), 1400-1420.
 publication_link: https://doi.org/10.1016/j.devcel.2022.05.003
 
