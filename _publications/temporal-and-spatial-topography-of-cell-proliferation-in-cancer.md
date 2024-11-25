@@ -1,6 +1,6 @@
 ---
 title: 'Temporal and spatial topography of cell proliferation in cancer.'
-contributors: 'Gaglia, G., Kabraji, S., Angyropoulu, D., Dai, Y., Wang, S., Bergholz, J., Coy, S., Lin, J.-R., ... Santagata, P. (2022).'
+contributors: 'Gaglia G, Kabraji S, Angyropoulu D, Dai Y, Wang S, Bergholz J, Coy S, Lin J-R, ... Santagata, P. (2022).'
 publication: Nature Cell Biology, 24(3), 316-326
 publication_link: https://doi.org/10.1038/s41556-022-00860-9
 

@@ -1,6 +1,6 @@
 ---
 title: 'The spatial landscape of progression and immunoediting in primary melanoma at single cell resolution.'
-contributors: 'Nirmal, A.J., Maliga, Z., Vallius, T., Quattrochi, B., Chen, A.C., Jacobson, C.A., Pelletier, R.J., ... Lian, C.G., Murphy, G.F., Santagata, S., Sorger, P.K. (2022)'
+contributors: 'Nirmal AJ, Maliga Z, Vallius T, Quattrochi B, Chen AC, Jacobson CA, Pelletier RJ,... Lian CG, Murphy GF, Santagata S, Sorger, PK. (2022)'
 publication: Cancer Discovery, 12(6), 1518–1541.
 publication_link: https://doi.org/10.1158/2159-8290.CD-21-1357
 

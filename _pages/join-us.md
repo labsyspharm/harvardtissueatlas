@@ -16,7 +16,7 @@ HTA research involves a collaboration of multiple laboratories in the US and Eur
 
 HTA research involves a collaboration between multiple academic laboratories and companies that develop instruments, reagents, and software for spatial tissue profiling. **We actively encourage companies developing new technologies and instruments for spatial tissue profiling to contact us**. We are always interested in testing out new methods and long-term projects can been funded with STTR/SBIR grants. We also collaborate with biotech and pharma companies and are particularly interested in analyzing trial data and developing theragnostics. Note that all collaborations with the HTA involve the usual commitment to scientific publication and eventual release of all data and methods. *Inquiries should be directed to tissue-atlas@hms.harvard.edu for more information*.
 
-![]({{ site.imgbaseurl }}images/general/About_Join_Image_1.jpg){: .float-half-right}
+![]({{ site.imgbaseurl }}images/general/About_Join_Image_2.jpg){: .float-half-right}
 
 ## Frequently Asked Collaboration Questions
 

@@ -1,6 +1,6 @@
 ---
 title: 'Stitching and registering highly multiplexed whole-slide images of tissues and tumors using ASHLAR.'
-contributors: 'Muhlich, J., Chen, Y.-A., Yapp, C., Russell, R., Santagata, S., & Sorger, P.K. (2022).'
+contributors: 'Muhlich J, Chen Y-A, Yapp C, Russell R, Santagata S, Sorger PK. (2022).'
 publication: Bioinformatics, btac544
 publication_link: https://doi.org/10.1093/bioinformatics/btac544
 

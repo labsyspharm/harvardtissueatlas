@@ -1,6 +1,6 @@
 ---
 title: 'Multiplexed proteomics and imaging of resolving and lethal SARS-CoV-2 infection in the lung.'
-contributors: 'Kalocsay, M., Maliga, Z., Nirmal, A.J., Eisert, R.J., Bradshaw, G.A., Solomon, I. H., Chen, Y-A., Pelletier, R.J., ... Sorger, P.K. (2020).'
+contributors: 'Kalocsay M, Maliga Z, Nirmal AJ, Eisert RJ, Bradshaw GA, Solomon IH, Chen Y-A, Pelletier RJ, ... Sorger PK. (2020).'
 publication: 'Manuscript Submitted'
 publication_link:
 

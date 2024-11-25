@@ -11,6 +11,7 @@ group: other
 date: 2018-01-01
 
 minerva_link:
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/30388455/
 preprint_link:
 pdf_link:
 show_page_link: false

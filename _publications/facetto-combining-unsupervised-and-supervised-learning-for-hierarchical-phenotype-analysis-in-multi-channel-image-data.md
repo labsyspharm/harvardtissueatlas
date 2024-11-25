@@ -1,6 +1,6 @@
 ---
 title: 'Facetto: Combining Unsupervised and Supervised Learning for Hierarchical Phenotype Analysis in Multi-Channel Image Data.'
-contributors: 'Krueger, R., Beyer, J., Jang, W.-D., Kim, N. W., Sokolov, A., Sorger, P. K., & Pfister, H. (2020).'
+contributors: 'Krueger R, Beyer J, Jang W-D, Kim NW, Sokolov A, Sorger PK,  Pfister H. (2020).'
 publication: IEEE Transactions on Visualization and Computer Graphics, 26(1), 227–237.
 publication_link: https://doi.org/10.1109/TVCG.2019.2934547
 

@@ -1,6 +1,6 @@
 ---
 title: 'Micro-region transcriptomics of fixed human tissue using pick-seq.'
-contributors: 'Maliga, Z., Nirmal, A. J., Ericson, N. G., Boswell, S. A., U’Ren, L., Podyminogin, R., Chow, J., Chen, Y.-A., … Sorger, P. K. (2021).'
+contributors: 'Maliga Z, Nirmal AJ, Ericson NG, Boswell SA, U’Ren L, Podyminogin R, Chow J, Chen Y-A,… Sorger PK. (2021).'
 publication: 'Manuscript Submitted'
 publication_link:
 

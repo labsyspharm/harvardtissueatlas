@@ -21,33 +21,13 @@ atlas_news:
     target: "_blank"
 
 news_press:
-  - title: "'Multiplexed 3D atlas' selected as the Best of Cell 2023"
-    author: " "
-    year: 2023
-    publication: "Cell"
-    type: news
-    image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer-graphic-abstract.png"
-    link: "https://info.cell.com/best-of-cell-2023"
-    label: News
+  - title: "New Therapeutic Strategy Identified for Triple Negative Breast Cancer"
+    author:
+    year: 2024, October 9
+    image: "publications/cichowski-santagata-sorger-2024.PNG"
+    link: https://www.brighamandwomens.org/about-bwh/newsroom/research-briefs-detail?id=4821
+    label: news
     target: "_blank"
-  - title: "'High-plex immunofluorescence imaging' featured in Nature Cancer’s 2023 in Review"
-    author: " "
-    year: 2023, December 15
-    publication: "Nature Cancer"
-    type: news
-    image: "publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png"
-    link: "https://www.nature.com/collections/bcggjhfcea"
-    label: News
-    target: "_blank"
-  - title: "Live Cell Imaging IDs Bad Actors in Cancer and Finds Possible Ways to Defeat Them"
-    author: " "
-    year: 2023, July 25
-    publication: "Dana Farber Cancer Institute"
-    type: news  # [tools|publication|method|software]
-    image: "news/live-cell-imaging-id-news.png"
-    link: "https://blog.dana-farber.org/insight/2023/07/live-cell-imaging-ids-bad-actors-in-cancer-and-finds-possible-ways-to-defeat-them/"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
   - title: "A New Tool for Diagnosing Cancer"
     author: "Caruso, C."
     year: 2023, June 22
@@ -66,24 +46,6 @@ news_press:
     link: "https://directorsblog.nih.gov/2023/01/31/new-3d-atlas-of-colorectal-cancer-promises-improved-diagnosis-treatment/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
-  - title: "Ludwig Harvard imaging study reveals cellular, molecular and structural complexity of colorectal tumors"
-    author: "Tabak, L."
-    year: 2023, January 23
-    publication: "Ludwig Cancer Research"
-    type: news  # [tools|publication|method|software]
-    image: "publications/Ludwig-Harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors.png"
-    link: "https://www.ludwigcancerresearch.org/news-releases/ludwig-harvard-imaging-study-reveals-cellular-molecular-and-structural-complexity-of-colorectal-tumors/"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "An Unprecedented Look at Colorectal Cancer"
-    author: "Caruso, C."
-    year: 2023, January 19
-    publication: "Harvard News"
-    type: news  # [tools|publication|method|software]
-    image: "publications/An-Unprecedented-Look-at-Colorectal-Cancer.jpg"
-    link: "https://hms.harvard.edu/news/unprecedented-look-colorectal-cancer"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
   - title: "Getting Under Our Skin"
     author: "Caruso, C."
     year: 2022, April 14
@@ -94,6 +56,22 @@ news_press:
     target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: 'AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution'
+    author: 'Schade, Perurena, Yang, et al'
+    year: 2024
+    publication: 'Nature.'
+    link: https://doi.org/10.1038/s41586-024-08031-6
+    image: publications/cichowski-santagata-sorger-2024.PNG
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+  - title: 'Ovarian cancer-derived IL-4 promotes immunotherapy resistance.'
+    author: 'Mollaoglu G, Tepper A, Falcomatà C, Potak HT, Pia L, Amabile A, Mateus-Tique J, Rabinovich N,... Baccarini A, Brown BD. (2024).'
+    year: 2024
+    publication: Cell
+    link: https://doi.org/10.1016/j.cell.2024.10.006
+    image: publications/ovarian-cancer-derived-IL-4-promotes-immunotherapy-resistance.jpg
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Development and validation of time-to-event models to predict metastatic recurrence of localized cutaneous melanoma"
     author: 'Wan, Leung, et al.'
     year: 2024
@@ -102,27 +80,11 @@ publications_software:
     link: "publications#development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: "Qualification of a multiplexed tissue imaging assay and detection of novel patterns of HER2 heterogeneity in breast cancer"
-    author: 'Guerriero, Lin, et al.'
-    year: 2024
-    publication: "npj Breast Cancer"
-    image: publications/guerriero-lin-santagata-2023-compressed.png
-    link: "publications#qualification-of-a-multiplexed-tissue-imaging-assay-and-detection-of-novel-patterns-of-HER2-heterogeneity-in-breast-cancer"
-    label: Publication  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
   - title: "High-plex immunofluorescence imaging and traditional histology of the same tissue section for discovering image-based biomarkers"
     author: "Lin, et al."
     year: 2023
     publication: "Nature Cancer"
     image: "publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png"
     link: "publications#High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers"
-    label: Publication  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
-  - title: "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer"
-    author: "Lin, et al."
-    year: 2023
-    publication: "Cell"
-    image: "publications/multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer.PNG"
-    link: "publications#multiplexed-3D-atlas-of-state-transitions-and-immune-interactions-in-colorectal-cancer"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
