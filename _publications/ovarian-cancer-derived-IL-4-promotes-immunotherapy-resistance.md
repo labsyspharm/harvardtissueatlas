@@ -1,5 +1,5 @@
 ---
-title: 'Ovarian cancer-derived IL-4 promotes immunotherapy resistance.'
+title: 'Ovarian cancer-derived IL-4 promotes immunotherapy resistance'
 contributors: 'Mollaoglu G, Tepper A, Falcomatà C, Potak HT, Pia L, Amabile A, Mateus-Tique J, Rabinovich N,... Baccarini A, Brown BD. (2024).'
 publication: Cell
 publication_link: https://doi.org/10.1016/j.cell.2024.10.006
