@@ -66,11 +66,11 @@ publications_software:
     image: publications/cichowski-santagata-sorger-2024.PNG
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: 'Ovarian cancer-derived IL-4 promotes immunotherapy resistance.'
-    author: 'Mollaoglu G, Tepper A, Falcomatà C, Potak HT, Pia L, Amabile A, Mateus-Tique J, Rabinovich N,... Baccarini A, Brown BD. (2024).'
+  - title: 'Ovarian cancer-derived IL-4 promotes immunotherapy resistance'
+    author: 'Mollaoglu, Tepper, et al.'
     year: 2024
-    publication: Cell
-    link: https://doi.org/10.1016/j.cell.2024.10.006
+    publication: "Cell"
+    link: "publications#ovarian cancer-derived IL-4 promotes immunotherapy resistance"
     image: publications/ovarian-cancer-derived-IL-4-promotes-immunotherapy-resistance.jpg
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
