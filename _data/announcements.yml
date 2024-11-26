@@ -24,9 +24,11 @@ news_press:
   - title: "New Therapeutic Strategy Identified for Triple Negative Breast Cancer"
     author:
     year: 2024, October 9
+    publication: BWH Research Brief
+    type: news  # [tools|publication|method|software
     image: "publications/cichowski-santagata-sorger-2024.PNG"
     link: https://www.brighamandwomens.org/about-bwh/newsroom/research-briefs-detail?id=4821
-    label: news
+    label: News  # [News|Press Release]
     target: "_blank"
   - title: "A New Tool for Diagnosing Cancer"
     author: "Caruso, C."
