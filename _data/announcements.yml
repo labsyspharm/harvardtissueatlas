@@ -62,7 +62,7 @@ publications_software:
     author: 'Schade, Perurena, Yang, et al'
     year: 2024
     publication: 'Nature.'
-    link: https://doi.org/10.1038/s41586-024-08031-6
+    link: "publications#AKT-and-EZH2-inhibitors-kill-TNBCs-by-hijacking-mechanisms-of-involution"
     image: publications/cichowski-santagata-sorger-2024.PNG
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
@@ -70,7 +70,7 @@ publications_software:
     author: 'Mollaoglu, Tepper, et al.'
     year: 2024
     publication: "Cell"
-    link: "publications#ovarian cancer-derived IL-4 promotes immunotherapy resistance"
+    link: "publications#ovarian-cancer-derived-IL-4-promotes-immunotherapy-resistance"
     image: publications/ovarian-cancer-derived-IL-4-promotes-immunotherapy-resistance.jpg
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
