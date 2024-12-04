@@ -5,5 +5,5 @@ positions:
 
 photo: people/yapp-clarence.jpg
 
-group: staff
+group: principals
 ---

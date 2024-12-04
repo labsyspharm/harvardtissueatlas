@@ -5,5 +5,5 @@ positions:
 
 photo: people/chen-alyce.jpg
 
-group: staff
+group: principals
 ---
