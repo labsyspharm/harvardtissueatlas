@@ -6,4 +6,6 @@ positions:
 photo: people/yapp-clarence.jpg
 
 group: principals
+
+weight: 18
 ---
