@@ -49,12 +49,6 @@ main:
       - name: "Data Explorations"
         url: "/data-explorations"
         target: "_self"
-      - name: "Data standards"
-        url: "/data-standards"
-        target: "_self"
-      - name: "Private Data"
-        url: "/private-data"
-        target: "_self"
   - name: "Learn"
     section_id: learn
     url: "/learn"
