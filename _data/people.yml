@@ -2,8 +2,4 @@ groups:
   - key: principals
     name: Faculty and Principal Investigators
   - key: staff
-    name: Research Scientists and Associates
-  - key: fellows
-    name: Fellows and Students
-  - key: alumni
-    name: Alumni
+    name: Staff, Fellows, and Students
