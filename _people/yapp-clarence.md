@@ -5,5 +5,7 @@ positions:
 
 photo: people/yapp-clarence.jpg
 
-group: staff
+group: principals
+
+weight: 18
 ---

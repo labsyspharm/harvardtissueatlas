@@ -25,3 +25,6 @@ No! The HTA is hosted at Harvard Medical School but participating research teams
 
 ### Can new teams and individuals join the HTA?
 The HTA is also open to participation by research groups in academe, government and industry, but the HTA is entirely funded by external research grants (sponsored research). Thus, the normal route to joining the HTA is to develop a new collaborative research proposal.
+
+### When will data be shared?
+Ongoing projects start with data collection, analysis, and collaboration through private software resources. At these early stages, access to the project data is limited to project participants (by invitation). After publication, this data is made publicly available. At this time, data are made available to browse on the HTA and to download linked resources, including GEO and Zenodo. We use software resources that are either open source or generally available, making it straightforward for others to employ similar resources to reuse our data. 

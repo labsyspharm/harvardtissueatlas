@@ -36,12 +36,16 @@ layout: default
         %}
 
         {% assign cards = site.data.announcements.news_press %}
+        {% assign cta_url = 'https://labsyspharm.org/news/recent-news/' %}
+        {% assign cta_label = 'View more LSP news' %}
 
         {% include cards.html
             heading='News'
             cards=cards
             card-type='news-card'
-            card-color='medium-blue'
+            card-color='light-blue'
+            cta-url=cta_url
+            cta-label=cta_label
             extra-margins=true
         %}
 
@@ -64,8 +68,8 @@ layout: default
         %}
 
 
-        {% assign cta_url = 'atlases' | relative_url %}
-        {% assign cta_label = 'View Atlases' %}
+        {% assign cta_url = 'data-explorations' | relative_url %}
+        {% assign cta_label = 'Explore Data' %}
 
         {% include cards.html
             heading='Featured Data Explorations'

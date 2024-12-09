@@ -5,6 +5,9 @@ permalink: /talks
 section_id: learn
 layout: secondary
 ---
+<a href="#talks" class="button">Talks</a>
+<a href="#tutorials" class="button">Tutorials</a>
+<a href="#tissue-atlas-industry-showcases" class="button">Industry Showcase</a>
 
 # Talks
 <div class="row mb-4">
@@ -37,6 +40,21 @@ layout: secondary
   </div>
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="692410439" title="Multiplexed Technologies for Spatial Analysis of FFPE Tumor Samples" description="Zoltan Maliga, PhD, Scientific Director of Tissue Imaging at the Laboratory of Systems Pharmacology, describes using multiplexed fluorescent tissue imaging to characterize Formalin-Fixed Paraffin-Embedded (FFPE) tissues." %}
+  </div>
+</div>
+
+# Tutorials
+Explore our tutorial videos for step-by-step guides for the software and methods that created the HTA. These are practical manuals for users, recommended for researchers who are adopting these tools in their own research. For design principles and theoretical framework, users should refer to the [Curriculum section](/curriculum).
+
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="679370096" title="Imaging Tools for Melanoma research" %}
+  </div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="679368905" title="MCMICRO Analysis pipeline" description="MCMICRO is an open source automated end-to-end image analysis pipeline designed for large tissue images and high content imaging." %}
+  </div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="439974633" title="Minerva Author and Story" description="Minerva is a suite of software tools for tissue atlases and digital pathology that enables interactive viewing and fast sharing of large image data. It comprises of Minerva Author, a tool that lets you easily create and annotate images, and Minerva Story, a narrative image viewer for web hosting." %}
   </div>
 </div>
 

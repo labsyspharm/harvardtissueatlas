@@ -5,5 +5,7 @@ positions:
 
 photo: people/muhlich-jeremy.jpg
 
-group: staff
+group: principals
+
+weight: 19
 ---

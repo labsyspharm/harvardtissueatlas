@@ -5,5 +5,8 @@ positions:
 
 photo: people/chen-alyce.jpg
 
-group: staff
+group: principals
+
+weight: 20
+
 ---
