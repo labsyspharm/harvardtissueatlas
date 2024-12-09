@@ -7,5 +7,5 @@ photo: people/yapp-clarence.jpg
 
 group: principals
 
-weight: 18
+weight: 5
 ---

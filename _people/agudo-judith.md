@@ -7,5 +7,6 @@ positions:
 photo: people/agudo-judith.jpg
 
 group: principals
-weight: 11
+
+weight: 5
 ---

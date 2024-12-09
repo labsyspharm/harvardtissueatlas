@@ -8,5 +8,5 @@ photo: people/murphy-george.png
 
 group: principals
 
-weight: 16
+weight: 5
 ---

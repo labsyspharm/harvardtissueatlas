@@ -8,5 +8,5 @@ photo: people/agar-nathalie.jpg
 
 group: principals
 
-weight: 10
+weight: 5
 ---

@@ -8,5 +8,5 @@ photo: people/liu-david.jpg
 
 group: principals
 
-weight: 15
+weight: 5
 ---

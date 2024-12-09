@@ -13,7 +13,7 @@ The LEARN section of the HTA website houses curated resources for learning and a
 
 ## Curriculum
 
-Our [Curriculum](/curriculum) section consists of a multi-episode lecture series. These episodes provide overviews of the major technologies in the multiplex tissue imaging and analysis pipeline used to create the HTA. The series features the scientists and engineers who developed and use these key methods and software tools.  
+Our [curriculum](/curriculum) section consists of a multi-episode lecture series. These episodes provide overviews of the major technologies in the multiplex tissue imaging and analysis pipeline used to create the HTA. The series features the scientists and engineers who developed and use these key methods and software tools.  
 
 This section is recommended for anyone interested in gaining a high-level understanding of our multiplex tissue imaging pipeline. Episodes will direct viewers to more in-depth and targeted material on each technology.
 
