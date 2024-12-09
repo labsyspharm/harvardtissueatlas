@@ -7,4 +7,4 @@ group: staff
 
 ---
 
-<a href="https://labsyspharm.org/people/leadership/" class="arrow-button" target="_blank">LSP Contributors</a>
+<a href="https://labsyspharm.org/people/fellows-students/" class="arrow-button" target="_blank">LSP Contributors</a>
