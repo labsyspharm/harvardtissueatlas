@@ -1,12 +1,12 @@
 ---
-title: Data Overview
+title: About the Data
 permalink: /data-overview
 
 section_id: data
 layout: secondary
 ---
 
-# Data Overview
+# About the Data
 
 We are committed to making our spatial profiling data available to the scientific community. Here you will find information describing the various HTA data types and how they are collected, analyzed, and shared.
 
@@ -28,6 +28,8 @@ We are committed to making our spatial profiling data available to the scientifi
 
 <br>
 
+---
+
 {% include enlarge-image.html src='graphics/hta-software-overview-v23.png' float='right' alt='software workflow outlining roles and steps taken to go from sample collection to public data sharing.' %}
 
 ## DATA PIPELINE
@@ -47,6 +49,10 @@ Now the scientific discovery process begins. New biological insights require bot
 **Sharing image data and derived knowledge**
 A goal of the HTA is to support data sharing. We release data to the public first through [Minerva stories](https://www.minerva.im/), which allow the project team to narrate a data-driven story and users to pan and zoom through the images manually without needing to download the data. [*Watch this video to learn more about Minerva.*](https://www.tissue-atlas.org/curriculum#minerva)
 After publication, HTA data are deposited into existing public repositories or made available using public cloud storage systems.
+
+<br>
+
+---
 
 ## About Minerva: Viewing image data online
 
@@ -97,6 +103,10 @@ Automated Minerva stories provide a single, minimally-processed ([Level 2 or 3](
 
   <a href="/data-explorations" class="arrow-button">Explore image data</a>
 
+<br>
+
+---
+
 ## PUBLIC ACCESS TO PRIMARY DATA
 
 A key goal of the HTA is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). Data types with an available public repositories (i.e., transcriptomic data via GEO) are made available at the time of publication. For imaging data this remains a work in progress, as there is no funding-agnostic public repository available to accept whole slide tissue images.
@@ -105,10 +115,14 @@ All NCI Human Tumor Atlas Network data are released via the [HTAN data portal](h
 
 Most images and metadata are available in an AWS S3 bucket at a location specified for each paper's data availability statement. For up-to-date instructions on how to download image data found on this website, please visit our access instructions on Zenodo ([DOI: 10.5281/zenodo.10223574](https://doi.org/10.5281/zenodo.10223574)). Email tissue-atlas(at)hms.harvard.edu if you have questions or experience issues.
 
+<br>
+
+---
+
 ## Data Standards for Highly Multiplexed Tissue Images
 We developed a standard for multiplexed tissue imaging called [Minimum Information about highly multiplexed Tissue Imaging (MITI)](https://www.miti-consortium.org/).
 
-### Minimum Information about highly multiplexed Tissue Imaging (MITI) Data Levels
+### MITI Data Levels
 MITI adopted the concept of Data Levels from [dbGAP](https://www.ncbi.nlm.nih.gov/gap/) to manage image data and the corresponding spatial profiles. Higher data levels are more processed. See the [MITI publication](https://pubmed.ncbi.nlm.nih.gov/35277708/) for additional details and background information.
 
 {% include enlarge-image.html src='graphics/miti-data-levels.pdf' alt='Graphic showing how MITI data levels fit into image processing and analysis: 1) raw image tiles, 2) assembled multi-channel images, 3) quality controlled, assembled images and segmentation masks, 4) spatial features tables, 5) data models, annotated images, and Minerva stories.' %}
@@ -127,5 +141,5 @@ Level 3 data represent images that have been processed with some interpretive in
 #### Level 4: Spatial Features Tables
 Level 4 data comprise features derived from level 3 images, most commonly single-cell features in “spatial feature tables” that describes marker intensities, cell coordinates, and other single-cell features.
 
-#### Level 5: Models, Annotations, and Presentation
+#### Level 5: Higher Level Data Representations
 Level 5 data includes results computed from spatial feature tables or primary images.

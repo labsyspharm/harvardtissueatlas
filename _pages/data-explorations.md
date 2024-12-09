@@ -1,5 +1,5 @@
 ---
-title: Explore Data
+title: Explore Image Data
 permalink: /data-explorations
 
 section_id: data
