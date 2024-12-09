@@ -20,7 +20,3 @@ This section is recommended for anyone interested in gaining a high-level unders
 ## Talks
 
 [Talks](/talks) is a collection of internal and external seminars and other presentations given by members of the LSP. These presentations provide use cases and examples of how the methods described in the Curriculum section are applied to scientific questions in cancer and other disease research areas.  
-
-## Tutorials
-
-The [Tutorials](/tutorials) section contains step-by-step guides for the software and methods that created the HTA. These are practical manuals for users, recommended for researchers who are adopting these tools in their own research. For design principles and theoretical framework, users should refer to the Curriculum section.
