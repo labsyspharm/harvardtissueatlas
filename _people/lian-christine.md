@@ -6,5 +6,6 @@ positions:
 photo: people/lian-christine.jpg
 
 group: principals
-weight: 14
+
+weight: 5
 ---

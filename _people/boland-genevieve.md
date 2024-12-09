@@ -7,5 +7,5 @@ positions:
 photo: people/boland-genevieve.jpg
 
 group: principals
-weight: 12
+weight: 5
 ---

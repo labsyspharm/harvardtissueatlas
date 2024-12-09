@@ -7,6 +7,5 @@ photo: people/chen-alyce.jpg
 
 group: principals
 
-weight: 20
-
+weight: 5
 ---

@@ -1,6 +1,7 @@
 ---
 name: Sandro Santagata, MD, PhD
 positions:
+  - Associate Director, Laboratory of Systems Pharmacology
   - Associate Professor in Pathology, Harvard Medical School
   - Neuropathologist in the Department of Pathology, Brigham and Women’s Hospital
 

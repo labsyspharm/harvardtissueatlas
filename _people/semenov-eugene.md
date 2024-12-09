@@ -7,5 +7,6 @@ photo: people/semenov-eugene.jpg
 
 group: principals
 
-weight: 17
+weight: 5
+
 ---

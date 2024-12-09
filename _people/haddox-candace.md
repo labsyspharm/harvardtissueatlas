@@ -7,5 +7,6 @@ photo: people/haddox-candace.jpg
 
 group: principals
 
-weight: 13
+weight: 5
+
 ---
