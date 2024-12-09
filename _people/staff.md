@@ -1,7 +1,7 @@
 ---
 name: "Much of our work is supported by postdoctoral researchers, graduate students, and staff at the Laboratory of Systems Pharmacology. Visit the LSP website to learn more."
 
-photo: lsp-group-2023-white.png
+photo: people/lsp-group-square.jpg
 
 group: staff
 
