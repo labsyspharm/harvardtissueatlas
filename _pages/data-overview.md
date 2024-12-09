@@ -21,8 +21,8 @@ We are committed to making our spatial profiling data available to the scientifi
 
 | Data type  | Description | Data standards, formats, repositories |
 | ----- | -----------| --------- |
-| High-plex image data | Collected using cyclic immunofluorescence ([CyCIF](/cycif-method)), Orion, 3D CyCIF, and MIBI | OME-TIFF or other [BioFormats](https://www.openmicroscopy.org/bio-formats/) file type. See [MITI standards](/#data-standards-for-highly-multiplexed-tissue-images), below. |
-| Single-cell spatial feature tables | Marker intensities and morphological features for each cell, quantified from high-plex images | csv file type. See [MITI standards](/#data-standards-for-highly-multiplexed-tissue-images), below. |
+| High-plex image data | Collected using cyclic immunofluorescence ([CyCIF](/cycif-method)), Orion, 3D CyCIF, and MIBI | OME-TIFF or other [BioFormats](https://www.openmicroscopy.org/bio-formats/) file type. See [MITI standards](#data-standards-for-highly-multiplexed-tissue-images), below. |
+| Single-cell spatial feature tables | Marker intensities and morphological features for each cell, quantified from high-plex images | csv file type. See [MITI standards](#data-standards-for-highly-multiplexed-tissue-images), below. |
 | Dissociative mRNA-seq data | Single-cell expression profiles without spatial context  | see [GEO](https://www.ncbi.nlm.nih.gov/geo/) (Gene Expression Omnibus) |
 | Spatial transcriptomics | Collected using micro-region transcript profiling methods like GeoMX  | see [GEO](https://www.ncbi.nlm.nih.gov/geo/) (Gene Expression Omnibus)|
 
@@ -142,4 +142,4 @@ Level 3 data represent images that have been processed with some interpretive in
 Level 4 data comprise features derived from level 3 images, most commonly single-cell features in “spatial feature tables” that describes marker intensities, cell coordinates, and other single-cell features.
 
 #### Level 5: Higher Level Data Representations
-Level 5 data includes results computed from spatial feature tables or primary images.
+Level 5 data includes results computed from spatial feature tables or primary images. This can include images presented in image viewers like Minerva. 
