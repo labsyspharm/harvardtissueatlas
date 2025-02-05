@@ -7,7 +7,7 @@ pmcid: 39704522
 
 image: "publications/kader-lin-hug-2024.jpg"
 
-group: publications
+group: featured
 
 date: 2024-12-20
 
