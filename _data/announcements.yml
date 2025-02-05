@@ -21,6 +21,15 @@ atlas_news:
     target: "_blank"
 
 news_press:
+  - title: "Understanding the earliest stages of ovarian cancer."
+    author: "HMS News"
+    year: "2025"
+    publication: "LinkedIn"
+    type: news  # [tools|publication|method|software]
+    image: "general/kader-lin-hug-2024-linkedin1.jfif"
+    link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "New Therapeutic Strategy Identified for Triple Negative Breast Cancer"
     author:
     year: 2024, October 9
@@ -48,16 +57,20 @@ news_press:
     link: "https://directorsblog.nih.gov/2023/01/31/new-3d-atlas-of-colorectal-cancer-promises-improved-diagnosis-treatment/"
     label: News  # [News|Press Release]
     target: "_blank"  # [_self|_blank]
-  - title: "Getting Under Our Skin"
-    author: "Caruso, C."
-    year: 2022, April 14
-    publication: "Harvard News"
-    image: "news/under-our-skin.JPG"
-    link: "https://hms.harvard.edu/news/getting-under-our-skin"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: "Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma."
+    author: "Kader et al"
+    year: 2024
+    publication: "Cancer Discovery"
+    image: "publications/kader-lin-hug-2024.jpg"
+    type: publication
+    link: "https://www.graybrcaatlas.org/atlas-datasets/kader-lin-hug-2024/"
+    label: Explore Data  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link2: "https://doi.org/10.1158/2159-8290.CD-24-1366"
+    label2: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: 'AKT and EZH2 inhibitors kill TNBCs by hijacking mechanisms of involution'
     author: 'Schade, Perurena, Yang, et al'
     year: 2024
@@ -80,13 +93,5 @@ publications_software:
     publication: "J Am Acad Dermatol"
     image: publications/development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma.png
     link: "publications#development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma"
-    label: Publication  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
-  - title: "High-plex immunofluorescence imaging and traditional histology of the same tissue section for discovering image-based biomarkers"
-    author: "Lin, et al."
-    year: 2023
-    publication: "Nature Cancer"
-    image: "publications/High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers-1.png"
-    link: "publications#High-plex-immunofluorescence-imaging-and-traditional-histology-of-the-same-tissue-section-for-discovering-image-based-biomarkers"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
