@@ -26,7 +26,7 @@ news_press:
     year: "2025"
     publication: "LinkedIn"
     type: news  # [tools|publication|method|software]
-    image: "general/kader-lin-hug-2024-linkedin1.jfif"
+    image: "news/kader-lin-hug-2024-linkedin1.jfif"
     link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
     label: News  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
