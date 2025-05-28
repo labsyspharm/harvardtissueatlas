@@ -1,5 +1,5 @@
 ---
-date: 0005-01-01
+date: 0004-01-01
 name: Tuberculosis Granuloma Atlas
 summary: The Tuberculosis Granuloma Atlas aims to transform our understanding of TB granulomas by using spatially resolved profiling methods that reveal bacterial, lung and immune cell organization, states, and communication within granulomas of different types.
 dataset: tuberculosis-granuloma
@@ -28,7 +28,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 </div>
 
 ## Narrated Minerva Stories
-{% include narrated-minerva-description.md %} 
+{% include narrated-minerva-description.md %}
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.tags contains 'TB'"
@@ -49,7 +49,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 
 
 ## Curated Minerva Stories
-{% include curated-minerva-description.md %} 
+{% include curated-minerva-description.md %}
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
   {% if c.tags contains 'curated' %}
@@ -74,7 +74,7 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
 {% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
 {% if dataCardArraySort.size > 0 %}
   <h2>Automated Minerva Stories</h2>
-  {% include auto-minerva-description.md %} 
+  {% include auto-minerva-description.md %}
   {% include cards.html cards=dataCardArraySort %}
 {% endif %}
 
