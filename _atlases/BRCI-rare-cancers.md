@@ -1,5 +1,5 @@
 ---
-date: 0003-02-01
+date: 0005-02-01
 name: Rare Cancer Atlas
 summary: While all cancer diagnoses raise concerns and difficult questions for patients, their families, and their health care providers, rare cancers present additional challenges. Access to tumors and relevant samples for study is more limited, and commercial interest is lower because of decreased market size. [The Bertarelli Rare Cancer Initiative](https://brci.hms.harvard.edu/) supports advances in the detection, diagnosis, treatment, and prevention of rare cancers. Our vision is to build a world-class, highly interactive and collaborative hub for rare cancer research, clinical care advancement, advocacy and training, building upon the extensive and vibrant clinical and research communities across Harvard Medical School. Our long-term goal is to become an innovative world-wide initiative.
 dataset: nirmal-maliga-vallius-2021

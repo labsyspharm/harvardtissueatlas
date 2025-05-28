@@ -1,5 +1,5 @@
 ---
-date: 0007-01-01
+date: 0006-01-01
 name: Breast Cancer Atlas
 summary: The Breast Cancer Atlas involves leading cancer centers across the US focused on collecting and analyzing diverse genomic and imaging on breast and ovarian cancers. The goal of the effort is to understand pre-cancer states, develop new diagnostics that detect cancer before it spreads, and improve disease management and prevention strategies. For research specifically on BRCA-positive breast cancer, visit the [Gray BRCA Pre-cancer Atlas](https://www.graybrcaatlas.org/).
 dataset:
@@ -24,7 +24,7 @@ short-name: Breast Cancer Atlas
 {% include pub-list.html list=publicationList %}
 
 ## Narrated Minerva Stories
-{% include narrated-minerva-description.md %} 
+{% include narrated-minerva-description.md %}
 {%
     assign stories = site.data-cards
     | where_exp: "item", "item.tags contains 'breast'"
@@ -44,7 +44,7 @@ short-name: Breast Cancer Atlas
 {% endif %}
 
 ## Curated Minerva Stories
-{% include curated-minerva-description.md %} 
+{% include curated-minerva-description.md %}
 
 {% assign dataCardArray = '' | split: '' %}
 {% for c in stories %}
@@ -60,8 +60,8 @@ short-name: Breast Cancer Atlas
 
 
 ## Automated Minerva Stories
-{% include auto-minerva-description.md %} 
- 
+{% include auto-minerva-description.md %}
+
 {% assign dataCardArray = '' | split: '' %}
 {% for s in stories %}
   {% if s.tags contains 'auto' %}
