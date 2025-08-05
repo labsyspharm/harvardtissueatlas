@@ -36,4 +36,4 @@ data:
 {% include minerva-story-sorting-pubs.md %}
 
 ## Data Access
-Instructions to access data will be posted to the [Zenodo repository](https://zenodo.org/records/10182505) associated with this publication.
+Instructions to access data will be posted to the Zenodo repository associated with this publication.

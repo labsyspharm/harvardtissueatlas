@@ -4,7 +4,7 @@ contributors: 'Vallius T, Shi Y, Novikov E, Pant SM, Pelletier R, Chen YA, Tefft
 publication: TBA
 publication_link: https://doi.org/10.1101/2025.06.21.660851
 
-image: publications/spatial-determinants-tumor-cell-dedifferentiation-plasticity-in-primary-cutaneous-melanoma.jpg
+image: data-cards/vallius-shi-novikov-2025/mel14-A3-4.png
 
 group: featured
 
