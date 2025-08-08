@@ -21,6 +21,15 @@ atlas_news:
     target: "_blank"
 
 news_press:
+  - title: "Advancing strategies to combat BRCA-linked cancer threats"
+    author:
+    year: "Spring 2025"
+    publication: "Pulse"
+    type: news  # [tools|publication|method|software]
+    image: "news/gray200x199.jpg"
+    link: "https://hms.harvard.edu/departments/giving/our-donors/gray-foundation-0"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Clues to catching a deadly cancer early."
     author:
     year: "2025"
@@ -48,20 +57,11 @@ news_press:
     link: https://www.brighamandwomens.org/about-bwh/newsroom/research-briefs-detail?id=4821
     label: News  # [News|Press Release]
     target: "_blank"
-  - title: "A New Tool for Diagnosing Cancer"
-    author: "Caruso, C."
-    year: 2023, June 22
-    publication: "HMS News"
-    type: news  # [tools|publication|method|software]
-    image: "publications/A-new-tool-for-diagnosing-cancer.jpg"
-    link: "https://hms.harvard.edu/news/new-tool-diagnosing-cancer"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
 
 publications_software:
   - title: "Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma."
     author: "Kader et al"
-    year: 2024
+    year: 2025
     publication: "Cancer Discovery"
     image: "publications/kader-lin-hug-2024.jpg"
     type: publication
