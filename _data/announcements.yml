@@ -65,7 +65,7 @@ publications_software:
     publication: "Nature Methods"
     image: "publications/highly-multiplexed-3d-profiling-cell-states-immune-niches-in-human-tumours.png"
     type: publication
-    link: "https://www.graybrcaatlas.org/atlas-datasets/yapp-nirmal-2023/"
+    link: "https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023/"
     label: Explore Data  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
     link2: "https://doi.org/10.1038/s41592-025-02824-x"
