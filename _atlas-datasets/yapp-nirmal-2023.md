@@ -19,11 +19,6 @@ data:
       - Access Primary Data: https://github.com/labsyspharm/mel-3d-mis
 
 ---
-<div class="row mb-4">
-  <div class="col-md-6 mb-4">
-    {% include youtube-card.html id="JujxaIBXUC0" title="Experience thick tissues...and getting under your skin" description="3D thick tissue." %}
-  </div>
-</div>
 
 {% assign urlParts = page.url | split: '/' %}
 {% assign sectionId = urlParts[-1] %}
@@ -32,6 +27,12 @@ data:
     sectionId=sectionId
     pubData=page.data
     thumbnailDir=sectionId %}
+
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include youtube-card.html id="JujxaIBXUC0" title="Experience thick tissues...and getting under your skin" %}
+  </div>
+</div>
 
 <br>
 
