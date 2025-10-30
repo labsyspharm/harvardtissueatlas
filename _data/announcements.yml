@@ -21,6 +21,15 @@ atlas_news:
     target: "_blank"
 
 news_press:
+  - title: "Highly Multiplexed 3D Tumor Profiling"
+    author:
+    year: "2025"
+    publication: "Paper Talk Podcast"
+    type: news  # [tools|publication|method|software]
+    image: "news/3d-melanoma-01.png"
+    link: "https://podcasts.apple.com/us/podcast/133-highly-multiplexed-3d-tumor-profiling/id1827948841?i=1000731449458"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Advancing strategies to combat BRCA-linked cancer threats"
     author:
     year: "Spring 2025"
@@ -48,15 +57,6 @@ news_press:
     link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
     label: News  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: "New Therapeutic Strategy Identified for Triple Negative Breast Cancer"
-    author:
-    year: 2024, October 9
-    publication: BWH Research Brief
-    type: news  # [tools|publication|method|software
-    image: "publications/cichowski-santagata-sorger-2024.PNG"
-    link: https://www.brighamandwomens.org/about-bwh/newsroom/research-briefs-detail?id=4821
-    label: News  # [News|Press Release]
-    target: "_blank"
 
 publications_software:
   - title: "Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma."
