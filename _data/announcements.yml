@@ -24,7 +24,7 @@ news_press:
   - title: "Highly Multiplexed 3D Tumor Profiling"
     author:
     year: "2025"
-    publication: "Paper Talk Podcast"
+    publication: "Paper Talk [Podcast]"
     type: news  # [tools|publication|method|software]
     image: "news/3d-melanoma-01.png"
     link: "https://podcasts.apple.com/us/podcast/133-highly-multiplexed-3d-tumor-profiling/id1827948841?i=1000731449458"
