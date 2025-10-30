@@ -5,12 +5,18 @@ section_id: data
 
 data:
   publication:
-    title: Multiplexed 3D analysis of cell plasticity and immune niches in melanoma
-    authors: 'Yapp C, Nirmal AJ, Zhou F, Maliga Z, Llopis PM, Murphy GF, Lian CG, Danuser G, Santagata S, Sorger PK'
+    title: 'Highly multiplexed 3D profiling of cell states and immune niches in human tumours'
+    authors: 'Yapp C, Nirmal AJ, Zhou FY, Wong AYH, Tefft J, Lu YD, Shang Z, Maliga Z, Montero Llopis P, Murphy GF, Lian C, Danuser G, Santagata S, Sorger PK.'
+    journal: 'Nature Methods. 2025.'
+    description: 'Diseases such as cancer involve alterations in cell proportions, states and interactions, as well as complex changes in tissue morphology and architecture. Histopathological diagnosis of disease and most
+    multiplexed spatial profiling relies on inspecting thin (4–5 µm) specimens. Here we describe a high-plex cyclic immunofluorescence method for three-dimensional tissue imaging and use it to show that few, if any, cells
+    are intact in conventional thin tissue sections, reducing the accuracy of cell phenotyping and interaction analysis. However, three-dimensional cyclic immunofluorescence of sections eightfold to tenfold thicker enables 
+    accurate morphological assessment of diverse protein markers in intact tumor, immune and stromal cells. Moreover, the high resolution of this confocal approach generates images of cells in a preserved tissue 
+    environment at a level of detail previously limited to cell culture. Precise imaging of cell membranes also makes it possible to detect and map cell–cell contacts and juxtracrine signaling complexes in immune cell 
+    niches.'
     links:
-      - bioRxiv: https://doi.org/10.1101/2023.11.10.566670
-      - Access Primary Data: /atlas-datasets/yapp-nirmal-2023/#data-access
-      - Contact: /atlas-datasets/yapp-nirmal-2023/#contact
+      - Publication: https://doi.org/10.1101/2023.11.10.566670
+      - Access Primary Data: https://github.com/labsyspharm/mel-3d-mis
 
 ---
 
@@ -22,6 +28,12 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include youtube-card.html id="JujxaIBXUC0" title="Experience thick tissues...and getting under your skin" %}
+  </div>
+</div>
+
 <br>
 
 {%
@@ -31,46 +43,3 @@ data:
 %}
 
 {% include minerva-story-sorting-pubs.md %}
-
-## Data Access
-### Access the full 3D Melanoma dataset
-All images at full resolution are stored and can be accessed through Amazon Web Services (AWS) S3.
-AWS S3 bucket locations:
-
-*s3://lsp-public-data/yapp-2023-3d-melanoma/Dataset1-LSP13626-invasive-margin.ims*
-
-*s3://lsp-public-data/yapp-2023-3d-melanoma/Dataset1-LSP13626-melanoma-in-situ.ims*
-
-To browse and download the data use either a graphical file transfer application that supports S3 such as CyberDuck, or the AWS CLI tools. A graphical tool may be more convenient but the CLI tools will likely offer higher download speeds.
-
-### Cyberduck or Graphical File Transfer Instructions:
-
-Make sure anonymous login is selected, either through using the following server information: s3://anonymous@yapp-2023-3d-melanoma.s3.amazonaws.com/ or make sure the anonymous login button is selected.
-
-### AWS CLI Tips:
-For users who wish to perform processing within AWS, note that the bucket is located in the us-east-1 region so any other resources must be instantiated in this same region.
-
-Review your IAM permissions and add additional in-line policies, as needed. For example, use: aws s3 ls --no-sign-request s3://yapp-2023-3d-melanoma/data/. If you continue to experience issues using the CLI, please follow the instructions for using a GUI above or refer to AWS existing documentation.
-
-<br>
-
-## Tips for viewing Images with Imaris
-Here are some tips for getting started viewing .ims files using Imaris Viewer: <br><br>
-1. To view the .ims images, download the free Imaris Viewer at: [https://imaris.oxinst.com/imaris-viewer](https://imaris.oxinst.com/imaris-viewer). View the recommended system requirements [here](https://imaris.oxinst.com/support/system-requirements). <br><br>
-2. Open Imaris Viewer and, in the top left corner, select Surpass. Click and drag .ims file into Imaris Viewer.<br><br>
-
-3. To view the channel/antibody list, select Edit > Image Properties.
-  - Each channels' brightness, contrast, and color can be adjusted here.
-  - Tick the box to show or hide a channel. 8 channels is the maximum number of simultaneously viewable channels.  
-4. Image navigation:
-    - To zoom in and out -> use the mouse wheel
-    - To orbit around -> use the left mouse button
-    - To pan around -> use the right mouse button
-
-5. To switch to single plane viewing, select Slice in the top menu. Click on 3D View to return to 3D navigation mode.
-
-<br>
-
-## Contact
-
-Email [tissue-atlas(at)hms.harvard.edu](mailto:tissue-atlas@hms.harvard.edu) with the subject line *"yapp-2023-3d-melanoma: Data Access"* if you experience issues accessing the above S3 buckets. Please include the steps you have already tried to help us troubleshoot.

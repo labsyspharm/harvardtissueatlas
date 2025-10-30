@@ -59,6 +59,18 @@ news_press:
     target: "_blank"  # [_self|_blank]
 
 publications_software:
+  - title: "Highly multiplexed 3D profiling of cell states and immune niches in human tumours."
+    author: "Yapp et al"
+    year: 2025
+    publication: "Nature Methods"
+    image: "publications/highly-multiplexed-3d-profiling-cell-states-immune-niches-in-human-tumours.png"
+    type: publication
+    link: "https://www.tissue-atlas.org/atlas-datasets/yapp-nirmal-2023/"
+    label: Explore Data  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link2: "https://doi.org/10.1038/s41592-025-02824-x"
+    label2: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma."
     author: "Kader et al"
     year: 2025
@@ -85,13 +97,5 @@ publications_software:
     publication: "Cell"
     link: "publications#ovarian-cancer-derived-IL-4-promotes-immunotherapy-resistance"
     image: publications/ovarian-cancer-derived-IL-4-promotes-immunotherapy-resistance.jpg
-    label: Publication  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
-  - title: "Development and validation of time-to-event models to predict metastatic recurrence of localized cutaneous melanoma"
-    author: 'Wan, Leung, et al.'
-    year: 2024
-    publication: "J Am Acad Dermatol"
-    image: publications/development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma.png
-    link: "publications#development-and-validation-of-time-to-event-models-to-predict-metastatic-recurrence-of-localized-cutaneous-melanoma"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
