@@ -1,6 +1,6 @@
 ---
 title: 'Spatial determinants of tumor cell dedifferentiation and plasticity in primary cutaneous melanoma'
-contributors: 'Vallius T, Shi Y, Novikov E, Pant SM, Pelletier R, Chen YA, Tefft JB, Johnson AN...Sorger PK. (2025).'
+contributors: 'Vallius T, Shi Y, Novikov E, Pant SM, Pelletier R, Chen YA, Tefft JB, Johnson AN,...Sorger PK. (2025).'
 publication: TBA
 publication_link: https://doi.org/10.1101/2025.06.21.660851
 
