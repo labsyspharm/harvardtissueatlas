@@ -21,6 +21,15 @@ atlas_news:
     target: "_blank"
 
 news_press:
+  - title: "Tumor Sight"
+    author: Lindsey Goff
+    year: "2025"
+    publication: "Biomedical Picture of the Day"
+    type: news  # [tools|publication|method|software]
+    image: "news/BPoD-Tumour_Sight_5.10.25.jpg"
+    link: "https://bpod.org.uk/archive/2025/10/5"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Highly Multiplexed 3D Tumor Profiling"
     author:
     year: "2025"
@@ -46,15 +55,6 @@ news_press:
     type: news  # [tools|publication|method|software]
     image: "news/ludwig-2025-multimodal-spatial-profiling.jpg"
     link: "https://www.ludwigcancerresearch.org/ludwig-link/may-2025/clues-to-catching-a-deadly-cancer-early/"
-    label: News  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
-  - title: "Understanding the earliest stages of ovarian cancer."
-    author: "HMS News"
-    year: "2025"
-    publication: "LinkedIn"
-    type: news  # [tools|publication|method|software]
-    image: "news/kader-lin-hug-2024-linkedin1.jfif"
-    link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
     label: News  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
 
