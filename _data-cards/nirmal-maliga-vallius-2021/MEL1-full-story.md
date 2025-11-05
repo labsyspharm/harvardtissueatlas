@@ -5,7 +5,7 @@ date: '2021-01-29'
 minerva_link: https://www.cycif.org/data/HTA-MELATLAS-1/MEL1-full-story
 info_link: /atlas-datasets/nirmal-maliga-vallius-2021/
 show_page_link: false
-featured: true
+featured: false
 tags:
     - MEL
     - melanoma
