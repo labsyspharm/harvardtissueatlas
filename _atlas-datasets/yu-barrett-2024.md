@@ -29,7 +29,7 @@ data:
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'yu-2024'"
+    | where_exp: "item", "item.url contains 'yu-barrett-2024'"
     | where_exp: "item", "item.hide != true"
 %}
 
