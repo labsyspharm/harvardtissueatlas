@@ -1,6 +1,16 @@
 <div class="news-card news-card--color-{{ include.card-color }}">
     <div class="news-card__image">
+      {% if include.content.link %}
+        <a href="{{ include.content.link }}"
+          target="{{ include.content.target | default: '_self' }}"
+          class="news-card__image-link">
+        {% endif %}
+        
         <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=259&h=176&fit=crop" alt="Thumbnail image for news item">
+
+        {% if include.content.link %}
+            </a>
+        {% endif %}
     </div>
     <div class="news-card__content">
         <div class="news-card__title">{{ include.content.title }}</div>
