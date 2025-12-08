@@ -1,11 +1,32 @@
 <div class="data-card">
-    <div class="data-card__image">
-        {% if include.content.image contains "http" %}
-            <img src="{{ include.content.image }}" alt="Data image">
-        {% else %}
-            <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
-        {% endif %}    
-    </div>
+  {%- assign image_link = nil -%}
+  {%- if include.content.minerva_link -%}
+    {%- assign image_link = include.content.minerva_link -%}
+  {%- elsif include.content.cbio_portal_link -%}
+    {%- assign image_link = include.content.cbio_portal_link -%}
+  {%- elsif include.content.broad_portal_link -%}
+    {%- assign image_link = include.content.broad_portal_link -%}
+  {%- elsif include.content.cellxgene_link -%}
+    {%- assign image_link = include.content.cellxgene_link -%}
+  {%- elsif include.content.view_data_link -%}
+    {%- assign image_link = include.content.view_data_link -%}
+  {%- endif -%}
+
+  <div class="data-card__image">
+    {%- if image_link -%}
+      <a href="{{ image_link }}" class="data-card__image-link">
+    {%- endif -%}
+
+    {% if include.content.image contains "http" %}
+      <img src="{{ include.content.image }}" alt="Data image">
+    {% else %}
+      <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
+    {% endif %}
+
+    {%- if image_link -%}
+      </a>
+    {%- endif -%}
+  </div>
     <div class="data-card__content">
         <div class="data-card__title">{{ include.content.title }}</div>
         <ul class="data-card__links">
