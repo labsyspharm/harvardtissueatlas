@@ -1,5 +1,5 @@
 ---
-title: Skin immune-mesenchymal interplay within tertiary lymphoid structures promotes autoimmune pathogenesis in hidradenitis suppurativa
+title: Skin immune-mesenchymal interplay within tertiary lymphoid structures promotes autoimmune pathogenesis in hidradenitis suppurativa - LSP25086
 image: https://s3.us-east-1.amazonaws.com/www.cycif.org/186-HS_PJL/yu-barrett-2024/PJ-MNab-2/thumbnail.jpg
 minerva_link: https://s3.us-east-1.amazonaws.com/www.cycif.org/186-HS_PJL/yu-barrett-2024/PJ-MNab-2/index.html
 date: '2025-12-05'
