@@ -27,6 +27,14 @@ The Tuberculosis Granuloma Atlas aims to understand the biology of granulomas, s
   </div>
 </div>
 
+## Publications
+{% comment %}
+  'publicationList' should be a comma-delineated string of publication file names
+{% endcomment %}
+{% assign publicationList = 'multiomic-analysis-identifies-suppressive-myeloid-cell-populations-human-tb-granulomas' %}
+
+{% include pub-list.html list=publicationList %}
+
 ## Narrated Minerva Stories
 {% include narrated-minerva-description.md %}
 {%
