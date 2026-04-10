@@ -63,7 +63,7 @@ publications_software:
     author: 'Karadagi et al'
     year: 2026
     publication: "TBA"
-    image: "publications/multiple-human-transgenes-prolong-survival-of-triple-carbohydrate-knockout-porcine-kidney-xenografts-in-nonhuman-primates.png"
+    image: "publications/multiple-human-transgenes-prolong-survival-of-triple-carbohydrate-knockout-porcine-kidney-xenografts.png"
     type: publication
     link: "https://www.tissue-atlas.org/atlas-datasets/karadagi-hirose-2026/"
     label: Explore Data  # [Publication|Software|Method]
